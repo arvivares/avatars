@@ -57,6 +57,59 @@ La prioridad práctica es un pipeline que pueda producir video de forma continua
 | Pipecat | [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | Investigado | Alternativa de orquestación local; no probada en este equipo |
 | TEN Framework | [TEN-framework/ten-framework](https://github.com/TEN-framework/ten-framework) | Investigado | Buen pipeline de audio; avatar local no resuelto |
 | Vision Agents | [GetStream/Vision-Agents](https://github.com/GetStream/Vision-Agents) | Investigado | Alternativa interesante con transporte local; no probada |
+| LiveTalking | [lipku/LiveTalking](https://github.com/lipku/LiveTalking) | | |
+| LiveAvatar | [Alibaba-Quark/LiveAvatar](https://github.com/Alibaba-Quark/LiveAvatar) | | |
+| LiveTalk | [GAIR-NLP/livetalk](https://github.com/GAIR-NLP/livetalk) | | |
+| Hallo | [fudan-generative-vision/hallo](https://github.com/fudan-generative-vision/hallo) | | |
+| Hallo2 | [fudan-generative-vision/hallo2](https://github.com/fudan-generative-vision/hallo2) | | |
+| LivePortrait | [KwaiVGI/LivePortrait](https://github.com/KwaiVGI/LivePortrait) | | |
+| V-Express | [tencent-ailab/V-Express](https://github.com/tencent-ailab/V-Express) | | |
+| LatentSync | [bytedance/LatentSync](https://github.com/bytedance/LatentSync) | | |
+| AniPortrait | [Zejun-Yang/AniPortrait](https://github.com/Zejun-Yang/AniPortrait) | | |
+| SadTalker | [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker) | | |
+| AniTalker | [X-LANCE/AniTalker](https://github.com/X-LANCE/AniTalker) | | |
+| Real3D-Portrait | [yerfor/Real3DPortrait](https://github.com/yerfor/Real3DPortrait) | | |
+| GeneFace++ | [yerfor/GeneFacePlusPlus](https://github.com/yerfor/GeneFacePlusPlus) | | |
+| SyncTalk | [ZiqiaoPeng/SyncTalk](https://github.com/ZiqiaoPeng/SyncTalk) | | |
+| ER-NeRF | [Fictionarry/ER-NeRF](https://github.com/Fictionarry/ER-NeRF) | | |
+| RAD-NeRF | [ashawkey/RAD-NeRF](https://github.com/ashawkey/RAD-NeRF) | | |
+| Wav2Lip | [Rudrabha/Wav2Lip](https://github.com/Rudrabha/Wav2Lip) | | |
+| TalkingHead.js | [met4citizen/TalkingHead](https://github.com/met4citizen/TalkingHead) | | |
+| GaussianTalker | [cvlab-kaist/GaussianTalker](https://github.com/cvlab-kaist/GaussianTalker) | | |
+| SplattingAvatar | [initialneil/SplattingAvatar](https://github.com/initialneil/SplattingAvatar) | | |
+| EchoMimic | [antgroup/echomimic](https://github.com/antgroup/echomimic) | | |
+| LiveSpeechPortraits | [YuanxunLu/LiveSpeechPortraits](https://github.com/YuanxunLu/LiveSpeechPortraits) | | |
+| AIAvatarKit | [uezo/aiavatarkit](https://github.com/uezo/aiavatarkit) | | |
+| SoulX-LiveAct | [Soul-AILab/SoulX-LiveAct](https://github.com/Soul-AILab/SoulX-LiveAct) | | |
+| Amica | [semperai/amica](https://github.com/semperai/amica) | | |
+| Linly-Talker-Stream | [Kedreamix/Linly-Talker-Stream](https://github.com/Kedreamix/Linly-Talker-Stream) | | |
+| Open-LLM-VTuber | [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) | | |
+| Audio2Face 3D SDK | [NVIDIA/Audio2Face-3D-SDK](https://github.com/NVIDIA/Audio2Face-3D-SDK) | | |
+| Video-Retalking | [OpenTalker/video-retalking](https://github.com/OpenTalker/video-retalking) | | |
+| Ultralight-Digital-Human | [anliyuan/Ultralight-Digital-Human](https://github.com/anliyuan/Ultralight-Digital-Human) | | |
+| EmoTaG | [jamesdemon923/EmoTaG](https://github.com/jamesdemon923/EmoTaG) | | |
+| EchoAvatar | [RobinWitch/EchoAvatar](https://github.com/RobinWitch/EchoAvatar) | | |
+| NodeAva | [Lucasmind/nodeava](https://github.com/Lucasmind/nodeava) | | |
+| AI Avatar System | [PunithVT/ai-avatar-system](https://github.com/PunithVT/ai-avatar-system) | | |
+| LHM | [aigc3d/LHM](https://github.com/aigc3d/LHM) | | |
+| FastRTC | [gradio-app/fastrtc](https://github.com/gradio-app/fastrtc) | | |
+| Avatar Chat Server | [myned-ai/avatar-chat-server](https://github.com/myned-ai/avatar-chat-server) | | |
+| TalkBody4D | [HF: PixelAI-Team/TalkBody4D](https://huggingface.co/datasets/PixelAI-Team/TalkBody4D) | | |
+| GMTalker | [GML-MMGroup/GMTalker](https://github.com/GML-MMGroup/GMTalker) | | |
+| ARTalk | [xg-chu/ARTalk](https://github.com/xg-chu/ARTalk) | | |
+| Hallo-Live | [fudan-generative-vision/Hallo-Live](https://github.com/fudan-generative-vision/Hallo-Live) | | |
+| Meta-Human | [LessUp/meta-human](https://github.com/LessUp/meta-human) | | |
+| Ghost Vessel | [ghdtjrtka/ghost-vessel](https://github.com/ghdtjrtka/ghost-vessel) | | |
+| EMO | [HumanAIGC/EMO](https://github.com/HumanAIGC/EMO) | | |
+| MEMO | [memoavatar/memo](https://github.com/memoavatar/memo) | | |
+| LetsTalk | [zhang-haojie/letstalk](https://github.com/zhang-haojie/letstalk) | | |
+| HelloMeme | [HelloVision/HelloMeme](https://github.com/HelloVision/HelloMeme) | | |
+| DAWN | [Hanbo-Cheng/DAWN-pytorch](https://github.com/Hanbo-Cheng/DAWN-pytorch) | | |
+| JoyHallo | [jdh-algo/JoyHallo](https://github.com/jdh-algo/JoyHallo) | | |
+| LinguaLinker | [TencentQQGYLab/LinguaLinker](https://github.com/TencentQQGYLab/LinguaLinker) | | |
+| EDTalk | [tanshuai0219/EDTalk](https://github.com/tanshuai0219/EDTalk) | | |
+| Talk3D | [KU-CVLAB/Talk3D](https://github.com/KU-CVLAB/Talk3D) | | |
+| DynTet | [zhangzc21/DynTet](https://github.com/zhangzc21/DynTet) | | |
 
 ## Candidato principal actual: AVTR-1 / Avaturn
 
