@@ -45,6 +45,54 @@ Esta lista organiza los 475 proyectos de **AVATAR_EVALUATION.md** en categorías
 | ComfyUI-MuseTalk | [chaojie/ComfyUI-MuseTalk](https://github.com/chaojie/ComfyUI-MuseTalk) |
 | FlashHead 1.3B Pro | RTX 5090 x2 |
 | FlashHead 1.3B Pro | RTX 5090 x1 |
+| Duix-Mobile | [duixcom/Duix-Mobile](https://github.com/duixcom/Duix-Mobile) |
+| CyberVerse | [Lynpoint/CyberVerse](https://github.com/Lynpoint/CyberVerse) |
+| TEN Framework | [TEN-framework/ten-framework](https://github.com/TEN-framework/ten-framework) |
+| Vision Agents | [GetStream/Vision-Agents](https://github.com/GetStream/Vision-Agents) |
+| LiveTalking | [lipku/LiveTalking](https://github.com/lipku/LiveTalking) |
+| LiveTalk | [GAIR-NLP/livetalk](https://github.com/GAIR-NLP/livetalk) |
+| Amica | [semperai/amica](https://github.com/semperai/amica) |
+| Linly-Talker-Stream | [Kedreamix/Linly-Talker-Stream](https://github.com/Kedreamix/Linly-Talker-Stream) |
+| Open-LLM-VTuber | [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) |
+| Ultralight-Digital-Human | [anliyuan/Ultralight-Digital-Human](https://github.com/anliyuan/Ultralight-Digital-Human) |
+| NodeAva | [Lucasmind/nodeava](https://github.com/Lucasmind/nodeava) |
+| GMTalker | [GML-MMGroup/GMTalker](https://github.com/GML-MMGroup/GMTalker) |
+| ARTalk | [xg-chu/ARTalk](https://github.com/xg-chu/ARTalk) |
+| Ghost Vessel | [ghdtjrtka/ghost-vessel](https://github.com/ghdtjrtka/ghost-vessel) |
+| EMO | [HumanAIGC/EMO](https://github.com/HumanAIGC/EMO) |
+| LetsTalk | [zhang-haojie/letstalk](https://github.com/zhang-haojie/letstalk) |
+| HelloMeme | [HelloVision/HelloMeme](https://github.com/HelloVision/HelloMeme) |
+| DAWN | [Hanbo-Cheng/DAWN-pytorch](https://github.com/Hanbo-Cheng/DAWN-pytorch) |
+| LinguaLinker | [TencentQQGYLab/LinguaLinker](https://github.com/TencentQQGYLab/LinguaLinker) |
+| EDTalk | [tanshuai0219/EDTalk](https://github.com/tanshuai0219/EDTalk) |
+| DreamTalk | [meitu/DreamTalk](https://github.com/meitu/DreamTalk) |
+| MakeItTalk | [yzhou359/MakeItTalk](https://github.com/yzhou359/MakeItTalk) |
+| TalkLip | [Sxjdwang/TalkLip](https://github.com/Sxjdwang/TalkLip) |
+| ComfyStream | [yolain/ComfyStream](https://github.com/yolain/ComfyStream) |
+| DeepLiveCam | [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) |
+| FaceFusion | [facefusion/facefusion](https://github.com/facefusion/facefusion) |
+| OmniEdit | [l1346792580123/OmniEdit](https://github.com/l1346792580123/OmniEdit) |
+| MOVA | [OpenMOSS/MOVA](https://github.com/OpenMOSS/MOVA) |
+| JoVA | [Visual-AI/JoVA](https://github.com/Visual-AI/JoVA) |
+| STARCaster | [foivospar/STARCaster](https://github.com/foivospar/STARCaster) |
+| UniLS | [xg-chu/UniLS](https://github.com/xg-chu/UniLS) |
+| AnimateAnyone | [HumanAIGC/AnimateAnyone](https://github.com/HumanAIGC/AnimateAnyone) |
+| HunyuanPortrait | [Tencent/HunyuanPortrait](https://github.com/Tencent/HunyuanPortrait) |
+| LangYing | [langzizhixin/LangYing](https://github.com/langzizhixin/LangYing) |
+| LangYuan | [langzizhixin/LangYuan](https://github.com/langzizhixin/LangYuan) |
+| ChatVTuber | [lTaGll/ChatVTuber](https://github.com/lTaGll/ChatVTuber) |
+| face-vid2vid | [NVlabs/face-vid2vid](https://github.com/NVlabs/face-vid2vid) |
+| NeRSemble | [tobias-kirschstein/nersemble](https://github.com/tobias-kirschstein/nersemble) |
+| ClipFace | [shivangi-aneja/ClipFace](https://github.com/shivangi-aneja/ClipFace) |
+| LACE | [NVlabs/LACE](https://github.com/NVlabs/LACE) |
+| whisper.cpp | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) |
+| OpenAI Realtime Console | [openai/openai-realtime-console](https://github.com/openai/openai-realtime-console) |
+| Rhubarb Lip Sync | [DanielSWolf/rhubarb-lip-sync](https://github.com/DanielSWolf/rhubarb-lip-sync) |
+| Surge | [Darussalamnoor/surge](https://github.com/Darussalamnoor/surge) |
+| Bolna | [bolna-ai/bolna](https://github.com/bolna-ai/bolna) |
+| TEN Agent | [TEN-framework/TEN-Agent](https://github.com/TEN-framework/TEN-Agent) |
+| IP-Adapter | [tencent-aio/IP-Adapter](https://github.com/tencent-aio/IP-Adapter) |
+| Lipreading Deep Learning | [mpcbr/lipreading](https://github.com/mpcbr/lipreading) |
 
 ## Infraestructura de transmisión (SFU/MCU/Media‑servers)
 | **Proyecto** | **Repositorio** |
@@ -82,6 +130,9 @@ Esta lista organiza los 475 proyectos de **AVATAR_EVALUATION.md** en categorías
 | Kurento Media Server | [Kurento/kurento-media-server](https://github.com/Kurento/kurento-media-server) |
 | Licode | [lynckia/licode](https://github.com/lynckia/licode) |
 | Galene | [jech/galene](https://github.com/jech/galene) |
+| Livepeer Mission Control | [Documentación Livepeer](https://docs.livepeer.org/v2/home/mission-control) |
+| SRS | [ossrs/srs](https://github.com/ossrs/srs) |
+| DeepStream Python Apps | [NVIDIA-AI-IOT/deepstream_python_apps](https://github.com/NVIDIA-AI-IOT/deepstream_python_apps) |
 
 ## SDKs y client‑libraries (multiplataforma)
 | **Proyecto** | **Repositorio** |
@@ -117,6 +168,11 @@ Esta lista organiza los 475 proyectos de **AVATAR_EVALUATION.md** en categorías
 | Pion MediaDevices | [pion/mediadevices](https://github.com/pion/mediadevices) |
 | Pion Interceptor | [pion/interceptor](https://github.com/pion/interceptor) |
 | Pion SDP | [pion/sdp](https://github.com/pion/sdp) |
+| pyvts | [DenverCoder1/pyvts](https://github.com/DenverCoder1/pyvts) |
+| Ollama JS | [ollama/ollama-js](https://github.com/ollama/ollama-js) |
+| Ollama Python | [ollama/ollama-python](https://github.com/ollama/ollama-python) |
+| llama-cpp-python | [abetlen/llama-cpp-python](https://github.com/abetlen/llama-cpp-python) |
+| Transformers.js | [huggingface/transformers.js](https://github.com/huggingface/transformers.js) |
 
 ## Captura y análisis de datos (audio / video / pose)
 | **Proyecto** | **Repositorio** |
@@ -129,6 +185,24 @@ Esta lista organiza los 475 proyectos de **AVATAR_EVALUATION.md** en categorías
 | MMPose | [open-mmlab/mmpose](https://github.com/open-mmlab/mmpose) |
 | face-alignment | [1adrianb/face-alignment](https://github.com/1adrianb/face-alignment) |
 | Deep3DFaceReconstruction | [deep3dface/Deep3DFaceReconstruction](https://github.com/deep3dface/Deep3DFaceReconstruction) |
+| EMOCA | [rdanecek/emoca](https://github.com/rdanecek/emoca) |
+| FaceX-Zoo | [JDAI-CV/FaceX-Zoo](https://github.com/JDAI-CV/FaceX-Zoo) |
+| OpenFace | [TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace) |
+| OpenSeeFace | [emilianavt/OpenSeeFace](https://github.com/emilianavt/OpenSeeFace) |
+| face-api.js | [justadudewhohacks/face-api.js](https://github.com/justadudewhohacks/face-api.js) |
+| clmtrackr | [auduno/clmtrackr](https://github.com/auduno/clmtrackr) |
+| jeelizFaceFilter | [jeeliz/jeelizFaceFilter](https://github.com/jeeliz/jeelizFaceFilter) |
+| tfjs-models | [tensorflow/tfjs-models](https://github.com/tensorflow/tfjs-models) |
+| InsightFace | [deepinsight/insightface](https://github.com/deepinsight/insightface) |
+| face_recognition | [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) |
+| DeepFace | [serengil/deepface](https://github.com/serengil/deepface) |
+| Pytorch_Retinaface | [biubug6/Pytorch_Retinaface](https://github.com/biubug6/Pytorch_Retinaface) |
+| facenet-pytorch | [timesler/facenet-pytorch](https://github.com/timesler/facenet-pytorch) |
+| dlib | [davisking/dlib](https://github.com/davisking/dlib) |
+| OpenCV | [opencv/opencv](https://github.com/opencv/opencv) |
+| iFacialMocap-Python | [iFacialMocap/iFacialMocap-Python](https://github.com/iFacialMocap/iFacialMocap-Python) |
+| DWPose | [IDEA-Research/DWPose](https://github.com/IDEA-Research/DWPose) |
+| controlnet_aux | [patrickvonplaten/controlnet_aux](https://github.com/patrickvonplaten/controlnet_aux) |
 
 ## Codificación y compresión de medios
 | **Proyecto** | **Repositorio** |
@@ -138,6 +212,10 @@ Esta lista organiza los 475 proyectos de **AVATAR_EVALUATION.md** en categorías
 | ffmpeg-python | [kkroening/ffmpeg-python](https://github.com/kkroening/ffmpeg-python) |
 | Basis Universal | [BinomialLLC/basis_universal](https://github.com/BinomialLLC/basis_universal) |
 | KTX-Software | [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) |
+| VideoHelperSuite | [Kosinkadink/ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite) |
+| PyAV | [PyAV-Org/PyAV](https://github.com/PyAV-Org/PyAV) |
+| GStreamer | [GStreamer/gstreamer](https://github.com/GStreamer/gstreamer) |
+| moviepy | [Zulko/moviepy](https://github.com/Zulko/moviepy) |
 
 ## Transporte y protocolos WebRTC (bajo nivel)
 | **Proyecto** | **Repositorio** |
@@ -153,6 +231,18 @@ Esta lista organiza los 475 proyectos de **AVATAR_EVALUATION.md** en categorías
 | VoiceCraft | [jasonppy/VoiceCraft](https://github.com/jasonppy/VoiceCraft) |
 | MetaVoice-1B | [metavoice-ai/metavoice-src](https://github.com/metavoice-ai/metavoice-src) |
 | coturn | [coturn/coturn](https://github.com/coturn/coturn) |
+| FastRTC | [gradio-app/fastrtc](https://github.com/gradio-app/fastrtc) |
+| aiortc | [aiortc/aiortc](https://github.com/aiortc/aiortc) |
+| Janus Gateway | [meetecho/janus-gateway](https://github.com/meetecho/janus-gateway) |
+| simple-peer | [feross/simple-peer](https://github.com/feross/simple-peer) |
+| PeerJS | [peers/peerjs](https://github.com/peers/peerjs) |
+| webrtc-rs | [webrtc-rs/webrtc](https://github.com/webrtc-rs/webrtc) |
+| libdatachannel | [paullouisageneau/libdatachannel](https://github.com/paullouisageneau/libdatachannel) |
+| webrtc-streamer | [mpromonet/webrtc-streamer](https://github.com/mpromonet/webrtc-streamer) |
+| node-webrtc | [node-webrtc/node-webrtc](https://github.com/node-webrtc/node-webrtc) |
+| websockets | [python-websockets/websockets](https://github.com/python-websockets/websockets) |
+| Socket.IO | [socketio/socket.io](https://github.com/socketio/socket.io) |
+| ws | [websockets/ws](https://github.com/websockets/ws) |
 
 ## Modelado, carga y optimización 3‑D
 | **Proyecto** | **Repositorio** |
@@ -165,6 +255,64 @@ Esta lista organiza los 475 proyectos de **AVATAR_EVALUATION.md** en categorías
 | openfbx | [nemitz/openfbx](https://github.com/nemitz/openfbx) |
 | glTF-Validator | [KhronosGroup/glTF-Validator](https://github.com/KhronosGroup/glTF-Validator) |
 | glTF-Transform | [donmccurdy/glTF-Transform](https://github.com/donmccurdy/glTF-Transform) |
+| LAM / LAM-Audio2Expression | [aigc3d/LAM](https://github.com/aigc3d/LAM) |
+| TalkingGaussian | [Fictionarry/TalkingGaussian](https://github.com/Fictionarry/TalkingGaussian) |
+| Real3D-Portrait | [yerfor/Real3DPortrait](https://github.com/yerfor/Real3DPortrait) |
+| GeneFace++ | [yerfor/GeneFacePlusPlus](https://github.com/yerfor/GeneFacePlusPlus) |
+| ER-NeRF | [Fictionarry/ER-NeRF](https://github.com/Fictionarry/ER-NeRF) |
+| RAD-NeRF | [ashawkey/RAD-NeRF](https://github.com/ashawkey/RAD-NeRF) |
+| GaussianTalker | [cvlab-kaist/GaussianTalker](https://github.com/cvlab-kaist/GaussianTalker) |
+| LHM | [aigc3d/LHM](https://github.com/aigc3d/LHM) |
+| Meta-Human | [LessUp/meta-human](https://github.com/LessUp/meta-human) |
+| Talk3D | [KU-CVLAB/Talk3D](https://github.com/KU-CVLAB/Talk3D) |
+| DynTet | [zhangzc21/DynTet](https://github.com/zhangzc21/DynTet) |
+| GeneFace | [yinglinjia/GeneFace](https://github.com/yinglinjia/GeneFace) |
+| GaussianSpeech | [shivangi-aneja/gaussianspeech](https://github.com/shivangi-aneja/gaussianspeech) |
+| GaussianHeadTalk | [madhav-agarwal/GaussianHeadTalk](https://github.com/madhav-agarwal/GaussianHeadTalk) |
+| AD-NeRF | [YudongGuo/AD-NeRF](https://github.com/YudongGuo/AD-NeRF) |
+| DFA-NeRF | [ShunyuYao/DFA-NeRF](https://github.com/ShunyuYao/DFA-NeRF) |
+| HeadNeRF | [CrisHY1995/headnerf](https://github.com/CrisHY1995/headnerf) |
+| talking-head-anime-3-demo | [pkhungurn/talking-head-anime-3-demo](https://github.com/pkhungurn/talking-head-anime-3-demo) |
+| 3DXTalker | [EngineeringAI-LAB/3DXTalker](https://github.com/EngineeringAI-LAB/3DXTalker) |
+| AUHead | [laura990501/AUHead_ICLR](https://github.com/laura990501/AUHead_ICLR) |
+| UA-3DTalk | [Mrask999/UA-3DTalk](https://github.com/Mrask999/UA-3DTalk) |
+| AnimatableGaussians | [lizhe00/AnimatableGaussians](https://github.com/lizhe00/AnimatableGaussians) |
+| GauHuman | [skhu101/GauHuman](https://github.com/skhu101/GauHuman) |
+| NeRFBlendShape | [USTC3DV/NeRFBlendShape-code](https://github.com/USTC3DV/NeRFBlendShape-code) |
+| DreamGaussian | [dreamgaussian/dreamgaussian](https://github.com/dreamgaussian/dreamgaussian) |
+| LGM | [3DTopia/LGM](https://github.com/3DTopia/LGM) |
+| Splatter Image | [szymanowiczs/splatter-image](https://github.com/szymanowiczs/splatter-image) |
+| DECA | [YadiraF/DECA](https://github.com/YadiraF/DECA) |
+| MICA | [Zielonka/MICA](https://github.com/Zielonka/MICA) |
+| PyMAF-X | [HongwenZhang/PyMAF-X](https://github.com/HongwenZhang/PyMAF-X) |
+| 4D-Humans | [shubham-goel/4D-Humans](https://github.com/shubham-goel/4D-Humans) |
+| CLIFF | [ZhengDong-Work/CLIFF](https://github.com/ZhengDong-Work/CLIFF) |
+| ExPose | [vchoutas/expose](https://github.com/vchoutas/expose) |
+| HumanNeRF | [chungyiweng/humannerf](https://github.com/chungyiweng/humannerf) |
+| EG3D | [NVlabs/eg3d](https://github.com/NVlabs/eg3d) |
+| PanoHead | [sizhean/panohead](https://github.com/sizhean/panohead) |
+| Next3D | [MrTornado24/Next3D](https://github.com/MrTornado24/Next3D) |
+| EVA3D | [hongfz16/EVA3D](https://github.com/hongfz16/EVA3D) |
+| Latent-NeRF | [eladrich/latent-nerf](https://github.com/eladrich/latent-nerf) |
+| AG3D | [zj-dong/AG3D](https://github.com/zj-dong/AG3D) |
+| Get3DHuman | [X-zhangyang/Get3DHuman](https://github.com/X-zhangyang/Get3DHuman) |
+| TADA | [TingtingLiao/TADA](https://github.com/TingtingLiao/TADA) |
+| RodinHD | [RodinHD/RodinHD](https://github.com/RodinHD/RodinHD) |
+| HumanNorm | [xhuangcv/humannorm](https://github.com/xhuangcv/humannorm) |
+| PrimDiffusion | [FrozenBurning/PrimDiffusion](https://github.com/FrozenBurning/PrimDiffusion) |
+| XAGen | [magic-research/xagen](https://github.com/magic-research/xagen) |
+| TalkinNeRF | [aggelinacha/talkinnerf](https://github.com/aggelinacha/talkinnerf) |
+| GANHead | [wsj-sjtu/GANHead](https://github.com/wsj-sjtu/GANHead) |
+| NeRFEditor | [Chuny1/NeRFEditor](https://github.com/Chuny1/NeRFEditor) |
+| face3d | [YadiraF/face3d](https://github.com/YadiraF/face3d) |
+| FaceVerse | [LizhenWangT/FaceVerse_v4](https://github.com/LizhenWangT/FaceVerse_v4) |
+| FLAME_PyTorch | [soubhiksanyal/FLAME_PyTorch](https://github.com/soubhiksanyal/FLAME_PyTorch) |
+| RingNet | [soubhiksanyal/RingNet](https://github.com/soubhiksanyal/RingNet) |
+| gltf-pipeline | [CesiumGS/gltf-pipeline](https://github.com/CesiumGS/gltf-pipeline) |
+| Draco | [google/draco](https://github.com/google/draco) |
+| PRNet | [YadiraF/PRNet](https://github.com/YadiraF/PRNet) |
+| EOS | [patrikhuber/eos](https://github.com/patrikhuber/eos) |
+| glTF-Blender-IO | [KhronosGroup/glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO) |
 
 ## Animación y control del avatar (movimiento facial / cuerpo)
 | **Proyecto** | **Repositorio** |
@@ -178,6 +326,78 @@ Esta lista organiza los 475 proyectos de **AVATAR_EVALUATION.md** en categorías
 | Instant-NGP | [NVlabs/instant-ngp](https://github.com/NVlabs/instant-ngp) |
 | PIFuHD | [shunsukesaito/PIFuHD](https://github.com/shunsukesaito/PIFuHD) |
 | PIFu | [shunsukesaito/PIFu](https://github.com/shunsukesaito/PIFu) |
+| EchoMimicV3-Flash | [antgroup/echomimic_v3](https://github.com/antgroup/echomimic_v3) |
+| JoyVASA | [jdh-algo/JoyVASA](https://github.com/jdh-algo/JoyVASA) |
+| OpenTalking | [datascale-ai/opentalking](https://github.com/datascale-ai/opentalking) |
+| IMTalker | [bigai-nlco/IMTalker](https://github.com/bigai-nlco/IMTalker) |
+| PersonaLive | [GVCLab/PersonaLive](https://github.com/GVCLab/PersonaLive) |
+| Ditto TalkingHead | [antgroup/ditto-talkinghead](https://github.com/antgroup/ditto-talkinghead) |
+| MultiTalk | [MeiGen-AI/MultiTalk](https://github.com/MeiGen-AI/MultiTalk) |
+| InfiniteTalk | [MeiGen-AI/InfiniteTalk](https://github.com/MeiGen-AI/InfiniteTalk) |
+| Wan2.2-S2V | [Wan-Video/Wan2.2](https://github.com/Wan-Video/Wan2.2) |
+| SkyReels-V3-A2V | [SkyworkAI/SkyReels-V3](https://github.com/SkyworkAI/SkyReels-V3) |
+| HuMo | [Phantom-video/HuMo](https://github.com/Phantom-video/HuMo) |
+| OmniHuman | [Project page](https://omnihuman-lab.github.io/) |
+| Hallo | [fudan-generative-vision/hallo](https://github.com/fudan-generative-vision/hallo) |
+| Hallo2 | [fudan-generative-vision/hallo2](https://github.com/fudan-generative-vision/hallo2) |
+| V-Express | [tencent-ailab/V-Express](https://github.com/tencent-ailab/V-Express) |
+| LatentSync | [bytedance/LatentSync](https://github.com/bytedance/LatentSync) |
+| AniPortrait | [Zejun-Yang/AniPortrait](https://github.com/Zejun-Yang/AniPortrait) |
+| SadTalker | [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker) |
+| AniTalker | [X-LANCE/AniTalker](https://github.com/X-LANCE/AniTalker) |
+| SyncTalk | [ZiqiaoPeng/SyncTalk](https://github.com/ZiqiaoPeng/SyncTalk) |
+| Wav2Lip | [Rudrabha/Wav2Lip](https://github.com/Rudrabha/Wav2Lip) |
+| EchoMimic | [antgroup/echomimic](https://github.com/antgroup/echomimic) |
+| LiveSpeechPortraits | [YuanxunLu/LiveSpeechPortraits](https://github.com/YuanxunLu/LiveSpeechPortraits) |
+| SoulX-LiveAct | [Soul-AILab/SoulX-LiveAct](https://github.com/Soul-AILab/SoulX-LiveAct) |
+| Video-Retalking | [OpenTalker/video-retalking](https://github.com/OpenTalker/video-retalking) |
+| EmoTaG | [jamesdemon923/EmoTaG](https://github.com/jamesdemon923/EmoTaG) |
+| Hallo-Live | [fudan-generative-vision/Hallo-Live](https://github.com/fudan-generative-vision/Hallo-Live) |
+| JoyHallo | [jdh-algo/JoyHallo](https://github.com/jdh-algo/JoyHallo) |
+| uLipSync | [hecomi/uLipSync](https://github.com/hecomi/uLipSync) |
+| VividTalk | [HumanAIGC/VividTalk](https://github.com/HumanAIGC/VividTalk) |
+| PIRenderer | [RenYurui/PIRender](https://github.com/RenYurui/PIRender) |
+| TalkSHOW | [yhw-yhw/TalkSHOW](https://github.com/yhw-yhw/TalkSHOW) |
+| MeshTalk | [facebookresearch/meshtalk](https://github.com/facebookresearch/meshtalk) |
+| DiffPoseTalk | [DiffPoseTalk/DiffPoseTalk](https://github.com/DiffPoseTalk/DiffPoseTalk) |
+| StyleHEAT | [FeiiYin/StyleHEAT](https://github.com/FeiiYin/StyleHEAT) |
+| HighSync | [saeed5959/high_sync](https://github.com/saeed5959/high_sync) |
+| SEDTalker | [FarzanehJafari1987/SEDTalker](https://github.com/FarzanehJafari1987/SEDTalker) |
+| C-MET | [ChanHyeok-Choi/C-MET](https://github.com/ChanHyeok-Choi/C-MET) |
+| DiFlowDubber | [Fsoft-AIC/DiFlowDubber](https://github.com/Fsoft-AIC/DiFlowDubber) |
+| TempoSyncDiff | [mazumdarsoumya/TempoSyncDiff](https://github.com/mazumdarsoumya/TempoSyncDiff) |
+| NarratingForYou | [narratingForYou/NarratingForYou](https://github.com/narratingForYou/NarratingForYou) |
+| DreamID-Omni | [Guoxu1233/DreamID-Omni](https://github.com/Guoxu1233/DreamID-Omni) |
+| SoulX-FlashTalk | [Soul-AILab/SoulX-FlashTalk](https://github.com/Soul-AILab/SoulX-FlashTalk) |
+| LPIPS-AttnWav2Lip | [FelixChan9527/LPIPS-AttnWav2Lip](https://github.com/FelixChan9527/LPIPS-AttnWav2Lip) |
+| JUST-DUB-IT | [justdubit/just-dub-it](https://github.com/justdubit/just-dub-it) |
+| THFEM | [liluoqaq/THFEM](https://github.com/liluoqaq/THFEM) |
+| DyStream | [RobinWitch/DyStream](https://github.com/RobinWitch/DyStream) |
+| X-Dub | [KlingAIResearch/X-Dub](https://github.com/KlingAIResearch/X-Dub) |
+| TalkVerse | [snap-research/TalkVerse](https://github.com/snap-research/TalkVerse) |
+| AnyTalker | [HKUST-C4G/AnyTalker](https://github.com/HKUST-C4G/AnyTalker) |
+| LSF-Animation | [Dogter521/LSF-Animation](https://github.com/Dogter521/LSF-Animation) |
+| IASA | [Beijia11/IASA](https://github.com/Beijia11/IASA) |
+| EmoCAST | [GVCLab/EmoCAST](https://github.com/GVCLab/EmoCAST) |
+| FantasyTalking2 | [Fantasy-AMAP/fantasy-talking2](https://github.com/Fantasy-AMAP/fantasy-talking2) |
+| MemoryTalker | [kimhyungkyu-1208/MemoryTalker](https://github.com/kimhyungkyu-1208/MemoryTalker) |
+| ATL-Diff | [sonvth/ATL-Diff](https://github.com/sonvth/ATL-Diff) |
+| MOSPA | [xsy27/Mospa-Acoustic-driven-Motion-Generation](https://github.com/xsy27/Mospa-Acoustic-driven-Motion-Generation) |
+| MEDTalk | [SJTU-Lucy/MEDTalk](https://github.com/SJTU-Lucy/MEDTalk) |
+| audio2photoreal | [facebookresearch/audio2photoreal](https://github.com/facebookresearch/audio2photoreal) |
+| DeepFaceLive | [iperov/DeepFaceLive](https://github.com/iperov/DeepFaceLive) |
+| SyncNet | [joonson/syncnet_python](https://github.com/joonson/syncnet_python) |
+| MotionGPT | [OpenMotionLab/MotionGPT](https://github.com/OpenMotionLab/MotionGPT) |
+| MDM | [GuyTevet/motion-diffusion-model](https://github.com/GuyTevet/motion-diffusion-model) |
+| EDGE | [Stanford-TML/EDGE](https://github.com/Stanford-TML/EDGE) |
+| Comfyui-SadTalker | [haomole/Comfyui-SadTalker](https://github.com/haomole/Comfyui-SadTalker) |
+| MRAA | [snap-research/articulated-animation](https://github.com/snap-research/articulated-animation) |
+| TPSMM | [yoyo-nb/Thin-Plate-Spline-Motion-Model](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model) |
+| LIA | [wyhsirius/LIA](https://github.com/wyhsirius/LIA) |
+| DiffGesture | [Advocate99/DiffGesture](https://github.com/Advocate99/DiffGesture) |
+| StyleSync | [guanjz20/StyleSync](https://github.com/guanjz20/StyleSync) |
+| ComfyUI-Wav2Lip | [numz/ComfyUI-Wav2Lip](https://github.com/numz/ComfyUI-Wav2Lip) |
+| AnimateDiff | [guoyww/AnimateDiff](https://github.com/guoyww/AnimateDiff) |
 
 ## Renderizado y UI (WebGL / WebGPU / Desktop)
 | **Proyecto** | **Repositorio** |
@@ -202,6 +422,25 @@ Esta lista organiza los 475 proyectos de **AVATAR_EVALUATION.md** en categorías
 | PixiJS | [pixijs/pixijs](https://github.com/pixijs/pixijs) |
 | TWGL.js | [greggman/twgl.js](https://github.com/greggman/twgl.js) |
 | regl | [regl-project/regl](https://github.com/regl-project/regl) |
+| TalkingHead.js | [met4citizen/TalkingHead](https://github.com/met4citizen/TalkingHead) |
+| pixi-live2d-display | [guansss/pixi-live2d-display](https://github.com/guansss/pixi-live2d-display) |
+| live2d-py | [EasyLive2D/live2d-py](https://github.com/EasyLive2D/live2d-py) |
+| kalidoface | [yeemachine/kalidoface](https://github.com/yeemachine/kalidoface) |
+| live2d-widget | [stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget) |
+| VTubeStudio | [DenchiSoft/VTubeStudio](https://github.com/DenchiSoft/VTubeStudio) |
+| CubismUnityComponents | [Live2D/CubismUnityComponents](https://github.com/Live2D/CubismUnityComponents) |
+| CubismWebFramework | [Live2D/CubismWebFramework](https://github.com/Live2D/CubismWebFramework) |
+| CubismWebSamples | [Live2D/CubismWebSamples](https://github.com/Live2D/CubismWebSamples) |
+| CubismNativeFramework | [Live2D/CubismNativeFramework](https://github.com/Live2D/CubismNativeFramework) |
+| Live2D-Python | [qinyonghang/Live2D-Python](https://github.com/qinyonghang/Live2D-Python) |
+| headless-gl | [stackgl/headless-gl](https://github.com/stackgl/headless-gl) |
+| wgpu | [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) |
+| PyGLM | [Zplab/PyGLM](https://github.com/Zplab/PyGLM) |
+| Taichi Graphics | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) |
+| Panda3D | [panda3d/panda3d](https://github.com/panda3d/panda3d) |
+| Pyglet | [pyglet/pyglet](https://github.com/pyglet/pyglet) |
+| Ursina Engine | [pokepoke/ursina](https://github.com/pokepoke/ursina) |
+| DearPyGui | [hoffstadt/DearPyGui](https://github.com/hoffstadt/DearPyGui) |
 
 ## Síntesis de voz y procesamiento de audio
 | **Proyecto** | **Repositorio** |
@@ -216,313 +455,94 @@ Esta lista organiza los 475 proyectos de **AVATAR_EVALUATION.md** en categorías
 | xtts-api-server | [daswer123/xtts-api-server](https://github.com/daswer123/xtts-api-server) |
 | Silero Models | [snakers4/silero-models](https://github.com/snakers4/silero-models) |
 | edge-tts | [rany2/edge-tts](https://github.com/rany2/edge-tts) |
-
-## Otros
-| **Proyecto** | **Repositorio** |
-|---|---|
-| **Opción** | **Repositorio** |
-| EchoMimicV3-Flash | [antgroup/echomimic_v3](https://github.com/antgroup/echomimic_v3) |
-| JoyVASA | [jdh-algo/JoyVASA](https://github.com/jdh-algo/JoyVASA) |
-| Duix-Mobile | [duixcom/Duix-Mobile](https://github.com/duixcom/Duix-Mobile) |
-| LAM / LAM-Audio2Expression | [aigc3d/LAM](https://github.com/aigc3d/LAM) |
-| OpenTalking | [datascale-ai/opentalking](https://github.com/datascale-ai/opentalking) |
-| IMTalker | [bigai-nlco/IMTalker](https://github.com/bigai-nlco/IMTalker) |
-| PersonaLive | [GVCLab/PersonaLive](https://github.com/GVCLab/PersonaLive) |
-| Ditto TalkingHead | [antgroup/ditto-talkinghead](https://github.com/antgroup/ditto-talkinghead) |
-| CyberVerse | [Lynpoint/CyberVerse](https://github.com/Lynpoint/CyberVerse) |
-| Livepeer Mission Control | [Documentación Livepeer](https://docs.livepeer.org/v2/home/mission-control) |
-| TalkingGaussian | [Fictionarry/TalkingGaussian](https://github.com/Fictionarry/TalkingGaussian) |
-| MultiTalk | [MeiGen-AI/MultiTalk](https://github.com/MeiGen-AI/MultiTalk) |
-| InfiniteTalk | [MeiGen-AI/InfiniteTalk](https://github.com/MeiGen-AI/InfiniteTalk) |
-| Wan2.2-S2V | [Wan-Video/Wan2.2](https://github.com/Wan-Video/Wan2.2) |
-| SkyReels-V3-A2V | [SkyworkAI/SkyReels-V3](https://github.com/SkyworkAI/SkyReels-V3) |
-| HuMo | [Phantom-video/HuMo](https://github.com/Phantom-video/HuMo) |
-| OmniHuman | [Project page](https://omnihuman-lab.github.io/) |
-| TEN Framework | [TEN-framework/ten-framework](https://github.com/TEN-framework/ten-framework) |
-| Vision Agents | [GetStream/Vision-Agents](https://github.com/GetStream/Vision-Agents) |
-| LiveTalking | [lipku/LiveTalking](https://github.com/lipku/LiveTalking) |
-| LiveTalk | [GAIR-NLP/livetalk](https://github.com/GAIR-NLP/livetalk) |
-| Hallo | [fudan-generative-vision/hallo](https://github.com/fudan-generative-vision/hallo) |
-| Hallo2 | [fudan-generative-vision/hallo2](https://github.com/fudan-generative-vision/hallo2) |
-| V-Express | [tencent-ailab/V-Express](https://github.com/tencent-ailab/V-Express) |
-| LatentSync | [bytedance/LatentSync](https://github.com/bytedance/LatentSync) |
-| AniPortrait | [Zejun-Yang/AniPortrait](https://github.com/Zejun-Yang/AniPortrait) |
-| SadTalker | [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker) |
-| AniTalker | [X-LANCE/AniTalker](https://github.com/X-LANCE/AniTalker) |
-| Real3D-Portrait | [yerfor/Real3DPortrait](https://github.com/yerfor/Real3DPortrait) |
-| GeneFace++ | [yerfor/GeneFacePlusPlus](https://github.com/yerfor/GeneFacePlusPlus) |
-| SyncTalk | [ZiqiaoPeng/SyncTalk](https://github.com/ZiqiaoPeng/SyncTalk) |
-| ER-NeRF | [Fictionarry/ER-NeRF](https://github.com/Fictionarry/ER-NeRF) |
-| RAD-NeRF | [ashawkey/RAD-NeRF](https://github.com/ashawkey/RAD-NeRF) |
-| Wav2Lip | [Rudrabha/Wav2Lip](https://github.com/Rudrabha/Wav2Lip) |
-| TalkingHead.js | [met4citizen/TalkingHead](https://github.com/met4citizen/TalkingHead) |
-| GaussianTalker | [cvlab-kaist/GaussianTalker](https://github.com/cvlab-kaist/GaussianTalker) |
-| EchoMimic | [antgroup/echomimic](https://github.com/antgroup/echomimic) |
-| LiveSpeechPortraits | [YuanxunLu/LiveSpeechPortraits](https://github.com/YuanxunLu/LiveSpeechPortraits) |
-| SoulX-LiveAct | [Soul-AILab/SoulX-LiveAct](https://github.com/Soul-AILab/SoulX-LiveAct) |
-| Amica | [semperai/amica](https://github.com/semperai/amica) |
-| Linly-Talker-Stream | [Kedreamix/Linly-Talker-Stream](https://github.com/Kedreamix/Linly-Talker-Stream) |
-| Open-LLM-VTuber | [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) |
-| Video-Retalking | [OpenTalker/video-retalking](https://github.com/OpenTalker/video-retalking) |
-| Ultralight-Digital-Human | [anliyuan/Ultralight-Digital-Human](https://github.com/anliyuan/Ultralight-Digital-Human) |
-| EmoTaG | [jamesdemon923/EmoTaG](https://github.com/jamesdemon923/EmoTaG) |
-| NodeAva | [Lucasmind/nodeava](https://github.com/Lucasmind/nodeava) |
-| LHM | [aigc3d/LHM](https://github.com/aigc3d/LHM) |
-| FastRTC | [gradio-app/fastrtc](https://github.com/gradio-app/fastrtc) |
-| TalkBody4D | [HF: PixelAI-Team/TalkBody4D](https://huggingface.co/datasets/PixelAI-Team/TalkBody4D) |
-| GMTalker | [GML-MMGroup/GMTalker](https://github.com/GML-MMGroup/GMTalker) |
-| ARTalk | [xg-chu/ARTalk](https://github.com/xg-chu/ARTalk) |
-| Hallo-Live | [fudan-generative-vision/Hallo-Live](https://github.com/fudan-generative-vision/Hallo-Live) |
-| Meta-Human | [LessUp/meta-human](https://github.com/LessUp/meta-human) |
-| Ghost Vessel | [ghdtjrtka/ghost-vessel](https://github.com/ghdtjrtka/ghost-vessel) |
-| EMO | [HumanAIGC/EMO](https://github.com/HumanAIGC/EMO) |
-| LetsTalk | [zhang-haojie/letstalk](https://github.com/zhang-haojie/letstalk) |
-| HelloMeme | [HelloVision/HelloMeme](https://github.com/HelloVision/HelloMeme) |
-| DAWN | [Hanbo-Cheng/DAWN-pytorch](https://github.com/Hanbo-Cheng/DAWN-pytorch) |
-| JoyHallo | [jdh-algo/JoyHallo](https://github.com/jdh-algo/JoyHallo) |
-| LinguaLinker | [TencentQQGYLab/LinguaLinker](https://github.com/TencentQQGYLab/LinguaLinker) |
-| EDTalk | [tanshuai0219/EDTalk](https://github.com/tanshuai0219/EDTalk) |
-| Talk3D | [KU-CVLAB/Talk3D](https://github.com/KU-CVLAB/Talk3D) |
-| DynTet | [zhangzc21/DynTet](https://github.com/zhangzc21/DynTet) |
-| DreamTalk | [meitu/DreamTalk](https://github.com/meitu/DreamTalk) |
-| GeneFace | [yinglinjia/GeneFace](https://github.com/yinglinjia/GeneFace) |
-| MakeItTalk | [yzhou359/MakeItTalk](https://github.com/yzhou359/MakeItTalk) |
-| TalkLip | [Sxjdwang/TalkLip](https://github.com/Sxjdwang/TalkLip) |
-| GaussianSpeech | [shivangi-aneja/gaussianspeech](https://github.com/shivangi-aneja/gaussianspeech) |
-| GaussianHeadTalk | [madhav-agarwal/GaussianHeadTalk](https://github.com/madhav-agarwal/GaussianHeadTalk) |
-| AD-NeRF | [YudongGuo/AD-NeRF](https://github.com/YudongGuo/AD-NeRF) |
-| DFA-NeRF | [ShunyuYao/DFA-NeRF](https://github.com/ShunyuYao/DFA-NeRF) |
-| HeadNeRF | [CrisHY1995/headnerf](https://github.com/CrisHY1995/headnerf) |
-| uLipSync | [hecomi/uLipSync](https://github.com/hecomi/uLipSync) |
-| ComfyStream | [yolain/ComfyStream](https://github.com/yolain/ComfyStream) |
-| DeepLiveCam | [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) |
-| FaceFusion | [facefusion/facefusion](https://github.com/facefusion/facefusion) |
-| VividTalk | [HumanAIGC/VividTalk](https://github.com/HumanAIGC/VividTalk) |
-| PIRenderer | [RenYurui/PIRender](https://github.com/RenYurui/PIRender) |
-| TalkSHOW | [yhw-yhw/TalkSHOW](https://github.com/yhw-yhw/TalkSHOW) |
 | Fish Speech | [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) |
-| pixi-live2d-display | [guansss/pixi-live2d-display](https://github.com/guansss/pixi-live2d-display) |
-| MeshTalk | [facebookresearch/meshtalk](https://github.com/facebookresearch/meshtalk) |
-| EMOCA | [rdanecek/emoca](https://github.com/rdanecek/emoca) |
-| talking-head-anime-3-demo | [pkhungurn/talking-head-anime-3-demo](https://github.com/pkhungurn/talking-head-anime-3-demo) |
-| DiffPoseTalk | [DiffPoseTalk/DiffPoseTalk](https://github.com/DiffPoseTalk/DiffPoseTalk) |
-| FaceX-Zoo | [JDAI-CV/FaceX-Zoo](https://github.com/JDAI-CV/FaceX-Zoo) |
-| StyleHEAT | [FeiiYin/StyleHEAT](https://github.com/FeiiYin/StyleHEAT) |
-| HighSync | [saeed5959/high_sync](https://github.com/saeed5959/high_sync) |
-| SEDTalker | [FarzanehJafari1987/SEDTalker](https://github.com/FarzanehJafari1987/SEDTalker) |
-| C-MET | [ChanHyeok-Choi/C-MET](https://github.com/ChanHyeok-Choi/C-MET) |
-| DiFlowDubber | [Fsoft-AIC/DiFlowDubber](https://github.com/Fsoft-AIC/DiFlowDubber) |
-| OmniEdit | [l1346792580123/OmniEdit](https://github.com/l1346792580123/OmniEdit) |
-| TempoSyncDiff | [mazumdarsoumya/TempoSyncDiff](https://github.com/mazumdarsoumya/TempoSyncDiff) |
-| NarratingForYou | [narratingForYou/NarratingForYou](https://github.com/narratingForYou/NarratingForYou) |
-| DreamID-Omni | [Guoxu1233/DreamID-Omni](https://github.com/Guoxu1233/DreamID-Omni) |
-| 3DXTalker | [EngineeringAI-LAB/3DXTalker](https://github.com/EngineeringAI-LAB/3DXTalker) |
-| AUHead | [laura990501/AUHead_ICLR](https://github.com/laura990501/AUHead_ICLR) |
-| MOVA | [OpenMOSS/MOVA](https://github.com/OpenMOSS/MOVA) |
-| SoulX-FlashTalk | [Soul-AILab/SoulX-FlashTalk](https://github.com/Soul-AILab/SoulX-FlashTalk) |
-| LPIPS-AttnWav2Lip | [FelixChan9527/LPIPS-AttnWav2Lip](https://github.com/FelixChan9527/LPIPS-AttnWav2Lip) |
-| JUST-DUB-IT | [justdubit/just-dub-it](https://github.com/justdubit/just-dub-it) |
-| UA-3DTalk | [Mrask999/UA-3DTalk](https://github.com/Mrask999/UA-3DTalk) |
-| THFEM | [liluoqaq/THFEM](https://github.com/liluoqaq/THFEM) |
-| DyStream | [RobinWitch/DyStream](https://github.com/RobinWitch/DyStream) |
-| X-Dub | [KlingAIResearch/X-Dub](https://github.com/KlingAIResearch/X-Dub) |
-| TalkVerse | [snap-research/TalkVerse](https://github.com/snap-research/TalkVerse) |
-| JoVA | [Visual-AI/JoVA](https://github.com/Visual-AI/JoVA) |
-| STARCaster | [foivospar/STARCaster](https://github.com/foivospar/STARCaster) |
-| UniLS | [xg-chu/UniLS](https://github.com/xg-chu/UniLS) |
-| AnyTalker | [HKUST-C4G/AnyTalker](https://github.com/HKUST-C4G/AnyTalker) |
-| LSF-Animation | [Dogter521/LSF-Animation](https://github.com/Dogter521/LSF-Animation) |
-| IASA | [Beijia11/IASA](https://github.com/Beijia11/IASA) |
-| EmoCAST | [GVCLab/EmoCAST](https://github.com/GVCLab/EmoCAST) |
-| FantasyTalking2 | [Fantasy-AMAP/fantasy-talking2](https://github.com/Fantasy-AMAP/fantasy-talking2) |
-| MemoryTalker | [kimhyungkyu-1208/MemoryTalker](https://github.com/kimhyungkyu-1208/MemoryTalker) |
-| ATL-Diff | [sonvth/ATL-Diff](https://github.com/sonvth/ATL-Diff) |
-| MOSPA | [xsy27/Mospa-Acoustic-driven-Motion-Generation](https://github.com/xsy27/Mospa-Acoustic-driven-Motion-Generation) |
-| MEDTalk | [SJTU-Lucy/MEDTalk](https://github.com/SJTU-Lucy/MEDTalk) |
-| AnimateAnyone | [HumanAIGC/AnimateAnyone](https://github.com/HumanAIGC/AnimateAnyone) |
-| audio2photoreal | [facebookresearch/audio2photoreal](https://github.com/facebookresearch/audio2photoreal) |
-| HunyuanPortrait | [Tencent/HunyuanPortrait](https://github.com/Tencent/HunyuanPortrait) |
-| LangYing | [langzizhixin/LangYing](https://github.com/langzizhixin/LangYing) |
-| LangYuan | [langzizhixin/LangYuan](https://github.com/langzizhixin/LangYuan) |
-| DeepFaceLive | [iperov/DeepFaceLive](https://github.com/iperov/DeepFaceLive) |
-| SyncNet | [joonson/syncnet_python](https://github.com/joonson/syncnet_python) |
-| ChatVTuber | [lTaGll/ChatVTuber](https://github.com/lTaGll/ChatVTuber) |
-| AnimatableGaussians | [lizhe00/AnimatableGaussians](https://github.com/lizhe00/AnimatableGaussians) |
-| GauHuman | [skhu101/GauHuman](https://github.com/skhu101/GauHuman) |
-| NeRFBlendShape | [USTC3DV/NeRFBlendShape-code](https://github.com/USTC3DV/NeRFBlendShape-code) |
-| DreamGaussian | [dreamgaussian/dreamgaussian](https://github.com/dreamgaussian/dreamgaussian) |
-| LGM | [3DTopia/LGM](https://github.com/3DTopia/LGM) |
-| Splatter Image | [szymanowiczs/splatter-image](https://github.com/szymanowiczs/splatter-image) |
-| live2d-py | [EasyLive2D/live2d-py](https://github.com/EasyLive2D/live2d-py) |
-| DECA | [YadiraF/DECA](https://github.com/YadiraF/DECA) |
-| MICA | [Zielonka/MICA](https://github.com/Zielonka/MICA) |
-| OpenFace | [TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace) |
-| MotionGPT | [OpenMotionLab/MotionGPT](https://github.com/OpenMotionLab/MotionGPT) |
-| MDM | [GuyTevet/motion-diffusion-model](https://github.com/GuyTevet/motion-diffusion-model) |
-| EDGE | [Stanford-TML/EDGE](https://github.com/Stanford-TML/EDGE) |
-| PyMAF-X | [HongwenZhang/PyMAF-X](https://github.com/HongwenZhang/PyMAF-X) |
-| 4D-Humans | [shubham-goel/4D-Humans](https://github.com/shubham-goel/4D-Humans) |
-| CLIFF | [ZhengDong-Work/CLIFF](https://github.com/ZhengDong-Work/CLIFF) |
-| ExPose | [vchoutas/expose](https://github.com/vchoutas/expose) |
 | Ultravox | [fixie-ai/ultravox](https://github.com/fixie-ai/ultravox) |
 | Mini-Omni | [gpt-omni/mini-omni](https://github.com/gpt-omni/mini-omni) |
 | Qwen2-Audio | [Qwen/Qwen2-Audio](https://github.com/Qwen/Qwen2-Audio) |
-| kalidoface | [yeemachine/kalidoface](https://github.com/yeemachine/kalidoface) |
-| live2d-widget | [stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget) |
-| OpenSeeFace | [emilianavt/OpenSeeFace](https://github.com/emilianavt/OpenSeeFace) |
-| VTubeStudio | [DenchiSoft/VTubeStudio](https://github.com/DenchiSoft/VTubeStudio) |
-| pyvts | [DenverCoder1/pyvts](https://github.com/DenverCoder1/pyvts) |
-| Comfyui-SadTalker | [haomole/Comfyui-SadTalker](https://github.com/haomole/Comfyui-SadTalker) |
-| comfyui_openvino | [openvino-dev-samples/comfyui_openvino](https://github.com/openvino-dev-samples/comfyui_openvino) |
-| VideoHelperSuite | [Kosinkadink/ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite) |
-| HumanNeRF | [chungyiweng/humannerf](https://github.com/chungyiweng/humannerf) |
-| FreeMan | [wangjiongw/FreeMan_API](https://github.com/wangjiongw/FreeMan_API) |
-| MRAA | [snap-research/articulated-animation](https://github.com/snap-research/articulated-animation) |
-| TPSMM | [yoyo-nb/Thin-Plate-Spline-Motion-Model](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model) |
-| LIA | [wyhsirius/LIA](https://github.com/wyhsirius/LIA) |
-| face-vid2vid | [NVlabs/face-vid2vid](https://github.com/NVlabs/face-vid2vid) |
-| EG3D | [NVlabs/eg3d](https://github.com/NVlabs/eg3d) |
-| PanoHead | [sizhean/panohead](https://github.com/sizhean/panohead) |
-| Next3D | [MrTornado24/Next3D](https://github.com/MrTornado24/Next3D) |
-| EVA3D | [hongfz16/EVA3D](https://github.com/hongfz16/EVA3D) |
-| Latent-NeRF | [eladrich/latent-nerf](https://github.com/eladrich/latent-nerf) |
-| AG3D | [zj-dong/AG3D](https://github.com/zj-dong/AG3D) |
-| Get3DHuman | [X-zhangyang/Get3DHuman](https://github.com/X-zhangyang/Get3DHuman) |
-| TADA | [TingtingLiao/TADA](https://github.com/TingtingLiao/TADA) |
-| RodinHD | [RodinHD/RodinHD](https://github.com/RodinHD/RodinHD) |
-| HumanNorm | [xhuangcv/humannorm](https://github.com/xhuangcv/humannorm) |
-| PrimDiffusion | [FrozenBurning/PrimDiffusion](https://github.com/FrozenBurning/PrimDiffusion) |
-| XAGen | [magic-research/xagen](https://github.com/magic-research/xagen) |
-| TalkinNeRF | [aggelinacha/talkinnerf](https://github.com/aggelinacha/talkinnerf) |
 | RealtimeTTS | [KoljaB/RealtimeTTS](https://github.com/KoljaB/RealtimeTTS) |
 | ChatTTS | [2noise/ChatTTS](https://github.com/2noise/ChatTTS) |
-| NeRSemble | [tobias-kirschstein/nersemble](https://github.com/tobias-kirschstein/nersemble) |
-| ClipFace | [shivangi-aneja/ClipFace](https://github.com/shivangi-aneja/ClipFace) |
-| GANHead | [wsj-sjtu/GANHead](https://github.com/wsj-sjtu/GANHead) |
-| NeRFEditor | [Chuny1/NeRFEditor](https://github.com/Chuny1/NeRFEditor) |
-| face3d | [YadiraF/face3d](https://github.com/YadiraF/face3d) |
-| FaceVerse | [LizhenWangT/FaceVerse_v4](https://github.com/LizhenWangT/FaceVerse_v4) |
-| LACE | [NVlabs/LACE](https://github.com/NVlabs/LACE) |
 | faster-whisper | [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) |
 | whisperX | [m-bain/whisperX](https://github.com/m-bain/whisperX) |
 | Coqui TTS | [coqui-ai/TTS](https://github.com/coqui-ai/TTS) |
-| CubismUnityComponents | [Live2D/CubismUnityComponents](https://github.com/Live2D/CubismUnityComponents) |
-| aiortc | [aiortc/aiortc](https://github.com/aiortc/aiortc) |
-| Janus Gateway | [meetecho/janus-gateway](https://github.com/meetecho/janus-gateway) |
-| face-api.js | [justadudewhohacks/face-api.js](https://github.com/justadudewhohacks/face-api.js) |
-| clmtrackr | [auduno/clmtrackr](https://github.com/auduno/clmtrackr) |
-| jeelizFaceFilter | [jeeliz/jeelizFaceFilter](https://github.com/jeeliz/jeelizFaceFilter) |
-| tfjs-models | [tensorflow/tfjs-models](https://github.com/tensorflow/tfjs-models) |
-| CubismWebFramework | [Live2D/CubismWebFramework](https://github.com/Live2D/CubismWebFramework) |
-| CubismWebSamples | [Live2D/CubismWebSamples](https://github.com/Live2D/CubismWebSamples) |
 | Bark | [suno-ai/bark](https://github.com/suno-ai/bark) |
 | MeloTTS | [myshell-ai/MeloTTS](https://github.com/myshell-ai/MeloTTS) |
 | F5-TTS | [SW-MMLAB/F5-TTS](https://github.com/SW-MMLAB/F5-TTS) |
-| DiffGesture | [Advocate99/DiffGesture](https://github.com/Advocate99/DiffGesture) |
 | Speech2Face | [ravising-h/speech2face](https://github.com/ravising-h/speech2face) |
-| GFPGAN | [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) |
-| CodeFormer | [sczhou/CodeFormer](https://github.com/sczhou/CodeFormer) |
-| Real-ESRGAN | [xinntao/Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) |
-| CubismNativeFramework | [Live2D/CubismNativeFramework](https://github.com/Live2D/CubismNativeFramework) |
-| FLAME_PyTorch | [soubhiksanyal/FLAME_PyTorch](https://github.com/soubhiksanyal/FLAME_PyTorch) |
-| whisper.cpp | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) |
 | Piper TTS | [rhasspy/piper](https://github.com/rhasspy/piper) |
-| OpenAI Realtime Console | [openai/openai-realtime-console](https://github.com/openai/openai-realtime-console) |
-| StyleSync | [guanjz20/StyleSync](https://github.com/guanjz20/StyleSync) |
-| Rhubarb Lip Sync | [DanielSWolf/rhubarb-lip-sync](https://github.com/DanielSWolf/rhubarb-lip-sync) |
-| Surge | [Darussalamnoor/surge](https://github.com/Darussalamnoor/surge) |
-| Bolna | [bolna-ai/bolna](https://github.com/bolna-ai/bolna) |
-| TEN Agent | [TEN-framework/TEN-Agent](https://github.com/TEN-framework/TEN-Agent) |
 | OpenAI Whisper | [openai/whisper](https://github.com/openai/whisper) |
-| ONNX Runtime | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) |
-| vLLM | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
-| Ollama | [ollama/ollama](https://github.com/ollama/ollama) |
-| RingNet | [soubhiksanyal/RingNet](https://github.com/soubhiksanyal/RingNet) |
 | FunASR | [modelscope/FunASR](https://github.com/modelscope/FunASR) |
 | Amphion | [open-mmlab/Amphion](https://github.com/open-mmlab/Amphion) |
-| InsightFace | [deepinsight/insightface](https://github.com/deepinsight/insightface) |
-| face_recognition | [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) |
-| DeepFace | [serengil/deepface](https://github.com/serengil/deepface) |
-| Pytorch_Retinaface | [biubug6/Pytorch_Retinaface](https://github.com/biubug6/Pytorch_Retinaface) |
-| facenet-pytorch | [timesler/facenet-pytorch](https://github.com/timesler/facenet-pytorch) |
-| dlib | [davisking/dlib](https://github.com/davisking/dlib) |
-| OpenCV | [opencv/opencv](https://github.com/opencv/opencv) |
-| PyAV | [PyAV-Org/PyAV](https://github.com/PyAV-Org/PyAV) |
-| spandrel | [chaiNNer-org/spandrel](https://github.com/chaiNNer-org/spandrel) |
-| gltf-pipeline | [CesiumGS/gltf-pipeline](https://github.com/CesiumGS/gltf-pipeline) |
-| Draco | [google/draco](https://github.com/google/draco) |
 | Whisper-Live | [collabora/whisper-live](https://github.com/collabora/whisper-live) |
 | Whisper-Streaming | [ufal/whisper_streaming](https://github.com/ufal/whisper_streaming) |
 | SeamlessCommunication | [facebookresearch/SeamlessCommunication](https://github.com/facebookresearch/SeamlessCommunication) |
-| ComfyUI-Wav2Lip | [numz/ComfyUI-Wav2Lip](https://github.com/numz/ComfyUI-Wav2Lip) |
-| Live2D-Python | [qinyonghang/Live2D-Python](https://github.com/qinyonghang/Live2D-Python) |
-| iFacialMocap-Python | [iFacialMocap/iFacialMocap-Python](https://github.com/iFacialMocap/iFacialMocap-Python) |
 | py-webrtcvad | [wiseman/py-webrtcvad](https://github.com/wiseman/py-webrtcvad) |
-| simple-peer | [feross/simple-peer](https://github.com/feross/simple-peer) |
-| PeerJS | [peers/peerjs](https://github.com/peers/peerjs) |
-| GStreamer | [GStreamer/gstreamer](https://github.com/GStreamer/gstreamer) |
-| SRS | [ossrs/srs](https://github.com/ossrs/srs) |
-| webrtc-rs | [webrtc-rs/webrtc](https://github.com/webrtc-rs/webrtc) |
-| libdatachannel | [paullouisageneau/libdatachannel](https://github.com/paullouisageneau/libdatachannel) |
-| webrtc-streamer | [mpromonet/webrtc-streamer](https://github.com/mpromonet/webrtc-streamer) |
-| node-webrtc | [node-webrtc/node-webrtc](https://github.com/node-webrtc/node-webrtc) |
-| headless-gl | [stackgl/headless-gl](https://github.com/stackgl/headless-gl) |
-| FastAPI | [fastapi/fastapi](https://github.com/fastapi/fastapi) |
-| uvicorn | [encode/uvicorn](https://github.com/encode/uvicorn) |
-| websockets | [python-websockets/websockets](https://github.com/python-websockets/websockets) |
-| Socket.IO | [socketio/socket.io](https://github.com/socketio/socket.io) |
-| ws | [websockets/ws](https://github.com/websockets/ws) |
-| AnimateDiff | [guoyww/AnimateDiff](https://github.com/guoyww/AnimateDiff) |
-| IP-Adapter | [tencent-aio/IP-Adapter](https://github.com/tencent-aio/IP-Adapter) |
-| DWPose | [IDEA-Research/DWPose](https://github.com/IDEA-Research/DWPose) |
-| controlnet_aux | [patrickvonplaten/controlnet_aux](https://github.com/patrickvonplaten/controlnet_aux) |
 | Llama-Omni | [ictnlp/Llama-Omni](https://github.com/ictnlp/Llama-Omni) |
 | Mini-Omni2 | [gpt-omni/mini-omni2](https://github.com/gpt-omni/mini-omni2) |
 | SoundStorm PyTorch | [lucidrains/soundstorm-pytorch](https://github.com/lucidrains/soundstorm-pytorch) |
-| rembg | [danielgatis/rembg](https://github.com/danielgatis/rembg) |
-| BiRefNet | [ZhengPeng7/BiRefNet](https://github.com/ZhengPeng7/BiRefNet) |
-| InSPyReNet | [PyeongGang/InSPyReNet](https://github.com/PyeongGang/InSPyReNet) |
-| RobustVideoMatting | [PeterLSO/RobustVideoMatting](https://github.com/PeterLSO/RobustVideoMatting) |
-| ViTMatting | [hustvl/ViTMatting](https://github.com/hustvl/ViTMatting) |
-| MODNet | [ZhengPeng7/MODNet](https://github.com/ZhengPeng7/MODNet) |
-| PRNet | [YadiraF/PRNet](https://github.com/YadiraF/PRNet) |
-| EOS | [patrikhuber/eos](https://github.com/patrikhuber/eos) |
-| TensorRT-LLM | [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) |
-| SGLang | [sgl-project/sglang](https://github.com/sgl-project/sglang) |
-| Text Generation Inference | [huggingface/text-generation-inference](https://github.com/huggingface/text-generation-inference) |
-| DeepStream Python Apps | [NVIDIA-AI-IOT/deepstream_python_apps](https://github.com/NVIDIA-AI-IOT/deepstream_python_apps) |
-| Aphrodite Engine | [PygmalionAI/aphrodite-engine](https://github.com/PygmalionAI/aphrodite-engine) |
-| LMDeploy | [open-mmlab/lmdeploy](https://github.com/open-mmlab/lmdeploy) |
-| MLX | [ml-explore/mlx](https://github.com/ml-explore/mlx) |
-| Ollama JS | [ollama/ollama-js](https://github.com/ollama/ollama-js) |
-| Ollama Python | [ollama/ollama-python](https://github.com/ollama/ollama-python) |
-| llama-cpp-python | [abetlen/llama-cpp-python](https://github.com/abetlen/llama-cpp-python) |
-| Transformers.js | [huggingface/transformers.js](https://github.com/huggingface/transformers.js) |
-| Web LLM | [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm) |
-| MLC LLM | [mlc-ai/mlc-llm](https://github.com/mlc-ai/mlc-llm) |
-| wgpu | [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) |
-| ncnn | [Tencent/ncnn](https://github.com/Tencent/ncnn) |
-| MNN | [alibaba/MNN](https://github.com/alibaba/MNN) |
-| ExecuTorch | [pytorch/executorch](https://github.com/pytorch/executorch) |
-| OpenVINO | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) |
-| DirectML | [microsoft/DirectML](https://github.com/microsoft/DirectML) |
-| coremltools | [apple/coremltools](https://github.com/apple/coremltools) |
 | Parler-TTS | [huggingface/parler-tts](https://github.com/huggingface/parler-tts) |
 | Matcha-TTS | [shivammg/Matcha-TTS](https://github.com/shivammg/Matcha-TTS) |
 | StyleTTS2 | [yl4579/StyleTTS2](https://github.com/yl4579/StyleTTS2) |
 | sherpa-onnx | [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) |
 | faster-whisper-server | [fedirz/faster-whisper-server](https://github.com/fedirz/faster-whisper-server) |
 | webrtc-audio-processing | [freedesktop/webrtc-audio-processing](https://github.com/freedesktop/webrtc-audio-processing) |
-| Lipreading Deep Learning | [mpcbr/lipreading](https://github.com/mpcbr/lipreading) |
 | TalkNet-ASD | [TaoRuijie/TalkNet-ASD](https://github.com/TaoRuijie/TalkNet-ASD) |
-| moviepy | [Zulko/moviepy](https://github.com/Zulko/moviepy) |
-| PyGLM | [Zplab/PyGLM](https://github.com/Zplab/PyGLM) |
-| Taichi Graphics | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) |
-| Panda3D | [panda3d/panda3d](https://github.com/panda3d/panda3d) |
-| Pyglet | [pyglet/pyglet](https://github.com/pyglet/pyglet) |
-| Ursina Engine | [pokepoke/ursina](https://github.com/pokepoke/ursina) |
-| DearPyGui | [hoffstadt/DearPyGui](https://github.com/hoffstadt/DearPyGui) |
-| glTF-Blender-IO | [KhronosGroup/glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO) |
+
+## Procesamiento visual y restauración
+
+| **Proyecto** | **Repositorio** |
+|---|---|
+| GFPGAN | [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) |
+| CodeFormer | [sczhou/CodeFormer](https://github.com/sczhou/CodeFormer) |
+| Real-ESRGAN | [xinntao/Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) |
+| spandrel | [chaiNNer-org/spandrel](https://github.com/chaiNNer-org/spandrel) |
+| rembg | [danielgatis/rembg](https://github.com/danielgatis/rembg) |
+| BiRefNet | [ZhengPeng7/BiRefNet](https://github.com/ZhengPeng7/BiRefNet) |
+| InSPyReNet | [PyeongGang/InSPyReNet](https://github.com/PyeongGang/InSPyReNet) |
+| RobustVideoMatting | [PeterLSO/RobustVideoMatting](https://github.com/PeterLSO/RobustVideoMatting) |
+| ViTMatting | [hustvl/ViTMatting](https://github.com/hustvl/ViTMatting) |
+| MODNet | [ZhengPeng7/MODNet](https://github.com/ZhengPeng7/MODNet) |
+
+## Inferencia, serving y runtimes de IA
+
+| **Proyecto** | **Repositorio** |
+|---|---|
+| comfyui_openvino | [openvino-dev-samples/comfyui_openvino](https://github.com/openvino-dev-samples/comfyui_openvino) |
+| ONNX Runtime | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) |
+| vLLM | [vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| Ollama | [ollama/ollama](https://github.com/ollama/ollama) |
+| TensorRT-LLM | [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) |
+| SGLang | [sgl-project/sglang](https://github.com/sgl-project/sglang) |
+| Text Generation Inference | [huggingface/text-generation-inference](https://github.com/huggingface/text-generation-inference) |
+| Aphrodite Engine | [PygmalionAI/aphrodite-engine](https://github.com/PygmalionAI/aphrodite-engine) |
+| LMDeploy | [open-mmlab/lmdeploy](https://github.com/open-mmlab/lmdeploy) |
+| MLX | [ml-explore/mlx](https://github.com/ml-explore/mlx) |
+| Web LLM | [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm) |
+| MLC LLM | [mlc-ai/mlc-llm](https://github.com/mlc-ai/mlc-llm) |
+| ncnn | [Tencent/ncnn](https://github.com/Tencent/ncnn) |
+| MNN | [alibaba/MNN](https://github.com/alibaba/MNN) |
+| ExecuTorch | [pytorch/executorch](https://github.com/pytorch/executorch) |
+| OpenVINO | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) |
+| DirectML | [microsoft/DirectML](https://github.com/microsoft/DirectML) |
+| coremltools | [apple/coremltools](https://github.com/apple/coremltools) |
+
+## Utilidades de backend y desarrollo
+
+| **Proyecto** | **Repositorio** |
+|---|---|
+| FastAPI | [fastapi/fastapi](https://github.com/fastapi/fastapi) |
+| uvicorn | [encode/uvicorn](https://github.com/encode/uvicorn) |
+
+## Datos, modelos y resultados de investigación
+
+| **Proyecto** | **Repositorio** |
+|---|---|
+| TalkBody4D | [HF: PixelAI-Team/TalkBody4D](https://huggingface.co/datasets/PixelAI-Team/TalkBody4D) |
+| FreeMan | [wangjiongw/FreeMan_API](https://github.com/wangjiongw/FreeMan_API) |
+
+## Resultados y configuraciones experimentales
+
+| **Proyecto** | **Repositorio** |
+|---|---|
 | Configuracion | Audio |
 | PyTorch, 50 pasos | 10.12 s |
 | PyTorch, 10 pasos | 10.12 s |
