@@ -22,20 +22,41 @@ La prioridad práctica es un pipeline que pueda producir video de forma continua
 
 ## Resumen de decisiones
 
-| Opción | Estado | Decisión |
-|---|---|---|
-| LiteAvatar | Probado | Baseline rápido; no descartado formalmente |
-| MuseTalk | Probado | Descartado |
-| SoulX-FlashHead Lite | Probado | Descartado |
-| EchoMimicV3-Flash | Prueba aislada exitosa | No apto para tiempo real con nuestra GPU; pendiente solo para modo offline/híbrido |
-| OpenAvatarChat | Usado | Framework local de referencia |
-| Prometheus Avatar | Prueba integrada exitosa | Candidato activo para profundizar; falta evaluar assets, renderer y licencia con más detalle |
-| AVTR-1 / Avaturn | Validado | **Candidato principal**: renderer incremental, dual-stream y conversacion local en espanol |
-| LiveKit Agents | Investigado | No seleccionado todavía; requiere integrar un renderer local |
-| Pipecat | Investigado | Alternativa de orquestación local; no probada en este equipo |
-| TEN Framework | Investigado | Buen pipeline de audio, avatar local no resuelto |
-| Vision Agents | Investigado | Alternativa interesante; no probada |
-| Video diffusion 14B | Investigado | Descartada para vivo en 16 GB |
+| **Opción** | **Repositorio** | **Estado** | **Decisión** |
+|---|---|---|---|
+| LiteAvatar | [HumanAIGC/lite-avatar](https://github.com/HumanAIGC/lite-avatar) | Probado | Baseline rápido; no descartado formalmente |
+| MuseTalk | [TMElyralab/MuseTalk](https://github.com/TMElyralab/MuseTalk) | Probado | Descartado por calidad visual, sincronización y comportamiento inestable en nuestro stack |
+| SoulX-FlashHead Lite | [Soul-AILab/SoulX-FlashHead](https://github.com/Soul-AILab/SoulX-FlashHead) | Probado | Descartado para esta línea de trabajo |
+| EchoMimicV3-Flash | [antgroup/echomimic_v3](https://github.com/antgroup/echomimic_v3) | Prueba aislada exitosa | No apto para tiempo real con nuestra GPU; queda para offline/híbrido |
+| FasterLivePortrait | [warmshao/FasterLivePortrait](https://github.com/warmshao/FasterLivePortrait) | Evaluado | La ruta de audio requiere un adaptador incremental propio; la ruta lista depende de cámara/video |
+| JoyVASA | [jdh-algo/JoyVASA](https://github.com/jdh-algo/JoyVASA) | Evaluado | Se podría reutilizar por ventanas, pero no trae streaming conversacional listo |
+| Duix-Avatar | [duixcom/Duix-Avatar](https://github.com/duixcom/Duix-Avatar) | Evaluado | Descartado: generación de clips offline, explícitamente no realtime |
+| Duix-Mobile | [duixcom/Duix-Mobile](https://github.com/duixcom/Duix-Mobile) | Evaluado | Candidato experimental Android; bloqueado para nuestro stack web/WSL y con licencia restrictiva |
+| AVTR-1 / Avaturn | [avaturn-live/avtr-1](https://github.com/avaturn-live/avtr-1) | Validado | **Candidato principal**: renderer incremental, dual-stream, avatar independiente y conversación local en español |
+| AvatarForcing | [KlingAIResearch/AvatarForcing](https://github.com/KlingAIResearch/AvatarForcing) | Evaluado | Descartado para 16 GB: pesado, lento y con licencia no apta para nuestro uso |
+| LAM / LAM-Audio2Expression | [aigc3d/LAM](https://github.com/aigc3d/LAM) | Prueba realtime exitosa | Candidato activo: audio → blendshapes ARKit → renderer Gaussian/WebGL |
+| OpenTalking | [datascale-ai/opentalking](https://github.com/datascale-ai/opentalking) | Probado E2E | Orquestador local viable de voz/WebRTC; Wav2Lip queda como prototipo funcional, no solución final |
+| IMTalker | [bigai-nlco/IMTalker](https://github.com/bigai-nlco/IMTalker) | Evaluado | Descartado: ruta oficial offline/batch, sin streaming conversacional reutilizable |
+| PersonaLive | [GVCLab/PersonaLive](https://github.com/GVCLab/PersonaLive) | Evaluado | Descartado: streaming basado en imagen/video, sin audio-driven, TTS ni STT; además declara uso académico |
+| Ditto TalkingHead | [antgroup/ditto-talkinghead](https://github.com/antgroup/ditto-talkinghead) | Evaluado | Streaming técnico verificado, pero demasiado lento en 16 GB y sin salida WebRTC/frame queue lista |
+| Prometheus Avatar | [myths-labs/prometheus-avatar](https://github.com/myths-labs/prometheus-avatar) | Prueba integrada exitosa | Candidato activo: Live2D vertical conectado a micrófono, STT, LLM, TTS, WebRTC y lipsync |
+| CyberVerse | [Lynpoint/CyberVerse](https://github.com/Lynpoint/CyberVerse) | Evaluado | Arquitectura full-duplex interesante, pero bloqueada por hardware objetivo y licencia GPL-3.0 |
+| ARACHNE-X-ULTRA-AVATAR | [HF: ARACHNE-X-ULTRA-AVATAR](https://huggingface.co/MagistrTheOne/ARACHNE-X-ULTRA-AVATAR) | Evaluado | Descartado: sin runtime reproducible, más de 128 GB y fuera de nuestra GPU de 16 GB |
+| Livepeer Mission Control | [Documentación Livepeer](https://docs.livepeer.org/v2/home/mission-control) | Evaluado | Descartado: infraestructura distribuida de video, no avatar conversacional audio-driven local |
+| TalkingGaussian | [Fictionarry/TalkingGaussian](https://github.com/Fictionarry/TalkingGaussian) | Evaluado | Descartado: pipeline batch por identidad, sin streaming conversacional ni entorno compatible |
+| LongCat-Video-Avatar 1.5 | [meituan-longcat/LongCat-Video](https://github.com/meituan-longcat/LongCat-Video) | Investigado | MIT y 8 pasos, pero 13.6B y orientado a clips; no viable en 16 GB para conversación |
+| MultiTalk | [MeiGen-AI/MultiTalk](https://github.com/MeiGen-AI/MultiTalk) | Investigado | Audio-driven y Apache-2.0, pero generación por clips demasiado lenta para vivo |
+| InfiniteTalk | [MeiGen-AI/InfiniteTalk](https://github.com/MeiGen-AI/InfiniteTalk) | Investigado | Video largo audio-driven, pero muy alejado de realtime en GPU de consumo |
+| Wan2.2-S2V | [Wan-Video/Wan2.2](https://github.com/Wan-Video/Wan2.2) | Investigado | Ecosistema amplio, pero 14B y sin streaming conversacional viable en 16 GB |
+| HunyuanVideo-Avatar | [Tencent-Hunyuan/HunyuanVideo-Avatar](https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar) | Investigado | Muy pesado, lento y con licencia territorial incompatible con la UE |
+| SkyReels-V3-A2V | [SkyworkAI/SkyReels-V3](https://github.com/SkyworkAI/SkyReels-V3) | Investigado | Modelo grande y licencia comunitaria; sin justificación para 16 GB |
+| HuMo | [Phantom-video/HuMo](https://github.com/Phantom-video/HuMo) | Investigado | 1.7B disponible, pero generación de clips; no renderer incremental probado |
+| OmniHuman | [Project page](https://omnihuman-lab.github.io/) | Investigado | Sin código ni pesos oficiales; únicamente servicio/API cerrado |
+| OpenAvatarChat | [HumanAIGC-Engineering/OpenAvatarChat](https://github.com/HumanAIGC-Engineering/OpenAvatarChat) | Usado | Framework local de referencia para integrar audio, WebRTC y avatares |
+| LiveKit Agents | [livekit/agents](https://github.com/livekit/agents) | Investigado | Buen transporte WebRTC; requiere implementar el renderer local |
+| Pipecat | [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | Investigado | Alternativa de orquestación local; no probada en este equipo |
+| TEN Framework | [TEN-framework/ten-framework](https://github.com/TEN-framework/ten-framework) | Investigado | Buen pipeline de audio; avatar local no resuelto |
+| Vision Agents | [GetStream/Vision-Agents](https://github.com/GetStream/Vision-Agents) | Investigado | Alternativa interesante con transporte local; no probada |
 
 ## Candidato principal actual: AVTR-1 / Avaturn
 
