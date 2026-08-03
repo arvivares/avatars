@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **598 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **605 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -290,6 +290,10 @@ Este documento reúne los **598 proyectos open-source** evaluados en , organizad
 | **livekit-plugins-silero** | [livekit/plugins-silero](https://github.com/livekit/agents#silero) | **[Evaluado]** Plugin oficial de LiveKit para detección de actividad de voz en tiempo real con Silero VAD. |
 | **livekit-plugins-turn-detector** | [livekit/plugins-turn-detector](https://github.com/livekit/agents#turn-detector) | **[Evaluado]** Plugin de detección de turnos conversacionales y gestión de interrupciones para agentes de voz en LiveKit. |
 | **livekit-plugins-rag** | [livekit/plugins-rag](https://github.com/livekit/agents#rag) | **[Evaluado]** Plugin de integración RAG para agentes conversacionales de voz en tiempo real sobre LiveKit. |
+| **livekit-plugins-playht** | [livekit/plugins-playht](https://github.com/livekit/agents#playht) | **[Evaluado]** Plugin oficial de LiveKit para integración de síntesis de voz conversacional en streaming con PlayHT. |
+| **livekit-plugins-assemblyai** | [livekit/plugins-assemblyai](https://github.com/livekit/agents#assemblyai) | **[Evaluado]** Plugin oficial de LiveKit para transcripción y ASR en tiempo real con AssemblyAI. |
+| **livekit-plugins-azure** | [livekit/plugins-azure](https://github.com/livekit/agents#azure) | **[Evaluado]** Plugin oficial de LiveKit para integración de Azure Cognitive Services Speech STT y TTS. |
+| **livekit-plugins-google** | [livekit/plugins-google](https://github.com/livekit/agents#google) | **[Evaluado]** Plugin oficial de LiveKit para integración de Google Cloud Speech, Gemini y TTS en tiempo real. |
 
 ## 4️⃣ SDKs de Cliente y Protocolos de Comunicación WebRTC / Red
 *Librerías SDK cliente/servidor multiplataforma (Python, JS, C++, Rust, Go, Mobile, Game Engines) e implementaciones de protocolo WebRTC/RTP/ICE/SDP.*
@@ -542,6 +546,7 @@ Este documento reúne los **598 proyectos open-source** evaluados en , organizad
 | **PantoMatrix** | [PantoMatrix](https://github.com/PantoMatrix) | **[Evaluado]** Generador de animación corporal 3D y facial a partir de habla soportando SMPL-X y FLAME. |
 | **Awesome-Gesture_Generation** | [Awesome-Gesture_Generation](https://github.com/Awesome-Gesture_Generation) | **[Evaluado]** Índice de referencia y código de investigación en generación de gestos corporales guiados por audio. |
 | **Kalidokit** | [yeemachine/kalidokit](https://github.com/yeemachine/kalidokit) | **[Evaluado]** Solver de cinemática y blendshapes para convertir pose y landmarks de MediaPipe a avatares VRM y Live2D. |
+| **libyuv** | [chromium/libyuv](https://github.com/chromium/libyuv) | **[Evaluado]** Librería C++ de Chromium para conversión de formatos de color YUV a RGB y escalado acelerado por SIMD. |
 
 ## 9️⃣ Renderizado, Visualización 2D/3D y Motores de UI
 *Motores gráficos WebGL/WebGPU, visores y librerías de avatares VRM/Live2D, motores de videojuegos y frameworks de UI para escritorio y web.*
@@ -626,6 +631,7 @@ Este documento reúne los **598 proyectos open-source** evaluados en , organizad
 | **trimesh** | [mikedh/trimesh](https://github.com/mikedh/trimesh) | **[Evaluado]** Librería Python pura para inspección, manipulación y consulta de rayos en mallas 3D. |
 | **Open3D** | [isl-org/Open3D](https://github.com/isl-org/Open3D) | **[Evaluado]** Librería moderna para procesamiento de datos 3D, nubes de puntos, mallas y reconstrucción 3D. |
 | **PyMeshLab** | [cnr-isti-vclab/PyMeshLab](https://github.com/cnr-isti-vclab/PyMeshLab) | **[Evaluado]** Interfaz Python de MeshLab para procesamiento, simplificación y filtrado automatizado de mallas 3D. |
+| **libwebm** | [webmproject/libwebm](https://github.com/webmproject/libwebm) | **[Evaluado]** Librería C++ de referencia para parsing y multiplexado del contenedor de video WebM. |
 
 ## 11. Super-Resolución Facial, Segmentación, Matting y Edición de Imagen/Video
 *Modelos de post-procesamiento facial (enhancers), segmentación de sujetos, matting de video y remoción de fondos.*
@@ -657,6 +663,7 @@ Este documento reúne los **598 proyectos open-source** evaluados en , organizad
 | **libjpeg-turbo** | [libjpeg-turbo/libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) | **[Evaluado]** Codec JPEG acelerado por instrucciones SIMD para codificación/decodificación ultra-rápida de texturas. |
 | **stb** | [nothings/stb](https://github.com/nothings/stb) | **[Evaluado]** Librerías C/C++ de único archivo de dominio público para carga y manipulación ligera de imágenes y fuentes. |
 | **DiffSynth-Studio** | [modelscope/DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) | **[Evaluado]** Framework de difusión optimizado para generación y control de video en tiempo real por ModelScope. |
+| **OpenH264** | [cisco/openh264](https://github.com/cisco/openh264) | **[Evaluado]** Implementación de referencia open-source del codec H.264 desarrollada por Cisco para comunicación WebRTC. |
 
 ## 12. Ecosistemas, Nodos y Plugins para Frameworks de Inferencia (ComfyUI / WebUI)
 *Suites de nodos, plugins y conectores de flujo de trabajo para ejecución modular en ComfyUI y otros entornos de inferencia.*

@@ -1927,3 +1927,11 @@ Evidencia primaria:
 | livekit-plugins-silero | [livekit/plugins-silero](https://github.com/livekit/agents#silero) | Evaluado | Plugin oficial de LiveKit para detección de actividad de voz en tiempo real con Silero VAD. |
 | livekit-plugins-turn-detector | [livekit/plugins-turn-detector](https://github.com/livekit/agents#turn-detector) | Evaluado | Plugin de detección de turnos conversacionales y gestión de interrupciones para agentes de voz en LiveKit. |
 | livekit-plugins-rag | [livekit/plugins-rag](https://github.com/livekit/agents#rag) | Evaluado | Plugin de integración RAG para agentes conversacionales de voz en tiempo real sobre LiveKit. |
+
+| OpenH264 | [cisco/openh264](https://github.com/cisco/openh264) | Evaluado | Implementación de referencia open-source del codec H.264 desarrollada por Cisco para comunicación WebRTC. |
+| libyuv | [chromium/libyuv](https://github.com/chromium/libyuv) | Evaluado | Librería C++ de Chromium para conversión de formatos de color YUV a RGB y escalado acelerado por SIMD. |
+| libwebm | [webmproject/libwebm](https://github.com/webmproject/libwebm) | Evaluado | Librería C++ de referencia para parsing y multiplexado del contenedor de video WebM. |
+| livekit-plugins-playht | [livekit/plugins-playht](https://github.com/livekit/agents#playht) | Evaluado | Plugin oficial de LiveKit para integración de síntesis de voz conversacional en streaming con PlayHT. |
+| livekit-plugins-assemblyai | [livekit/plugins-assemblyai](https://github.com/livekit/agents#assemblyai) | Evaluado | Plugin oficial de LiveKit para transcripción y ASR en tiempo real con AssemblyAI. |
+| livekit-plugins-azure | [livekit/plugins-azure](https://github.com/livekit/agents#azure) | Evaluado | Plugin oficial de LiveKit para integración de Azure Cognitive Services Speech STT y TTS. |
+| livekit-plugins-google | [livekit/plugins-google](https://github.com/livekit/agents#google) | Evaluado | Plugin oficial de LiveKit para integración de Google Cloud Speech, Gemini y TTS en tiempo real. |
