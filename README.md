@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **617 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **621 proyectos open-source** evaluados en , organizados de forma strictly jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -302,6 +302,8 @@ Este documento reúne los **617 proyectos open-source** evaluados en , organizad
 | **livekit-plugins-replicate** | [livekit/plugins-replicate](https://github.com/livekit/agents#replicate) | **[Evaluado]** Plugin oficial de LiveKit para ejecución de modelos de IA en la nube a través de Replicate. |
 | **livekit-plugins-neuphonic** | [livekit/plugins-neuphonic](https://github.com/livekit/agents#neuphonic) | **[Evaluado]** Plugin oficial de LiveKit para síntesis de voz con latencia ultrabaja mediante Neuphonic TTS. |
 | **livekit-plugins-lmnt** | [livekit/plugins-lmnt](https://github.com/livekit/agents#lmnt) | **[Evaluado]** Plugin oficial de LiveKit para generación de voz conversacional realista en tiempo real con LMNT. |
+| **livekit-plugins-browser** | [livekit/plugins-browser](https://github.com/livekit/agents#browser) | **[Evaluado]** Plugin oficial de LiveKit para automatización y renderizado de páginas web en agentes de voz. |
+| **livekit-plugins-tavus** | [livekit/plugins-tavus](https://github.com/livekit/agents#tavus) | **[Evaluado]** Plugin oficial de LiveKit para transmisión de avatares de video réplica con Tavus. |
 
 ## 4️⃣ SDKs de Cliente y Protocolos de Comunicación WebRTC / Red
 *Librerías SDK cliente/servidor multiplataforma (Python, JS, C++, Rust, Go, Mobile, Game Engines) e implementaciones de protocolo WebRTC/RTP/ICE/SDP.*
@@ -462,6 +464,7 @@ Este documento reúne los **617 proyectos open-source** evaluados en , organizad
 | **fdk-aac** | [mstorsjo/fdk-aac](https://github.com/mstorsjo/fdk-aac) | **[Evaluado]** Librería de codificación y decodificación de audio AAC Fraunhofer FDK de alta fidelidad. |
 | **Kokoro TTS** | [hexgrad/kokoro](https://github.com/hexgrad/kokoro) | **[Evaluado]** Modelo de síntesis de voz (TTS) ultraligero de 82M de parámetros de alta fidelidad y baja latencia. |
 | **Voicebox** | [facebookresearch/voicebox](https://github.com/facebookresearch/voicebox) | **[Evaluado]** Modelo fundacional generativo de audio de Meta basado en flow matching para edición, infilling y TTS. |
+| **libvorbis** | [xiph/vorbis](https://github.com/xiph/vorbis) | **[Evaluado]** Librería de compresión de audio de propósito general Vorbis por Xiph.Org. |
 
 ## 7️⃣ Reconocimiento de Voz (ASR), VAD y Procesamiento de Audio
 *Modelos de transcripción ASR en tiempo real, Detección de Actividad de Voz (VAD), supresión de ruido y procesamiento de señal de audio.*
@@ -643,6 +646,7 @@ Este documento reúne los **617 proyectos open-source** evaluados en , organizad
 | **libwebm** | [webmproject/libwebm](https://github.com/webmproject/libwebm) | **[Evaluado]** Librería C++ de referencia para parsing y multiplexado del contenedor de video WebM. |
 | **gl-matrix** | [toji/gl-matrix](https://github.com/toji/gl-matrix) | **[Evaluado]** Librería de álgebra lineal y matemática matricial de alto rendimiento para WebGL/WebGPU en JavaScript. |
 | **math.gl** | [visgl/math.gl](https://github.com/visgl/math.gl) | **[Evaluado]** Librería matemática 3D optimizada para visores y motores de renderizado WebGL y WebGPU. |
+| **libogg** | [xiph/ogg](https://github.com/xiph/ogg) | **[Evaluado]** Librería de formato de contenedor de audio Ogg desarrollada por Xiph.Org. |
 
 ## 11. Super-Resolución Facial, Segmentación, Matting y Edición de Imagen/Video
 *Modelos de post-procesamiento facial (enhancers), segmentación de sujetos, matting de video y remoción de fondos.*

@@ -1949,3 +1949,8 @@ Evidencia primaria:
 | livekit-plugins-replicate | [livekit/plugins-replicate](https://github.com/livekit/agents#replicate) | Evaluado | Plugin oficial de LiveKit para ejecución de modelos de IA en la nube a través de Replicate. |
 | livekit-plugins-neuphonic | [livekit/plugins-neuphonic](https://github.com/livekit/agents#neuphonic) | Evaluado | Plugin oficial de LiveKit para síntesis de voz con latencia ultrabaja mediante Neuphonic TTS. |
 | livekit-plugins-lmnt | [livekit/plugins-lmnt](https://github.com/livekit/agents#lmnt) | Evaluado | Plugin oficial de LiveKit para generación de voz conversacional realista en tiempo real con LMNT. |
+
+| libogg | [xiph/ogg](https://github.com/xiph/ogg) | Evaluado | Librería de formato de contenedor de audio Ogg desarrollada por Xiph.Org. |
+| libvorbis | [xiph/vorbis](https://github.com/xiph/vorbis) | Evaluado | Librería de compresión de audio de propósito general Vorbis por Xiph.Org. |
+| livekit-plugins-browser | [livekit/plugins-browser](https://github.com/livekit/agents#browser) | Evaluado | Plugin oficial de LiveKit para automatización y renderizado de páginas web en agentes de voz. |
+| livekit-plugins-tavus | [livekit/plugins-tavus](https://github.com/livekit/agents#tavus) | Evaluado | Plugin oficial de LiveKit para transmisión de avatares de video réplica con Tavus. |
