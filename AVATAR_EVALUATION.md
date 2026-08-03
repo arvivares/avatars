@@ -1883,3 +1883,14 @@ Evidencia primaria:
 | LlamaIndex | [run-llama/llama_index](https://github.com/run-llama/llama_index) | Evaluado | Framework de datos para agentes de IA conversacionales y asistentes RAG de voz. |
 | Semantic Kernel | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | Evaluado | SDK de Microsoft para integrar LLMs y plugins de audio en C#, Python y Java. |
 | Outlines | [dottxt-ai/outlines](https://github.com/dottxt-ai/outlines) | Evaluado | Librería para generación de texto estructurado y control estricto de esquemas JSON en agentes LLM. |
+
+| gsplat | [nerfstudio-project/gsplat](https://github.com/nerfstudio-project/gsplat) | Evaluado | Librería CUDA hiperacelerada para rasterización y entrenamiento de 3D Gaussian Splatting por Nerfstudio. |
+| nerfacc | [KAIR-BAIR/nerfacc](https://github.com/KAIR-BAIR/nerfacc) | Evaluado | Toolbox de aceleración en PyTorch para muestreo y renderizado volumétrico rápido de NeRFs. |
+| HiFi-GAN | [jik876/hifi-gan-demo](https://github.com/jik876/hifi-gan-demo) | Evaluado | Vocoder neuronal GAN de alta fidelidad para síntesis de audio a partir de espectrogramas Mel. |
+| BigVGAN | [NVIDIA/BigVGAN](https://github.com/NVIDIA/BigVGAN) | Evaluado | Vocoder neuronal universal desarrollado por NVIDIA de hasta 112M de parámetros para audio transparente. |
+| Vocos | [gemelo-ai/vocos](https://github.com/gemelo-ai/vocos) | Evaluado | Vocoder neuronal ultra-rápido basado en Fourier que sintetiza audio desde tokens EnCodec o espectrogramas. |
+| SVT-AV1 | [AOMediaCodec/SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1) | Evaluado | Codificador de video AV1 de alta eficiencia optimizado para transmisión en tiempo real de AOMedia. |
+| dav1d | [videolan/dav1d](https://github.com/videolan/dav1d) | Evaluado | Decodificador AV1 open-source súper rápido de VideoLAN optimizado para reproducir video de baja latencia. |
+| libvpx | [webmproject/libvpx](https://github.com/webmproject/libvpx) | Evaluado | Librería de referencia para codificación y decodificación de formatos de video VP8 y VP9. |
+| libopus | [xiph/opus](https://github.com/xiph/opus) | Evaluado | Librería de referencia del codec de audio interactivo IETF Opus para comunicación WebRTC de baja latencia. |
+| peerjs-server | [peers/peerjs-server](https://github.com/peers/peerjs-server) | Evaluado | Servidor de señalización WebRTC ligero para conexiones P2P PeerJS. |

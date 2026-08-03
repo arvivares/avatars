@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **559 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **569 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -354,6 +354,7 @@ Este documento reúne los **559 proyectos open-source** evaluados en , organizad
 | **Vocode Python** | [vocodehq/vocode-python](https://github.com/vocodehq/vocode-python) | **[Evaluado]** Framework open-source para construir aplicaciones de voz conversacional en tiempo real. |
 | **Vapi Python** | [vapi-ai/vapi-python](https://github.com/vapi-ai/vapi-python) | **[Evaluado]** SDK de cliente para integración de agentes de voz conversacionales de baja latencia. |
 | **RestoreFormer** | [wsi-lab/RestoreFormer](https://github.com/wsi-lab/RestoreFormer) | **[Evaluado]** Modelo basado en transformadores para restauración y super-resolución de rostros deteriorados. |
+| **peerjs-server** | [peers/peerjs-server](https://github.com/peers/peerjs-server) | **[Evaluado]** Servidor de señalización WebRTC ligero para conexiones P2P PeerJS. |
 
 ## 5️⃣ Modelos de Lenguaje & Conversación Multimodal (Speech-to-Speech LLMs & Motores de Inferencia)
 *LLMs multimodales nativos de audio/voz, motores de inferencia acelerados y orquestadores conversacionales.*
@@ -430,6 +431,10 @@ Este documento reúne los **559 proyectos open-source** evaluados en , organizad
 | **Meta EnCodec** | [facebookresearch/encodec](https://github.com/facebookresearch/encodec) | **[Evaluado]** Modelo de compresión de audio neuronal en tiempo real de alta fidelidad desarrollado por Meta. |
 | **Descript DAC** | [descriptinc/dac](https://github.com/descriptinc/dac) | **[Evaluado]** Codec de audio neuronal universal de alta fidelidad y baja latencia para música y voz. |
 | **SpeechTokenizer** | [ZhangXingHe/SpeechTokenizer](https://github.com/ZhangXingHe/SpeechTokenizer) | **[Evaluado]** Tokenizer de habla unificado para modelos de lenguaje multimodales Speech-to-Speech. |
+| **HiFi-GAN** | [jik876/hifi-gan-demo](https://github.com/jik876/hifi-gan-demo) | **[Evaluado]** Vocoder neuronal GAN de alta fidelidad para síntesis de audio a partir de espectrogramas Mel. |
+| **BigVGAN** | [NVIDIA/BigVGAN](https://github.com/NVIDIA/BigVGAN) | **[Evaluado]** Vocoder neuronal universal desarrollado por NVIDIA de hasta 112M de parámetros para audio transparente. |
+| **Vocos** | [gemelo-ai/vocos](https://github.com/gemelo-ai/vocos) | **[Evaluado]** Vocoder neuronal ultra-rápido basado en Fourier que sintetiza audio desde tokens EnCodec o espectrogramas. |
+| **libopus** | [xiph/opus](https://github.com/xiph/opus) | **[Evaluado]** Librería de referencia del codec de audio interactivo IETF Opus para comunicación WebRTC de baja latencia. |
 
 ## 7️⃣ Reconocimiento de Voz (ASR), VAD y Procesamiento de Audio
 *Modelos de transcripción ASR en tiempo real, Detección de Actividad de Voz (VAD), supresión de ruido y procesamiento de señal de audio.*
@@ -595,6 +600,8 @@ Este documento reúne los **559 proyectos open-source** evaluados en , organizad
 | **Talking-face-arxiv-daily** | [liutaocode/talking-face-arxiv-daily](https://github.com/liutaocode/talking-face-arxiv-daily) | **[Evaluado]** Repositorio de actualización diaria con avances en investigación de síntesis de rostros parlantes. |
 | **Awesome-Multimodal-Agent** | [OpenEnvision/Awesome-Multimodal-Agent](https://github.com/OpenEnvision/Awesome-Multimodal-Agent) | **[Evaluado]** Índice de referencia de agentes multimodales e interacción guiada por voz. |
 | **Awesome-AI-Agents-2026** | [ARUNAGIRINATHAN-K/awesome-ai-agents-2026](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026) | **[Evaluado]** Colección curada de frameworks, modelos y despliegues de agentes de IA de voz. |
+| **gsplat** | [nerfstudio-project/gsplat](https://github.com/nerfstudio-project/gsplat) | **[Evaluado]** Librería CUDA hiperacelerada para rasterización y entrenamiento de 3D Gaussian Splatting por Nerfstudio. |
+| **nerfacc** | [KAIR-BAIR/nerfacc](https://github.com/KAIR-BAIR/nerfacc) | **[Evaluado]** Toolbox de aceleración en PyTorch para muestreo y renderizado volumétrico rápido de NeRFs. |
 
 ## 11. Super-Resolución Facial, Segmentación, Matting y Edición de Imagen/Video
 *Modelos de post-procesamiento facial (enhancers), segmentación de sujetos, matting de video y remoción de fondos.*
@@ -618,6 +625,9 @@ Este documento reúne los **559 proyectos open-source** evaluados en , organizad
 | **SAM 2** | [facebookresearch/segment-anything-2](https://github.com/facebookresearch/segment-anything-2) | **[Evaluado]** Modelo de Meta para segmentación y matting de objetos y sujetos en video en tiempo real. |
 | **Grounded-SAM** | [IDEA-Research/Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything) | **[Evaluado]** Combinación de DINO y SAM para detección y segmentación de imágenes/video por texto. |
 | **GPEN** | [yangxy/GPEN](https://github.com/yangxy/GPEN) | **[Evaluado]** Red incrustada de priores GAN para restauración facial y mejora de resolución. |
+| **SVT-AV1** | [AOMediaCodec/SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1) | **[Evaluado]** Codificador de video AV1 de alta eficiencia optimizado para transmisión en tiempo real de AOMedia. |
+| **dav1d** | [videolan/dav1d](https://github.com/videolan/dav1d) | **[Evaluado]** Decodificador AV1 open-source súper rápido de VideoLAN optimizado para reproducir video de baja latencia. |
+| **libvpx** | [webmproject/libvpx](https://github.com/webmproject/libvpx) | **[Evaluado]** Librería de referencia para codificación y decodificación de formatos de video VP8 y VP9. |
 
 ## 12. Ecosistemas, Nodos y Plugins para Frameworks de Inferencia (ComfyUI / WebUI)
 *Suites de nodos, plugins y conectores de flujo de trabajo para ejecución modular en ComfyUI y otros entornos de inferencia.*
