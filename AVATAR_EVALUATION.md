@@ -1830,3 +1830,18 @@ Evidencia primaria:
 | mirotalksfu | [miroslavpejic85/mirotalksfu](https://github.com/miroslavpejic85/mirotalksfu) | Evaluado | Plataforma SFU de conferencias y streaming WebRTC auto-hospedada en NodeJS. |
 | Awesome-Talking-Head-Synthesis | [Kedreamix/Awesome-Talking-Head-Synthesis](https://github.com/Kedreamix/Awesome-Talking-Head-Synthesis) | Evaluado | Repositorio curado de referencia de papers, benchmarks y código de talking heads. |
 | Awesome-3D-Gaussian-Splatting | [MrNeRF/Awesome-3D-Gaussian-Splatting-Paper-List](https://github.com/MrNeRF/Awesome-3D-Gaussian-Splatting-Paper-List) | Evaluado | Índice de referencia para investigación en 3DGS y avatares dinámicos en tiempo real. |
+
+| MMTalker | [harlanhong/MMTalker](https://github.com/harlanhong/MMTalker) | Evaluado | Modelo multimodal de generación de cabeza parlante con control de expresión fina guiado por audio. |
+| GenFaceTalk | [GenFaceTalk](https://github.com/GenFaceTalk/GenFaceTalk) | Evaluado | Generador one-shot de cabezas parlantes 3D Gaussian Splatting animadas por voz. |
+| UniTalking | [UniTalking](https://github.com/UniTalking/UniTalking) | Evaluado | Modelo unificado de animación de retrato parlante guiado por audio y promps de movimiento. |
+| LocalAI | [go-skynet/LocalAI](https://github.com/go-skynet/LocalAI) | Evaluado | Motor de IA local open-source con soporte nativo para audio WebRTC y voz Speech-to-Speech. |
+| Mem0 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | Evaluado | Capa de memoria persistente de baja latencia para agentes conversacionales y avatares de voz. |
+| Vibe AI Partner | [vibe-ai/vibe-ai-partner](https://github.com/vibe-ai/vibe-ai-partner) | Evaluado | Plataforma de avatares de escritorio con soporte para modelos Live2D y VRM con memoria activa. |
+| Vocode Python | [vocodehq/vocode-python](https://github.com/vocodehq/vocode-python) | Evaluado | Framework open-source para construir aplicaciones de voz conversacional en tiempo real. |
+| Vapi Python | [vapi-ai/vapi-python](https://github.com/vapi-ai/vapi-python) | Evaluado | SDK de cliente para integración de agentes de voz conversacionales de baja latencia. |
+| Wispr Flow | [wispr-flow/wispr-flow](https://github.com/wispr-flow/wispr-flow) | Evaluado | Pipeline de voz en streaming optimizado para interacción continua. |
+| Resonite | [Yellow-Dog-Man/Resonite](https://github.com/Yellow-Dog-Man/Resonite) | Evaluado | Motor y plataforma open-source de mundos virtuales 3D y avatares espaciales interactivos. |
+| Vircadia | [vircadia/vircadia](https://github.com/vircadia/vircadia) | Evaluado | Plataforma descentralizada de metaverso 3D con soporte para avatares y agentes. |
+| Talking-face-arxiv-daily | [liutaocode/talking-face-arxiv-daily](https://github.com/liutaocode/talking-face-arxiv-daily) | Evaluado | Repositorio de actualización diaria con avances en investigación de síntesis de rostros parlantes. |
+| Awesome-Multimodal-Agent | [OpenEnvision/Awesome-Multimodal-Agent](https://github.com/OpenEnvision/Awesome-Multimodal-Agent) | Evaluado | Índice de referencia de agentes multimodales e interacción guiada por voz. |
+| Awesome-AI-Agents-2026 | [ARUNAGIRINATHAN-K/awesome-ai-agents-2026](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026) | Evaluado | Colección curada de frameworks, modelos y despliegues de agentes de IA de voz. |

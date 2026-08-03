@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **509 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **523 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -32,6 +32,7 @@ Este documento reúne los **509 proyectos open-source** evaluados en , organizad
 | **TalkingFace** | [tien02/talking-face](https://github.com/tien02/talking-face) | **[Evaluado]** Pipeline end-to-end de generación de video parlante acelerado por TensorRT con transmisión WebRTC. |
 | **LangQing** | [langzizhixin/LangQing](https://github.com/langzizhixin/LangQing) | **[Evaluado]** Plataforma de humanos digitales interactivos en tiempo real (<500ms latencia) para avatares 2D/2.5D/3D sobre WebRTC. |
 | **Riverst** | [Riverst/Riverst](https://github.com/Riverst/Riverst) | **[Evaluado]** Plataforma de conversación avatar-usuario con lip-sync en tiempo real y transmisión WebRTC. |
+| **Vibe AI Partner** | [vibe-ai/vibe-ai-partner](https://github.com/vibe-ai/vibe-ai-partner) | **[Evaluado]** Plataforma de avatares de escritorio con soporte para modelos Live2D y VRM con memoria activa. |
 
 ## 2️⃣ Generación y Animación de Avatar 2D/3D & Talking Heads
 *Modelos de IA de generación de video facial, sincronización labial (lip-sync), NeRF, 3D Gaussian Splatting y animación guiada por audio/video.*
@@ -241,6 +242,9 @@ Este documento reúne los **509 proyectos open-source** evaluados en , organizad
 | **GaussianEmoTalker** | [GaussianEmoTalker](https://arxiv.org/abs/2607.00194) | **[Evaluado]** Síntesis de avatar 3DGS emocional en tiempo real mediante espacio de deformación residual neutral a emocional. |
 | **OmniTalker** | [OmniTalker](https://github.com/OmniTalker) | **[Evaluado]** Generador unificado end-to-end de habla y video sincronizado desde texto hasta 25 FPS. |
 | **Awesome-Talking-Head-Synthesis** | [Kedreamix/Awesome-Talking-Head-Synthesis](https://github.com/Kedreamix/Awesome-Talking-Head-Synthesis) | **[Evaluado]** Repositorio curado de referencia de papers, benchmarks y código de talking heads. |
+| **MMTalker** | [harlanhong/MMTalker](https://github.com/harlanhong/MMTalker) | **[Evaluado]** Modelo multimodal de generación de cabeza parlante con control de expresión fina guiado por audio. |
+| **GenFaceTalk** | [GenFaceTalk](https://github.com/GenFaceTalk/GenFaceTalk) | **[Evaluado]** Generador one-shot de cabezas parlantes 3D Gaussian Splatting animadas por voz. |
+| **UniTalking** | [UniTalking](https://github.com/UniTalking/UniTalking) | **[Evaluado]** Modelo unificado de animación de retrato parlante guiado por audio y promps de movimiento. |
 
 ## 3️⃣ Infraestructura de Transmisión Media, SFU/MCU y Servidores WebRTC
 *Servidores de medios, arquitecturas SFU/MCU, gateways de audio/video y servidores de streaming WebRTC de baja latencia.*
@@ -338,6 +342,8 @@ Este documento reúne los **509 proyectos open-source** evaluados en , organizad
 | **Pion SDP** | [pion/sdp](https://github.com/pion/sdp) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pion SDP). |
 | **sample-nova-sonic-webrtc** | [aws-samples/sample-nova-sonic-speech2speech-webrtc](https://github.com/aws-samples/sample-nova-sonic-speech2speech-webrtc) | **[Evaluado]** Pipeline de agente de voz speech-to-speech en tiempo real con WebRTC. |
 | **webrtc-rs-sfu** | [webrtc-rs/sfu](https://github.com/webrtc-rs/sfu) | **[Evaluado]** Implementación SFU de WebRTC Sans-IO escrita en Rust. |
+| **Vocode Python** | [vocodehq/vocode-python](https://github.com/vocodehq/vocode-python) | **[Evaluado]** Framework open-source para construir aplicaciones de voz conversacional en tiempo real. |
+| **Vapi Python** | [vapi-ai/vapi-python](https://github.com/vapi-ai/vapi-python) | **[Evaluado]** SDK de cliente para integración de agentes de voz conversacionales de baja latencia. |
 
 ## 5️⃣ Modelos de Lenguaje & Conversación Multimodal (Speech-to-Speech LLMs & Motores de Inferencia)
 *LLMs multimodales nativos de audio/voz, motores de inferencia acelerados y orquestadores conversacionales.*
@@ -372,6 +378,8 @@ Este documento reúne los **509 proyectos open-source** evaluados en , organizad
 | **OpenVINO** | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (OpenVINO). |
 | **DirectML** | [microsoft/DirectML](https://github.com/microsoft/DirectML) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (DirectML). |
 | **coremltools** | [apple/coremltools](https://github.com/apple/coremltools) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (coremltools). |
+| **LocalAI** | [go-skynet/LocalAI](https://github.com/go-skynet/LocalAI) | **[Evaluado]** Motor de IA local open-source con soporte nativo para audio WebRTC y voz Speech-to-Speech. |
+| **Mem0** | [mem0ai/mem0](https://github.com/mem0ai/mem0) | **[Evaluado]** Capa de memoria persistente de baja latencia para agentes conversacionales y avatares de voz. |
 
 ## 6️⃣ Síntesis de Voz (TTS / Voice Cloning / Voice Conversion)
 *Modelos y motores de texto a voz (TTS), clonación de voz en tiempo real y conversión espectral de voz.*
@@ -402,6 +410,7 @@ Este documento reúne los **509 proyectos open-source** evaluados en , organizad
 | **StyleTTS2** | [yl4579/StyleTTS2](https://github.com/yl4579/StyleTTS2) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (StyleTTS2). |
 | **MetaVoice-1B** | [metavoice-ai/metavoice-src](https://github.com/metavoice-ai/metavoice-src) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (MetaVoice-1B). |
 | **xtts-api-server** | [daswer123/xtts-api-server](https://github.com/daswer123/xtts-api-server) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (xtts-api-server). |
+| **Wispr Flow** | [wispr-flow/wispr-flow](https://github.com/wispr-flow/wispr-flow) | **[Evaluado]** Pipeline de voz en streaming optimizado para interacción continua. |
 
 ## 7️⃣ Reconocimiento de Voz (ASR), VAD y Procesamiento de Audio
 *Modelos de transcripción ASR en tiempo real, Detección de Actividad de Voz (VAD), supresión de ruido y procesamiento de señal de audio.*
@@ -530,6 +539,8 @@ Este documento reúne los **509 proyectos open-source** evaluados en , organizad
 | **regl** | [regl-project/regl](https://github.com/regl-project/regl) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (regl). |
 | **Live2D** | Podría dar muy baja latencia, pero requiere un avatar 2D preparado y no entrega el realismo buscado | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Live2D). |
 | **threejs-talking-avatar** | [majidmanzarpour/threejs-talking-avatar](https://github.com/majidmanzarpour/threejs-talking-avatar) | **[Evaluado]** Avatar parlante ejecutable en navegador cliente mediante WebGPU y sincronización labial en tiempo real. |
+| **Resonite** | [Yellow-Dog-Man/Resonite](https://github.com/Yellow-Dog-Man/Resonite) | **[Evaluado]** Motor y plataforma open-source de mundos virtuales 3D y avatares espaciales interactivos. |
+| **Vircadia** | [vircadia/vircadia](https://github.com/vircadia/vircadia) | **[Evaluado]** Plataforma descentralizada de metaverso 3D con soporte para avatares y agentes. |
 
 ## 🔟 Formatos 3D, Carga de Modelos y Optimizadores de Mallas
 *Herramientas y librerías de bajo nivel para carga, validación, optimización y compresión de formatos 3D (glTF, FBX, OBJ, Draco).*
@@ -548,6 +559,9 @@ Este documento reúne los **509 proyectos open-source** evaluados en , organizad
 | **glTF-Transform** | [donmccurdy/glTF-Transform](https://github.com/donmccurdy/glTF-Transform) | Herramienta CLI y librería JS para optimizar, comprimir y transformar archivos 3D glTF/GLB. |
 | **glTF-Blender-IO** | [KhronosGroup/glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO) | Librería o herramienta de optimización, conversión y carga de formatos 3D (glTF-Blender-IO). |
 | **Awesome-3D-Gaussian-Splatting** | [MrNeRF/Awesome-3D-Gaussian-Splatting-Paper-List](https://github.com/MrNeRF/Awesome-3D-Gaussian-Splatting-Paper-List) | **[Evaluado]** Índice de referencia para investigación en 3DGS y avatares dinámicos en tiempo real. |
+| **Talking-face-arxiv-daily** | [liutaocode/talking-face-arxiv-daily](https://github.com/liutaocode/talking-face-arxiv-daily) | **[Evaluado]** Repositorio de actualización diaria con avances en investigación de síntesis de rostros parlantes. |
+| **Awesome-Multimodal-Agent** | [OpenEnvision/Awesome-Multimodal-Agent](https://github.com/OpenEnvision/Awesome-Multimodal-Agent) | **[Evaluado]** Índice de referencia de agentes multimodales e interacción guiada por voz. |
+| **Awesome-AI-Agents-2026** | [ARUNAGIRINATHAN-K/awesome-ai-agents-2026](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026) | **[Evaluado]** Colección curada de frameworks, modelos y despliegues de agentes de IA de voz. |
 
 ## 11. Super-Resolución Facial, Segmentación, Matting y Edición de Imagen/Video
 *Modelos de post-procesamiento facial (enhancers), segmentación de sujetos, matting de video y remoción de fondos.*
