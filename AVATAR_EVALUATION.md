@@ -1845,3 +1845,22 @@ Evidencia primaria:
 | Talking-face-arxiv-daily | [liutaocode/talking-face-arxiv-daily](https://github.com/liutaocode/talking-face-arxiv-daily) | Evaluado | Repositorio de actualización diaria con avances en investigación de síntesis de rostros parlantes. |
 | Awesome-Multimodal-Agent | [OpenEnvision/Awesome-Multimodal-Agent](https://github.com/OpenEnvision/Awesome-Multimodal-Agent) | Evaluado | Índice de referencia de agentes multimodales e interacción guiada por voz. |
 | Awesome-AI-Agents-2026 | [ARUNAGIRINATHAN-K/awesome-ai-agents-2026](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026) | Evaluado | Colección curada de frameworks, modelos y despliegues de agentes de IA de voz. |
+
+| RVC | [RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | Evaluado | Framework de conversión de voz en tiempo real basado en recuperación de características VITS. |
+| GPT-SoVITS | [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | Evaluado | Modelo de síntesis de voz TTS zero-shot y clonación de voz a partir de 1 minuto de audio. |
+| So-VITS-SVC | [svc-develop-team/so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) | Evaluado | Modelo de conversión de voz cantada basado en VITS con extracción de características de audio. |
+| SAM 2 | [facebookresearch/segment-anything-2](https://github.com/facebookresearch/segment-anything-2) | Evaluado | Modelo de Meta para segmentación y matting de objetos y sujetos en video en tiempo real. |
+| Grounded-SAM | [IDEA-Research/Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything) | Evaluado | Combinación de DINO y SAM para detección y segmentación de imágenes/video por texto. |
+| Filament | [google/filament](https://github.com/google/filament) | Evaluado | Motor de renderizado PBR en tiempo real multiplataforma desarrollado por Google para WebGL/C++. |
+| bgfx | [bkaradzic/bgfx](https://github.com/bkaradzic/bgfx) | Evaluado | Librería de renderizado 3D agnóstica de API gráfica (Vulkan, Direct3D, OpenGL, WebGL). |
+| Diligent Engine | [DiligentGraphics/DiligentEngine](https://github.com/DiligentGraphics/DiligentEngine) | Evaluado | Motor gráfico 3D moderno multiplataforma con soporte para WebGPU, Vulkan y Metal. |
+| O3DE | [o3de/o3de](https://github.com/o3de/o3de) | Evaluado | Open 3D Engine de la Linux Foundation para simulación y renderizado 3D modular de alta fidelidad. |
+| pyannote-audio | [pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio) | Evaluado | Toolkit en PyTorch para diarización de hablantes y segmentación de señal de audio. |
+| SpeechBrain | [speechbrain/speechbrain](https://github.com/speechbrain/speechbrain) | Evaluado | Toolkit de IA conversacional para ASR, TTS, reconocimiento de hablante y procesamiento de audio. |
+| Tortoise-TTS | [neonbjb/tortoise-tts](https://github.com/neonbjb/tortoise-tts) | Evaluado | Sistema de texto a voz multivoz con prosodia expresiva y clonación de voz alta fidelidad. |
+| GPEN | [yangxy/GPEN](https://github.com/yangxy/GPEN) | Evaluado | Red incrustada de priores GAN para restauración facial y mejora de resolución. |
+| RestoreFormer | [wsi-lab/RestoreFormer](https://github.com/wsi-lab/RestoreFormer) | Evaluado | Modelo basado en transformadores para restauración y super-resolución de rostros deteriorados. |
+| PantoMatrix | [PantoMatrix](https://github.com/PantoMatrix) | Evaluado | Generador de animación corporal 3D y facial a partir de habla soportando SMPL-X y FLAME. |
+| EchoMimicV2 | [antgroup/echomimic_v2](https://github.com/antgroup/echomimic_v2) | Evaluado | Segunda versión de EchoMimic orientada a animación humana de medio cuerpo guiada por audio. |
+| FLOAT | [FLOAT](https://github.com/FLOAT) | Evaluado | Modelo de flow matching latente para retratos parlantes con alta consistencia temporal. |
+| Awesome-Gesture_Generation | [Awesome-Gesture_Generation](https://github.com/Awesome-Gesture_Generation) | Evaluado | Índice de referencia y código de investigación en generación de gestos corporales guiados por audio. |

@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **523 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **541 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -245,6 +245,8 @@ Este documento reúne los **523 proyectos open-source** evaluados en , organizad
 | **MMTalker** | [harlanhong/MMTalker](https://github.com/harlanhong/MMTalker) | **[Evaluado]** Modelo multimodal de generación de cabeza parlante con control de expresión fina guiado por audio. |
 | **GenFaceTalk** | [GenFaceTalk](https://github.com/GenFaceTalk/GenFaceTalk) | **[Evaluado]** Generador one-shot de cabezas parlantes 3D Gaussian Splatting animadas por voz. |
 | **UniTalking** | [UniTalking](https://github.com/UniTalking/UniTalking) | **[Evaluado]** Modelo unificado de animación de retrato parlante guiado por audio y promps de movimiento. |
+| **EchoMimicV2** | [antgroup/echomimic_v2](https://github.com/antgroup/echomimic_v2) | **[Evaluado]** Segunda versión de EchoMimic orientada a animación humana de medio cuerpo guiada por audio. |
+| **FLOAT** | [FLOAT](https://github.com/FLOAT) | **[Evaluado]** Modelo de flow matching latente para retratos parlantes con alta consistencia temporal. |
 
 ## 3️⃣ Infraestructura de Transmisión Media, SFU/MCU y Servidores WebRTC
 *Servidores de medios, arquitecturas SFU/MCU, gateways de audio/video y servidores de streaming WebRTC de baja latencia.*
@@ -344,6 +346,7 @@ Este documento reúne los **523 proyectos open-source** evaluados en , organizad
 | **webrtc-rs-sfu** | [webrtc-rs/sfu](https://github.com/webrtc-rs/sfu) | **[Evaluado]** Implementación SFU de WebRTC Sans-IO escrita en Rust. |
 | **Vocode Python** | [vocodehq/vocode-python](https://github.com/vocodehq/vocode-python) | **[Evaluado]** Framework open-source para construir aplicaciones de voz conversacional en tiempo real. |
 | **Vapi Python** | [vapi-ai/vapi-python](https://github.com/vapi-ai/vapi-python) | **[Evaluado]** SDK de cliente para integración de agentes de voz conversacionales de baja latencia. |
+| **RestoreFormer** | [wsi-lab/RestoreFormer](https://github.com/wsi-lab/RestoreFormer) | **[Evaluado]** Modelo basado en transformadores para restauración y super-resolución de rostros deteriorados. |
 
 ## 5️⃣ Modelos de Lenguaje & Conversación Multimodal (Speech-to-Speech LLMs & Motores de Inferencia)
 *LLMs multimodales nativos de audio/voz, motores de inferencia acelerados y orquestadores conversacionales.*
@@ -411,6 +414,10 @@ Este documento reúne los **523 proyectos open-source** evaluados en , organizad
 | **MetaVoice-1B** | [metavoice-ai/metavoice-src](https://github.com/metavoice-ai/metavoice-src) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (MetaVoice-1B). |
 | **xtts-api-server** | [daswer123/xtts-api-server](https://github.com/daswer123/xtts-api-server) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (xtts-api-server). |
 | **Wispr Flow** | [wispr-flow/wispr-flow](https://github.com/wispr-flow/wispr-flow) | **[Evaluado]** Pipeline de voz en streaming optimizado para interacción continua. |
+| **RVC** | [RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | **[Evaluado]** Framework de conversión de voz en tiempo real basado en recuperación de características VITS. |
+| **GPT-SoVITS** | [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | **[Evaluado]** Modelo de síntesis de voz TTS zero-shot y clonación de voz a partir de 1 minuto de audio. |
+| **So-VITS-SVC** | [svc-develop-team/so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) | **[Evaluado]** Modelo de conversión de voz cantada basado en VITS con extracción de características de audio. |
+| **Tortoise-TTS** | [neonbjb/tortoise-tts](https://github.com/neonbjb/tortoise-tts) | **[Evaluado]** Sistema de texto a voz multivoz con prosodia expresiva y clonación de voz alta fidelidad. |
 
 ## 7️⃣ Reconocimiento de Voz (ASR), VAD y Procesamiento de Audio
 *Modelos de transcripción ASR en tiempo real, Detección de Actividad de Voz (VAD), supresión de ruido y procesamiento de señal de audio.*
@@ -440,6 +447,8 @@ Este documento reúne los **523 proyectos open-source** evaluados en , organizad
 | **Lipreading Deep Learning** | [mpcbr/lipreading](https://github.com/mpcbr/lipreading) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (Lipreading Deep Learning). |
 | **TalkNet-ASD** | [TaoRuijie/TalkNet-ASD](https://github.com/TaoRuijie/TalkNet-ASD) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (TalkNet-ASD). |
 | **moviepy** | [Zulko/moviepy](https://github.com/Zulko/moviepy) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (moviepy). |
+| **pyannote-audio** | [pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio) | **[Evaluado]** Toolkit en PyTorch para diarización de hablantes y segmentación de señal de audio. |
+| **SpeechBrain** | [speechbrain/speechbrain](https://github.com/speechbrain/speechbrain) | **[Evaluado]** Toolkit de IA conversacional para ASR, TTS, reconocimiento de hablante y procesamiento de audio. |
 
 ## 8️⃣ Captura de Movimiento, Estimación de Pose y Tracking Facial/Corporal
 *Sistemas de captura de movimiento, detección de puntos clave faciales/corporales (landmarks), modelos paramétricos (SMPL/FLAME) y tracking facial.*
@@ -494,6 +503,8 @@ Este documento reúne los **523 proyectos open-source** evaluados en , organizad
 | **Deep3DFaceReconstruction** | [deep3dface/Deep3DFaceReconstruction](https://github.com/deep3dface/Deep3DFaceReconstruction) | Librería de captura de movimiento, estimación de pose o tracking facial (Deep3DFaceReconstruction). |
 | **VRM/Unity + uLipSync** | Camino técnicamente sólido para tiempo real, pero implica crear o conseguir un modelo VRM y resolver la capa de expresiones/animación | Librería de captura de movimiento, estimación de pose o tracking facial (VRM/Unity + uLipSync). |
 | **Chatterbox** | [ai-avatar-system/chatterbox](https://github.com/ai-avatar-system/chatterbox) | **[Evaluado]** Motor de sincronización labial y procesamiento de audio para humanos digitales interactivos. |
+| **PantoMatrix** | [PantoMatrix](https://github.com/PantoMatrix) | **[Evaluado]** Generador de animación corporal 3D y facial a partir de habla soportando SMPL-X y FLAME. |
+| **Awesome-Gesture_Generation** | [Awesome-Gesture_Generation](https://github.com/Awesome-Gesture_Generation) | **[Evaluado]** Índice de referencia y código de investigación en generación de gestos corporales guiados por audio. |
 
 ## 9️⃣ Renderizado, Visualización 2D/3D y Motores de UI
 *Motores gráficos WebGL/WebGPU, visores y librerías de avatares VRM/Live2D, motores de videojuegos y frameworks de UI para escritorio y web.*
@@ -541,6 +552,10 @@ Este documento reúne los **523 proyectos open-source** evaluados en , organizad
 | **threejs-talking-avatar** | [majidmanzarpour/threejs-talking-avatar](https://github.com/majidmanzarpour/threejs-talking-avatar) | **[Evaluado]** Avatar parlante ejecutable en navegador cliente mediante WebGPU y sincronización labial en tiempo real. |
 | **Resonite** | [Yellow-Dog-Man/Resonite](https://github.com/Yellow-Dog-Man/Resonite) | **[Evaluado]** Motor y plataforma open-source de mundos virtuales 3D y avatares espaciales interactivos. |
 | **Vircadia** | [vircadia/vircadia](https://github.com/vircadia/vircadia) | **[Evaluado]** Plataforma descentralizada de metaverso 3D con soporte para avatares y agentes. |
+| **Filament** | [google/filament](https://github.com/google/filament) | **[Evaluado]** Motor de renderizado PBR en tiempo real multiplataforma desarrollado por Google para WebGL/C++. |
+| **bgfx** | [bkaradzic/bgfx](https://github.com/bkaradzic/bgfx) | **[Evaluado]** Librería de renderizado 3D agnóstica de API gráfica (Vulkan, Direct3D, OpenGL, WebGL). |
+| **Diligent Engine** | [DiligentGraphics/DiligentEngine](https://github.com/DiligentGraphics/DiligentEngine) | **[Evaluado]** Motor gráfico 3D moderno multiplataforma con soporte para WebGPU, Vulkan y Metal. |
+| **O3DE** | [o3de/o3de](https://github.com/o3de/o3de) | **[Evaluado]** Open 3D Engine de la Linux Foundation para simulación y renderizado 3D modular de alta fidelidad. |
 
 ## 🔟 Formatos 3D, Carga de Modelos y Optimizadores de Mallas
 *Herramientas y librerías de bajo nivel para carga, validación, optimización y compresión de formatos 3D (glTF, FBX, OBJ, Draco).*
@@ -582,6 +597,9 @@ Este documento reúne los **523 proyectos open-source** evaluados en , organizad
 | **ffmpeg-python** | [kkroening/ffmpeg-python](https://github.com/kkroening/ffmpeg-python) | Herramienta de super-resolución facial, segmentación o procesamiento de video (ffmpeg-python). |
 | **Basis Universal** | [BinomialLLC/basis_universal](https://github.com/BinomialLLC/basis_universal) | Herramienta de super-resolución facial, segmentación o procesamiento de video (Basis Universal). |
 | **KTX-Software** | [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | Herramienta de super-resolución facial, segmentación o procesamiento de video (KTX-Software). |
+| **SAM 2** | [facebookresearch/segment-anything-2](https://github.com/facebookresearch/segment-anything-2) | **[Evaluado]** Modelo de Meta para segmentación y matting de objetos y sujetos en video en tiempo real. |
+| **Grounded-SAM** | [IDEA-Research/Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything) | **[Evaluado]** Combinación de DINO y SAM para detección y segmentación de imágenes/video por texto. |
+| **GPEN** | [yangxy/GPEN](https://github.com/yangxy/GPEN) | **[Evaluado]** Red incrustada de priores GAN para restauración facial y mejora de resolución. |
 
 ## 12. Ecosistemas, Nodos y Plugins para Frameworks de Inferencia (ComfyUI / WebUI)
 *Suites de nodos, plugins y conectores de flujo de trabajo para ejecución modular en ComfyUI y otros entornos de inferencia.*
