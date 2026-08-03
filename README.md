@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **1,020 proyectos y recursos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel, datasets y métricas de evaluación**.
+Este documento reúne los **1,021 proyectos y recursos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel, datasets y métricas de evaluación**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -262,21 +262,7 @@ Este documento reúne los **1,020 proyectos y recursos open-source** evaluados e
 | **Instant-NGP** | [NVlabs/instant-ngp](https://github.com/NVlabs/instant-ngp) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Instant-NGP). |
 | **PIFuHD** | [shunsukesaito/PIFuHD](https://github.com/shunsukesaito/PIFuHD) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (PIFuHD). |
 | **PIFu** | [shunsukesaito/PIFu](https://github.com/shunsukesaito/PIFu) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (PIFu). |
-| **Proyecto** | Motivo para no seguir ahora | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Proyecto). |
-| **[LongCat-Video-Avatar 1.5](https://github.com/meituan-longcat/LongCat-Video)** | MIT y 8 pasos, pero modelo de 13.6B; orientado a generación de clips, no a latencia conversacional en 16 GB | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync ([LongCat-Video-Avatar 1.5](https://github.com/meituan-longcat/LongCat-Video)). |
-| **[MultiTalk](https://github.com/MeiGen-AI/MultiTalk)** | Apache 2.0 y multi-persona, pero generación por clips; demasiado lento para vivo | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync ([MultiTalk](https://github.com/MeiGen-AI/MultiTalk)). |
-| **[InfiniteTalk](https://github.com/MeiGen-AI/InfiniteTalk)** | Apache 2.0 y video largo, pero los reportes de uso real muestran tiempos muy alejados del tiempo real en GPUs de consumo | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync ([InfiniteTalk](https://github.com/MeiGen-AI/InfiniteTalk)). |
-| **[Wan2.2-S2V](https://github.com/Wan-Video/Wan2.2)** | Ecosistema amplio y quants disponibles, pero 14B; 16 GB es un mínimo muy exigente y no resuelve streaming conversacional | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync ([Wan2.2-S2V](https://github.com/Wan-Video/Wan2.2)). |
-| **[HunyuanVideo-Avatar](https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar)** | Muy pesado, lento y con licencia territorial que excluye UE/UK/Corea del Sur | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync ([HunyuanVideo-Avatar](https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar)). |
-| **[SkyReels-V3-A2V](https://github.com/SkyworkAI/SkyReels-V3)** | Modelo grande y licencia comunitaria; sin medición local que justifique el coste en 16 GB | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync ([SkyReels-V3-A2V](https://github.com/SkyworkAI/SkyReels-V3)). |
-| **[HuMo](https://github.com/Phantom-video/HuMo)** | 1.7B disponible, pero continúa siendo generación de clips y no un renderer incremental probado | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync ([HuMo](https://github.com/Phantom-video/HuMo)). |
-| **OmniHuman** | Sin pesos ni código oficiales; solo servicio/API | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (OmniHuman). |
-| **LAM-Audio2Expression** | Produce blendshapes ARKit en tiempo real; es un buen candidato si elegimos un avatar 3D, pero todavía no se integró | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (LAM-Audio2Expression). |
-| **Gaussian/3D talking heads** | Prometedores, pero el coste de preparar identidad, runtime y render todavía no está resuelto para este equipo | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Gaussian/3D talking heads). |
-| **NVIDIA Audio2Face** | Alternativa de rigging, no un renderer local completo listo para nuestro flujo; requiere una capa 3D y conexión con el pipeline | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (NVIDIA Audio2Face). |
-| **PyTorch, 50 pasos** | 10.12 s | **[195 (7.8 s)]** 16.50 s |
-| **PyTorch, 10 pasos** | 10.12 s | **[195 (7.8 s)]** 14.20 s |
-| **PyTorch, 4 pasos** | 10.12 s | **[195 (7.8 s)]** 13.63 s |
+| **LAM-Audio2Expression** | [LAM-AI/LAM-Audio2Expression](https://github.com/LAM-AI/LAM-Audio2Expression) | Modelo de inferencia de blendshapes ARKit en tiempo real conducido por señal de audio. |
 | **ACTalker** | [harlanhong/ACTalker](https://github.com/harlanhong/ACTalker) | **[Evaluado]** Framework de difusión de video que soporta control simultáneo de audio y expresión facial. |
 | **RealVideo** | [zai-org/RealVideo](https://github.com/zai-org/RealVideo) | **[Evaluado]** Sistema conversacional en streaming que utiliza difusión autorregresiva para generar respuestas continuas de video. |
 | **FastGHA** | [cvlab-kaist/FastGHA](https://github.com/cvlab-kaist/FastGHA) | **[Evaluado]** Encoder de avatares 3D Gaussian Splatting few-shot que permite renderizado en tiempo real a partir de pocas imágenes. |
@@ -759,7 +745,7 @@ Este documento reúne los **1,020 proyectos y recursos open-source** evaluados e
 | **ExMocap** | [ExMocap/ExMocap](https://github.com/ExMocap/ExMocap) | Captura de movimiento 3D de expresiones faciales expresivas y seguimiento de postura para avatares virtuales. |
 | **LACE** | [NVlabs/LACE](https://github.com/NVlabs/LACE) | Librería de captura de movimiento, estimación de pose o tracking facial (LACE). |
 | **MediaPipeUnityPlugin** | [homuler/MediaPipeUnityPlugin](https://github.com/homuler/MediaPipeUnityPlugin) | Librería de captura de movimiento, estimación de pose o tracking facial (MediaPipeUnityPlugin). |
-| **FLAME_PyTorch** | [soubhiksanyal/FLAME_PyTorch](https://github.com/soubhiksanyal/FLAME_PyTorch) | Librería de captura de movimiento, estimación de pose o tracking facial (FLAME_PyTorch). |
+| **FLAME_PyTorch** | [soubhiksanyal/FLAME_PyTorch](https://github.com/soubhiksanyal/FLAME_PyTorch) | Implementación oficial en PyTorch del modelo facial 3D animable FLAME. |
 | **MediaPipe** | [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | Suite de Google para visión por computadora en tiempo real, detección de rostros, manos y pose. |
 | **RingNet** | [soubhiksanyal/RingNet](https://github.com/soubhiksanyal/RingNet) | Librería de captura de movimiento, estimación de pose o tracking facial (RingNet). |
 | **InsightFace** | [deepinsight/insightface](https://github.com/deepinsight/insightface) | Librería de captura de movimiento, estimación de pose o tracking facial (InsightFace). |
@@ -777,11 +763,10 @@ Este documento reúne los **1,020 proyectos y recursos open-source** evaluados e
 | **MMPose** | [open-mmlab/mmpose](https://github.com/open-mmlab/mmpose) | Librería de captura de movimiento, estimación de pose o tracking facial (MMPose). |
 | **controlnet_aux** | [patrickvonplaten/controlnet_aux](https://github.com/patrickvonplaten/controlnet_aux) | Librería de captura de movimiento, estimación de pose o tracking facial (controlnet_aux). |
 | **face-alignment** | [1adrianb/face-alignment](https://github.com/1adrianb/face-alignment) | Librería de captura de movimiento, estimación de pose o tracking facial (face-alignment). |
-| **PRNet** | [YadiraF/PRNet](https://github.com/YadiraF/PRNet) | Librería de captura de movimiento, estimación de pose o tracking facial (PRNet). |
-| **EOS** | [patrikhuber/eos](https://github.com/patrikhuber/eos) | Librería de captura de movimiento, estimación de pose o tracking facial (EOS). |
-| **edge-tts** | [rany2/edge-tts](https://github.com/rany2/edge-tts) | Librería de captura de movimiento, estimación de pose o tracking facial (edge-tts). |
-| **Deep3DFaceReconstruction** | [deep3dface/Deep3DFaceReconstruction](https://github.com/deep3dface/Deep3DFaceReconstruction) | Librería de captura de movimiento, estimación de pose o tracking facial (Deep3DFaceReconstruction). |
-| **VRM/Unity + uLipSync** | Camino técnicamente sólido para tiempo real, pero implica crear o conseguir un modelo VRM y resolver la capa de expresiones/animación | Librería de captura de movimiento, estimación de pose o tracking facial (VRM/Unity + uLipSync). |
+| **PRNet** | [YadiraF/PRNet](https://github.com/YadiraF/PRNet) | Red neuronal para reconstrucción 3D facial y mapa de posición UV a partir de una imagen de rostro. |
+| **EOS** | [patrikhuber/eos](https://github.com/patrikhuber/eos) | Librería C++11 de ajuste de modelo 3DMM facial ligero para reconstrucción y seguimiento de avatares. |
+| **edge-tts** | [rany2/edge-tts](https://github.com/rany2/edge-tts) | Librería en Python para síntesis de voz en tiempo real con las voces neuronales de Microsoft Edge. |
+| **Deep3DFaceReconstruction** | [deep3dface/Deep3DFaceReconstruction](https://github.com/deep3dface/Deep3DFaceReconstruction) | Reconstrucción facial 3D monocular profunda basada en modelos 3DMM con estimación de iluminancia y textura. |
 | **Chatterbox** | [ai-avatar-system/chatterbox](https://github.com/ai-avatar-system/chatterbox) | **[Evaluado]** Motor de sincronización labial y procesamiento de audio para humanos digitales interactivos. |
 | **PantoMatrix** | [PantoMatrix](https://github.com/PantoMatrix) | **[Evaluado]** Generador de animación corporal 3D y facial a partir de habla soportando SMPL-X y FLAME. |
 | **Awesome-Gesture_Generation** | [Awesome-Gesture_Generation](https://github.com/Awesome-Gesture_Generation) | **[Evaluado]** Índice de referencia y código de investigación en generación de gestos corporales guiados por audio. |
@@ -852,13 +837,12 @@ Este documento reúne los **1,020 proyectos y recursos open-source** evaluados e
 | **Panda3D** | [panda3d/panda3d](https://github.com/panda3d/panda3d) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Panda3D). |
 | **Pyglet** | [pyglet/pyglet](https://github.com/pyglet/pyglet) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Pyglet). |
 | **Ursina Engine** | [pokepoke/ursina](https://github.com/pokepoke/ursina) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Ursina Engine). |
-| **DearPyGui** | [hoffstadt/DearPyGui](https://github.com/hoffstadt/DearPyGui) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (DearPyGui). |
-| **Kivy** | [kivy/kivy](https://github.com/kivy/kivy) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Kivy). |
-| **Flet** | [flet-dev/flet](https://github.com/flet-dev/flet) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Flet). |
+| **DearPyGui** | [hoffstadt/DearPyGui](https://github.com/hoffstadt/DearPyGui) | Framework GUI en C++ y Python de alto rendimiento acelerado por GPU para dashboards de control de avatares. |
+| **Kivy** | [kivy/kivy](https://github.com/kivy/kivy) | Framework de desarrollo de interfaces de usuario táctiles y aplicaciones 2D/3D multiplataforma en Python. |
+| **Flet** | [flet-dev/flet](https://github.com/flet-dev/flet) | Framework para construir aplicaciones interactivas en Python impulsadas por Flutter para GUIs de avatares. |
 | **PixiJS** | [pixijs/pixijs](https://github.com/pixijs/pixijs) | Motor de renderizado 2D 2D súper rápido basado en WebGL para la web. |
-| **TWGL.js** | [greggman/twgl.js](https://github.com/greggman/twgl.js) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (TWGL.js). |
-| **regl** | [regl-project/regl](https://github.com/regl-project/regl) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (regl). |
-| **Live2D** | Podría dar muy baja latencia, pero requiere un avatar 2D preparado y no entrega el realismo buscado | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Live2D). |
+| **TWGL.js** | [greggman/twgl.js](https://github.com/greggman/twgl.js) | Librería helper minimalista para simplificar la API WebGL en renderizado de avatares en navegadores. |
+| **regl** | [regl-project/regl](https://github.com/regl-project/regl) | Abstracción funcional y ligera sobre WebGL para pipelines de renderizado 2D/3D rápidos. |
 | **threejs-talking-avatar** | [majidmanzarpour/threejs-talking-avatar](https://github.com/majidmanzarpour/threejs-talking-avatar) | **[Evaluado]** Avatar parlante ejecutable en navegador cliente mediante WebGPU y sincronización labial en tiempo real. |
 | **Resonite** | [Yellow-Dog-Man/Resonite](https://github.com/Yellow-Dog-Man/Resonite) | **[Evaluado]** Motor y plataforma open-source de mundos virtuales 3D y avatares espaciales interactivos. |
 | **Vircadia** | [vircadia/vircadia](https://github.com/vircadia/vircadia) | **[Evaluado]** Plataforma descentralizada de metaverso 3D con soporte para avatares y agentes. |
