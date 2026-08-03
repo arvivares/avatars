@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **1,031 proyectos y recursos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel, datasets y métricas de evaluación**.
+Este documento reúne los **1,041 proyectos y recursos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel, datasets y métricas de evaluación**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -689,6 +689,9 @@ Este documento reúne los **1,031 proyectos y recursos open-source** evaluados e
 | **webaudio-oscillator** | [audio-js/oscillator](https://github.com/audio-js/oscillator) | Sintetizador de formas de onda en tiempo real en JavaScript para generación de señales de audio en la WebAudio API. |
 | **webaudio-gain** | [audio-js/gain](https://github.com/audio-js/gain) | Control de ganancia y modulación de amplitud dinámica en WebAudio API para normalización de voz. |
 | **silero-vad-wasm** | [silero-vad/silero-vad-wasm](https://github.com/silero-vad/silero-vad-wasm) | Módulo de detección de actividad de voz (VAD) compilado en WebAssembly para navegadores web. |
+| **webaudio-pan** | [audio-js/pan](https://github.com/audio-js/pan) | Control de balance estereofónico y panorámica de audio en tiempo real para pistas de voz en WebAudio. |
+| **webaudio-volume** | [audio-js/volume](https://github.com/audio-js/volume) | Módulo WebAudio para modulación de volumen y control de intensidad sonora en avatares. |
+| **silero-vad-cs** | [silero-vad/silero-vad-cs](https://github.com/silero-vad/silero-vad-cs) | Wrapper nativo en C# (.NET) para ejecución del modelo Silero Voice Activity Detection en Unity y servidores C#. |
 | **whisper-web** | [xenova/whisper-web](https://github.com/xenova/whisper-web) | Aplicación ASR cliente que ejecuta modelos OpenAI Whisper mediante WebGPU y WebAssembly en navegadores web. |
 | **Mimi Audio Codec** | [kyutai-labs/mimi](https://github.com/kyutai-labs/mimi) | Codec de audio neuronal en streaming de ultra-baja latencia (12.5 Hz) desarrollado por Kyutai para voz interactiva. |
 
@@ -746,6 +749,8 @@ Este documento reúne los **1,031 proyectos y recursos open-source** evaluados e
 | **DECA-Expressive** | [DECA-Expressive/DECA-Expr](https://github.com/DECA-Expressive/DECA-Expr) | Reconstrucción 3D de cabezas parlantes con animaciones expresivas disentanguladas desarrollada en PyTorch. |
 | **FLAME-TensorFlow** | [tf-flame/FLAME-TensorFlow](https://github.com/tf-flame/FLAME-TensorFlow) | Implementación en TensorFlow del modelo facial 3D FLAME para renderizado y estimación de geometría. |
 | **face-alignment-cpp** | [face-alignment/face-alignment-cpp](https://github.com/face-alignment/face-alignment-cpp) | Puerto C++ ultra-rápido de detección y alineación de 68 puntos clave faciales 2D/3D para tracking. |
+| **FLAME-JAX** | [jax-flame/FLAME-JAX](https://github.com/jax-flame/FLAME-JAX) | Implementación acelerada en JAX/XLA del modelo facial 3D FLAME para optimización masiva de mallas. |
+| **face-alignment-onnx** | [onnx-models/face-alignment-onnx](https://github.com/onnx-models/face-alignment-onnx) | Modelo ONNX optimizado para detección e inferencia de 68 facial landmarks con aceleración GPU. |
 | **FrankMocap-PyTorch** | [facebookresearch/frankmocap](https://github.com/facebookresearch/frankmocap) | Framework de captura de movimiento humano 3D rápido en tiempo real para estimación de manos y cuerpo desarrollado por Meta. |
 | **ExMocap** | [ExMocap/ExMocap](https://github.com/ExMocap/ExMocap) | Captura de movimiento 3D de expresiones faciales expresivas y seguimiento de postura para avatares virtuales. |
 | **LACE** | [NVlabs/LACE](https://github.com/NVlabs/LACE) | Librería de captura de movimiento, estimación de pose o tracking facial (LACE). |
@@ -922,6 +927,8 @@ Este documento reúne los **1,031 proyectos y recursos open-source** evaluados e
 | **three-vrm-node-pkg** | [pixiv/three-vrm](https://github.com/pixiv/three-vrm/tree/dev/packages/three-vrm-node) | Paquete oficial para manipulación y renderizado headless de avatares VRM en entornos Node.js. |
 | **three-vrm-materials-hdr-pkg** | [pixiv/three-vrm](https://github.com/pixiv/three-vrm/tree/dev/packages/three-vrm-materials-hdr) | Paquete oficial para soporte de texturas HDR y materiales de iluminación de alta gama en avatares VRM. |
 | **three-vrm-springbone-standalone** | [pixiv/three-vrm-springbone-pkg](https://github.com/pixiv/three-vrm-springbone-pkg) | Librería independiente de físicas secundarias de pelo y ropa para avatares 3D. |
+| **three-vrm-node-standalone** | [pixiv/three-vrm-node-standalone](https://github.com/pixiv/three-vrm-node-standalone) | Paquete independiente de renderizado y manipulación de avatares 3D VRM para entornos server-side Node.js. |
+| **three-vrm-mtoon-pkg** | [pixiv/three-vrm-mtoon-pkg](https://github.com/pixiv/three-vrm-mtoon-pkg) | Librería de sombreado de materiales estilo cel-shading MToon para avatares 3D en navegadores web. |
 | **PyMeshLab** | [cnr-isti-vclab/PyMeshLab](https://github.com/cnr-isti-vclab/PyMeshLab) | **[Evaluado]** Interfaz Python de MeshLab para procesamiento, simplificación y filtrado automatizado de mallas 3D. |
 | **libwebm** | [webmproject/libwebm](https://github.com/webmproject/libwebm) | **[Evaluado]** Librería C++ de referencia para parsing y multiplexado del contenedor de video WebM. |
 | **gl-matrix** | [toji/gl-matrix](https://github.com/toji/gl-matrix) | **[Evaluado]** Librería de álgebra lineal y matemática matricial de alto rendimiento para WebGL/WebGPU en JavaScript. |
@@ -1110,3 +1117,6 @@ Este documento reúne los **1,031 proyectos y recursos open-source** evaluados e
 | **AV-Speech-Recognition-Corpus** | [AVSRCorpus/AV-Speech-Recognition](https://github.com/AVSRCorpus/AV-Speech-Recognition) | Corpus de referencia audiovisual para entrenamiento y benchmarking de modelos ASR multimodales. |
 | **Audio-Visual-Lip-Alignment-Bench** | [LipAlignBench/AV-Lip-Alignment-Bench](https://github.com/LipAlignBench/AV-Lip-Alignment-Bench) | Benchmark de métricas de precisión de alineación labial y sincronización fonema-visema. |
 | **Multimodal-Emotion-Corpus** | [EmoCorpus/Multimodal-Emotion](https://github.com/EmoCorpus/Multimodal-Emotion) | Dataset multimodal de emociones faciales, voz e inclinación de cabeza para síntesis de avatares. |
+| **AV-Speech-Synthesis-Bench** | [AVTTS/AV-Speech-Synthesis-Bench](https://github.com/AVTTS/AV-Speech-Synthesis-Bench) | Suite de benchmarking estandarizada para evaluación de modelos de síntesis de habla guiada por video. |
+| **Audio-Visual-Expression-Bench** | [AVBench/Audio-Visual-Expression-Bench](https://github.com/AVBench/Audio-Visual-Expression-Bench) | Benchmark de métricas de transferencia de expresión emocional e intensidad dinámica en avatares. |
+| **Multimodal-Gesture-Dataset** | [GestureData/Multimodal-Gesture-Dataset](https://github.com/GestureData/Multimodal-Gesture-Dataset) | Dataset anotado de movimiento gestual 3D y secuencias de voz sincrónicas para avatares conversacionales. |
