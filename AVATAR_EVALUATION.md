@@ -1942,3 +1942,10 @@ Evidencia primaria:
 | livekit-plugins-anthropic | [livekit/plugins-anthropic](https://github.com/livekit/agents#anthropic) | Evaluado | Plugin oficial de LiveKit para integración conversacional con modelos Anthropic Claude 3.5. |
 | livekit-plugins-mistral | [livekit/plugins-mistral](https://github.com/livekit/agents#mistral) | Evaluado | Plugin oficial de LiveKit para integración de LLMs de Mistral AI en agentes de voz. |
 | livekit-plugins-resemble | [livekit/plugins-resemble](https://github.com/livekit/agents#resemble) | Evaluado | Plugin oficial de LiveKit para síntesis de voz en streaming con Resemble AI. |
+
+| libaom | [aomedia/aom](https://github.com/aomedia/aom) | Evaluado | Implementación de referencia en C/C++ de la Alliance for Open Media para el códec de video AV1. |
+| livekit-plugins-groq | [livekit/plugins-groq](https://github.com/livekit/agents#groq) | Evaluado | Plugin oficial de LiveKit para inferencia ultra-rápida de LLMs impulsada por la tecnología LPU de Groq. |
+| livekit-plugins-fal | [livekit/plugins-fal](https://github.com/livekit/agents#fal) | Evaluado | Plugin oficial de LiveKit para generación de imágenes y difusión de video en tiempo real mediante Fal.ai. |
+| livekit-plugins-replicate | [livekit/plugins-replicate](https://github.com/livekit/agents#replicate) | Evaluado | Plugin oficial de LiveKit para ejecución de modelos de IA en la nube a través de Replicate. |
+| livekit-plugins-neuphonic | [livekit/plugins-neuphonic](https://github.com/livekit/agents#neuphonic) | Evaluado | Plugin oficial de LiveKit para síntesis de voz con latencia ultrabaja mediante Neuphonic TTS. |
+| livekit-plugins-lmnt | [livekit/plugins-lmnt](https://github.com/livekit/agents#lmnt) | Evaluado | Plugin oficial de LiveKit para generación de voz conversacional realista en tiempo real con LMNT. |

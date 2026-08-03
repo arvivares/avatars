@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **611 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **617 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -297,6 +297,11 @@ Este documento reúne los **611 proyectos open-source** evaluados en , organizad
 | **livekit-plugins-anthropic** | [livekit/plugins-anthropic](https://github.com/livekit/agents#anthropic) | **[Evaluado]** Plugin oficial de LiveKit para integración conversacional con modelos Anthropic Claude 3.5. |
 | **livekit-plugins-mistral** | [livekit/plugins-mistral](https://github.com/livekit/agents#mistral) | **[Evaluado]** Plugin oficial de LiveKit para integración de LLMs de Mistral AI en agentes de voz. |
 | **livekit-plugins-resemble** | [livekit/plugins-resemble](https://github.com/livekit/agents#resemble) | **[Evaluado]** Plugin oficial de LiveKit para síntesis de voz en streaming con Resemble AI. |
+| **livekit-plugins-groq** | [livekit/plugins-groq](https://github.com/livekit/agents#groq) | **[Evaluado]** Plugin oficial de LiveKit para inferencia ultra-rápida de LLMs impulsada por la tecnología LPU de Groq. |
+| **livekit-plugins-fal** | [livekit/plugins-fal](https://github.com/livekit/agents#fal) | **[Evaluado]** Plugin oficial de LiveKit para generación de imágenes y difusión de video en tiempo real mediante Fal.ai. |
+| **livekit-plugins-replicate** | [livekit/plugins-replicate](https://github.com/livekit/agents#replicate) | **[Evaluado]** Plugin oficial de LiveKit para ejecución de modelos de IA en la nube a través de Replicate. |
+| **livekit-plugins-neuphonic** | [livekit/plugins-neuphonic](https://github.com/livekit/agents#neuphonic) | **[Evaluado]** Plugin oficial de LiveKit para síntesis de voz con latencia ultrabaja mediante Neuphonic TTS. |
+| **livekit-plugins-lmnt** | [livekit/plugins-lmnt](https://github.com/livekit/agents#lmnt) | **[Evaluado]** Plugin oficial de LiveKit para generación de voz conversacional realista en tiempo real con LMNT. |
 
 ## 4️⃣ SDKs de Cliente y Protocolos de Comunicación WebRTC / Red
 *Librerías SDK cliente/servidor multiplataforma (Python, JS, C++, Rust, Go, Mobile, Game Engines) e implementaciones de protocolo WebRTC/RTP/ICE/SDP.*
@@ -670,6 +675,7 @@ Este documento reúne los **611 proyectos open-source** evaluados en , organizad
 | **stb** | [nothings/stb](https://github.com/nothings/stb) | **[Evaluado]** Librerías C/C++ de único archivo de dominio público para carga y manipulación ligera de imágenes y fuentes. |
 | **DiffSynth-Studio** | [modelscope/DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) | **[Evaluado]** Framework de difusión optimizado para generación y control de video en tiempo real por ModelScope. |
 | **OpenH264** | [cisco/openh264](https://github.com/cisco/openh264) | **[Evaluado]** Implementación de referencia open-source del codec H.264 desarrollada por Cisco para comunicación WebRTC. |
+| **libaom** | [aomedia/aom](https://github.com/aomedia/aom) | **[Evaluado]** Implementación de referencia en C/C++ de la Alliance for Open Media para el códec de video AV1. |
 
 ## 12. Ecosistemas, Nodos y Plugins para Frameworks de Inferencia (ComfyUI / WebUI)
 *Suites de nodos, plugins y conectores de flujo de trabajo para ejecución modular en ComfyUI y otros entornos de inferencia.*
