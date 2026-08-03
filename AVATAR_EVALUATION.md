@@ -1959,3 +1959,9 @@ Evidencia primaria:
 | opus-tools | [xiph/opus-tools](https://github.com/xiph/opus-tools) | Evaluado | Utilidades CLI oficiales para codificar, inspeccionar y reproducir archivos de audio Opus. |
 | flac | [xiph/flac](https://github.com/xiph/flac) | Evaluado | Librería de referencia del códec de compresión de audio sin pérdida FLAC por Xiph.Org. |
 | speexdsp | [xiph/speexdsp](https://github.com/xiph/speexdsp) | Evaluado | Librería DSP para supresión de ruido, cancelación de eco acústico y re-muestreo de audio en tiempo real. |
+
+| libsamplerate | [libsndfile/libsamplerate](https://github.com/libsndfile/libsamplerate) | Evaluado | Librería C de conversión de tasa de muestreo de audio de alta precisión (Secret Rabbit Code). |
+| libsndfile | [libsndfile/libsndfile](https://github.com/libsndfile/libsndfile) | Evaluado | Librería C de lectura y escritura de múltiples formatos de audio digital PCM y comprimidos. |
+| PortAudio | [PortAudio/portaudio](https://github.com/PortAudio/portaudio) | Evaluado | Librería I/O de audio multiplataforma portable de tiempo real para C/C++. |
+| miniaudio | [mackron/miniaudio](https://github.com/mackron/miniaudio) | Evaluado | Librería de captura y reproducción de audio ligera en un solo archivo C para juegos y avatares. |
+| RtAudio | [thestk/rtaudio](https://github.com/thestk/rtaudio) | Evaluado | Clases C++ multiplataforma para entrada y salida de audio en tiempo real con baja latencia. |
