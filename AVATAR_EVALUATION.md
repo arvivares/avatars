@@ -1954,3 +1954,8 @@ Evidencia primaria:
 | libvorbis | [xiph/vorbis](https://github.com/xiph/vorbis) | Evaluado | Librería de compresión de audio de propósito general Vorbis por Xiph.Org. |
 | livekit-plugins-browser | [livekit/plugins-browser](https://github.com/livekit/agents#browser) | Evaluado | Plugin oficial de LiveKit para automatización y renderizado de páginas web en agentes de voz. |
 | livekit-plugins-tavus | [livekit/plugins-tavus](https://github.com/livekit/agents#tavus) | Evaluado | Plugin oficial de LiveKit para transmisión de avatares de video réplica con Tavus. |
+
+| opusfile | [xiph/opusfile](https://github.com/xiph/opusfile) | Evaluado | Librería API de alto nivel para decodificar y buscar en transmisiones de audio Ogg Opus. |
+| opus-tools | [xiph/opus-tools](https://github.com/xiph/opus-tools) | Evaluado | Utilidades CLI oficiales para codificar, inspeccionar y reproducir archivos de audio Opus. |
+| flac | [xiph/flac](https://github.com/xiph/flac) | Evaluado | Librería de referencia del códec de compresión de audio sin pérdida FLAC por Xiph.Org. |
+| speexdsp | [xiph/speexdsp](https://github.com/xiph/speexdsp) | Evaluado | Librería DSP para supresión de ruido, cancelación de eco acústico y re-muestreo de audio en tiempo real. |

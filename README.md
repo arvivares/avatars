@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **621 proyectos open-source** evaluados en , organizados de forma strictly jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **625 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -465,6 +465,9 @@ Este documento reúne los **621 proyectos open-source** evaluados en , organizad
 | **Kokoro TTS** | [hexgrad/kokoro](https://github.com/hexgrad/kokoro) | **[Evaluado]** Modelo de síntesis de voz (TTS) ultraligero de 82M de parámetros de alta fidelidad y baja latencia. |
 | **Voicebox** | [facebookresearch/voicebox](https://github.com/facebookresearch/voicebox) | **[Evaluado]** Modelo fundacional generativo de audio de Meta basado en flow matching para edición, infilling y TTS. |
 | **libvorbis** | [xiph/vorbis](https://github.com/xiph/vorbis) | **[Evaluado]** Librería de compresión de audio de propósito general Vorbis por Xiph.Org. |
+| **opusfile** | [xiph/opusfile](https://github.com/xiph/opusfile) | **[Evaluado]** Librería API de alto nivel para decodificar y buscar en transmisiones de audio Ogg Opus. |
+| **opus-tools** | [xiph/opus-tools](https://github.com/xiph/opus-tools) | **[Evaluado]** Utilidades CLI oficiales para codificar, inspeccionar y reproducir archivos de audio Opus. |
+| **flac** | [xiph/flac](https://github.com/xiph/flac) | **[Evaluado]** Librería de referencia del códec de compresión de audio sin pérdida FLAC por Xiph.Org. |
 
 ## 7️⃣ Reconocimiento de Voz (ASR), VAD y Procesamiento de Audio
 *Modelos de transcripción ASR en tiempo real, Detección de Actividad de Voz (VAD), supresión de ruido y procesamiento de señal de audio.*
@@ -500,6 +503,7 @@ Este documento reúne los **621 proyectos open-source** evaluados en , organizad
 | **WeNet** | [wenet-e2e/wenet](https://github.com/wenet-e2e/wenet) | **[Evaluado]** Toolkit de ASR end-to-end en tiempo real orientado a producción en C++ y Python. |
 | **ESPnet** | [espnet/espnet](https://github.com/espnet/espnet) | **[Evaluado]** Toolkit completo en PyTorch para procesamiento de habla (ASR, TTS, traducción y separación de fuentes). |
 | **Kaldi** | [kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi) | **[Evaluado]** Toolkit estándar C++ para reconocimiento del habla y procesamiento de audio. |
+| **speexdsp** | [xiph/speexdsp](https://github.com/xiph/speexdsp) | **[Evaluado]** Librería DSP para supresión de ruido, cancelación de eco acústico y re-muestreo de audio en tiempo real. |
 
 ## 8️⃣ Captura de Movimiento, Estimación de Pose y Tracking Facial/Corporal
 *Sistemas de captura de movimiento, detección de puntos clave faciales/corporales (landmarks), modelos paramétricos (SMPL/FLAME) y tracking facial.*
