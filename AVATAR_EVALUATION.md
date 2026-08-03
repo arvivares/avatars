@@ -1920,3 +1920,10 @@ Evidencia primaria:
 | rapier.js | [dimforge/rapier.js](https://github.com/dimforge/rapier.js) | Evaluado | Bindings en WebAssembly/JavaScript para el motor de física Rapier 3D. |
 | livekit-plugins-deepgram | [livekit/plugins-deepgram](https://github.com/livekit/agents#deepgram) | Evaluado | Plugin oficial de LiveKit para integración de ASR Deepgram en tiempo real. |
 | livekit-plugins-elevenlabs | [livekit/plugins-elevenlabs](https://github.com/livekit/agents#elevenlabs) | Evaluado | Plugin oficial de LiveKit para síntesis de voz en streaming con ElevenLabs. |
+
+| VRoid SDK | [pixiv/VRoid-SDK](https://github.com/pixiv/VRoid-SDK) | Evaluado | SDK oficial de Pixiv para integración de avatares 3D VRM y personalización en aplicaciones. |
+| livekit-plugins-cartesia | [livekit/plugins-cartesia](https://github.com/livekit/agents#cartesia) | Evaluado | Plugin oficial de LiveKit para integración de síntesis de voz ultrarrápida con Cartesia Sonic. |
+| livekit-plugins-openai | [livekit/plugins-openai](https://github.com/livekit/agents#openai) | Evaluado | Plugin oficial de LiveKit para integración directa de OpenAI Realtime API y STT/TTS. |
+| livekit-plugins-silero | [livekit/plugins-silero](https://github.com/livekit/agents#silero) | Evaluado | Plugin oficial de LiveKit para detección de actividad de voz en tiempo real con Silero VAD. |
+| livekit-plugins-turn-detector | [livekit/plugins-turn-detector](https://github.com/livekit/agents#turn-detector) | Evaluado | Plugin de detección de turnos conversacionales y gestión de interrupciones para agentes de voz en LiveKit. |
+| livekit-plugins-rag | [livekit/plugins-rag](https://github.com/livekit/agents#rag) | Evaluado | Plugin de integración RAG para agentes conversacionales de voz en tiempo real sobre LiveKit. |

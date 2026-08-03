@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **592 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **598 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -39,7 +39,7 @@ Este documento reúne los **592 proyectos open-source** evaluados en , organizad
 | **Semantic Kernel** | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | **[Evaluado]** SDK de Microsoft para integrar LLMs y plugins de audio en C#, Python y Java. |
 
 ## 2️⃣ Generación y Animación de Avatar 2D/3D & Talking Heads
-*Modelos de IA de generación de video facial, synchronización labial (lip-sync), NeRF, 3D Gaussian Splatting y animación guiada por audio/video.*
+*Modelos de IA de generación de video facial, sincronización labial (lip-sync), NeRF, 3D Gaussian Splatting y animación guiada por audio/video.*
 
 | **Proyecto / Solución** | **Repositorio / Enlace** | **Descripción / Evaluación Técnica** |
 |---|---|---|
@@ -285,6 +285,11 @@ Este documento reúne los **592 proyectos open-source** evaluados en , organizad
 | **Ant Media Server** | [ant-media/Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server) | **[Evaluado]** Servidor de streaming WebRTC ultra-baja latencia con transcodificación en tiempo real. |
 | **livekit-plugins-deepgram** | [livekit/plugins-deepgram](https://github.com/livekit/agents#deepgram) | **[Evaluado]** Plugin oficial de LiveKit para integración de ASR Deepgram en tiempo real. |
 | **livekit-plugins-elevenlabs** | [livekit/plugins-elevenlabs](https://github.com/livekit/agents#elevenlabs) | **[Evaluado]** Plugin oficial de LiveKit para síntesis de voz en streaming con ElevenLabs. |
+| **livekit-plugins-cartesia** | [livekit/plugins-cartesia](https://github.com/livekit/agents#cartesia) | **[Evaluado]** Plugin oficial de LiveKit para integración de síntesis de voz ultrarrápida con Cartesia Sonic. |
+| **livekit-plugins-openai** | [livekit/plugins-openai](https://github.com/livekit/agents#openai) | **[Evaluado]** Plugin oficial de LiveKit para integración directa de OpenAI Realtime API y STT/TTS. |
+| **livekit-plugins-silero** | [livekit/plugins-silero](https://github.com/livekit/agents#silero) | **[Evaluado]** Plugin oficial de LiveKit para detección de actividad de voz en tiempo real con Silero VAD. |
+| **livekit-plugins-turn-detector** | [livekit/plugins-turn-detector](https://github.com/livekit/agents#turn-detector) | **[Evaluado]** Plugin de detección de turnos conversacionales y gestión de interrupciones para agentes de voz en LiveKit. |
+| **livekit-plugins-rag** | [livekit/plugins-rag](https://github.com/livekit/agents#rag) | **[Evaluado]** Plugin de integración RAG para agentes conversacionales de voz en tiempo real sobre LiveKit. |
 
 ## 4️⃣ SDKs de Cliente y Protocolos de Comunicación WebRTC / Red
 *Librerías SDK cliente/servidor multiplataforma (Python, JS, C++, Rust, Go, Mobile, Game Engines) e implementaciones de protocolo WebRTC/RTP/ICE/SDP.*
@@ -593,6 +598,7 @@ Este documento reúne los **592 proyectos open-source** evaluados en , organizad
 | **ammo.js** | [kripken/ammo.js](https://github.com/kripken/ammo.js) | **[Evaluado]** Puerto directo del motor Bullet Physics a JavaScript/WebAssembly para física 3D en la web. |
 | **cannon.js** | [schteppe/cannon.js](https://github.com/schteppe/cannon.js) | **[Evaluado]** Motor de física 3D ligero escrito en JavaScript para avatares y entornos 3D interactivos. |
 | **rapier.js** | [dimforge/rapier.js](https://github.com/dimforge/rapier.js) | **[Evaluado]** Bindings en WebAssembly/JavaScript para el motor de física Rapier 3D. |
+| **VRoid SDK** | [pixiv/VRoid-SDK](https://github.com/pixiv/VRoid-SDK) | **[Evaluado]** SDK oficial de Pixiv para integración de avatares 3D VRM y personalización en aplicaciones. |
 
 ## 🔟 Formatos 3D, Carga de Modelos y Optimizadores de Mallas
 *Herramientas y librerías de bajo nivel para carga, validación, optimización y compresión de formatos 3D (glTF, FBX, OBJ, Draco).*
