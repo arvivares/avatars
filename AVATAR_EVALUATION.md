@@ -1905,3 +1905,11 @@ Evidencia primaria:
 | MelGAN | [descriptinc/melgan-neurips](https://github.com/descriptinc/melgan-neurips) | Evaluado | Red generativa antagónica en tiempo real para síntesis de audio desde espectrogramas mel. |
 | Parallel WaveGAN | [kan-bayashi/ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN) | Evaluado | Implementación paralela en PyTorch de WaveGAN para vocoder neuronal eficiente. |
 | Video Processing Framework | [NVIDIA/VideoProcessingFramework](https://github.com/NVIDIA/VideoProcessingFramework) | Evaluado | Bindings en Python/PyTorch de NVIDIA para decodificación y codificación de video acelerada por hardware (NVDEC/NVENC). |
+
+| fdk-aac | [mstorsjo/fdk-aac](https://github.com/mstorsjo/fdk-aac) | Evaluado | Librería de codificación y decodificación de audio AAC Fraunhofer FDK de alta fidelidad. |
+| libavif | [AOMediaCodec/libavif](https://github.com/AOMediaCodec/libavif) | Evaluado | Librería C de referencia de AOMedia para codificación y decodificación de formato de imagen AVIF. |
+| libjpeg-turbo | [libjpeg-turbo/libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) | Evaluado | Codec JPEG acelerado por instrucciones SIMD para codificación/decodificación ultra-rápida de texturas. |
+| stb | [nothings/stb](https://github.com/nothings/stb) | Evaluado | Librerías C/C++ de único archivo de dominio público para carga y manipulación ligera de imágenes y fuentes. |
+| trimesh | [mikedh/trimesh](https://github.com/mikedh/trimesh) | Evaluado | Librería Python pura para inspección, manipulación y consulta de rayos en mallas 3D. |
+| Open3D | [isl-org/Open3D](https://github.com/isl-org/Open3D) | Evaluado | Librería moderna para procesamiento de datos 3D, nubes de puntos, mallas y reconstrucción 3D. |
+| PyMeshLab | [cnr-isti-vclab/PyMeshLab](https://github.com/cnr-isti-vclab/PyMeshLab) | Evaluado | Interfaz Python de MeshLab para procesamiento, simplificación y filtrado automatizado de mallas 3D. |

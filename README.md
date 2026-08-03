@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **579 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **586 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -440,6 +440,7 @@ Este documento reúne los **579 proyectos open-source** evaluados en , organizad
 | **WaveGlow** | [NVIDIA/waveglow](https://github.com/NVIDIA/waveglow) | **[Evaluado]** Red generativa basada en flujos desarrollada por NVIDIA para síntesis de voz en tiempo real. |
 | **MelGAN** | [descriptinc/melgan-neurips](https://github.com/descriptinc/melgan-neurips) | **[Evaluado]** Red generativa antagónica en tiempo real para síntesis de audio desde espectrogramas mel. |
 | **Parallel WaveGAN** | [kan-bayashi/ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN) | **[Evaluado]** Implementación paralela en PyTorch de WaveGAN para vocoder neuronal eficiente. |
+| **fdk-aac** | [mstorsjo/fdk-aac](https://github.com/mstorsjo/fdk-aac) | **[Evaluado]** Librería de codificación y decodificación de audio AAC Fraunhofer FDK de alta fidelidad. |
 
 ## 7️⃣ Reconocimiento de Voz (ASR), VAD y Procesamiento de Audio
 *Modelos de transcripción ASR en tiempo real, Detección de Actividad de Voz (VAD), supresión de ruido y procesamiento de señal de audio.*
@@ -611,6 +612,9 @@ Este documento reúne los **579 proyectos open-source** evaluados en , organizad
 | **gsplat** | [nerfstudio-project/gsplat](https://github.com/nerfstudio-project/gsplat) | **[Evaluado]** Librería CUDA hiperacelerada para rasterización y entrenamiento de 3D Gaussian Splatting por Nerfstudio. |
 | **nerfacc** | [KAIR-BAIR/nerfacc](https://github.com/KAIR-BAIR/nerfacc) | **[Evaluado]** Toolbox de aceleración en PyTorch para muestreo y renderizado volumétrico rápido de NeRFs. |
 | **three-mesh-bvh** | [gkjohnson/three-mesh-bvh](https://github.com/gkjohnson/three-mesh-bvh) | **[Evaluado]** Estructura de aceleración espacial BVH para trazado de rayos ultrarrápido en mallas Three.js. |
+| **trimesh** | [mikedh/trimesh](https://github.com/mikedh/trimesh) | **[Evaluado]** Librería Python pura para inspección, manipulación y consulta de rayos en mallas 3D. |
+| **Open3D** | [isl-org/Open3D](https://github.com/isl-org/Open3D) | **[Evaluado]** Librería moderna para procesamiento de datos 3D, nubes de puntos, mallas y reconstrucción 3D. |
+| **PyMeshLab** | [cnr-isti-vclab/PyMeshLab](https://github.com/cnr-isti-vclab/PyMeshLab) | **[Evaluado]** Interfaz Python de MeshLab para procesamiento, simplificación y filtrado automatizado de mallas 3D. |
 
 ## 11. Super-Resolución Facial, Segmentación, Matting y Edición de Imagen/Video
 *Modelos de post-procesamiento facial (enhancers), segmentación de sujetos, matting de video y remoción de fondos.*
@@ -638,6 +642,9 @@ Este documento reúne los **579 proyectos open-source** evaluados en , organizad
 | **dav1d** | [videolan/dav1d](https://github.com/videolan/dav1d) | **[Evaluado]** Decodificador AV1 open-source súper rápido de VideoLAN optimizado para reproducir video de baja latencia. |
 | **libvpx** | [webmproject/libvpx](https://github.com/webmproject/libvpx) | **[Evaluado]** Librería de referencia para codificación y decodificación de formatos de video VP8 y VP9. |
 | **Video Processing Framework** | [NVIDIA/VideoProcessingFramework](https://github.com/NVIDIA/VideoProcessingFramework) | **[Evaluado]** Bindings en Python/PyTorch de NVIDIA para decodificación y codificación de video acelerada por hardware (NVDEC/NVENC). |
+| **libavif** | [AOMediaCodec/libavif](https://github.com/AOMediaCodec/libavif) | **[Evaluado]** Librería C de referencia de AOMedia para codificación y decodificación de formato de imagen AVIF. |
+| **libjpeg-turbo** | [libjpeg-turbo/libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) | **[Evaluado]** Codec JPEG acelerado por instrucciones SIMD para codificación/decodificación ultra-rápida de texturas. |
+| **stb** | [nothings/stb](https://github.com/nothings/stb) | **[Evaluado]** Librerías C/C++ de único archivo de dominio público para carga y manipulación ligera de imágenes y fuentes. |
 
 ## 12. Ecosistemas, Nodos y Plugins para Frameworks de Inferencia (ComfyUI / WebUI)
 *Suites de nodos, plugins y conectores de flujo de trabajo para ejecución modular en ComfyUI y otros entornos de inferencia.*
