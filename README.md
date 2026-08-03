@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **658 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **662 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -421,6 +421,8 @@ Este documento reúne los **658 proyectos open-source** evaluados en , organizad
 | **Hugging Face Optimum** | [huggingface/optimum](https://github.com/huggingface/optimum) | **[Evaluado]** Extensión de Hugging Face para optimizar modelos de voz y lenguaje en hardware específico (ONNX, OpenVINO, TensorRT). |
 | **open_clip** | [mlfoundations/open_clip](https://github.com/mlfoundations/open_clip) | **[Evaluado]** Implementación de código abierto de CLIP para embeddings multimodal de texto, imagen y audio. |
 | **safetensors** | [huggingface/safetensors](https://github.com/huggingface/safetensors) | **[Evaluado]** Formato ultrarrápido y seguro de Hugging Face para guardar y cargar tensores de modelos de IA sin ejecuciones arbitrarias. |
+| **DeepSpeed** | [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) | **[Evaluado]** Librería de optimización de aprendizaje profundo de Microsoft para acelerar el entrenamiento e inferencia de LLMs y modelos de voz. |
+| **Triton** | [triton-lang/triton](https://github.com/triton-lang/triton) | **[Evaluado]** Lenguaje y compilador de OpenAI para escribir kernels GPU de alto rendimiento para modelos de lenguaje y voz. |
 
 ## 6️⃣ Síntesis de Voz (TTS / Voice Cloning / Voice Conversion)
 *Modelos y motores de texto a voz (TTS), clonación de voz en tiempo real y conversión espectral de voz.*
@@ -533,6 +535,8 @@ Este documento reúne los **658 proyectos open-source** evaluados en , organizad
 | **essentia** | [MTG/essentia](https://github.com/MTG/essentia) | **[Evaluado]** Librería C++/Python del Music Technology Group para análisis de audio y extracción de características espectrales. |
 | **Vamp Plugin SDK** | [c4dm/vamp-plugin-sdk](https://github.com/c4dm/vamp-plugin-sdk) | **[Evaluado]** SDK de plugins C++ estándar para análisis y extracción de información en señales de audio de alta precisión. |
 | **CTranslate2** | [OpenNMT/CTranslate2](https://github.com/OpenNMT/CTranslate2) | **[Evaluado]** Motor C++ de inferencia rápida para modelos Transformer optimizado para CPU y GPU (usado por faster-whisper). |
+| **Parselmouth** | [YannickJadoul/Parselmouth](https://github.com/YannickJadoul/Parselmouth) | **[Evaluado]** Interfaz C++/Python oficial para Praat enfocada en análisis fonético, formantes y manipulación acústica de voz. |
+| **Pedalboard** | [spotify/pedalboard](https://github.com/spotify/pedalboard) | **[Evaluado]** Librería Python de Spotify para efectos DSP de audio en tiempo real y alojamiento de plugins VST3/AU. |
 
 ## 8️⃣ Captura de Movimiento, Estimación de Pose y Tracking Facial/Corporal
 *Sistemas de captura de movimiento, detección de puntos clave faciales/corporales (landmarks), modelos paramétricos (SMPL/FLAME) y tracking facial.*

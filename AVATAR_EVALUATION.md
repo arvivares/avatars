@@ -2001,3 +2001,8 @@ Evidencia primaria:
 | timm | [huggingface/pytorch-image-models](https://github.com/huggingface/pytorch-image-models) | Evaluado | Colección líder de modelos de visión por computadora y backbones para PyTorch. |
 | einops | [arogozhnikov/einops](https://github.com/arogozhnikov/einops) | Evaluado | Librería de manipulación flexible de tensores para arquitecturas de aprendizaje profundo. |
 | safetensors | [huggingface/safetensors](https://github.com/huggingface/safetensors) | Evaluado | Formato ultrarrápido y seguro de Hugging Face para guardar y cargar tensores de modelos de IA sin ejecuciones arbitrarias. |
+
+| Parselmouth | [YannickJadoul/Parselmouth](https://github.com/YannickJadoul/Parselmouth) | Evaluado | Interfaz C++/Python oficial para Praat enfocada en análisis fonético, formantes y manipulación acústica de voz. |
+| Pedalboard | [spotify/pedalboard](https://github.com/spotify/pedalboard) | Evaluado | Librería Python de Spotify para efectos DSP de audio en tiempo real y alojamiento de plugins VST3/AU. |
+| DeepSpeed | [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) | Evaluado | Librería de optimización de aprendizaje profundo de Microsoft para acelerar el entrenamiento e inferencia de LLMs y modelos de voz. |
+| Triton | [triton-lang/triton](https://github.com/triton-lang/triton) | Evaluado | Lenguaje y compilador de OpenAI para escribir kernels GPU de alto rendimiento para modelos de lenguaje y voz. |
