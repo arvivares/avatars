@@ -1984,3 +1984,8 @@ Evidencia primaria:
 | aubio | [aubio/aubio](https://github.com/aubio/aubio) | Evaluado | Librería C para análisis de audio, estimación de tono (pitch detection), detección de onsets y ritmos. |
 | libebur128 | [jiixopp/libebur128](https://github.com/jiixopp/libebur128) | Evaluado | Librería C de normalización y medición de sonoridad de audio bajo la norma estándar EBU R128. |
 | sox-ng | [sox-ng/sox-ng](https://github.com/sox-ng/sox-ng) | Evaluado | Versión mantenida de SoX para conversión de formatos, filtrado y efectos de audio desde la línea de comandos. |
+
+| essentia | [MTG/essentia](https://github.com/MTG/essentia) | Evaluado | Librería C++/Python del Music Technology Group para análisis de audio y extracción de características espectrales. |
+| WORLD Vocoder | [mmorise/World](https://github.com/mmorise/World) | Evaluado | Sistema de análisis y síntesis de voz de alta calidad para estimación de f0, aperiodicidad y espectro. |
+| pyworld | [JeremyCCR/pyworld](https://github.com/JeremyCCR/pyworld) | Evaluado | Wrapper en Python del vocoder WORLD utilizado ampliamente en pipelines de clonación y conversión de voz. |
+| Vamp Plugin SDK | [c4dm/vamp-plugin-sdk](https://github.com/c4dm/vamp-plugin-sdk) | Evaluado | SDK de plugins C++ estándar para análisis y extracción de información en señales de audio de alta precisión. |
