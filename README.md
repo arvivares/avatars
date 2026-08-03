@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **569 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **579 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -355,6 +355,7 @@ Este documento reúne los **569 proyectos open-source** evaluados en , organizad
 | **Vapi Python** | [vapi-ai/vapi-python](https://github.com/vapi-ai/vapi-python) | **[Evaluado]** SDK de cliente para integración de agentes de voz conversacionales de baja latencia. |
 | **RestoreFormer** | [wsi-lab/RestoreFormer](https://github.com/wsi-lab/RestoreFormer) | **[Evaluado]** Modelo basado en transformadores para restauración y super-resolución de rostros deteriorados. |
 | **peerjs-server** | [peers/peerjs-server](https://github.com/peers/peerjs-server) | **[Evaluado]** Servidor de señalización WebRTC ligero para conexiones P2P PeerJS. |
+| **Amazon Kinesis WebRTC C SDK** | [awslabs/amazon-kinesis-video-streams-webrtc-sdk-c](https://github.com/awslabs/amazon-kinesis-video-streams-webrtc-sdk-c) | **[Evaluado]** SDK oficial en C de AWS para streaming multimedia WebRTC de baja latencia en dispositivos y servidor. |
 
 ## 5️⃣ Modelos de Lenguaje & Conversación Multimodal (Speech-to-Speech LLMs & Motores de Inferencia)
 *LLMs multimodales nativos de audio/voz, motores de inferencia acelerados y orquestadores conversacionales.*
@@ -435,6 +436,10 @@ Este documento reúne los **569 proyectos open-source** evaluados en , organizad
 | **BigVGAN** | [NVIDIA/BigVGAN](https://github.com/NVIDIA/BigVGAN) | **[Evaluado]** Vocoder neuronal universal desarrollado por NVIDIA de hasta 112M de parámetros para audio transparente. |
 | **Vocos** | [gemelo-ai/vocos](https://github.com/gemelo-ai/vocos) | **[Evaluado]** Vocoder neuronal ultra-rápido basado en Fourier que sintetiza audio desde tokens EnCodec o espectrogramas. |
 | **libopus** | [xiph/opus](https://github.com/xiph/opus) | **[Evaluado]** Librería de referencia del codec de audio interactivo IETF Opus para comunicación WebRTC de baja latencia. |
+| **UnivNet** | [maum-ai/univnet](https://github.com/maum-ai/univnet) | **[Evaluado]** Vocoder neuronal de alta fidelidad basado en discriminadores de espectrograma multi-resolución. |
+| **WaveGlow** | [NVIDIA/waveglow](https://github.com/NVIDIA/waveglow) | **[Evaluado]** Red generativa basada en flujos desarrollada por NVIDIA para síntesis de voz en tiempo real. |
+| **MelGAN** | [descriptinc/melgan-neurips](https://github.com/descriptinc/melgan-neurips) | **[Evaluado]** Red generativa antagónica en tiempo real para síntesis de audio desde espectrogramas mel. |
+| **Parallel WaveGAN** | [kan-bayashi/ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN) | **[Evaluado]** Implementación paralela en PyTorch de WaveGAN para vocoder neuronal eficiente. |
 
 ## 7️⃣ Reconocimiento de Voz (ASR), VAD y Procesamiento de Audio
 *Modelos de transcripción ASR en tiempo real, Detección de Actividad de Voz (VAD), supresión de ruido y procesamiento de señal de audio.*
@@ -526,6 +531,7 @@ Este documento reúne los **569 proyectos open-source** evaluados en , organizad
 | **Chatterbox** | [ai-avatar-system/chatterbox](https://github.com/ai-avatar-system/chatterbox) | **[Evaluado]** Motor de sincronización labial y procesamiento de audio para humanos digitales interactivos. |
 | **PantoMatrix** | [PantoMatrix](https://github.com/PantoMatrix) | **[Evaluado]** Generador de animación corporal 3D y facial a partir de habla soportando SMPL-X y FLAME. |
 | **Awesome-Gesture_Generation** | [Awesome-Gesture_Generation](https://github.com/Awesome-Gesture_Generation) | **[Evaluado]** Índice de referencia y código de investigación en generación de gestos corporales guiados por audio. |
+| **Kalidokit** | [yeemachine/kalidokit](https://github.com/yeemachine/kalidokit) | **[Evaluado]** Solver de cinemática y blendshapes para convertir pose y landmarks de MediaPipe a avatares VRM y Live2D. |
 
 ## 9️⃣ Renderizado, Visualización 2D/3D y Motores de UI
 *Motores gráficos WebGL/WebGPU, visores y librerías de avatares VRM/Live2D, motores de videojuegos y frameworks de UI para escritorio y web.*
@@ -579,6 +585,8 @@ Este documento reúne los **569 proyectos open-source** evaluados en , organizad
 | **O3DE** | [o3de/o3de](https://github.com/o3de/o3de) | **[Evaluado]** Open 3D Engine de la Linux Foundation para simulación y renderizado 3D modular de alta fidelidad. |
 | **Rapier** | [dimforge/rapier](https://github.com/dimforge/rapier) | **[Evaluado]** Motor de física 2D/3D súper rápido escrito en Rust con bindings para WebAssembly/JavaScript. |
 | **Jolt Physics** | [jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) | **[Evaluado]** Motor de física 3D multihilo escrito en C++ para juegos y entornos VR/AR en tiempo real. |
+| **ammo.js** | [kripken/ammo.js](https://github.com/kripken/ammo.js) | **[Evaluado]** Puerto directo del motor Bullet Physics a JavaScript/WebAssembly para física 3D en la web. |
+| **cannon.js** | [schteppe/cannon.js](https://github.com/schteppe/cannon.js) | **[Evaluado]** Motor de física 3D ligero escrito en JavaScript para avatares y entornos 3D interactivos. |
 
 ## 🔟 Formatos 3D, Carga de Modelos y Optimizadores de Mallas
 *Herramientas y librerías de bajo nivel para carga, validación, optimización y compresión de formatos 3D (glTF, FBX, OBJ, Draco).*
@@ -602,6 +610,7 @@ Este documento reúne los **569 proyectos open-source** evaluados en , organizad
 | **Awesome-AI-Agents-2026** | [ARUNAGIRINATHAN-K/awesome-ai-agents-2026](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026) | **[Evaluado]** Colección curada de frameworks, modelos y despliegues de agentes de IA de voz. |
 | **gsplat** | [nerfstudio-project/gsplat](https://github.com/nerfstudio-project/gsplat) | **[Evaluado]** Librería CUDA hiperacelerada para rasterización y entrenamiento de 3D Gaussian Splatting por Nerfstudio. |
 | **nerfacc** | [KAIR-BAIR/nerfacc](https://github.com/KAIR-BAIR/nerfacc) | **[Evaluado]** Toolbox de aceleración en PyTorch para muestreo y renderizado volumétrico rápido de NeRFs. |
+| **three-mesh-bvh** | [gkjohnson/three-mesh-bvh](https://github.com/gkjohnson/three-mesh-bvh) | **[Evaluado]** Estructura de aceleración espacial BVH para trazado de rayos ultrarrápido en mallas Three.js. |
 
 ## 11. Super-Resolución Facial, Segmentación, Matting y Edición de Imagen/Video
 *Modelos de post-procesamiento facial (enhancers), segmentación de sujetos, matting de video y remoción de fondos.*
@@ -628,6 +637,7 @@ Este documento reúne los **569 proyectos open-source** evaluados en , organizad
 | **SVT-AV1** | [AOMediaCodec/SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1) | **[Evaluado]** Codificador de video AV1 de alta eficiencia optimizado para transmisión en tiempo real de AOMedia. |
 | **dav1d** | [videolan/dav1d](https://github.com/videolan/dav1d) | **[Evaluado]** Decodificador AV1 open-source súper rápido de VideoLAN optimizado para reproducir video de baja latencia. |
 | **libvpx** | [webmproject/libvpx](https://github.com/webmproject/libvpx) | **[Evaluado]** Librería de referencia para codificación y decodificación de formatos de video VP8 y VP9. |
+| **Video Processing Framework** | [NVIDIA/VideoProcessingFramework](https://github.com/NVIDIA/VideoProcessingFramework) | **[Evaluado]** Bindings en Python/PyTorch de NVIDIA para decodificación y codificación de video acelerada por hardware (NVDEC/NVENC). |
 
 ## 12. Ecosistemas, Nodos y Plugins para Frameworks de Inferencia (ComfyUI / WebUI)
 *Suites de nodos, plugins y conectores de flujo de trabajo para ejecución modular en ComfyUI y otros entornos de inferencia.*

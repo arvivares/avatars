@@ -1894,3 +1894,14 @@ Evidencia primaria:
 | libvpx | [webmproject/libvpx](https://github.com/webmproject/libvpx) | Evaluado | Librería de referencia para codificación y decodificación de formatos de video VP8 y VP9. |
 | libopus | [xiph/opus](https://github.com/xiph/opus) | Evaluado | Librería de referencia del codec de audio interactivo IETF Opus para comunicación WebRTC de baja latencia. |
 | peerjs-server | [peers/peerjs-server](https://github.com/peers/peerjs-server) | Evaluado | Servidor de señalización WebRTC ligero para conexiones P2P PeerJS. |
+
+| Kalidokit | [yeemachine/kalidokit](https://github.com/yeemachine/kalidokit) | Evaluado | Solver de cinemática y blendshapes para convertir pose y landmarks de MediaPipe a avatares VRM y Live2D. |
+| Amazon Kinesis WebRTC C SDK | [awslabs/amazon-kinesis-video-streams-webrtc-sdk-c](https://github.com/awslabs/amazon-kinesis-video-streams-webrtc-sdk-c) | Evaluado | SDK oficial en C de AWS para streaming multimedia WebRTC de baja latencia en dispositivos y servidor. |
+| UnivNet | [maum-ai/univnet](https://github.com/maum-ai/univnet) | Evaluado | Vocoder neuronal de alta fidelidad basado en discriminadores de espectrograma multi-resolución. |
+| WaveGlow | [NVIDIA/waveglow](https://github.com/NVIDIA/waveglow) | Evaluado | Red generativa basada en flujos desarrollada por NVIDIA para síntesis de voz en tiempo real. |
+| ammo.js | [kripken/ammo.js](https://github.com/kripken/ammo.js) | Evaluado | Puerto directo del motor Bullet Physics a JavaScript/WebAssembly para física 3D en la web. |
+| cannon.js | [schteppe/cannon.js](https://github.com/schteppe/cannon.js) | Evaluado | Motor de física 3D ligero escrito en JavaScript para avatares y entornos 3D interactivos. |
+| three-mesh-bvh | [gkjohnson/three-mesh-bvh](https://github.com/gkjohnson/three-mesh-bvh) | Evaluado | Estructura de aceleración espacial BVH para trazado de rayos ultrarrápido en mallas Three.js. |
+| MelGAN | [descriptinc/melgan-neurips](https://github.com/descriptinc/melgan-neurips) | Evaluado | Red generativa antagónica en tiempo real para síntesis de audio desde espectrogramas mel. |
+| Parallel WaveGAN | [kan-bayashi/ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN) | Evaluado | Implementación paralela en PyTorch de WaveGAN para vocoder neuronal eficiente. |
+| Video Processing Framework | [NVIDIA/VideoProcessingFramework](https://github.com/NVIDIA/VideoProcessingFramework) | Evaluado | Bindings en Python/PyTorch de NVIDIA para decodificación y codificación de video acelerada por hardware (NVDEC/NVENC). |
