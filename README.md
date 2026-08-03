@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **586 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **592 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -39,7 +39,7 @@ Este documento reúne los **586 proyectos open-source** evaluados en , organizad
 | **Semantic Kernel** | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | **[Evaluado]** SDK de Microsoft para integrar LLMs y plugins de audio en C#, Python y Java. |
 
 ## 2️⃣ Generación y Animación de Avatar 2D/3D & Talking Heads
-*Modelos de IA de generación de video facial, sincronización labial (lip-sync), NeRF, 3D Gaussian Splatting y animación guiada por audio/video.*
+*Modelos de IA de generación de video facial, synchronización labial (lip-sync), NeRF, 3D Gaussian Splatting y animación guiada por audio/video.*
 
 | **Proyecto / Solución** | **Repositorio / Enlace** | **Descripción / Evaluación Técnica** |
 |---|---|---|
@@ -283,6 +283,8 @@ Este documento reúne los **586 proyectos open-source** evaluados en , organizad
 | **mirotalksfu** | [miroslavpejic85/mirotalksfu](https://github.com/miroslavpejic85/mirotalksfu) | **[Evaluado]** Plataforma SFU de conferencias y streaming WebRTC auto-hospedada en NodeJS. |
 | **MediaMTX** | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | **[Evaluado]** Servidor de medios multiprotocolo (RTSP, RTMP, WebRTC, HLS) de baja latencia escrito en Go. |
 | **Ant Media Server** | [ant-media/Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server) | **[Evaluado]** Servidor de streaming WebRTC ultra-baja latencia con transcodificación en tiempo real. |
+| **livekit-plugins-deepgram** | [livekit/plugins-deepgram](https://github.com/livekit/agents#deepgram) | **[Evaluado]** Plugin oficial de LiveKit para integración de ASR Deepgram en tiempo real. |
+| **livekit-plugins-elevenlabs** | [livekit/plugins-elevenlabs](https://github.com/livekit/agents#elevenlabs) | **[Evaluado]** Plugin oficial de LiveKit para síntesis de voz en streaming con ElevenLabs. |
 
 ## 4️⃣ SDKs de Cliente y Protocolos de Comunicación WebRTC / Red
 *Librerías SDK cliente/servidor multiplataforma (Python, JS, C++, Rust, Go, Mobile, Game Engines) e implementaciones de protocolo WebRTC/RTP/ICE/SDP.*
@@ -441,6 +443,8 @@ Este documento reúne los **586 proyectos open-source** evaluados en , organizad
 | **MelGAN** | [descriptinc/melgan-neurips](https://github.com/descriptinc/melgan-neurips) | **[Evaluado]** Red generativa antagónica en tiempo real para síntesis de audio desde espectrogramas mel. |
 | **Parallel WaveGAN** | [kan-bayashi/ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN) | **[Evaluado]** Implementación paralela en PyTorch de WaveGAN para vocoder neuronal eficiente. |
 | **fdk-aac** | [mstorsjo/fdk-aac](https://github.com/mstorsjo/fdk-aac) | **[Evaluado]** Librería de codificación y decodificación de audio AAC Fraunhofer FDK de alta fidelidad. |
+| **Kokoro TTS** | [hexgrad/kokoro](https://github.com/hexgrad/kokoro) | **[Evaluado]** Modelo de síntesis de voz (TTS) ultraligero de 82M de parámetros de alta fidelidad y baja latencia. |
+| **Voicebox** | [facebookresearch/voicebox](https://github.com/facebookresearch/voicebox) | **[Evaluado]** Modelo fundacional generativo de audio de Meta basado en flow matching para edición, infilling y TTS. |
 
 ## 7️⃣ Reconocimiento de Voz (ASR), VAD y Procesamiento de Audio
 *Modelos de transcripción ASR en tiempo real, Detección de Actividad de Voz (VAD), supresión de ruido y procesamiento de señal de audio.*
@@ -588,6 +592,7 @@ Este documento reúne los **586 proyectos open-source** evaluados en , organizad
 | **Jolt Physics** | [jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) | **[Evaluado]** Motor de física 3D multihilo escrito en C++ para juegos y entornos VR/AR en tiempo real. |
 | **ammo.js** | [kripken/ammo.js](https://github.com/kripken/ammo.js) | **[Evaluado]** Puerto directo del motor Bullet Physics a JavaScript/WebAssembly para física 3D en la web. |
 | **cannon.js** | [schteppe/cannon.js](https://github.com/schteppe/cannon.js) | **[Evaluado]** Motor de física 3D ligero escrito en JavaScript para avatares y entornos 3D interactivos. |
+| **rapier.js** | [dimforge/rapier.js](https://github.com/dimforge/rapier.js) | **[Evaluado]** Bindings en WebAssembly/JavaScript para el motor de física Rapier 3D. |
 
 ## 🔟 Formatos 3D, Carga de Modelos y Optimizadores de Mallas
 *Herramientas y librerías de bajo nivel para carga, validación, optimización y compresión de formatos 3D (glTF, FBX, OBJ, Draco).*
@@ -645,6 +650,7 @@ Este documento reúne los **586 proyectos open-source** evaluados en , organizad
 | **libavif** | [AOMediaCodec/libavif](https://github.com/AOMediaCodec/libavif) | **[Evaluado]** Librería C de referencia de AOMedia para codificación y decodificación de formato de imagen AVIF. |
 | **libjpeg-turbo** | [libjpeg-turbo/libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) | **[Evaluado]** Codec JPEG acelerado por instrucciones SIMD para codificación/decodificación ultra-rápida de texturas. |
 | **stb** | [nothings/stb](https://github.com/nothings/stb) | **[Evaluado]** Librerías C/C++ de único archivo de dominio público para carga y manipulación ligera de imágenes y fuentes. |
+| **DiffSynth-Studio** | [modelscope/DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) | **[Evaluado]** Framework de difusión optimizado para generación y control de video en tiempo real por ModelScope. |
 
 ## 12. Ecosistemas, Nodos y Plugins para Frameworks de Inferencia (ComfyUI / WebUI)
 *Suites de nodos, plugins y conectores de flujo de trabajo para ejecución modular en ComfyUI y otros entornos de inferencia.*

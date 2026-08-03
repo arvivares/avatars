@@ -1913,3 +1913,10 @@ Evidencia primaria:
 | trimesh | [mikedh/trimesh](https://github.com/mikedh/trimesh) | Evaluado | Librería Python pura para inspección, manipulación y consulta de rayos en mallas 3D. |
 | Open3D | [isl-org/Open3D](https://github.com/isl-org/Open3D) | Evaluado | Librería moderna para procesamiento de datos 3D, nubes de puntos, mallas y reconstrucción 3D. |
 | PyMeshLab | [cnr-isti-vclab/PyMeshLab](https://github.com/cnr-isti-vclab/PyMeshLab) | Evaluado | Interfaz Python de MeshLab para procesamiento, simplificación y filtrado automatizado de mallas 3D. |
+
+| Kokoro TTS | [hexgrad/kokoro](https://github.com/hexgrad/kokoro) | Evaluado | Modelo de síntesis de voz (TTS) ultraligero de 82M de parámetros de alta fidelidad y baja latencia. |
+| DiffSynth-Studio | [modelscope/DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) | Evaluado | Framework de difusión optimizado para generación y control de video en tiempo real por ModelScope. |
+| Voicebox | [facebookresearch/voicebox](https://github.com/facebookresearch/voicebox) | Evaluado | Modelo fundacional generativo de audio de Meta basado en flow matching para edición, infilling y TTS. |
+| rapier.js | [dimforge/rapier.js](https://github.com/dimforge/rapier.js) | Evaluado | Bindings en WebAssembly/JavaScript para el motor de física Rapier 3D. |
+| livekit-plugins-deepgram | [livekit/plugins-deepgram](https://github.com/livekit/agents#deepgram) | Evaluado | Plugin oficial de LiveKit para integración de ASR Deepgram en tiempo real. |
+| livekit-plugins-elevenlabs | [livekit/plugins-elevenlabs](https://github.com/livekit/agents#elevenlabs) | Evaluado | Plugin oficial de LiveKit para síntesis de voz en streaming con ElevenLabs. |
