@@ -2006,3 +2006,10 @@ Evidencia primaria:
 | Pedalboard | [spotify/pedalboard](https://github.com/spotify/pedalboard) | Evaluado | Librería Python de Spotify para efectos DSP de audio en tiempo real y alojamiento de plugins VST3/AU. |
 | DeepSpeed | [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) | Evaluado | Librería de optimización de aprendizaje profundo de Microsoft para acelerar el entrenamiento e inferencia de LLMs y modelos de voz. |
 | Triton | [triton-lang/triton](https://github.com/triton-lang/triton) | Evaluado | Lenguaje y compilador de OpenAI para escribir kernels GPU de alto rendimiento para modelos de lenguaje y voz. |
+
+| CUTLASS | [NVIDIA/cutlass](https://github.com/NVIDIA/cutlass) | Evaluado | Colección C++ de plantillas CUDA de NVIDIA para álgebra lineal acelerada y aceleración de atenciones en GPUs Tensor Core. |
+| xFormers | [facebookresearch/xformers](https://github.com/facebookresearch/xformers) | Evaluado | Librería de bloques de construcción optimizados para Transformers desarrollada por Meta AI para inferencia ultrarrápida. |
+| Unsloth | [unslothai/unsloth](https://github.com/unslothai/unsloth) | Evaluado | Motor de optimización e inferencia ultra-eficiente para LLMs locales con consumo mínimo de VRAM. |
+
+| Candle | [huggingface/candle](https://github.com/huggingface/candle) | Evaluado | Framework minimalista de aprendizaje profundo en Rust enfocado en inferencia ultrarrápida y despliegue WebAssembly/Edge. |
+| Burn | [tracel-ai/burn](https://github.com/tracel-ai/burn) | Evaluado | Framework flexible de deep learning escrito en Rust con soporte para múltiples backends de inferencia y computación GPU. |
