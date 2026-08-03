@@ -1,538 +1,567 @@
-# Avatar Ecosystem – Categorized Open‑Source Repositories
+# Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Esta lista organiza los 475 proyectos de **AVATAR_EVALUATION.md** en categorías que reflejan su nivel de abstracción y funcionalidad.
+Este documento reúne los **492 proyectos open-source** evaluados en `AVATAR_EVALUATION.md`, organizados de forma strictly jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
-## Frameworks end‑to‑end (suite completa)
-| **Proyecto** | **Repositorio** | **Descripción** |
+## 1️⃣ Frameworks y Suites Conversacionales End-to-End
+*Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
+
+| **Proyecto / Solución** | **Repositorio / Enlace** | **Descripción / Evaluación Técnica** |
 |---|---|---|
-| LiteAvatar | [HumanAIGC/lite-avatar](https://github.com/HumanAIGC/lite-avatar) | LiteAvatar: baseline ligero de avatar de video para comparar inferencia, calidad y latencia en una GPU local. |
-| MuseTalk | [TMElyralab/MuseTalk](https://github.com/TMElyralab/MuseTalk) | MuseTalk: modelo de lip-sync que anima la boca y la parte inferior del rostro a partir de audio. |
-| SoulX-FlashHead Lite | [Soul-AILab/SoulX-FlashHead](https://github.com/Soul-AILab/SoulX-FlashHead) | SoulX-FlashHead Lite: modelo de talking head que genera movimiento facial sincronizado con audio. |
-| FasterLivePortrait | [warmshao/FasterLivePortrait](https://github.com/warmshao/FasterLivePortrait) | FasterLivePortrait: versión optimizada de LivePortrait para animar un retrato con menor latencia. |
-| Duix-Avatar | [duixcom/Duix-Avatar](https://github.com/duixcom/Duix-Avatar) | Duix-Avatar: pipeline de generación de talking head orientado a producir clips de avatar a partir de audio. |
-| AvatarForcing | [KlingAIResearch/AvatarForcing](https://github.com/KlingAIResearch/AvatarForcing) | AvatarForcing: modelo de video-avatar que fuerza la identidad y el movimiento de una persona a partir de condiciones de entrada. |
-| Prometheus Avatar | [myths-labs/prometheus-avatar](https://github.com/myths-labs/prometheus-avatar) | Prometheus Avatar: aplicación de avatar Live2D que integra micrófono, STT, LLM, TTS, lipsync y WebRTC. |
-| ARACHNE-X-ULTRA-AVATAR | [HF: ARACHNE-X-ULTRA-AVATAR](https://huggingface.co/MagistrTheOne/ARACHNE-X-ULTRA-AVATAR) | ARACHNE-X-ULTRA-AVATAR: modelo de avatar alojado en Hugging Face para generar video facial; sirve como referencia de calidad y coste. |
-| LongCat-Video-Avatar 1.5 | [meituan-longcat/LongCat-Video](https://github.com/meituan-longcat/LongCat-Video) | LongCat-Video-Avatar 1.5: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| HunyuanVideo-Avatar | [Tencent-Hunyuan/HunyuanVideo-Avatar](https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar) | HunyuanVideo-Avatar: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| OpenAvatarChat | [HumanAIGC-Engineering/OpenAvatarChat](https://github.com/HumanAIGC-Engineering/OpenAvatarChat) | OpenAvatarChat: framework local que conecta conversación, audio, modelos de avatar y transporte WebRTC. |
-| LiveAvatar | [Alibaba-Quark/LiveAvatar](https://github.com/Alibaba-Quark/LiveAvatar) | LiveAvatar: sistema de avatar en vivo que combina conversación y animación de una persona digital. |
-| LivePortrait | [KwaiVGI/LivePortrait](https://github.com/KwaiVGI/LivePortrait) | LivePortrait: modelo de animación de retratos que transfiere movimiento y expresiones a una imagen de referencia. |
-| SplattingAvatar | [initialneil/SplattingAvatar](https://github.com/initialneil/SplattingAvatar) | SplattingAvatar: avatar 3-D basado en Gaussian Splatting que representa una identidad con una escena renderizable. |
-| AIAvatarKit | [uezo/aiavatarkit](https://github.com/uezo/aiavatarkit) | AIAvatarKit: kit de desarrollo para integrar avatares animados en una aplicación. |
-| EchoAvatar | [RobinWitch/EchoAvatar](https://github.com/RobinWitch/EchoAvatar) | EchoAvatar: sistema de avatar que genera movimiento facial y video hablado a partir de señales de entrada. |
-| AI Avatar System | [PunithVT/ai-avatar-system](https://github.com/PunithVT/ai-avatar-system) | AI Avatar System: aplicación de referencia para ensamblar conversación, síntesis de voz y presentación de un avatar. |
-| Avatar Chat Server | [myned-ai/avatar-chat-server](https://github.com/myned-ai/avatar-chat-server) | Avatar Chat Server: backend que coordina sesiones conversacionales y entrega audio o frames de un avatar. |
-| MEMO | [memoavatar/memo](https://github.com/memoavatar/memo) | MEMO: modelo de avatar que sintetiza movimiento facial y habla manteniendo la identidad de referencia. |
-| Gaussian-Head-Avatar | [xuchen-eth/Gaussian-Head-Avatar](https://github.com/xuchen-eth/Gaussian-Head-Avatar) | Gaussian-Head-Avatar: representación de una cabeza humana con Gaussian Splatting para renderizar un avatar 3-D. |
-| LivePortrait-AudioDriven | [Hekenye/LivePortrait-AudioDriven](https://github.com/Hekenye/LivePortrait-AudioDriven) | LivePortrait-AudioDriven: adaptación audio-driven de LivePortrait para convertir voz en movimiento facial. |
-| Loopy | [loopyavatar/loopy](https://github.com/loopyavatar/loopy) | Loopy: aplicación de avatar conversacional orientada a generar una presentación animada en tiempo real. |
-| ChatAvatar | [DeemosTech/ChatAvatar](https://github.com/DeemosTech/ChatAvatar) | ChatAvatar: sistema que combina chat y generación de un avatar parlante. |
-| StableAvatar | [Francis-Rings/StableAvatar](https://github.com/Francis-Rings/StableAvatar) | StableAvatar: modelo de generación de avatar que busca preservar identidad y estabilidad temporal en video. |
-| ComfyUI-LivePortraitKJ | [kijai/ComfyUI-LivePortraitKJ](https://github.com/kijai/ComfyUI-LivePortraitKJ) | ComfyUI-LivePortraitKJ: nodos de ComfyUI para ejecutar el pipeline de LivePortrait y animar retratos. |
-| FlashAvatar | [ustc3dv/FlashAvatar](https://github.com/ustc3dv/FlashAvatar) | FlashAvatar: avatar 3-D de generación rápida orientado a renderizado de talking heads. |
-| RAM-Avatar | [Xiang-Deng00/RAM-Avatar](https://github.com/Xiang-Deng00/RAM-Avatar) | RAM-Avatar: representación de avatar aprendida para sintetizar apariencia y movimiento de una persona. |
-| ComfyUI-MuseTalk_FSH | [AIFSH/ComfyUI-MuseTalk_FSH](https://github.com/AIFSH/ComfyUI-MuseTalk_FSH) | ComfyUI-MuseTalk_FSH: workflow de ComfyUI para ejecutar MuseTalk y producir lip-sync a partir de audio. |
-| AvatarCraft | [songrise/avatarcraft](https://github.com/songrise/avatarcraft) | AvatarCraft: método de creación de avatares 3-D a partir de imágenes o señales de identidad. |
-| PointAvatar | [zhengyuf/pointavatar](https://github.com/zhengyuf/pointavatar) | PointAvatar: avatar representado con puntos o splats 3-D para generar una cabeza animable. |
-| AvatarCLIP | [hongfz16/AvatarCLIP](https://github.com/hongfz16/AvatarCLIP) | AvatarCLIP: método de alineación entre texto e identidad visual para construir o recuperar avatares. |
-| StyleAvatar3D | [icoz69/StyleAvatar3D](https://github.com/icoz69/StyleAvatar3D) | StyleAvatar3D: generador de avatares 3-D estilizados controlado por apariencia y estructura. |
-| LatentAvatar | [YuelangX/LatentAvatar](https://github.com/YuelangX/LatentAvatar) | LatentAvatar: representación latente de avatar para sintetizar identidad y movimiento facial. |
-| OTAvatar | [theEricMa/OTAvatar](https://github.com/theEricMa/OTAvatar) | OTAvatar: modelo de avatar 3-D orientado a reconstrucción y animación de una identidad. |
-| AvatarMe | [lattas/AvatarMe](https://github.com/lattas/AvatarMe) | AvatarMe: método de reconstrucción de avatar que recupera una identidad 3-D desde imágenes de referencia. |
-| 3DGS-Avatar | [mikeqzy/3dgs-avatar-release](https://github.com/mikeqzy/3dgs-avatar-release) | 3DGS-Avatar: avatar basado en Gaussian Splatting para renderizar una persona en 3-D. |
-| ExAvatar | [mks0601/ExAvatar_RELEASE](https://github.com/mks0601/ExAvatar_RELEASE) | ExAvatar: modelo de reconstrucción de avatar humano expresivo para animación facial y corporal. |
-| ComfyUI-MuseTalk | [chaojie/ComfyUI-MuseTalk](https://github.com/chaojie/ComfyUI-MuseTalk) | ComfyUI-MuseTalk: nodos de ComfyUI para ejecutar MuseTalk y sincronizar labios con audio. |
-| Duix-Mobile | [duixcom/Duix-Mobile](https://github.com/duixcom/Duix-Mobile) | Duix-Mobile: implementación móvil de Duix para ejecutar generación de avatar en dispositivos Android. |
-| CyberVerse | [Lynpoint/CyberVerse](https://github.com/Lynpoint/CyberVerse) | CyberVerse: aplicación full-duplex de avatar que combina conversación, audio bidireccional y presentación visual. |
-| TEN Framework | [TEN-framework/ten-framework](https://github.com/TEN-framework/ten-framework) | TEN Framework: framework de agentes multimodales para construir pipelines de audio y conversación con un avatar. |
-| Vision Agents | [GetStream/Vision-Agents](https://github.com/GetStream/Vision-Agents) | Vision Agents: toolkit de agentes con entrada audiovisual y transporte en tiempo real para integrar un avatar. |
-| LiveTalking | [lipku/LiveTalking](https://github.com/lipku/LiveTalking) | LiveTalking: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| LiveTalk | [GAIR-NLP/livetalk](https://github.com/GAIR-NLP/livetalk) | LiveTalk: aplicación de talking head con conversación y síntesis de video hablado. |
-| Amica | [semperai/amica](https://github.com/semperai/amica) | Amica: modelo paramétrico o de reconstrucción 3-D para obtener la malla, pose y expresión del avatar. |
-| Linly-Talker-Stream | [Kedreamix/Linly-Talker-Stream](https://github.com/Kedreamix/Linly-Talker-Stream) | Linly-Talker-Stream: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| Open-LLM-VTuber | [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) | Open-LLM-VTuber: vTuber local que conecta un LLM con voz, personalidad y una representación animada. |
-| Ultralight-Digital-Human | [anliyuan/Ultralight-Digital-Human](https://github.com/anliyuan/Ultralight-Digital-Human) | Ultralight-Digital-Human: Implementación ligera de humano digital para generar una cara parlante con recursos limitados. |
-| NodeAva | [Lucasmind/nodeava](https://github.com/Lucasmind/nodeava) | NodeAva: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| GMTalker | [GML-MMGroup/GMTalker](https://github.com/GML-MMGroup/GMTalker) | GMTalker: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| ARTalk | [xg-chu/ARTalk](https://github.com/xg-chu/ARTalk) | ARTalk: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| Ghost Vessel | [ghdtjrtka/ghost-vessel](https://github.com/ghdtjrtka/ghost-vessel) | Ghost Vessel: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| EMO | [HumanAIGC/EMO](https://github.com/HumanAIGC/EMO) | EMO: Modelo de video audio-driven que genera una persona parlante con expresiones y movimiento facial expresivo. |
-| LetsTalk | [zhang-haojie/letstalk](https://github.com/zhang-haojie/letstalk) | LetsTalk: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| HelloMeme | [HelloVision/HelloMeme](https://github.com/HelloVision/HelloMeme) | HelloMeme: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| DAWN | [Hanbo-Cheng/DAWN-pytorch](https://github.com/Hanbo-Cheng/DAWN-pytorch) | DAWN: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| LinguaLinker | [TencentQQGYLab/LinguaLinker](https://github.com/TencentQQGYLab/LinguaLinker) | LinguaLinker: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| EDTalk | [tanshuai0219/EDTalk](https://github.com/tanshuai0219/EDTalk) | EDTalk: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| DreamTalk | [meitu/DreamTalk](https://github.com/meitu/DreamTalk) | DreamTalk: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| MakeItTalk | [yzhou359/MakeItTalk](https://github.com/yzhou359/MakeItTalk) | MakeItTalk: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| TalkLip | [Sxjdwang/TalkLip](https://github.com/Sxjdwang/TalkLip) | TalkLip: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| ComfyStream | [yolain/ComfyStream](https://github.com/yolain/ComfyStream) | ComfyStream: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| DeepLiveCam | [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | DeepLiveCam: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| FaceFusion | [facefusion/facefusion](https://github.com/facefusion/facefusion) | FaceFusion: herramienta de composición y reemplazo facial útil para preparar o probar identidades de avatar. |
-| OmniEdit | [l1346792580123/OmniEdit](https://github.com/l1346792580123/OmniEdit) | OmniEdit: modelo de edición o adaptación de imágenes que puede preparar la identidad, el estilo o el fondo del avatar. |
-| MOVA | [OpenMOSS/MOVA](https://github.com/OpenMOSS/MOVA) | MOVA: Modelo de generación de video humano que sintetiza movimiento y apariencia de una persona a partir de condiciones visuales. |
-| JoVA | [Visual-AI/JoVA](https://github.com/Visual-AI/JoVA) | JoVA: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| STARCaster | [foivospar/STARCaster](https://github.com/foivospar/STARCaster) | STARCaster: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| UniLS | [xg-chu/UniLS](https://github.com/xg-chu/UniLS) | UniLS: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| AnimateAnyone | [HumanAIGC/AnimateAnyone](https://github.com/HumanAIGC/AnimateAnyone) | AnimateAnyone: modelo de animación de personajes que transfiere pose y movimiento a una imagen de referencia. |
-| HunyuanPortrait | [Tencent/HunyuanPortrait](https://github.com/Tencent/HunyuanPortrait) | HunyuanPortrait: Modelo de retrato humano que genera y anima una identidad facial con control de apariencia y expresión. |
-| LangYing | [langzizhixin/LangYing](https://github.com/langzizhixin/LangYing) | LangYing: Sistema de humano digital orientado a generar una persona parlante y sincronizar su expresión con la voz. |
-| LangYuan | [langzizhixin/LangYuan](https://github.com/langzizhixin/LangYuan) | LangYuan: Modelo de generación de persona digital para producir video facial condicionado por audio o texto. |
-| ChatVTuber | [lTaGll/ChatVTuber](https://github.com/lTaGll/ChatVTuber) | ChatVTuber: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| face-vid2vid | [NVlabs/face-vid2vid](https://github.com/NVlabs/face-vid2vid) | face-vid2vid: modelo de video-to-video facial que transfiere identidad, pose y expresión entre secuencias. |
-| NeRSemble | [tobias-kirschstein/nersemble](https://github.com/tobias-kirschstein/nersemble) | NeRSemble: Dataset y pipeline de actuaciones faciales multi-vista para estudiar reconstrucción y renderizado neural. |
-| ClipFace | [shivangi-aneja/ClipFace](https://github.com/shivangi-aneja/ClipFace) | ClipFace: método de representación o reconstrucción facial que aporta identidad y geometría para un avatar 3-D. |
-| LACE | [NVlabs/LACE](https://github.com/NVlabs/LACE) | LACE: método de representación o reconstrucción facial que aporta identidad y geometría para un avatar 3-D. |
-| whisper.cpp | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | whisper.cpp: modelo o servicio de reconocimiento de voz para transcribir lo que dice el usuario al avatar. |
-| OpenAI Realtime Console | [openai/openai-realtime-console](https://github.com/openai/openai-realtime-console) | OpenAI Realtime Console: consola de referencia para conectar conversación de voz en tiempo real con una interfaz de avatar. |
-| Rhubarb Lip Sync | [DanielSWolf/rhubarb-lip-sync](https://github.com/DanielSWolf/rhubarb-lip-sync) | Rhubarb Lip Sync: herramienta de sincronización labial que convierte audio o fonemas en movimiento de boca. |
-| Surge | [Darussalamnoor/surge](https://github.com/Darussalamnoor/surge) | Surge: framework o agente conversacional que coordina entrada de voz, LLM, síntesis y respuesta del avatar. |
-| Bolna | [bolna-ai/bolna](https://github.com/bolna-ai/bolna) | Bolna: framework o agente conversacional que coordina entrada de voz, LLM, síntesis y respuesta del avatar. |
-| TEN Agent | [TEN-framework/TEN-Agent](https://github.com/TEN-framework/TEN-Agent) | TEN Agent: framework o agente conversacional que coordina entrada de voz, LLM, síntesis y respuesta del avatar. |
-| IP-Adapter | [tencent-aio/IP-Adapter](https://github.com/tencent-aio/IP-Adapter) | IP-Adapter: modelo de edición o adaptación de imágenes que puede preparar la identidad, el estilo o el fondo del avatar. |
-| Lipreading Deep Learning | [mpcbr/lipreading](https://github.com/mpcbr/lipreading) | Lipreading Deep Learning: modelo de lectura de labios que aporta señales visuales para reconocer habla o comprobar sincronización. |
+| **Prometheus Avatar** | [myths-labs/prometheus-avatar](https://github.com/myths-labs/prometheus-avatar) | **[Prueba integrada exitosa]** Candidato activo: Live2D vertical conectado a micrófono, STT, LLM, TTS, WebRTC y lipsync |
+| **OpenAvatarChat** | [HumanAIGC-Engineering/OpenAvatarChat](https://github.com/HumanAIGC-Engineering/OpenAvatarChat) | **[Usado]** Framework local de referencia para integrar audio, WebRTC y avatares |
+| **TEN Framework** | [TEN-framework/ten-framework](https://github.com/TEN-framework/ten-framework) | **[Investigado]** Buen pipeline de audio; avatar local no resuelto |
+| **Vision Agents** | [GetStream/Vision-Agents](https://github.com/GetStream/Vision-Agents) | **[Investigado]** Alternativa interesante con transporte local; no probada |
+| **AIAvatarKit** | [uezo/aiavatarkit](https://github.com/uezo/aiavatarkit) | SDK en Python para construir avatares conversacionales IA combinando OpenAI LLMs, VRM y TTS. |
+| **Amica** | [semperai/amica](https://github.com/semperai/amica) | Interfaz web interactiva 3D para conversar con avatares VRM utilizando modelos local o de la nube. |
+| **Linly-Talker-Stream** | [Kedreamix/Linly-Talker-Stream](https://github.com/Kedreamix/Linly-Talker-Stream) | Sistema completo conversacional que integra LLMs, TTS y sincronización de avatar parlante en streaming. |
+| **Open-LLM-VTuber** | [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) | Avatar VTuber conversacional impulsado por LLMs locales y renderizado VRM. |
+| **Ultralight-Digital-Human** | [anliyuan/Ultralight-Digital-Human](https://github.com/anliyuan/Ultralight-Digital-Human) | Implementación ultraligera de humano digital para dispositivos de bajos recursos. |
+| **NodeAva** | [Lucasmind/nodeava](https://github.com/Lucasmind/nodeava) | Plataforma Node.js para despliegue de avatares conversacionales interactivos. |
+| **AI Avatar System** | [PunithVT/ai-avatar-system](https://github.com/PunithVT/ai-avatar-system) | Sistema integrado de avatar interactivo conversacional. |
+| **Avatar Chat Server** | [myned-ai/avatar-chat-server](https://github.com/myned-ai/avatar-chat-server) | Servidor de backend para gestión de sesiones y streaming de audio/video para avatares. |
+| **Meta-Human** | [LessUp/meta-human](https://github.com/LessUp/meta-human) | Framework para integración de avatares hiperrealistas y pipelines de streaming. |
+| **Ghost Vessel** | [ghdtjrtka/ghost-vessel](https://github.com/ghdtjrtka/ghost-vessel) | Cliente y servidor de renderizado de avatares con baja latencia. |
+| **LinguaLinker** | [TencentQQGYLab/LinguaLinker](https://github.com/TencentQQGYLab/LinguaLinker) | Librería de enlace conversacional multilingüe para sistemas de voz y avatar. |
+| **NarratingForYou** | [narratingForYou/NarratingForYou](https://github.com/narratingForYou/NarratingForYou) | Sistema de narración y sincronización de avatares a partir de texto o audio. |
+| **JUST-DUB-IT** | [justdubit/just-dub-it](https://github.com/justdubit/just-dub-it) | Pipeline de doblaje y sincronización labial automatizada sobre videos. |
+| **ChatVTuber** | [lTaGll/ChatVTuber](https://github.com/lTaGll/ChatVTuber) | Agente VTuber interactivo para streaming en vivo con reconocimiento de voz y respuesta parlante. |
+| **Surge** | [Darussalamnoor/surge](https://github.com/Darussalamnoor/surge) | Motor de orquestación conversacional y agentes de voz en tiempo real. |
+| **Bolna** | [bolna-ai/bolna](https://github.com/bolna-ai/bolna) | Framework open-source para construir agentes conversacionales de voz y video en tiempo real. |
+| **TEN Agent** | [TEN-framework/TEN-Agent](https://github.com/TEN-framework/TEN-Agent) | Agente multimodal de tiempo real construido sobre TEN Framework. |
 
-## Infraestructura de transmisión (SFU/MCU/Media‑servers)
-| **Proyecto** | **Repositorio** | **Descripción** |
+## 2️⃣ Generación y Animación de Avatar 2D/3D & Talking Heads
+*Modelos de IA de generación de video facial, sincronización labial (lip-sync), NeRF, 3D Gaussian Splatting y animación guiada por audio/video.*
+
+| **Proyecto / Solución** | **Repositorio / Enlace** | **Descripción / Evaluación Técnica** |
 |---|---|---|
-| LiveKit Agents | [livekit/agents](https://github.com/livekit/agents) | LiveKit Agents: framework de agentes de voz que conecta entrada de audio, LLM, TTS y transporte WebRTC. |
-| SpatialReal | [spatialwalk/livekit-plugins-spatialreal](https://github.com/spatialwalk/livekit-plugins-spatialreal) | SpatialReal: plugin de LiveKit para espacializar audio y ubicar fuentes sonoras dentro de una experiencia de avatar. |
-| LiveKit | [livekit/livekit](https://github.com/livekit/livekit) | LiveKit: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| OWT Server | [open-webrtc-toolkit/owt-server](https://github.com/open-webrtc-toolkit/owt-server) | OWT Server: media server WebRTC para publicar y distribuir audio/video de sesiones de avatar. |
-| mediasoup | [versatica/mediasoup](https://github.com/versatica/mediasoup) | mediasoup: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| LiveKit CLI | [livekit/livekit-cli](https://github.com/livekit/livekit-cli) | LiveKit CLI: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit Protocol | [livekit/protocol](https://github.com/livekit/protocol) | LiveKit Protocol: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit Egress | [livekit/egress](https://github.com/livekit/egress) | LiveKit Egress: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit Ingress | [livekit/ingress](https://github.com/livekit/ingress) | LiveKit Ingress: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit JS Client SDK | [livekit/client-sdk-js](https://github.com/livekit/client-sdk-js) | LiveKit JS Client SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit Python SDK | [livekit/client-sdk-python](https://github.com/livekit/client-sdk-python) | LiveKit Python SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit Components React | [livekit/components-js](https://github.com/livekit/components-js) | LiveKit Components React: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit Rust SDK | [livekit/rust-sdks](https://github.com/livekit/rust-sdks) | LiveKit Rust SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit JS Agents SDK | [livekit/agents-js](https://github.com/livekit/agents-js) | LiveKit JS Agents SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit Server SDK Node | [livekit/server-sdk-js](https://github.com/livekit/server-sdk-js) | LiveKit Server SDK Node: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit Server SDK Python | [livekit/server-sdk-python](https://github.com/livekit/server-sdk-python) | LiveKit Server SDK Python: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit SIP Gateway | [livekit/sip](https://github.com/livekit/sip) | LiveKit SIP Gateway: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| mediasoup-client | [versatica/mediasoup-client](https://github.com/versatica/mediasoup-client) | mediasoup-client: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| libmediasoupclient | [versatica/libmediasoupclient](https://github.com/versatica/libmediasoupclient) | libmediasoupclient: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| LiveKit Unity SDK | [livekit/client-sdk-unity](https://github.com/livekit/client-sdk-unity) | LiveKit Unity SDK: renderer o toolkit gráfico para presentar el avatar, materiales, cámara e interfaz. |
-| LiveKit Flutter SDK | [livekit/client-sdk-flutter](https://github.com/livekit/client-sdk-flutter) | LiveKit Flutter SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit Go SDK | [livekit/go-sdk](https://github.com/livekit/go-sdk) | LiveKit Go SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit Helm Charts | [livekit/livekit-helm](https://github.com/livekit/livekit-helm) | LiveKit Helm Charts: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit Android SDK | [livekit/client-sdk-android](https://github.com/livekit/client-sdk-android) | LiveKit Android SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit iOS SDK | [livekit/client-sdk-ios](https://github.com/livekit/client-sdk-ios) | LiveKit iOS SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit C++ SDK | [livekit/cpp-sdks](https://github.com/livekit/cpp-sdks) | LiveKit C++ SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit React Native SDK | [livekit/client-sdk-react-native](https://github.com/livekit/client-sdk-react-native) | LiveKit React Native SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| mediasoup-demo | [versatica/mediasoup-demo](https://github.com/versatica/mediasoup-demo) | mediasoup-demo: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| LiveKit Swift SDK | [livekit/client-sdk-swift](https://github.com/livekit/client-sdk-swift) | LiveKit Swift SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| LiveKit Components Android | [livekit/components-android](https://github.com/livekit/components-android) | LiveKit Components Android: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| Kurento Media Server | [Kurento/kurento-media-server](https://github.com/Kurento/kurento-media-server) | Kurento Media Server: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| Licode | [lynckia/licode](https://github.com/lynckia/licode) | Licode: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| Galene | [jech/galene](https://github.com/jech/galene) | Galene: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| Livepeer Mission Control | [Documentación Livepeer](https://docs.livepeer.org/v2/home/mission-control) | Livepeer Mission Control: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| SRS | [ossrs/srs](https://github.com/ossrs/srs) | SRS: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| DeepStream Python Apps | [NVIDIA-AI-IOT/deepstream_python_apps](https://github.com/NVIDIA-AI-IOT/deepstream_python_apps) | DeepStream Python Apps: aplicaciones NVIDIA DeepStream para construir pipelines acelerados de video y procesamiento del avatar. |
+| **LiteAvatar** | [HumanAIGC/lite-avatar](https://github.com/HumanAIGC/lite-avatar) | **[Probado]** Baseline rápido; no descartado formalmente |
+| **MuseTalk** | [TMElyralab/MuseTalk](https://github.com/TMElyralab/MuseTalk) | **[Probado]** Descartado por calidad visual, sincronización y comportamiento inestable en nuestro stack |
+| **SoulX-FlashHead Lite** | [Soul-AILab/SoulX-FlashHead](https://github.com/Soul-AILab/SoulX-FlashHead) | **[Probado]** Descartado para esta línea de trabajo |
+| **EchoMimicV3-Flash** | [antgroup/echomimic_v3](https://github.com/antgroup/echomimic_v3) | **[Prueba aislada exitosa]** No apto para tiempo real con nuestra GPU; queda para offline/híbrido |
+| **FasterLivePortrait** | [warmshao/FasterLivePortrait](https://github.com/warmshao/FasterLivePortrait) | **[Evaluado]** La ruta de audio requiere un adaptador incremental propio; la ruta lista depende de cámara/video |
+| **JoyVASA** | [jdh-algo/JoyVASA](https://github.com/jdh-algo/JoyVASA) | **[Evaluado]** Se podría reutilizar por ventanas, pero no trae streaming conversacional listo |
+| **Duix-Avatar** | [duixcom/Duix-Avatar](https://github.com/duixcom/Duix-Avatar) | **[Evaluado]** Descartado: generación de clips offline, explícitamente no realtime |
+| **Duix-Mobile** | [duixcom/Duix-Mobile](https://github.com/duixcom/Duix-Mobile) | **[Evaluado]** Candidato experimental Android; bloqueado para nuestro stack web/WSL y con licencia restrictiva |
+| **AVTR-1 / Avaturn** | [avaturn-live/avtr-1](https://github.com/avaturn-live/avtr-1) | **[Validado]** **Candidato principal**: renderer incremental, dual-stream, avatar independiente y conversación local en español |
+| **AvatarForcing** | [KlingAIResearch/AvatarForcing](https://github.com/KlingAIResearch/AvatarForcing) | **[Evaluado]** Descartado para 16 GB: pesado, lento y con licencia no apta para nuestro uso |
+| **LAM / LAM-Audio2Expression** | [aigc3d/LAM](https://github.com/aigc3d/LAM) | **[Prueba realtime exitosa]** Candidato activo: audio → blendshapes ARKit → renderer Gaussian/WebGL |
+| **OpenTalking** | [datascale-ai/opentalking](https://github.com/datascale-ai/opentalking) | **[Probado E2E]** Orquestador local viable de voz/WebRTC; Wav2Lip queda como prototipo funcional, no solución final |
+| **IMTalker** | [bigai-nlco/IMTalker](https://github.com/bigai-nlco/IMTalker) | **[Evaluado]** Descartado: ruta oficial offline/batch, sin streaming conversacional reutilizable |
+| **PersonaLive** | [GVCLab/PersonaLive](https://github.com/GVCLab/PersonaLive) | **[Evaluado]** Descartado: streaming basado en imagen/video, sin audio-driven, TTS ni STT; además declara uso académico |
+| **Ditto TalkingHead** | [antgroup/ditto-talkinghead](https://github.com/antgroup/ditto-talkinghead) | **[Evaluado]** Streaming técnico verificado, pero demasiado lento en 16 GB y sin salida WebRTC/frame queue lista |
+| **CyberVerse** | [Lynpoint/CyberVerse](https://github.com/Lynpoint/CyberVerse) | **[Evaluado]** Arquitectura full-duplex interesante, pero bloqueada por hardware objetivo y licencia GPL-3.0 |
+| **ARACHNE-X-ULTRA-AVATAR** | [HF: ARACHNE-X-ULTRA-AVATAR](https://huggingface.co/MagistrTheOne/ARACHNE-X-ULTRA-AVATAR) | **[Evaluado]** Descartado: sin runtime reproducible, más de 128 GB y fuera de nuestra GPU de 16 GB |
+| **TalkingGaussian** | [Fictionarry/TalkingGaussian](https://github.com/Fictionarry/TalkingGaussian) | **[Evaluado]** Descartado: pipeline batch por identidad, sin streaming conversacional ni entorno compatible |
+| **LongCat-Video-Avatar 1.5** | [meituan-longcat/LongCat-Video](https://github.com/meituan-longcat/LongCat-Video) | **[Investigado]** MIT y 8 pasos, pero 13.6B y orientado a clips; no viable en 16 GB para conversación |
+| **MultiTalk** | [MeiGen-AI/MultiTalk](https://github.com/MeiGen-AI/MultiTalk) | **[Investigado]** Audio-driven y Apache-2.0, pero generación por clips demasiado lenta para vivo |
+| **InfiniteTalk** | [MeiGen-AI/InfiniteTalk](https://github.com/MeiGen-AI/InfiniteTalk) | **[Investigado]** Video largo audio-driven, pero muy alejado de realtime en GPU de consumo |
+| **Wan2.2-S2V** | [Wan-Video/Wan2.2](https://github.com/Wan-Video/Wan2.2) | **[Investigado]** Ecosistema amplio, pero 14B y sin streaming conversacional viable en 16 GB |
+| **HunyuanVideo-Avatar** | [Tencent-Hunyuan/HunyuanVideo-Avatar](https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar) | **[Investigado]** Muy pesado, lento y con licencia territorial incompatible con la UE |
+| **SkyReels-V3-A2V** | [SkyworkAI/SkyReels-V3](https://github.com/SkyworkAI/SkyReels-V3) | **[Investigado]** Modelo grande y licencia comunitaria; sin justificación para 16 GB |
+| **HuMo** | [Phantom-video/HuMo](https://github.com/Phantom-video/HuMo) | **[Investigado]** 1.7B disponible, pero generación de clips; no renderer incremental probado |
+| **OmniHuman** | [Project page](https://omnihuman-lab.github.io/) | **[Investigado]** Sin código ni pesos oficiales; únicamente servicio/API cerrado |
+| **LiveTalking** | [lipku/LiveTalking](https://github.com/lipku/LiveTalking) | Generación de video parlante en streaming con soporte para entradas de audio y modelos de difución/GAN en tiempo real. |
+| **LiveAvatar** | [Alibaba-Quark/LiveAvatar](https://github.com/Alibaba-Quark/LiveAvatar) | Framework de avatar digital parlante en vivo desarrollado por Alibaba para interacción conversacional. |
+| **LiveTalk** | [GAIR-NLP/livetalk](https://github.com/GAIR-NLP/livetalk) | Sistema conversacional de avatar en tiempo real guiado por audio y modelos de lenguaje. |
+| **Hallo** | [fudan-generative-vision/hallo](https://github.com/fudan-generative-vision/hallo) | Modelo de difusión guiado por audio para generación de retratos parlantes con expresividad emocional. |
+| **Hallo2** | [fudan-generative-vision/hallo2](https://github.com/fudan-generative-vision/hallo2) | Segunda versión de Hallo con mayor resolución, sincronización labial mejorada y control temporal largo. |
+| **LivePortrait** | [KwaiVGI/LivePortrait](https://github.com/KwaiVGI/LivePortrait) | Modelo de animación portrait eficiente basado en control de landmarks faciales y flujo de movimiento. |
+| **V-Express** | [tencent-ailab/V-Express](https://github.com/tencent-ailab/V-Express) | Pipeline de retratos parlantes que utiliza múltiples señales de control (audio, pose, expresión). |
+| **LatentSync** | [bytedance/LatentSync](https://github.com/bytedance/LatentSync) | Sincronización labial (lip-sync) en espacio latente basada en modelos de difusión para video. |
+| **AniPortrait** | [Zejun-Yang/AniPortrait](https://github.com/Zejun-Yang/AniPortrait) | Generación de avatares fotorealistas y de anime animados mediante mapas de pose y audio. |
+| **SadTalker** | [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker) | Modelo clásico de generación de avatares 2D parlantes guiados por coeficientes 3DMM a partir de audio de entrada. |
+| **AniTalker** | [X-LANCE/AniTalker](https://github.com/X-LANCE/AniTalker) | Animación facial expresiva para avatares 2D con movimiento dinámico de cabeza. |
+| **Real3D-Portrait** | [yerfor/Real3DPortrait](https://github.com/yerfor/Real3DPortrait) | Reconstrucción y renderizado 3D de retratos parlantes en tiempo real con control de pose 3D completo. |
+| **GeneFace++** | [yerfor/GeneFacePlusPlus](https://github.com/yerfor/GeneFacePlusPlus) | Generador NeRF facial guiado por audio para interacción parlante en tiempo real con alta fidelidad. |
+| **SyncTalk** | [ZiqiaoPeng/SyncTalk](https://github.com/ZiqiaoPeng/SyncTalk) | Sincronización labial y movimiento de cabeza photorealista 3D mediante representaciones NeRF de alta precisión. |
+| **ER-NeRF** | [Fictionarry/ER-NeRF](https://github.com/Fictionarry/ER-NeRF) | Modelo NeRF eficiente acelerado por Hash Grid para retratos parlantes en tiempo real. |
+| **RAD-NeRF** | [ashawkey/RAD-NeRF](https://github.com/ashawkey/RAD-NeRF) | NeRF audiorrefinado para sintetizar retratos parlantes con latencia ultrabaja en GPUs de consumo. |
+| **Wav2Lip** | [Rudrabha/Wav2Lip](https://github.com/Rudrabha/Wav2Lip) | Modelo ampliamente utilizado para sincronización labial precisa de audios sobre cualquier video de rostro. |
+| **TalkingHead.js** | [met4citizen/TalkingHead](https://github.com/met4citizen/TalkingHead) | Librería JavaScript ligera para renderizar avatares 3D parlantes directamente en el navegador con WebGL. |
+| **GaussianTalker** | [cvlab-kaist/GaussianTalker](https://github.com/cvlab-kaist/GaussianTalker) | Avatar parlante 3D basado en 3D Gaussian Splatting animado por audio en tiempo real. |
+| **SplattingAvatar** | [initialneil/SplattingAvatar](https://github.com/initialneil/SplattingAvatar) | Representación de avatares humanos 3D dinámicos mediante 3D Gaussian Splatting animables. |
+| **EchoMimic** | [antgroup/echomimic](https://github.com/antgroup/echomimic) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (EchoMimic). |
+| **LiveSpeechPortraits** | [YuanxunLu/LiveSpeechPortraits](https://github.com/YuanxunLu/LiveSpeechPortraits) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (LiveSpeechPortraits). |
+| **SoulX-LiveAct** | [Soul-AILab/SoulX-LiveAct](https://github.com/Soul-AILab/SoulX-LiveAct) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (SoulX-LiveAct). |
+| **Audio2Face 3D SDK** | [NVIDIA/Audio2Face-3D-SDK](https://github.com/NVIDIA/Audio2Face-3D-SDK) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Audio2Face 3D SDK). |
+| **Video-Retalking** | [OpenTalker/video-retalking](https://github.com/OpenTalker/video-retalking) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Video-Retalking). |
+| **EmoTaG** | [jamesdemon923/EmoTaG](https://github.com/jamesdemon923/EmoTaG) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (EmoTaG). |
+| **EchoAvatar** | [RobinWitch/EchoAvatar](https://github.com/RobinWitch/EchoAvatar) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (EchoAvatar). |
+| **LHM** | [aigc3d/LHM](https://github.com/aigc3d/LHM) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (LHM). |
+| **TalkBody4D** | [HF: PixelAI-Team/TalkBody4D](https://huggingface.co/datasets/PixelAI-Team/TalkBody4D) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (TalkBody4D). |
+| **GMTalker** | [GML-MMGroup/GMTalker](https://github.com/GML-MMGroup/GMTalker) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (GMTalker). |
+| **ARTalk** | [xg-chu/ARTalk](https://github.com/xg-chu/ARTalk) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (ARTalk). |
+| **Hallo-Live** | [fudan-generative-vision/Hallo-Live](https://github.com/fudan-generative-vision/Hallo-Live) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Hallo-Live). |
+| **EMO** | [HumanAIGC/EMO](https://github.com/HumanAIGC/EMO) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (EMO). |
+| **MEMO** | [memoavatar/memo](https://github.com/memoavatar/memo) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (MEMO). |
+| **LetsTalk** | [zhang-haojie/letstalk](https://github.com/zhang-haojie/letstalk) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (LetsTalk). |
+| **HelloMeme** | [HelloVision/HelloMeme](https://github.com/HelloVision/HelloMeme) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (HelloMeme). |
+| **DAWN** | [Hanbo-Cheng/DAWN-pytorch](https://github.com/Hanbo-Cheng/DAWN-pytorch) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (DAWN). |
+| **JoyHallo** | [jdh-algo/JoyHallo](https://github.com/jdh-algo/JoyHallo) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (JoyHallo). |
+| **EDTalk** | [tanshuai0219/EDTalk](https://github.com/tanshuai0219/EDTalk) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (EDTalk). |
+| **Talk3D** | [KU-CVLAB/Talk3D](https://github.com/KU-CVLAB/Talk3D) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Talk3D). |
+| **DynTet** | [zhangzc21/DynTet](https://github.com/zhangzc21/DynTet) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (DynTet). |
+| **DreamTalk** | [meitu/DreamTalk](https://github.com/meitu/DreamTalk) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (DreamTalk). |
+| **GeneFace** | [yinglinjia/GeneFace](https://github.com/yinglinjia/GeneFace) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (GeneFace). |
+| **CodeTalker** | [zhouhangz/CodeTalker](https://github.com/zhouhangz/CodeTalker) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (CodeTalker). |
+| **Gaussian-Head-Avatar** | [xuchen-eth/Gaussian-Head-Avatar](https://github.com/xuchen-eth/Gaussian-Head-Avatar) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Gaussian-Head-Avatar). |
+| **LivePortrait-AudioDriven** | [Hekenye/LivePortrait-AudioDriven](https://github.com/Hekenye/LivePortrait-AudioDriven) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (LivePortrait-AudioDriven). |
+| **FaceFormer** | [Evelyn-yy/FaceFormer](https://github.com/Evelyn-yy/FaceFormer) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (FaceFormer). |
+| **MakeItTalk** | [yzhou359/MakeItTalk](https://github.com/yzhou359/MakeItTalk) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (MakeItTalk). |
+| **TalkLip** | [Sxjdwang/TalkLip](https://github.com/Sxjdwang/TalkLip) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (TalkLip). |
+| **GaussianSpeech** | [shivangi-aneja/gaussianspeech](https://github.com/shivangi-aneja/gaussianspeech) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (GaussianSpeech). |
+| **GaussianHeadTalk** | [madhav-agarwal/GaussianHeadTalk](https://github.com/madhav-agarwal/GaussianHeadTalk) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (GaussianHeadTalk). |
+| **AD-NeRF** | [YudongGuo/AD-NeRF](https://github.com/YudongGuo/AD-NeRF) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (AD-NeRF). |
+| **DFA-NeRF** | [ShunyuYao/DFA-NeRF](https://github.com/ShunyuYao/DFA-NeRF) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (DFA-NeRF). |
+| **HeadNeRF** | [CrisHY1995/headnerf](https://github.com/CrisHY1995/headnerf) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (HeadNeRF). |
+| **DeepLiveCam** | [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (DeepLiveCam). |
+| **FaceFusion** | [facefusion/facefusion](https://github.com/facefusion/facefusion) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (FaceFusion). |
+| **ChatAvatar** | [DeemosTech/ChatAvatar](https://github.com/DeemosTech/ChatAvatar) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (ChatAvatar). |
+| **VividTalk** | [HumanAIGC/VividTalk](https://github.com/HumanAIGC/VividTalk) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (VividTalk). |
+| **PIRenderer** | [RenYurui/PIRender](https://github.com/RenYurui/PIRender) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (PIRenderer). |
+| **TalkSHOW** | [yhw-yhw/TalkSHOW](https://github.com/yhw-yhw/TalkSHOW) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (TalkSHOW). |
+| **StyleTalk** | [FuxiVirtualHuman/styletalk](https://github.com/FuxiVirtualHuman/styletalk) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (StyleTalk). |
+| **MeshTalk** | [facebookresearch/meshtalk](https://github.com/facebookresearch/meshtalk) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (MeshTalk). |
+| **EMOCA** | [rdanecek/emoca](https://github.com/rdanecek/emoca) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (EMOCA). |
+| **talking-head-anime-3-demo** | [pkhungurn/talking-head-anime-3-demo](https://github.com/pkhungurn/talking-head-anime-3-demo) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (talking-head-anime-3-demo). |
+| **DiffPoseTalk** | [DiffPoseTalk/DiffPoseTalk](https://github.com/DiffPoseTalk/DiffPoseTalk) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (DiffPoseTalk). |
+| **StyleHEAT** | [FeiiYin/StyleHEAT](https://github.com/FeiiYin/StyleHEAT) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (StyleHEAT). |
+| **First Order Motion Model** | [AliaksandrSiarohin/first-order-model](https://github.com/AliaksandrSiarohin/first-order-model) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (First Order Motion Model). |
+| **Neural Voice Puppetry** | [JustusThies/NeuralVoicePuppetry](https://github.com/JustusThies/NeuralVoicePuppetry) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Neural Voice Puppetry). |
+| **HighSync** | [saeed5959/high_sync](https://github.com/saeed5959/high_sync) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (HighSync). |
+| **SEDTalker** | [FarzanehJafari1987/SEDTalker](https://github.com/FarzanehJafari1987/SEDTalker) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (SEDTalker). |
+| **C-MET** | [ChanHyeok-Choi/C-MET](https://github.com/ChanHyeok-Choi/C-MET) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (C-MET). |
+| **DiFlowDubber** | [Fsoft-AIC/DiFlowDubber](https://github.com/Fsoft-AIC/DiFlowDubber) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (DiFlowDubber). |
+| **OmniEdit** | [l1346792580123/OmniEdit](https://github.com/l1346792580123/OmniEdit) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (OmniEdit). |
+| **TempoSyncDiff** | [mazumdarsoumya/TempoSyncDiff](https://github.com/mazumdarsoumya/TempoSyncDiff) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (TempoSyncDiff). |
+| **DreamID-Omni** | [Guoxu1233/DreamID-Omni](https://github.com/Guoxu1233/DreamID-Omni) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (DreamID-Omni). |
+| **3DXTalker** | [EngineeringAI-LAB/3DXTalker](https://github.com/EngineeringAI-LAB/3DXTalker) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (3DXTalker). |
+| **AUHead** | [laura990501/AUHead_ICLR](https://github.com/laura990501/AUHead_ICLR) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (AUHead). |
+| **MOVA** | [OpenMOSS/MOVA](https://github.com/OpenMOSS/MOVA) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (MOVA). |
+| **SoulX-FlashTalk** | [Soul-AILab/SoulX-FlashTalk](https://github.com/Soul-AILab/SoulX-FlashTalk) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (SoulX-FlashTalk). |
+| **UA-3DTalk** | [Mrask999/UA-3DTalk](https://github.com/Mrask999/UA-3DTalk) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (UA-3DTalk). |
+| **THFEM** | [liluoqaq/THFEM](https://github.com/liluoqaq/THFEM) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (THFEM). |
+| **DyStream** | [RobinWitch/DyStream](https://github.com/RobinWitch/DyStream) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (DyStream). |
+| **X-Dub** | [KlingAIResearch/X-Dub](https://github.com/KlingAIResearch/X-Dub) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (X-Dub). |
+| **TalkVerse** | [snap-research/TalkVerse](https://github.com/snap-research/TalkVerse) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (TalkVerse). |
+| **JoVA** | [Visual-AI/JoVA](https://github.com/Visual-AI/JoVA) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (JoVA). |
+| **STARCaster** | [foivospar/STARCaster](https://github.com/foivospar/STARCaster) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (STARCaster). |
+| **UniLS** | [xg-chu/UniLS](https://github.com/xg-chu/UniLS) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (UniLS). |
+| **AnyTalker** | [HKUST-C4G/AnyTalker](https://github.com/HKUST-C4G/AnyTalker) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (AnyTalker). |
+| **LSF-Animation** | [Dogter521/LSF-Animation](https://github.com/Dogter521/LSF-Animation) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (LSF-Animation). |
+| **IASA** | [Beijia11/IASA](https://github.com/Beijia11/IASA) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (IASA). |
+| **EmoCAST** | [GVCLab/EmoCAST](https://github.com/GVCLab/EmoCAST) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (EmoCAST). |
+| **FantasyTalking2** | [Fantasy-AMAP/fantasy-talking2](https://github.com/Fantasy-AMAP/fantasy-talking2) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (FantasyTalking2). |
+| **StableAvatar** | [Francis-Rings/StableAvatar](https://github.com/Francis-Rings/StableAvatar) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (StableAvatar). |
+| **MemoryTalker** | [kimhyungkyu-1208/MemoryTalker](https://github.com/kimhyungkyu-1208/MemoryTalker) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (MemoryTalker). |
+| **ATL-Diff** | [sonvth/ATL-Diff](https://github.com/sonvth/ATL-Diff) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (ATL-Diff). |
+| **MOSPA** | [xsy27/Mospa-Acoustic-driven-Motion-Generation](https://github.com/xsy27/Mospa-Acoustic-driven-Motion-Generation) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (MOSPA). |
+| **MEDTalk** | [SJTU-Lucy/MEDTalk](https://github.com/SJTU-Lucy/MEDTalk) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (MEDTalk). |
+| **AnimateAnyone** | [HumanAIGC/AnimateAnyone](https://github.com/HumanAIGC/AnimateAnyone) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (AnimateAnyone). |
+| **audio2photoreal** | [facebookresearch/audio2photoreal](https://github.com/facebookresearch/audio2photoreal) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (audio2photoreal). |
+| **HunyuanPortrait** | [Tencent/HunyuanPortrait](https://github.com/Tencent/HunyuanPortrait) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (HunyuanPortrait). |
+| **LangYing** | [langzizhixin/LangYing](https://github.com/langzizhixin/LangYing) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (LangYing). |
+| **LangYuan** | [langzizhixin/LangYuan](https://github.com/langzizhixin/LangYuan) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (LangYuan). |
+| **SyncNet** | [joonson/syncnet_python](https://github.com/joonson/syncnet_python) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (SyncNet). |
+| **SpatialReal** | [spatialwalk/livekit-plugins-spatialreal](https://github.com/spatialwalk/livekit-plugins-spatialreal) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (SpatialReal). |
+| **FlashAvatar** | [ustc3dv/FlashAvatar](https://github.com/ustc3dv/FlashAvatar) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (FlashAvatar). |
+| **RAM-Avatar** | [Xiang-Deng00/RAM-Avatar](https://github.com/Xiang-Deng00/RAM-Avatar) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (RAM-Avatar). |
+| **AnimatableGaussians** | [lizhe00/AnimatableGaussians](https://github.com/lizhe00/AnimatableGaussians) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (AnimatableGaussians). |
+| **GauHuman** | [skhu101/GauHuman](https://github.com/skhu101/GauHuman) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (GauHuman). |
+| **NeRFBlendShape** | [USTC3DV/NeRFBlendShape-code](https://github.com/USTC3DV/NeRFBlendShape-code) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (NeRFBlendShape). |
+| **DreamGaussian** | [dreamgaussian/dreamgaussian](https://github.com/dreamgaussian/dreamgaussian) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (DreamGaussian). |
+| **LGM** | [3DTopia/LGM](https://github.com/3DTopia/LGM) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (LGM). |
+| **Splatter Image** | [szymanowiczs/splatter-image](https://github.com/szymanowiczs/splatter-image) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Splatter Image). |
+| **HumanNeRF** | [chungyiweng/humannerf](https://github.com/chungyiweng/humannerf) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (HumanNeRF). |
+| **FreeMan** | [wangjiongw/FreeMan_API](https://github.com/wangjiongw/FreeMan_API) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (FreeMan). |
+| **MRAA** | [snap-research/articulated-animation](https://github.com/snap-research/articulated-animation) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (MRAA). |
+| **TPSMM** | [yoyo-nb/Thin-Plate-Spline-Motion-Model](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (TPSMM). |
+| **LIA** | [wyhsirius/LIA](https://github.com/wyhsirius/LIA) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (LIA). |
+| **face-vid2vid** | [NVlabs/face-vid2vid](https://github.com/NVlabs/face-vid2vid) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (face-vid2vid). |
+| **EG3D** | [NVlabs/eg3d](https://github.com/NVlabs/eg3d) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (EG3D). |
+| **PanoHead** | [sizhean/panohead](https://github.com/sizhean/panohead) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (PanoHead). |
+| **Next3D** | [MrTornado24/Next3D](https://github.com/MrTornado24/Next3D) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Next3D). |
+| **AvatarCraft** | [songrise/avatarcraft](https://github.com/songrise/avatarcraft) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (AvatarCraft). |
+| **PointAvatar** | [zhengyuf/pointavatar](https://github.com/zhengyuf/pointavatar) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (PointAvatar). |
+| **EVA3D** | [hongfz16/EVA3D](https://github.com/hongfz16/EVA3D) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (EVA3D). |
+| **AvatarCLIP** | [hongfz16/AvatarCLIP](https://github.com/hongfz16/AvatarCLIP) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (AvatarCLIP). |
+| **Latent-NeRF** | [eladrich/latent-nerf](https://github.com/eladrich/latent-nerf) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Latent-NeRF). |
+| **AG3D** | [zj-dong/AG3D](https://github.com/zj-dong/AG3D) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (AG3D). |
+| **Get3DHuman** | [X-zhangyang/Get3DHuman](https://github.com/X-zhangyang/Get3DHuman) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Get3DHuman). |
+| **TADA** | [TingtingLiao/TADA](https://github.com/TingtingLiao/TADA) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (TADA). |
+| **RodinHD** | [RodinHD/RodinHD](https://github.com/RodinHD/RodinHD) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (RodinHD). |
+| **HumanNorm** | [xhuangcv/humannorm](https://github.com/xhuangcv/humannorm) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (HumanNorm). |
+| **PrimDiffusion** | [FrozenBurning/PrimDiffusion](https://github.com/FrozenBurning/PrimDiffusion) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (PrimDiffusion). |
+| **XAGen** | [magic-research/xagen](https://github.com/magic-research/xagen) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (XAGen). |
+| **TalkinNeRF** | [aggelinacha/talkinnerf](https://github.com/aggelinacha/talkinnerf) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (TalkinNeRF). |
+| **StyleAvatar3D** | [icoz69/StyleAvatar3D](https://github.com/icoz69/StyleAvatar3D) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (StyleAvatar3D). |
+| **LatentAvatar** | [YuelangX/LatentAvatar](https://github.com/YuelangX/LatentAvatar) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (LatentAvatar). |
+| **NeRSemble** | [tobias-kirschstein/nersemble](https://github.com/tobias-kirschstein/nersemble) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (NeRSemble). |
+| **OTAvatar** | [theEricMa/OTAvatar](https://github.com/theEricMa/OTAvatar) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (OTAvatar). |
+| **ClipFace** | [shivangi-aneja/ClipFace](https://github.com/shivangi-aneja/ClipFace) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (ClipFace). |
+| **AvatarMe** | [lattas/AvatarMe](https://github.com/lattas/AvatarMe) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (AvatarMe). |
+| **NeRFEditor** | [Chuny1/NeRFEditor](https://github.com/Chuny1/NeRFEditor) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (NeRFEditor). |
+| **3DGS-Avatar** | [mikeqzy/3dgs-avatar-release](https://github.com/mikeqzy/3dgs-avatar-release) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (3DGS-Avatar). |
+| **ExAvatar** | [mks0601/ExAvatar_RELEASE](https://github.com/mks0601/ExAvatar_RELEASE) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (ExAvatar). |
+| **face-api.js** | [justadudewhohacks/face-api.js](https://github.com/justadudewhohacks/face-api.js) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (face-api.js). |
+| **clmtrackr** | [auduno/clmtrackr](https://github.com/auduno/clmtrackr) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (clmtrackr). |
+| **jeelizFaceFilter** | [jeeliz/jeelizFaceFilter](https://github.com/jeeliz/jeelizFaceFilter) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (jeelizFaceFilter). |
+| **tfjs-models** | [tensorflow/tfjs-models](https://github.com/tensorflow/tfjs-models) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (tfjs-models). |
+| **DiffGesture** | [Advocate99/DiffGesture](https://github.com/Advocate99/DiffGesture) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (DiffGesture). |
+| **StyleSync** | [guanjz20/StyleSync](https://github.com/guanjz20/StyleSync) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (StyleSync). |
+| **AnimateDiff** | [guoyww/AnimateDiff](https://github.com/guoyww/AnimateDiff) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (AnimateDiff). |
+| **IP-Adapter** | [tencent-aio/IP-Adapter](https://github.com/tencent-aio/IP-Adapter) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (IP-Adapter). |
+| **Silero Models** | [snakers4/silero-models](https://github.com/snakers4/silero-models) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Silero Models). |
+| **NerfStudio** | [nerfstudio/nerfstudio](https://github.com/nerfstudio/nerfstudio) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (NerfStudio). |
+| **Instant-NGP** | [NVlabs/instant-ngp](https://github.com/NVlabs/instant-ngp) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Instant-NGP). |
+| **PIFuHD** | [shunsukesaito/PIFuHD](https://github.com/shunsukesaito/PIFuHD) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (PIFuHD). |
+| **PIFu** | [shunsukesaito/PIFu](https://github.com/shunsukesaito/PIFu) | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (PIFu). |
+| **Proyecto** | Motivo para no seguir ahora | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Proyecto). |
+| **[LongCat-Video-Avatar 1.5](https://github.com/meituan-longcat/LongCat-Video)** | MIT y 8 pasos, pero modelo de 13.6B; orientado a generación de clips, no a latencia conversacional en 16 GB | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync ([LongCat-Video-Avatar 1.5](https://github.com/meituan-longcat/LongCat-Video)). |
+| **[MultiTalk](https://github.com/MeiGen-AI/MultiTalk)** | Apache 2.0 y multi-persona, pero generación por clips; demasiado lento para vivo | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync ([MultiTalk](https://github.com/MeiGen-AI/MultiTalk)). |
+| **[InfiniteTalk](https://github.com/MeiGen-AI/InfiniteTalk)** | Apache 2.0 y video largo, pero los reportes de uso real muestran tiempos muy alejados del tiempo real en GPUs de consumo | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync ([InfiniteTalk](https://github.com/MeiGen-AI/InfiniteTalk)). |
+| **[Wan2.2-S2V](https://github.com/Wan-Video/Wan2.2)** | Ecosistema amplio y quants disponibles, pero 14B; 16 GB es un mínimo muy exigente y no resuelve streaming conversacional | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync ([Wan2.2-S2V](https://github.com/Wan-Video/Wan2.2)). |
+| **[HunyuanVideo-Avatar](https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar)** | Muy pesado, lento y con licencia territorial que excluye UE/UK/Corea del Sur | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync ([HunyuanVideo-Avatar](https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar)). |
+| **[SkyReels-V3-A2V](https://github.com/SkyworkAI/SkyReels-V3)** | Modelo grande y licencia comunitaria; sin medición local que justifique el coste en 16 GB | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync ([SkyReels-V3-A2V](https://github.com/SkyworkAI/SkyReels-V3)). |
+| **[HuMo](https://github.com/Phantom-video/HuMo)** | 1.7B disponible, pero continúa siendo generación de clips y no un renderer incremental probado | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync ([HuMo](https://github.com/Phantom-video/HuMo)). |
+| **OmniHuman** | Sin pesos ni código oficiales; solo servicio/API | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (OmniHuman). |
+| **LAM-Audio2Expression** | Produce blendshapes ARKit en tiempo real; es un buen candidato si elegimos un avatar 3D, pero todavía no se integró | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (LAM-Audio2Expression). |
+| **Gaussian/3D talking heads** | Prometedores, pero el coste de preparar identidad, runtime y render todavía no está resuelto para este equipo | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (Gaussian/3D talking heads). |
+| **NVIDIA Audio2Face** | Alternativa de rigging, no un renderer local completo listo para nuestro flujo; requiere una capa 3D y conexión con el pipeline | Modelo de IA para generación de retratos parlantes, animación facial y lip-sync (NVIDIA Audio2Face). |
+| **PyTorch, 50 pasos** | 10.12 s | **[195 (7.8 s)]** 16.50 s |
+| **PyTorch, 10 pasos** | 10.12 s | **[195 (7.8 s)]** 14.20 s |
+| **PyTorch, 4 pasos** | 10.12 s | **[195 (7.8 s)]** 13.63 s |
 
-## SDKs y client‑libraries (multiplataforma)
-| **Proyecto** | **Repositorio** | **Descripción** |
+## 3️⃣ Infraestructura de Transmisión Media, SFU/MCU y Servidores WebRTC
+*Servidores de medios, arquitecturas SFU/MCU, gateways de audio/video y servidores de streaming WebRTC de baja latencia.*
+
+| **Proyecto / Solución** | **Repositorio / Enlace** | **Descripción / Evaluación Técnica** |
 |---|---|---|
-| Pipecat | [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | Pipecat: framework de pipelines para agentes de voz; sirve para coordinar STT, LLM, TTS y el renderer del avatar. |
-| Audio2Face 3D SDK | [NVIDIA/Audio2Face-3D-SDK](https://github.com/NVIDIA/Audio2Face-3D-SDK) | Audio2Face 3D SDK: toolkit de procesamiento de audio para limpiar, transformar o analizar la voz del avatar. |
-| CubismWebSDK | [Live2D/CubismWebSDK](https://github.com/Live2D/CubismWebSDK) | CubismWebSDK: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| Daily Python | [daily-co/daily-python](https://github.com/daily-co/daily-python) | Daily Python: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| Pion WebRTC | [pion/webrtc](https://github.com/pion/webrtc) | Pion WebRTC: implementación Go de WebRTC para construir el transporte de audio/video del avatar. |
-| Pipecat Client Web | [pipecat-ai/pipecat-client-web](https://github.com/pipecat-ai/pipecat-client-web) | Pipecat Client Web: cliente de Pipecat para conectar una interfaz web o móvil con el pipeline conversacional del avatar. |
-| Pipecat Client React | [pipecat-ai/pipecat-client-react](https://github.com/pipecat-ai/pipecat-client-react) | Pipecat Client React: cliente de Pipecat para conectar una interfaz web o móvil con el pipeline conversacional del avatar. |
-| Daily JS SDK | [daily-co/daily-js](https://github.com/daily-co/daily-js) | Daily JS SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| Agora Web SDK NG | [AgoraIO/Agora-Web-SDK-NG](https://github.com/AgoraIO/Agora-Web-SDK-NG) | Agora Web SDK NG: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| Agora RTC React | [AgoraIO/Agora-RTC-React](https://github.com/AgoraIO/Agora-RTC-React) | Agora RTC React: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| Agora Realtime Voice Agent | [AgoraIO/Agora-Realtime-Voice-Agent](https://github.com/AgoraIO/Agora-Realtime-Voice-Agent) | Agora Realtime Voice Agent: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| Pipecat Client iOS | [pipecat-ai/pipecat-client-ios](https://github.com/pipecat-ai/pipecat-client-ios) | Pipecat Client iOS: cliente de Pipecat para conectar una interfaz web o móvil con el pipeline conversacional del avatar. |
-| Pipecat Client Android | [pipecat-ai/pipecat-client-android](https://github.com/pipecat-ai/pipecat-client-android) | Pipecat Client Android: cliente de Pipecat para conectar una interfaz web o móvil con el pipeline conversacional del avatar. |
-| Daily React SDK | [daily-co/daily-react](https://github.com/daily-co/daily-react) | Daily React SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| Agora Electron SDK | [AgoraIO/Electron-SDK](https://github.com/AgoraIO/Electron-SDK) | Agora Electron SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| Agora Flutter SDK | [AgoraIO/Flutter-SDK](https://github.com/AgoraIO/Flutter-SDK) | Agora Flutter SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| Agora Unity RTC SDK | [AgoraIO/Agora-Unity-RTC-SDK](https://github.com/AgoraIO/Agora-Unity-RTC-SDK) | Agora Unity RTC SDK: renderer o toolkit gráfico para presentar el avatar, materiales, cámara e interfaz. |
-| Agora Unreal RTC SDK | [AgoraIO/Agora-Unreal-RTC-SDK](https://github.com/AgoraIO/Agora-Unreal-RTC-SDK) | Agora Unreal RTC SDK: renderer o toolkit gráfico para presentar el avatar, materiales, cámara e interfaz. |
-| Pipecat Client Flutter | [pipecat-ai/pipecat-client-flutter](https://github.com/pipecat-ai/pipecat-client-flutter) | Pipecat Client Flutter: cliente de Pipecat para conectar una interfaz web o móvil con el pipeline conversacional del avatar. |
-| Daily Android SDK | [daily-co/daily-android](https://github.com/daily-co/daily-android) | Daily Android SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| Daily iOS SDK | [daily-co/daily-ios](https://github.com/daily-co/daily-ios) | Daily iOS SDK: infraestructura o SDK de medios para publicar y distribuir el stream del avatar. |
-| Pion TURN | [pion/turn](https://github.com/pion/turn) | Pion TURN: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| Pion ICE | [pion/ice](https://github.com/pion/ice) | Pion ICE: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| Pion DTLS | [pion/dtls](https://github.com/pion/dtls) | Pion DTLS: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| Pion SRTP | [pion/srtp](https://github.com/pion/srtp) | Pion SRTP: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| Pion RTP | [pion/rtp](https://github.com/pion/rtp) | Pion RTP: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| Pion SCTP | [pion/sctp](https://github.com/pion/sctp) | Pion SCTP: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| Pion RTCP | [pion/rtcp](https://github.com/pion/rtcp) | Pion RTCP: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| Pion MediaDevices | [pion/mediadevices](https://github.com/pion/mediadevices) | Pion MediaDevices: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| Pion Interceptor | [pion/interceptor](https://github.com/pion/interceptor) | Pion Interceptor: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| Pion SDP | [pion/sdp](https://github.com/pion/sdp) | Pion SDP: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| pyvts | [DenverCoder1/pyvts](https://github.com/DenverCoder1/pyvts) | pyvts: cliente Python de VTube Studio para enviar parámetros y controlar un avatar Live2D. |
-| Ollama JS | [ollama/ollama-js](https://github.com/ollama/ollama-js) | Ollama JS: cliente JavaScript para invocar modelos de Ollama desde la interfaz o backend del avatar. |
-| Ollama Python | [ollama/ollama-python](https://github.com/ollama/ollama-python) | Ollama Python: cliente Python para integrar Ollama en el orquestador conversacional del avatar. |
-| llama-cpp-python | [abetlen/llama-cpp-python](https://github.com/abetlen/llama-cpp-python) | llama-cpp-python: bindings Python de llama.cpp para ejecutar LLM cuantizados localmente dentro del avatar. |
-| Transformers.js | [huggingface/transformers.js](https://github.com/huggingface/transformers.js) | Transformers.js: runtime JavaScript para ejecutar modelos de Transformers en navegador o Node.js. |
+| **Livepeer Mission Control** | [Documentación Livepeer](https://docs.livepeer.org/v2/home/mission-control) | **[Evaluado]** Descartado: infraestructura distribuida de video, no avatar conversacional audio-driven local |
+| **LiveKit Agents** | [livekit/agents](https://github.com/livekit/agents) | **[Investigado]** Buen transporte WebRTC; requiere implementar el renderer local |
+| **LiveKit** | [livekit/livekit](https://github.com/livekit/livekit) | Plataforma SFU de código abierto líder para audio/video WebRTC y agentes conversacionales de IA en tiempo real. |
+| **OWT Server** | [open-webrtc-toolkit/owt-server](https://github.com/open-webrtc-toolkit/owt-server) | Servidor de medios, infraestructura SFU/MCU o gateway de transmisión WebRTC (OWT Server). |
+| **mediasoup** | [versatica/mediasoup](https://github.com/versatica/mediasoup) | Servidor SFU de WebRTC súper potente y modular escrito en C++ con bindings de Node.js/Python. |
+| **Janus Gateway** | [meetecho/janus-gateway](https://github.com/meetecho/janus-gateway) | Servidor de medios, infraestructura SFU/MCU o gateway de transmisión WebRTC (Janus Gateway). |
+| **LiveKit CLI** | [livekit/livekit-cli](https://github.com/livekit/livekit-cli) | Servidor de medios, infraestructura SFU/MCU o gateway de transmisión WebRTC (LiveKit CLI). |
+| **LiveKit Protocol** | [livekit/protocol](https://github.com/livekit/protocol) | Servidor de medios, infraestructura SFU/MCU o gateway de transmisión WebRTC (LiveKit Protocol). |
+| **LiveKit Egress** | [livekit/egress](https://github.com/livekit/egress) | Servidor de medios, infraestructura SFU/MCU o gateway de transmisión WebRTC (LiveKit Egress). |
+| **LiveKit Ingress** | [livekit/ingress](https://github.com/livekit/ingress) | Servidor de medios, infraestructura SFU/MCU o gateway de transmisión WebRTC (LiveKit Ingress). |
+| **LiveKit JS Agents SDK** | [livekit/agents-js](https://github.com/livekit/agents-js) | Servidor de medios, infraestructura SFU/MCU o gateway de transmisión WebRTC (LiveKit JS Agents SDK). |
+| **LiveKit SIP Gateway** | [livekit/sip](https://github.com/livekit/sip) | Servidor de medios, infraestructura SFU/MCU o gateway de transmisión WebRTC (LiveKit SIP Gateway). |
+| **mediasoup-client** | [versatica/mediasoup-client](https://github.com/versatica/mediasoup-client) | Servidor de medios, infraestructura SFU/MCU o gateway de transmisión WebRTC (mediasoup-client). |
+| **GStreamer** | [GStreamer/gstreamer](https://github.com/GStreamer/gstreamer) | Servidor de medios, infraestructura SFU/MCU o gateway de transmisión WebRTC (GStreamer). |
+| **SRS** | [ossrs/srs](https://github.com/ossrs/srs) | Servidor de medios, infraestructura SFU/MCU o gateway de transmisión WebRTC (SRS). |
+| **LiveKit Helm Charts** | [livekit/livekit-helm](https://github.com/livekit/livekit-helm) | Servidor de medios, infraestructura SFU/MCU o gateway de transmisión WebRTC (LiveKit Helm Charts). |
+| **webrtc-streamer** | [mpromonet/webrtc-streamer](https://github.com/mpromonet/webrtc-streamer) | Servidor de medios, infraestructura SFU/MCU o gateway de transmisión WebRTC (webrtc-streamer). |
+| **mediasoup-demo** | [versatica/mediasoup-demo](https://github.com/versatica/mediasoup-demo) | Servidor de medios, infraestructura SFU/MCU o gateway de transmisión WebRTC (mediasoup-demo). |
+| **Kurento Media Server** | [Kurento/kurento-media-server](https://github.com/Kurento/kurento-media-server) | Servidor de medios WebRTC legacy para filtrado, enrutamiento y procesamiento de flujos de video. |
+| **Licode** | [lynckia/licode](https://github.com/lynckia/licode) | Solución SFU/MCU open source en C++ y Node.js para comunicación en tiempo real WebRTC. |
+| **Galene** | [jech/galene](https://github.com/jech/galene) | Servidor WebRTC SFU ligero escrito en Go enfocado en baja latencia y videoconferencia. |
 
-## Captura y análisis de datos (audio / video / pose)
-| **Proyecto** | **Repositorio** | **Descripción** |
+## 4️⃣ SDKs de Cliente y Protocolos de Comunicación WebRTC / Red
+*Librerías SDK cliente/servidor multiplataforma (Python, JS, C++, Rust, Go, Mobile, Game Engines) e implementaciones de protocolo WebRTC/RTP/ICE/SDP.*
+
+| **Proyecto / Solución** | **Repositorio / Enlace** | **Descripción / Evaluación Técnica** |
 |---|---|---|
-| SMPL-X | [vchoutas/smplx](https://github.com/vchoutas/smplx) | SMPL-X: modelo paramétrico o de reconstrucción 3-D para obtener la malla, pose y expresión del avatar. |
-| MediaPipeUnityPlugin | [homuler/MediaPipeUnityPlugin](https://github.com/homuler/MediaPipeUnityPlugin) | MediaPipeUnityPlugin: integración de MediaPipe en Unity para llevar tracking facial y corporal al renderer. |
-| MediaPipe | [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | MediaPipe: toolkit de percepción que detecta rostro, manos y pose para controlar un avatar. |
-| OpenPose | [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) | OpenPose: detector de pose 2-D que extrae articulaciones para animar el cuerpo del avatar. |
-| AlphaPose | [MVIG-SJTU/AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) | AlphaPose: estimador de pose humana para convertir vídeo de referencia en movimiento corporal. |
-| MMPose | [open-mmlab/mmpose](https://github.com/open-mmlab/mmpose) | MMPose: framework de estimación de pose y landmarks para captura corporal y facial. |
-| face-alignment | [1adrianb/face-alignment](https://github.com/1adrianb/face-alignment) | face-alignment: detector de landmarks faciales para estimar expresiones y orientar la animación. |
-| Deep3DFaceReconstruction | [deep3dface/Deep3DFaceReconstruction](https://github.com/deep3dface/Deep3DFaceReconstruction) | Deep3DFaceReconstruction: método de reconstrucción 3-D facial para recuperar forma, pose y expresión de una identidad. |
-| EMOCA | [rdanecek/emoca](https://github.com/rdanecek/emoca) | EMOCA: modelo de análisis de expresión facial que estima emociones y parámetros 3-D para animar el avatar. |
-| FaceX-Zoo | [JDAI-CV/FaceX-Zoo](https://github.com/JDAI-CV/FaceX-Zoo) | FaceX-Zoo: colección de modelos de detección, reconocimiento y análisis facial reutilizable en el tracker del avatar. |
-| OpenFace | [TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace) | OpenFace: toolkit de análisis facial que extrae landmarks, acción facial y atributos de expresión. |
-| OpenSeeFace | [emilianavt/OpenSeeFace](https://github.com/emilianavt/OpenSeeFace) | OpenSeeFace: tracker facial que extrae landmarks y expresiones para conducir el avatar. |
-| face-api.js | [justadudewhohacks/face-api.js](https://github.com/justadudewhohacks/face-api.js) | face-api.js: tracker facial que extrae landmarks y expresiones para conducir el avatar. |
-| clmtrackr | [auduno/clmtrackr](https://github.com/auduno/clmtrackr) | clmtrackr: tracker facial que extrae landmarks y expresiones para conducir el avatar. |
-| jeelizFaceFilter | [jeeliz/jeelizFaceFilter](https://github.com/jeeliz/jeelizFaceFilter) | jeelizFaceFilter: tracker facial que extrae landmarks y expresiones para conducir el avatar. |
-| tfjs-models | [tensorflow/tfjs-models](https://github.com/tensorflow/tfjs-models) | tfjs-models: colección de modelos TensorFlow.js para ejecutar percepción y tracking directamente en el cliente web. |
-| InsightFace | [deepinsight/insightface](https://github.com/deepinsight/insightface) | InsightFace: toolkit de reconocimiento, detección y análisis facial para identificar y parametrizar rostros. |
-| face_recognition | [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) | face_recognition: toolkit de detección o reconocimiento facial para localizar y parametrizar la identidad del avatar. |
-| DeepFace | [serengil/deepface](https://github.com/serengil/deepface) | DeepFace: framework de análisis facial para detección, reconocimiento y comparación de identidades. |
-| Pytorch_Retinaface | [biubug6/Pytorch_Retinaface](https://github.com/biubug6/Pytorch_Retinaface) | Pytorch_Retinaface: toolkit de detección o reconocimiento facial para localizar y parametrizar la identidad del avatar. |
-| facenet-pytorch | [timesler/facenet-pytorch](https://github.com/timesler/facenet-pytorch) | facenet-pytorch: toolkit de detección o reconocimiento facial para localizar y parametrizar la identidad del avatar. |
-| dlib | [davisking/dlib](https://github.com/davisking/dlib) | dlib: toolkit de detección o reconocimiento facial para localizar y parametrizar la identidad del avatar. |
-| OpenCV | [opencv/opencv](https://github.com/opencv/opencv) | OpenCV: biblioteca de visión por computador para captura, transformación de frames y preprocesado del avatar. |
-| iFacialMocap-Python | [iFacialMocap/iFacialMocap-Python](https://github.com/iFacialMocap/iFacialMocap-Python) | iFacialMocap-Python: cliente que recibe captura facial de iPhone y la convierte en controles para el avatar. |
-| DWPose | [IDEA-Research/DWPose](https://github.com/IDEA-Research/DWPose) | DWPose: estimador de pose que convierte vídeo o imagen en articulaciones para retargeting corporal. |
-| controlnet_aux | [patrickvonplaten/controlnet_aux](https://github.com/patrickvonplaten/controlnet_aux) | controlnet_aux: estimador de pose que convierte vídeo o imagen en articulaciones para retargeting corporal. |
+| **Pipecat** | [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | **[Investigado]** Alternativa de orquestación local; no probada en este equipo |
+| **FastRTC** | [gradio-app/fastrtc](https://github.com/gradio-app/fastrtc) | Librería Python por Gradio para transmisión WebRTC en tiempo real con modelos de IA. |
+| **Daily Python** | [daily-co/daily-python](https://github.com/daily-co/daily-python) | SDK de Python para interactuar con la infraestructura WebRTC de Daily. |
+| **GANHead** | [wsj-sjtu/GANHead](https://github.com/wsj-sjtu/GANHead) | SDK de cliente/servidor o librería de protocolo WebRTC/red (GANHead). |
+| **aiortc** | [aiortc/aiortc](https://github.com/aiortc/aiortc) | SDK de cliente/servidor o librería de protocolo WebRTC/red (aiortc). |
+| **Pion WebRTC** | [pion/webrtc](https://github.com/pion/webrtc) | Implementación pura en Go del protocolo WebRTC, base de infraestructuras de baja latencia. |
+| **OpenAI Realtime Console** | [openai/openai-realtime-console](https://github.com/openai/openai-realtime-console) | SDK de cliente/servidor o librería de protocolo WebRTC/red (OpenAI Realtime Console). |
+| **LiveKit JS Client SDK** | [livekit/client-sdk-js](https://github.com/livekit/client-sdk-js) | SDK de cliente/servidor o librería de protocolo WebRTC/red (LiveKit JS Client SDK). |
+| **LiveKit Python SDK** | [livekit/client-sdk-python](https://github.com/livekit/client-sdk-python) | SDK de cliente/servidor o librería de protocolo WebRTC/red (LiveKit Python SDK). |
+| **LiveKit Components React** | [livekit/components-js](https://github.com/livekit/components-js) | SDK de cliente/servidor o librería de protocolo WebRTC/red (LiveKit Components React). |
+| **LiveKit Rust SDK** | [livekit/rust-sdks](https://github.com/livekit/rust-sdks) | SDK de cliente/servidor o librería de protocolo WebRTC/red (LiveKit Rust SDK). |
+| **LiveKit Server SDK Node** | [livekit/server-sdk-js](https://github.com/livekit/server-sdk-js) | SDK de cliente/servidor o librería de protocolo WebRTC/red (LiveKit Server SDK Node). |
+| **LiveKit Server SDK Python** | [livekit/server-sdk-python](https://github.com/livekit/server-sdk-python) | SDK de cliente/servidor o librería de protocolo WebRTC/red (LiveKit Server SDK Python). |
+| **Pipecat Client Web** | [pipecat-ai/pipecat-client-web](https://github.com/pipecat-ai/pipecat-client-web) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pipecat Client Web). |
+| **Pipecat Client React** | [pipecat-ai/pipecat-client-react](https://github.com/pipecat-ai/pipecat-client-react) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pipecat Client React). |
+| **Daily JS SDK** | [daily-co/daily-js](https://github.com/daily-co/daily-js) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Daily JS SDK). |
+| **simple-peer** | [feross/simple-peer](https://github.com/feross/simple-peer) | SDK de cliente/servidor o librería de protocolo WebRTC/red (simple-peer). |
+| **PeerJS** | [peers/peerjs](https://github.com/peers/peerjs) | SDK de cliente/servidor o librería de protocolo WebRTC/red (PeerJS). |
+| **libmediasoupclient** | [versatica/libmediasoupclient](https://github.com/versatica/libmediasoupclient) | SDK de cliente/servidor o librería de protocolo WebRTC/red (libmediasoupclient). |
+| **Agora Web SDK NG** | [AgoraIO/Agora-Web-SDK-NG](https://github.com/AgoraIO/Agora-Web-SDK-NG) | SDK de cliente WebRTC para integración de audio, video y comunicación interactiva. |
+| **Agora RTC React** | [AgoraIO/Agora-RTC-React](https://github.com/AgoraIO/Agora-RTC-React) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Agora RTC React). |
+| **Agora Realtime Voice Agent** | [AgoraIO/Agora-Realtime-Voice-Agent](https://github.com/AgoraIO/Agora-Realtime-Voice-Agent) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Agora Realtime Voice Agent). |
+| **LiveKit Unity SDK** | [livekit/client-sdk-unity](https://github.com/livekit/client-sdk-unity) | SDK de cliente/servidor o librería de protocolo WebRTC/red (LiveKit Unity SDK). |
+| **LiveKit Flutter SDK** | [livekit/client-sdk-flutter](https://github.com/livekit/client-sdk-flutter) | SDK de cliente/servidor o librería de protocolo WebRTC/red (LiveKit Flutter SDK). |
+| **LiveKit Go SDK** | [livekit/go-sdk](https://github.com/livekit/go-sdk) | SDK de cliente/servidor o librería de protocolo WebRTC/red (LiveKit Go SDK). |
+| **webrtc-rs** | [webrtc-rs/webrtc](https://github.com/webrtc-rs/webrtc) | SDK de cliente/servidor o librería de protocolo WebRTC/red (webrtc-rs). |
+| **libdatachannel** | [paullouisageneau/libdatachannel](https://github.com/paullouisageneau/libdatachannel) | SDK de cliente/servidor o librería de protocolo WebRTC/red (libdatachannel). |
+| **LiveKit Android SDK** | [livekit/client-sdk-android](https://github.com/livekit/client-sdk-android) | SDK de cliente/servidor o librería de protocolo WebRTC/red (LiveKit Android SDK). |
+| **LiveKit iOS SDK** | [livekit/client-sdk-ios](https://github.com/livekit/client-sdk-ios) | SDK de cliente/servidor o librería de protocolo WebRTC/red (LiveKit iOS SDK). |
+| **LiveKit C++ SDK** | [livekit/cpp-sdks](https://github.com/livekit/cpp-sdks) | SDK de cliente/servidor o librería de protocolo WebRTC/red (LiveKit C++ SDK). |
+| **LiveKit React Native SDK** | [livekit/client-sdk-react-native](https://github.com/livekit/client-sdk-react-native) | SDK de cliente/servidor o librería de protocolo WebRTC/red (LiveKit React Native SDK). |
+| **Pipecat Client iOS** | [pipecat-ai/pipecat-client-ios](https://github.com/pipecat-ai/pipecat-client-ios) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pipecat Client iOS). |
+| **Pipecat Client Android** | [pipecat-ai/pipecat-client-android](https://github.com/pipecat-ai/pipecat-client-android) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pipecat Client Android). |
+| **Daily React SDK** | [daily-co/daily-react](https://github.com/daily-co/daily-react) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Daily React SDK). |
+| **Agora Electron SDK** | [AgoraIO/Electron-SDK](https://github.com/AgoraIO/Electron-SDK) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Agora Electron SDK). |
+| **Agora Flutter SDK** | [AgoraIO/Flutter-SDK](https://github.com/AgoraIO/Flutter-SDK) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Agora Flutter SDK). |
+| **Agora Unity RTC SDK** | [AgoraIO/Agora-Unity-RTC-SDK](https://github.com/AgoraIO/Agora-Unity-RTC-SDK) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Agora Unity RTC SDK). |
+| **Agora Unreal RTC SDK** | [AgoraIO/Agora-Unreal-RTC-SDK](https://github.com/AgoraIO/Agora-Unreal-RTC-SDK) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Agora Unreal RTC SDK). |
+| **Pipecat Client Flutter** | [pipecat-ai/pipecat-client-flutter](https://github.com/pipecat-ai/pipecat-client-flutter) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pipecat Client Flutter). |
+| **Daily Android SDK** | [daily-co/daily-android](https://github.com/daily-co/daily-android) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Daily Android SDK). |
+| **Daily iOS SDK** | [daily-co/daily-ios](https://github.com/daily-co/daily-ios) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Daily iOS SDK). |
+| **LiveKit Swift SDK** | [livekit/client-sdk-swift](https://github.com/livekit/client-sdk-swift) | SDK de cliente/servidor o librería de protocolo WebRTC/red (LiveKit Swift SDK). |
+| **LiveKit Components Android** | [livekit/components-android](https://github.com/livekit/components-android) | SDK de cliente/servidor o librería de protocolo WebRTC/red (LiveKit Components Android). |
+| **node-webrtc** | [node-webrtc/node-webrtc](https://github.com/node-webrtc/node-webrtc) | SDK de cliente/servidor o librería de protocolo WebRTC/red (node-webrtc). |
+| **FastAPI** | [fastapi/fastapi](https://github.com/fastapi/fastapi) | SDK de cliente/servidor o librería de protocolo WebRTC/red (FastAPI). |
+| **uvicorn** | [encode/uvicorn](https://github.com/encode/uvicorn) | SDK de cliente/servidor o librería de protocolo WebRTC/red (uvicorn). |
+| **websockets** | [python-websockets/websockets](https://github.com/python-websockets/websockets) | SDK de cliente/servidor o librería de protocolo WebRTC/red (websockets). |
+| **Socket.IO** | [socketio/socket.io](https://github.com/socketio/socket.io) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Socket.IO). |
+| **ws** | [websockets/ws](https://github.com/websockets/ws) | SDK de cliente/servidor o librería de protocolo WebRTC/red (ws). |
+| **coturn** | [coturn/coturn](https://github.com/coturn/coturn) | SDK de cliente/servidor o librería de protocolo WebRTC/red (coturn). |
+| **Pion TURN** | [pion/turn](https://github.com/pion/turn) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pion TURN). |
+| **Pion ICE** | [pion/ice](https://github.com/pion/ice) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pion ICE). |
+| **Pion DTLS** | [pion/dtls](https://github.com/pion/dtls) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pion DTLS). |
+| **Pion SRTP** | [pion/srtp](https://github.com/pion/srtp) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pion SRTP). |
+| **Pion RTP** | [pion/rtp](https://github.com/pion/rtp) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pion RTP). |
+| **Pion SCTP** | [pion/sctp](https://github.com/pion/sctp) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pion SCTP). |
+| **Pion RTCP** | [pion/rtcp](https://github.com/pion/rtcp) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pion RTCP). |
+| **Pion MediaDevices** | [pion/mediadevices](https://github.com/pion/mediadevices) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pion MediaDevices). |
+| **Pion Interceptor** | [pion/interceptor](https://github.com/pion/interceptor) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pion Interceptor). |
+| **Pion SDP** | [pion/sdp](https://github.com/pion/sdp) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pion SDP). |
 
-## Codificación y compresión de medios
-| **Proyecto** | **Repositorio** | **Descripción** |
+## 5️⃣ Modelos de Lenguaje & Conversación Multimodal (Speech-to-Speech LLMs & Motores de Inferencia)
+*LLMs multimodales nativos de audio/voz, motores de inferencia acelerados y orquestadores conversacionales.*
+
+| **Proyecto / Solución** | **Repositorio / Enlace** | **Descripción / Evaluación Técnica** |
 |---|---|---|
-| FFmpeg | [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) | FFmpeg: toolkit multimedia para capturar, convertir, mezclar y codificar los streams del avatar. |
-| RNNoise | [xiph/rnnoise](https://github.com/xiph/rnnoise) | RNNoise: filtro de reducción de ruido para limpiar el micrófono antes de STT y animación. |
-| ffmpeg-python | [kkroening/ffmpeg-python](https://github.com/kkroening/ffmpeg-python) | ffmpeg-python: aPI Python de FFmpeg para construir transformaciones de audio y video del pipeline. |
-| Basis Universal | [BinomialLLC/basis_universal](https://github.com/BinomialLLC/basis_universal) | Basis Universal: herramienta multimedia para transformar, codificar o preparar los frames y el audio del avatar. |
-| KTX-Software | [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | KTX-Software: herramienta multimedia para transformar, codificar o preparar los frames y el audio del avatar. |
-| VideoHelperSuite | [Kosinkadink/ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite) | VideoHelperSuite: herramienta multimedia para transformar, codificar o preparar los frames y el audio del avatar. |
-| PyAV | [PyAV-Org/PyAV](https://github.com/PyAV-Org/PyAV) | PyAV: bindings Python de FFmpeg para leer, escribir y manipular frames de audio/video. |
-| GStreamer | [GStreamer/gstreamer](https://github.com/GStreamer/gstreamer) | GStreamer: framework de pipelines multimedia para mover y procesar audio/video del avatar en tiempo real. |
-| moviepy | [Zulko/moviepy](https://github.com/Zulko/moviepy) | moviepy: biblioteca Python para editar y componer clips de video generados por el avatar. |
+| **Ultravox** | [fixie-ai/ultravox](https://github.com/fixie-ai/ultravox) | Modelo Speech-to-Speech LLM de código abierto para interacción conversacional nativa de audio. |
+| **Mini-Omni** | [gpt-omni/mini-omni](https://github.com/gpt-omni/mini-omni) | Modelo de lenguaje multimodal Speech-to-Speech que genera voz en streaming en tiempo real. |
+| **GLM-4-Voice** | [THUDM/GLM-4-Voice](https://github.com/THUDM/GLM-4-Voice) | LLM multimodal nativo de voz capaz de comprensión y generación directa de audio conversacional. |
+| **Qwen2-Audio** | [Qwen/Qwen2-Audio](https://github.com/Qwen/Qwen2-Audio) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (Qwen2-Audio). |
+| **ONNX Runtime** | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (ONNX Runtime). |
+| **vLLM** | [vllm-project/vllm](https://github.com/vllm-project/vllm) | Motor de inferencia de LLMs de alto rendimiento con PagedAttention y servidor HTTP/gRPC. |
+| **Ollama** | [ollama/ollama](https://github.com/ollama/ollama) | Herramienta para ejecutar y servir LLMs locales fácilmente en macOS, Linux y Windows. |
+| **Llama-Omni** | [ictnlp/Llama-Omni](https://github.com/ictnlp/Llama-Omni) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (Llama-Omni). |
+| **Mini-Omni2** | [gpt-omni/mini-omni2](https://github.com/gpt-omni/mini-omni2) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (Mini-Omni2). |
+| **TensorRT-LLM** | [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | Librería de NVIDIA para optimizar y acelerar la inferencia de LLMs en GPUs Tensor Core. |
+| **SGLang** | [sgl-project/sglang](https://github.com/sgl-project/sglang) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (SGLang). |
+| **Text Generation Inference** | [huggingface/text-generation-inference](https://github.com/huggingface/text-generation-inference) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (Text Generation Inference). |
+| **DeepStream Python Apps** | [NVIDIA-AI-IOT/deepstream_python_apps](https://github.com/NVIDIA-AI-IOT/deepstream_python_apps) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (DeepStream Python Apps). |
+| **Aphrodite Engine** | [PygmalionAI/aphrodite-engine](https://github.com/PygmalionAI/aphrodite-engine) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (Aphrodite Engine). |
+| **LMDeploy** | [open-mmlab/lmdeploy](https://github.com/open-mmlab/lmdeploy) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (LMDeploy). |
+| **MLX** | [ml-explore/mlx](https://github.com/ml-explore/mlx) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (MLX). |
+| **Ollama JS** | [ollama/ollama-js](https://github.com/ollama/ollama-js) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (Ollama JS). |
+| **Ollama Python** | [ollama/ollama-python](https://github.com/ollama/ollama-python) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (Ollama Python). |
+| **llama-cpp-python** | [abetlen/llama-cpp-python](https://github.com/abetlen/llama-cpp-python) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (llama-cpp-python). |
+| **Transformers.js** | [huggingface/transformers.js](https://github.com/huggingface/transformers.js) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (Transformers.js). |
+| **Web LLM** | [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (Web LLM). |
+| **MLC LLM** | [mlc-ai/mlc-llm](https://github.com/mlc-ai/mlc-llm) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (MLC LLM). |
+| **ncnn** | [Tencent/ncnn](https://github.com/Tencent/ncnn) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (ncnn). |
+| **MNN** | [alibaba/MNN](https://github.com/alibaba/MNN) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (MNN). |
+| **ExecuTorch** | [pytorch/executorch](https://github.com/pytorch/executorch) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (ExecuTorch). |
+| **OpenVINO** | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (OpenVINO). |
+| **DirectML** | [microsoft/DirectML](https://github.com/microsoft/DirectML) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (DirectML). |
+| **coremltools** | [apple/coremltools](https://github.com/apple/coremltools) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (coremltools). |
 
-## Transporte y protocolos WebRTC (bajo nivel)
-| **Proyecto** | **Repositorio** | **Descripción** |
+## 6️⃣ Síntesis de Voz (TTS / Voice Cloning / Voice Conversion)
+*Modelos y motores de texto a voz (TTS), clonación de voz en tiempo real y conversión espectral de voz.*
+
+| **Proyecto / Solución** | **Repositorio / Enlace** | **Descripción / Evaluación Técnica** |
 |---|---|---|
-| AVTR-1 / Avaturn | [avaturn-live/avtr-1](https://github.com/avaturn-live/avtr-1) | AVTR-1 / Avaturn: renderer y streamer web de Avaturn que entrega un avatar independiente con dual-stream y conversación local. |
-| CosyVoice | [FunAudioLLM/CosyVoice](https://github.com/FunAudioLLM/CosyVoice) | CosyVoice: modelo o toolkit de voz para sintetizar la respuesta hablada del avatar. |
-| Neural Voice Puppetry | [JustusThies/NeuralVoicePuppetry](https://github.com/JustusThies/NeuralVoicePuppetry) | Neural Voice Puppetry: modelo o toolkit de voz para sintetizar la respuesta hablada del avatar. |
-| SynchroRaMa | [novicemm/synchrorama_](https://github.com/novicemm/synchrorama_) | SynchroRaMa: proyecto de sincronización audiovisual que ayuda a alinear voz, video y movimiento del avatar. |
-| SenseVoice | [FunAudioLLM/SenseVoice](https://github.com/FunAudioLLM/SenseVoice) | SenseVoice: modelo o servicio de reconocimiento de voz para transcribir lo que dice el usuario al avatar. |
-| GLM-4-Voice | [THUDM/GLM-4-Voice](https://github.com/THUDM/GLM-4-Voice) | GLM-4-Voice: modelo o toolkit de voz para sintetizar la respuesta hablada del avatar. |
-| OpenVoice | [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) | OpenVoice: modelo o toolkit de voz para sintetizar la respuesta hablada del avatar. |
-| CozyVoice | [FunAudioLLM/CozyVoice](https://github.com/FunAudioLLM/CozyVoice) | CozyVoice: modelo o toolkit de voz para sintetizar la respuesta hablada del avatar. |
-| VoiceCraft | [jasonppy/VoiceCraft](https://github.com/jasonppy/VoiceCraft) | VoiceCraft: modelo o toolkit de voz para sintetizar la respuesta hablada del avatar. |
-| MetaVoice-1B | [metavoice-ai/metavoice-src](https://github.com/metavoice-ai/metavoice-src) | MetaVoice-1B: modelo o toolkit de voz para sintetizar la respuesta hablada del avatar. |
-| coturn | [coturn/coturn](https://github.com/coturn/coturn) | coturn: servidor STUN/TURN para atravesar NAT y mantener conectividad WebRTC del avatar. |
-| FastRTC | [gradio-app/fastrtc](https://github.com/gradio-app/fastrtc) | FastRTC: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| aiortc | [aiortc/aiortc](https://github.com/aiortc/aiortc) | aiortc: implementación Python de WebRTC para conectar el backend del avatar con el navegador. |
-| Janus Gateway | [meetecho/janus-gateway](https://github.com/meetecho/janus-gateway) | Janus Gateway: gateway WebRTC para publicar, suscribir y enrutar streams del avatar. |
-| simple-peer | [feross/simple-peer](https://github.com/feross/simple-peer) | simple-peer: aPI JavaScript sencilla para crear conexiones WebRTC entre el avatar y el cliente. |
-| PeerJS | [peers/peerjs](https://github.com/peers/peerjs) | PeerJS: capa de señalización y conexión Peer-to-Peer para transmitir el avatar desde web. |
-| webrtc-rs | [webrtc-rs/webrtc](https://github.com/webrtc-rs/webrtc) | webrtc-rs: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| libdatachannel | [paullouisageneau/libdatachannel](https://github.com/paullouisageneau/libdatachannel) | libdatachannel: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| webrtc-streamer | [mpromonet/webrtc-streamer](https://github.com/mpromonet/webrtc-streamer) | webrtc-streamer: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| node-webrtc | [node-webrtc/node-webrtc](https://github.com/node-webrtc/node-webrtc) | node-webrtc: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| websockets | [python-websockets/websockets](https://github.com/python-websockets/websockets) | websockets: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| Socket.IO | [socketio/socket.io](https://github.com/socketio/socket.io) | Socket.IO: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| ws | [websockets/ws](https://github.com/websockets/ws) | ws: biblioteca WebSocket para intercambiar eventos, audio o estado entre el avatar y su cliente. |
+| **Fish Speech** | [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) | Sistema de síntesis de voz y clonación de audio en tiempo real basado en modelos LLaMA. |
+| **CosyVoice** | [FunAudioLLM/CosyVoice](https://github.com/FunAudioLLM/CosyVoice) | Modelo de generación de voz multilingüe y clonación en tiempo real por Alibaba. |
+| **SenseVoice** | [FunAudioLLM/SenseVoice](https://github.com/FunAudioLLM/SenseVoice) | Modelo multilingüe de reconocimiento de habla, emoción y eventos de audio de alta velocidad. |
+| **RealtimeTTS** | [KoljaB/RealtimeTTS](https://github.com/KoljaB/RealtimeTTS) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (RealtimeTTS). |
+| **ChatTTS** | [2noise/ChatTTS](https://github.com/2noise/ChatTTS) | Modelo de TTS conversacional diseñado para diálogo natural en español, inglés y chino. |
+| **Coqui TTS** | [coqui-ai/TTS](https://github.com/coqui-ai/TTS) | Framework completo de síntesis de voz (TTS) de alta calidad en Python. |
+| **Bark** | [suno-ai/bark](https://github.com/suno-ai/bark) | Modelo transformador generativo de audio para texto a voz con risas, suspiros y expresividad. |
+| **VALL-E-X** | [Plachtaa/VALL-E-X](https://github.com/Plachtaa/VALL-E-X) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (VALL-E-X). |
+| **OpenVoice** | [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) | Sistema de clonación de voz versátil con control preciso de tono, emoción y acento. |
+| **MeloTTS** | [myshell-ai/MeloTTS](https://github.com/myshell-ai/MeloTTS) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (MeloTTS). |
+| **F5-TTS** | [SW-MMLAB/F5-TTS](https://github.com/SW-MMLAB/F5-TTS) | Modelo de TTS no autorregresivo ultrarrápido basado en Flow Matching. |
+| **Speech2Face** | [ravising-h/speech2face](https://github.com/ravising-h/speech2face) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (Speech2Face). |
+| **Piper TTS** | [rhasspy/piper](https://github.com/rhasspy/piper) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (Piper TTS). |
+| **Rhubarb Lip Sync** | [DanielSWolf/rhubarb-lip-sync](https://github.com/DanielSWolf/rhubarb-lip-sync) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (Rhubarb Lip Sync). |
+| **CozyVoice** | [FunAudioLLM/CozyVoice](https://github.com/FunAudioLLM/CozyVoice) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (CozyVoice). |
+| **Amphion** | [open-mmlab/Amphion](https://github.com/open-mmlab/Amphion) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (Amphion). |
+| **VoiceCraft** | [jasonppy/VoiceCraft](https://github.com/jasonppy/VoiceCraft) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (VoiceCraft). |
+| **SoundStorm PyTorch** | [lucidrains/soundstorm-pytorch](https://github.com/lucidrains/soundstorm-pytorch) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (SoundStorm PyTorch). |
+| **VALL-E PyTorch** | [lifeiteng/vall-e](https://github.com/lifeiteng/vall-e) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (VALL-E PyTorch). |
+| **Parler-TTS** | [huggingface/parler-tts](https://github.com/huggingface/parler-tts) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (Parler-TTS). |
+| **Matcha-TTS** | [shivammg/Matcha-TTS](https://github.com/shivammg/Matcha-TTS) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (Matcha-TTS). |
+| **StyleTTS2** | [yl4579/StyleTTS2](https://github.com/yl4579/StyleTTS2) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (StyleTTS2). |
+| **MetaVoice-1B** | [metavoice-ai/metavoice-src](https://github.com/metavoice-ai/metavoice-src) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (MetaVoice-1B). |
+| **xtts-api-server** | [daswer123/xtts-api-server](https://github.com/daswer123/xtts-api-server) | Modelo de síntesis de voz (TTS), clonación de voz o conversión de audio (xtts-api-server). |
 
-## Modelado, carga y optimización 3‑D
-| **Proyecto** | **Repositorio** | **Descripción** |
+## 7️⃣ Reconocimiento de Voz (ASR), VAD y Procesamiento de Audio
+*Modelos de transcripción ASR en tiempo real, Detección de Actividad de Voz (VAD), supresión de ruido y procesamiento de señal de audio.*
+
+| **Proyecto / Solución** | **Repositorio / Enlace** | **Descripción / Evaluación Técnica** |
 |---|---|---|
-| Assimp | [assimp/assimp](https://github.com/assimp/assimp) | Assimp: biblioteca de carga, conversión o compresión de assets 3-D del avatar. |
-| cgltf | [jkuhlmann/cgltf](https://github.com/jkuhlmann/cgltf) | cgltf: biblioteca de carga, conversión o compresión de assets 3-D del avatar. |
-| tinygltf | [syoyo/tinygltf](https://github.com/syoyo/tinygltf) | tinygltf: biblioteca de carga, conversión o compresión de assets 3-D del avatar. |
-| meshoptimizer | [zeux/meshoptimizer](https://github.com/zeux/meshoptimizer) | meshoptimizer: biblioteca de carga, conversión o compresión de assets 3-D del avatar. |
-| ufbx | [bext-labs/ufbx](https://github.com/bext-labs/ufbx) | ufbx: biblioteca de carga, conversión o compresión de assets 3-D del avatar. |
-| openfbx | [nemitz/openfbx](https://github.com/nemitz/openfbx) | openfbx: biblioteca de carga, conversión o compresión de assets 3-D del avatar. |
-| glTF-Validator | [KhronosGroup/glTF-Validator](https://github.com/KhronosGroup/glTF-Validator) | glTF-Validator: biblioteca de carga, conversión o compresión de assets 3-D del avatar. |
-| glTF-Transform | [donmccurdy/glTF-Transform](https://github.com/donmccurdy/glTF-Transform) | glTF-Transform: biblioteca de carga, conversión o compresión de assets 3-D del avatar. |
-| LAM / LAM-Audio2Expression | [aigc3d/LAM](https://github.com/aigc3d/LAM) | LAM / LAM-Audio2Expression: toolkit de procesamiento de audio para limpiar, transformar o analizar la voz del avatar. |
-| TalkingGaussian | [Fictionarry/TalkingGaussian](https://github.com/Fictionarry/TalkingGaussian) | TalkingGaussian: proyecto de talking head que representa o anima una cabeza humana hablante. |
-| Real3D-Portrait | [yerfor/Real3DPortrait](https://github.com/yerfor/Real3DPortrait) | Real3D-Portrait: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| GeneFace++ | [yerfor/GeneFacePlusPlus](https://github.com/yerfor/GeneFacePlusPlus) | GeneFace++: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| ER-NeRF | [Fictionarry/ER-NeRF](https://github.com/Fictionarry/ER-NeRF) | ER-NeRF: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| RAD-NeRF | [ashawkey/RAD-NeRF](https://github.com/ashawkey/RAD-NeRF) | RAD-NeRF: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| GaussianTalker | [cvlab-kaist/GaussianTalker](https://github.com/cvlab-kaist/GaussianTalker) | GaussianTalker: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| LHM | [aigc3d/LHM](https://github.com/aigc3d/LHM) | LHM: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| Meta-Human | [LessUp/meta-human](https://github.com/LessUp/meta-human) | Meta-Human: Framework y assets de MetaHuman para crear personajes digitales con rig, materiales y expresiones reutilizables. |
-| Talk3D | [KU-CVLAB/Talk3D](https://github.com/KU-CVLAB/Talk3D) | Talk3D: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| DynTet | [zhangzc21/DynTet](https://github.com/zhangzc21/DynTet) | DynTet: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| GeneFace | [yinglinjia/GeneFace](https://github.com/yinglinjia/GeneFace) | GeneFace: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| GaussianSpeech | [shivangi-aneja/gaussianspeech](https://github.com/shivangi-aneja/gaussianspeech) | GaussianSpeech: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| GaussianHeadTalk | [madhav-agarwal/GaussianHeadTalk](https://github.com/madhav-agarwal/GaussianHeadTalk) | GaussianHeadTalk: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| AD-NeRF | [YudongGuo/AD-NeRF](https://github.com/YudongGuo/AD-NeRF) | AD-NeRF: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| DFA-NeRF | [ShunyuYao/DFA-NeRF](https://github.com/ShunyuYao/DFA-NeRF) | DFA-NeRF: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| HeadNeRF | [CrisHY1995/headnerf](https://github.com/CrisHY1995/headnerf) | HeadNeRF: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| talking-head-anime-3-demo | [pkhungurn/talking-head-anime-3-demo](https://github.com/pkhungurn/talking-head-anime-3-demo) | talking-head-anime-3-demo: proyecto de talking head que representa o anima una cabeza humana hablante. |
-| 3DXTalker | [EngineeringAI-LAB/3DXTalker](https://github.com/EngineeringAI-LAB/3DXTalker) | 3DXTalker: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| AUHead | [laura990501/AUHead_ICLR](https://github.com/laura990501/AUHead_ICLR) | AUHead: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| UA-3DTalk | [Mrask999/UA-3DTalk](https://github.com/Mrask999/UA-3DTalk) | UA-3DTalk: Modelo de talking head 3-D que convierte audio en movimiento facial y renderizado de una identidad. |
-| AnimatableGaussians | [lizhe00/AnimatableGaussians](https://github.com/lizhe00/AnimatableGaussians) | AnimatableGaussians: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| GauHuman | [skhu101/GauHuman](https://github.com/skhu101/GauHuman) | GauHuman: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| NeRFBlendShape | [USTC3DV/NeRFBlendShape-code](https://github.com/USTC3DV/NeRFBlendShape-code) | NeRFBlendShape: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| DreamGaussian | [dreamgaussian/dreamgaussian](https://github.com/dreamgaussian/dreamgaussian) | DreamGaussian: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| LGM | [3DTopia/LGM](https://github.com/3DTopia/LGM) | LGM: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| Splatter Image | [szymanowiczs/splatter-image](https://github.com/szymanowiczs/splatter-image) | Splatter Image: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| DECA | [YadiraF/DECA](https://github.com/YadiraF/DECA) | DECA: modelo paramétrico o de reconstrucción 3-D para obtener la malla, pose y expresión del avatar. |
-| MICA | [Zielonka/MICA](https://github.com/Zielonka/MICA) | MICA: modelo paramétrico o de reconstrucción 3-D para obtener la malla, pose y expresión del avatar. |
-| PyMAF-X | [HongwenZhang/PyMAF-X](https://github.com/HongwenZhang/PyMAF-X) | PyMAF-X: modelo paramétrico o de reconstrucción 3-D para obtener la malla, pose y expresión del avatar. |
-| 4D-Humans | [shubham-goel/4D-Humans](https://github.com/shubham-goel/4D-Humans) | 4D-Humans: modelo paramétrico o de reconstrucción 3-D para obtener la malla, pose y expresión del avatar. |
-| CLIFF | [ZhengDong-Work/CLIFF](https://github.com/ZhengDong-Work/CLIFF) | CLIFF: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| ExPose | [vchoutas/expose](https://github.com/vchoutas/expose) | ExPose: estimador de pose que convierte vídeo o imagen en articulaciones para retargeting corporal. |
-| HumanNeRF | [chungyiweng/humannerf](https://github.com/chungyiweng/humannerf) | HumanNeRF: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| EG3D | [NVlabs/eg3d](https://github.com/NVlabs/eg3d) | EG3D: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| PanoHead | [sizhean/panohead](https://github.com/sizhean/panohead) | PanoHead: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| Next3D | [MrTornado24/Next3D](https://github.com/MrTornado24/Next3D) | Next3D: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| EVA3D | [hongfz16/EVA3D](https://github.com/hongfz16/EVA3D) | EVA3D: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| Latent-NeRF | [eladrich/latent-nerf](https://github.com/eladrich/latent-nerf) | Latent-NeRF: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| AG3D | [zj-dong/AG3D](https://github.com/zj-dong/AG3D) | AG3D: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| Get3DHuman | [X-zhangyang/Get3DHuman](https://github.com/X-zhangyang/Get3DHuman) | Get3DHuman: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| TADA | [TingtingLiao/TADA](https://github.com/TingtingLiao/TADA) | TADA: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| RodinHD | [RodinHD/RodinHD](https://github.com/RodinHD/RodinHD) | RodinHD: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| HumanNorm | [xhuangcv/humannorm](https://github.com/xhuangcv/humannorm) | HumanNorm: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| PrimDiffusion | [FrozenBurning/PrimDiffusion](https://github.com/FrozenBurning/PrimDiffusion) | PrimDiffusion: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| XAGen | [magic-research/xagen](https://github.com/magic-research/xagen) | XAGen: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| TalkinNeRF | [aggelinacha/talkinnerf](https://github.com/aggelinacha/talkinnerf) | TalkinNeRF: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| GANHead | [wsj-sjtu/GANHead](https://github.com/wsj-sjtu/GANHead) | GANHead: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| NeRFEditor | [Chuny1/NeRFEditor](https://github.com/Chuny1/NeRFEditor) | NeRFEditor: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| face3d | [YadiraF/face3d](https://github.com/YadiraF/face3d) | face3d: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| FaceVerse | [LizhenWangT/FaceVerse_v4](https://github.com/LizhenWangT/FaceVerse_v4) | FaceVerse: modelo paramétrico o de reconstrucción 3-D para obtener la malla, pose y expresión del avatar. |
-| FLAME_PyTorch | [soubhiksanyal/FLAME_PyTorch](https://github.com/soubhiksanyal/FLAME_PyTorch) | FLAME_PyTorch: modelo paramétrico o de reconstrucción 3-D para obtener la malla, pose y expresión del avatar. |
-| RingNet | [soubhiksanyal/RingNet](https://github.com/soubhiksanyal/RingNet) | RingNet: modelo paramétrico o de reconstrucción 3-D para obtener la malla, pose y expresión del avatar. |
-| gltf-pipeline | [CesiumGS/gltf-pipeline](https://github.com/CesiumGS/gltf-pipeline) | gltf-pipeline: biblioteca de carga, conversión o compresión de assets 3-D del avatar. |
-| Draco | [google/draco](https://github.com/google/draco) | Draco: biblioteca de carga, conversión o compresión de assets 3-D del avatar. |
-| PRNet | [YadiraF/PRNet](https://github.com/YadiraF/PRNet) | PRNet: modelo paramétrico o de reconstrucción 3-D para obtener la malla, pose y expresión del avatar. |
-| EOS | [patrikhuber/eos](https://github.com/patrikhuber/eos) | EOS: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| glTF-Blender-IO | [KhronosGroup/glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO) | glTF-Blender-IO: biblioteca de carga, conversión o compresión de assets 3-D del avatar. |
+| **LPIPS-AttnWav2Lip** | [FelixChan9527/LPIPS-AttnWav2Lip](https://github.com/FelixChan9527/LPIPS-AttnWav2Lip) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (LPIPS-AttnWav2Lip). |
+| **SynchroRaMa** | [novicemm/synchrorama_](https://github.com/novicemm/synchrorama_) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (SynchroRaMa). |
+| **faster-whisper** | [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) | Reimplementación de OpenAI Whisper con CTranslate2 para transcripción de voz súper rápida. |
+| **silero-vad** | [snakers4/silero-vad](https://github.com/snakers4/silero-vad) | Modelo de Detección de Actividad de Voz (VAD) ultraligero y preciso en tiempo real. |
+| **whisperX** | [m-bain/whisperX](https://github.com/m-bain/whisperX) | ASR basado en Whisper con alineación fonética precisa a nivel de palabra y diarización. |
+| **whisper.cpp** | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (whisper.cpp). |
+| **OpenAI Whisper** | [openai/whisper](https://github.com/openai/whisper) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (OpenAI Whisper). |
+| **FunASR** | [modelscope/FunASR](https://github.com/modelscope/FunASR) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (FunASR). |
+| **Whisper-Live** | [collabora/whisper-live](https://github.com/collabora/whisper-live) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (Whisper-Live). |
+| **Whisper-Streaming** | [ufal/whisper_streaming](https://github.com/ufal/whisper_streaming) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (Whisper-Streaming). |
+| **SeamlessCommunication** | [facebookresearch/SeamlessCommunication](https://github.com/facebookresearch/SeamlessCommunication) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (SeamlessCommunication). |
+| **py-webrtcvad** | [wiseman/py-webrtcvad](https://github.com/wiseman/py-webrtcvad) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (py-webrtcvad). |
+| **librosa** | [librosa/librosa](https://github.com/librosa/librosa) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (librosa). |
+| **torchaudio** | [pytorch/audio](https://github.com/pytorch/audio) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (torchaudio). |
+| **python-soundfile** | [bastibe/python-soundfile](https://github.com/bastibe/python-soundfile) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (python-soundfile). |
+| **resampy** | [librosa/resampy](https://github.com/librosa/resampy) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (resampy). |
+| **sherpa-onnx** | [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (sherpa-onnx). |
+| **faster-whisper-server** | [fedirz/faster-whisper-server](https://github.com/fedirz/faster-whisper-server) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (faster-whisper-server). |
+| **webrtc-audio-processing** | [freedesktop/webrtc-audio-processing](https://github.com/freedesktop/webrtc-audio-processing) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (webrtc-audio-processing). |
+| **RNNoise** | [xiph/rnnoise](https://github.com/xiph/rnnoise) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (RNNoise). |
+| **Lipreading Deep Learning** | [mpcbr/lipreading](https://github.com/mpcbr/lipreading) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (Lipreading Deep Learning). |
+| **TalkNet-ASD** | [TaoRuijie/TalkNet-ASD](https://github.com/TaoRuijie/TalkNet-ASD) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (TalkNet-ASD). |
+| **moviepy** | [Zulko/moviepy](https://github.com/Zulko/moviepy) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (moviepy). |
 
-## Animación y control del avatar (movimiento facial / cuerpo)
-| **Proyecto** | **Repositorio** | **Descripción** |
+## 8️⃣ Captura de Movimiento, Estimación de Pose y Tracking Facial/Corporal
+*Sistemas de captura de movimiento, detección de puntos clave faciales/corporales (landmarks), modelos paramétricos (SMPL/FLAME) y tracking facial.*
+
+| **Proyecto / Solución** | **Repositorio / Enlace** | **Descripción / Evaluación Técnica** |
 |---|---|---|
-| CodeTalker | [zhouhangz/CodeTalker](https://github.com/zhouhangz/CodeTalker) | CodeTalker: modelo audio-to-face o de movimiento que genera expresiones y gestos para el avatar. |
-| FaceFormer | [Evelyn-yy/FaceFormer](https://github.com/Evelyn-yy/FaceFormer) | FaceFormer: modelo audio-to-face o de movimiento que genera expresiones y gestos para el avatar. |
-| StyleTalk | [FuxiVirtualHuman/styletalk](https://github.com/FuxiVirtualHuman/styletalk) | StyleTalk: modelo audio-to-face o de movimiento que genera expresiones y gestos para el avatar. |
-| First Order Motion Model | [AliaksandrSiarohin/first-order-model](https://github.com/AliaksandrSiarohin/first-order-model) | First Order Motion Model: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| DeepFaceLab | [iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab) | DeepFaceLab: herramienta de edición o reemplazo facial para preparar y animar identidades de avatar. |
-| NerfStudio | [nerfstudio/nerfstudio](https://github.com/nerfstudio/nerfstudio) | NerfStudio: representación neural o Gaussian Splatting para reconstruir y renderizar la identidad 3-D de un avatar. |
-| Instant-NGP | [NVlabs/instant-ngp](https://github.com/NVlabs/instant-ngp) | Instant-NGP: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| PIFuHD | [shunsukesaito/PIFuHD](https://github.com/shunsukesaito/PIFuHD) | PIFuHD: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| PIFu | [shunsukesaito/PIFu](https://github.com/shunsukesaito/PIFu) | PIFu: modelo de reconstrucción o representación 3-D para crear la geometría, la identidad o la apariencia del avatar. |
-| EchoMimicV3-Flash | [antgroup/echomimic_v3](https://github.com/antgroup/echomimic_v3) | EchoMimicV3-Flash: modelo de difusión que genera video de una persona hablando y gesticulando desde audio o referencia. |
-| JoyVASA | [jdh-algo/JoyVASA](https://github.com/jdh-algo/JoyVASA) | JoyVASA: modelo audio-to-expression que convierte voz en movimiento facial y blendshapes para un avatar. |
-| OpenTalking | [datascale-ai/opentalking](https://github.com/datascale-ai/opentalking) | OpenTalking: modelo de talking head que genera movimiento facial guiado por audio, imagen o video de referencia. |
-| IMTalker | [bigai-nlco/IMTalker](https://github.com/bigai-nlco/IMTalker) | IMTalker: modelo de talking head que genera movimiento facial guiado por audio, imagen o video de referencia. |
-| PersonaLive | [GVCLab/PersonaLive](https://github.com/GVCLab/PersonaLive) | PersonaLive: modelo de talking head que genera movimiento facial guiado por audio, imagen o video de referencia. |
-| Ditto TalkingHead | [antgroup/ditto-talkinghead](https://github.com/antgroup/ditto-talkinghead) | Ditto TalkingHead: proyecto de talking head que representa o anima una cabeza humana hablante. |
-| MultiTalk | [MeiGen-AI/MultiTalk](https://github.com/MeiGen-AI/MultiTalk) | MultiTalk: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| InfiniteTalk | [MeiGen-AI/InfiniteTalk](https://github.com/MeiGen-AI/InfiniteTalk) | InfiniteTalk: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| Wan2.2-S2V | [Wan-Video/Wan2.2](https://github.com/Wan-Video/Wan2.2) | Wan2.2-S2V: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| SkyReels-V3-A2V | [SkyworkAI/SkyReels-V3](https://github.com/SkyworkAI/SkyReels-V3) | SkyReels-V3-A2V: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| HuMo | [Phantom-video/HuMo](https://github.com/Phantom-video/HuMo) | HuMo: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| OmniHuman | [Project page](https://omnihuman-lab.github.io/) | OmniHuman: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| Hallo | [fudan-generative-vision/hallo](https://github.com/fudan-generative-vision/hallo) | Hallo: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| Hallo2 | [fudan-generative-vision/hallo2](https://github.com/fudan-generative-vision/hallo2) | Hallo2: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| V-Express | [tencent-ailab/V-Express](https://github.com/tencent-ailab/V-Express) | V-Express: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| LatentSync | [bytedance/LatentSync](https://github.com/bytedance/LatentSync) | LatentSync: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| AniPortrait | [Zejun-Yang/AniPortrait](https://github.com/Zejun-Yang/AniPortrait) | AniPortrait: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| SadTalker | [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker) | SadTalker: modelo que anima un retrato estático con audio y genera un talking head. |
-| AniTalker | [X-LANCE/AniTalker](https://github.com/X-LANCE/AniTalker) | AniTalker: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| SyncTalk | [ZiqiaoPeng/SyncTalk](https://github.com/ZiqiaoPeng/SyncTalk) | SyncTalk: Modelo de talking head 3-D que sincroniza voz, labios y expresiones en una representación neural. |
-| Wav2Lip | [Rudrabha/Wav2Lip](https://github.com/Rudrabha/Wav2Lip) | Wav2Lip: modelo de lip-sync que modifica el movimiento de labios de un video para alinearlo con el habla. |
-| EchoMimic | [antgroup/echomimic](https://github.com/antgroup/echomimic) | EchoMimic: modelo de difusión que genera video de una persona hablando y gesticulando desde audio o referencia. |
-| LiveSpeechPortraits | [YuanxunLu/LiveSpeechPortraits](https://github.com/YuanxunLu/LiveSpeechPortraits) | LiveSpeechPortraits: Sistema que genera retratos parlantes en directo a partir de audio y una imagen de referencia. |
-| SoulX-LiveAct | [Soul-AILab/SoulX-LiveAct](https://github.com/Soul-AILab/SoulX-LiveAct) | SoulX-LiveAct: Modelo de animación de persona que produce actuación facial y corporal guiada por audio o movimiento. |
-| Video-Retalking | [OpenTalker/video-retalking](https://github.com/OpenTalker/video-retalking) | Video-Retalking: herramienta de sincronización labial que convierte audio o fonemas en movimiento de boca. |
-| EmoTaG | [jamesdemon923/EmoTaG](https://github.com/jamesdemon923/EmoTaG) | EmoTaG: Modelo de talking head que incorpora emoción explícita al generar expresión facial sincronizada con voz. |
-| Hallo-Live | [fudan-generative-vision/Hallo-Live](https://github.com/fudan-generative-vision/Hallo-Live) | Hallo-Live: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| JoyHallo | [jdh-algo/JoyHallo](https://github.com/jdh-algo/JoyHallo) | JoyHallo: modelo de difusión o generación de video hablado que transforma audio y una identidad visual en clips de avatar. |
-| uLipSync | [hecomi/uLipSync](https://github.com/hecomi/uLipSync) | uLipSync: herramienta de sincronización labial que convierte audio o fonemas en movimiento de boca. |
-| VividTalk | [HumanAIGC/VividTalk](https://github.com/HumanAIGC/VividTalk) | VividTalk: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| PIRenderer | [RenYurui/PIRender](https://github.com/RenYurui/PIRender) | PIRenderer: renderer o toolkit gráfico para presentar el avatar, materiales, cámara e interfaz. |
-| TalkSHOW | [yhw-yhw/TalkSHOW](https://github.com/yhw-yhw/TalkSHOW) | TalkSHOW: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| MeshTalk | [facebookresearch/meshtalk](https://github.com/facebookresearch/meshtalk) | MeshTalk: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| DiffPoseTalk | [DiffPoseTalk/DiffPoseTalk](https://github.com/DiffPoseTalk/DiffPoseTalk) | DiffPoseTalk: estimador de pose que convierte vídeo o imagen en articulaciones para retargeting corporal. |
-| StyleHEAT | [FeiiYin/StyleHEAT](https://github.com/FeiiYin/StyleHEAT) | StyleHEAT: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| HighSync | [saeed5959/high_sync](https://github.com/saeed5959/high_sync) | HighSync: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| SEDTalker | [FarzanehJafari1987/SEDTalker](https://github.com/FarzanehJafari1987/SEDTalker) | SEDTalker: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| C-MET | [ChanHyeok-Choi/C-MET](https://github.com/ChanHyeok-Choi/C-MET) | C-MET: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| DiFlowDubber | [Fsoft-AIC/DiFlowDubber](https://github.com/Fsoft-AIC/DiFlowDubber) | DiFlowDubber: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| TempoSyncDiff | [mazumdarsoumya/TempoSyncDiff](https://github.com/mazumdarsoumya/TempoSyncDiff) | TempoSyncDiff: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| NarratingForYou | [narratingForYou/NarratingForYou](https://github.com/narratingForYou/NarratingForYou) | NarratingForYou: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| DreamID-Omni | [Guoxu1233/DreamID-Omni](https://github.com/Guoxu1233/DreamID-Omni) | DreamID-Omni: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| SoulX-FlashTalk | [Soul-AILab/SoulX-FlashTalk](https://github.com/Soul-AILab/SoulX-FlashTalk) | SoulX-FlashTalk: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| LPIPS-AttnWav2Lip | [FelixChan9527/LPIPS-AttnWav2Lip](https://github.com/FelixChan9527/LPIPS-AttnWav2Lip) | LPIPS-AttnWav2Lip: modelo de lip-sync que modifica el movimiento de labios de un video para alinearlo con el habla. |
-| JUST-DUB-IT | [justdubit/just-dub-it](https://github.com/justdubit/just-dub-it) | JUST-DUB-IT: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| THFEM | [liluoqaq/THFEM](https://github.com/liluoqaq/THFEM) | THFEM: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| DyStream | [RobinWitch/DyStream](https://github.com/RobinWitch/DyStream) | DyStream: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| X-Dub | [KlingAIResearch/X-Dub](https://github.com/KlingAIResearch/X-Dub) | X-Dub: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| TalkVerse | [snap-research/TalkVerse](https://github.com/snap-research/TalkVerse) | TalkVerse: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| AnyTalker | [HKUST-C4G/AnyTalker](https://github.com/HKUST-C4G/AnyTalker) | AnyTalker: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| LSF-Animation | [Dogter521/LSF-Animation](https://github.com/Dogter521/LSF-Animation) | LSF-Animation: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| IASA | [Beijia11/IASA](https://github.com/Beijia11/IASA) | IASA: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| EmoCAST | [GVCLab/EmoCAST](https://github.com/GVCLab/EmoCAST) | EmoCAST: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| FantasyTalking2 | [Fantasy-AMAP/fantasy-talking2](https://github.com/Fantasy-AMAP/fantasy-talking2) | FantasyTalking2: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| MemoryTalker | [kimhyungkyu-1208/MemoryTalker](https://github.com/kimhyungkyu-1208/MemoryTalker) | MemoryTalker: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| ATL-Diff | [sonvth/ATL-Diff](https://github.com/sonvth/ATL-Diff) | ATL-Diff: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| MOSPA | [xsy27/Mospa-Acoustic-driven-Motion-Generation](https://github.com/xsy27/Mospa-Acoustic-driven-Motion-Generation) | MOSPA: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| MEDTalk | [SJTU-Lucy/MEDTalk](https://github.com/SJTU-Lucy/MEDTalk) | MEDTalk: pipeline de talking head o avatar que integra una identidad visual con audio, conversación o control facial. |
-| audio2photoreal | [facebookresearch/audio2photoreal](https://github.com/facebookresearch/audio2photoreal) | audio2photoreal: toolkit de procesamiento de audio para limpiar, transformar o analizar la voz del avatar. |
-| DeepFaceLive | [iperov/DeepFaceLive](https://github.com/iperov/DeepFaceLive) | DeepFaceLive: herramienta de edición o reemplazo facial para preparar y animar identidades de avatar. |
-| SyncNet | [joonson/syncnet_python](https://github.com/joonson/syncnet_python) | SyncNet: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| MotionGPT | [OpenMotionLab/MotionGPT](https://github.com/OpenMotionLab/MotionGPT) | MotionGPT: modelo audio-to-face o de movimiento que genera expresiones y gestos para el avatar. |
-| MDM | [GuyTevet/motion-diffusion-model](https://github.com/GuyTevet/motion-diffusion-model) | MDM: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| EDGE | [Stanford-TML/EDGE](https://github.com/Stanford-TML/EDGE) | EDGE: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| Comfyui-SadTalker | [haomole/Comfyui-SadTalker](https://github.com/haomole/Comfyui-SadTalker) | Comfyui-SadTalker: workflow de ComfyUI para generar un talking head con SadTalker. |
-| MRAA | [snap-research/articulated-animation](https://github.com/snap-research/articulated-animation) | MRAA: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| TPSMM | [yoyo-nb/Thin-Plate-Spline-Motion-Model](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model) | TPSMM: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| LIA | [wyhsirius/LIA](https://github.com/wyhsirius/LIA) | LIA: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| DiffGesture | [Advocate99/DiffGesture](https://github.com/Advocate99/DiffGesture) | DiffGesture: modelo audio-to-face o de movimiento que genera expresiones y gestos para el avatar. |
-| StyleSync | [guanjz20/StyleSync](https://github.com/guanjz20/StyleSync) | StyleSync: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
-| ComfyUI-Wav2Lip | [numz/ComfyUI-Wav2Lip](https://github.com/numz/ComfyUI-Wav2Lip) | ComfyUI-Wav2Lip: workflow de ComfyUI que aplica Wav2Lip para sincronizar la boca con el audio. |
-| AnimateDiff | [guoyww/AnimateDiff](https://github.com/guoyww/AnimateDiff) | AnimateDiff: modelo de animación, transferencia de movimiento o doblaje que genera expresiones y gestos sincronizados para el avatar. |
+| **uLipSync** | [hecomi/uLipSync](https://github.com/hecomi/uLipSync) | Librería de captura de movimiento, estimación de pose o tracking facial (uLipSync). |
+| **Loopy** | [loopyavatar/loopy](https://github.com/loopyavatar/loopy) | Librería de captura de movimiento, estimación de pose o tracking facial (Loopy). |
+| **FaceX-Zoo** | [JDAI-CV/FaceX-Zoo](https://github.com/JDAI-CV/FaceX-Zoo) | Librería de captura de movimiento, estimación de pose o tracking facial (FaceX-Zoo). |
+| **DeepFaceLive** | [iperov/DeepFaceLive](https://github.com/iperov/DeepFaceLive) | Librería de captura de movimiento, estimación de pose o tracking facial (DeepFaceLive). |
+| **DECA** | [YadiraF/DECA](https://github.com/YadiraF/DECA) | Librería de captura de movimiento, estimación de pose o tracking facial (DECA). |
+| **MICA** | [Zielonka/MICA](https://github.com/Zielonka/MICA) | Librería de captura de movimiento, estimación de pose o tracking facial (MICA). |
+| **OpenFace** | [TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace) | Librería de captura de movimiento, estimación de pose o tracking facial (OpenFace). |
+| **DeepFaceLab** | [iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab) | Librería de captura de movimiento, estimación de pose o tracking facial (DeepFaceLab). |
+| **MotionGPT** | [OpenMotionLab/MotionGPT](https://github.com/OpenMotionLab/MotionGPT) | Librería de captura de movimiento, estimación de pose o tracking facial (MotionGPT). |
+| **MDM** | [GuyTevet/motion-diffusion-model](https://github.com/GuyTevet/motion-diffusion-model) | Librería de captura de movimiento, estimación de pose o tracking facial (MDM). |
+| **EDGE** | [Stanford-TML/EDGE](https://github.com/Stanford-TML/EDGE) | Librería de captura de movimiento, estimación de pose o tracking facial (EDGE). |
+| **SMPL-X** | [vchoutas/smplx](https://github.com/vchoutas/smplx) | Modelo paramétrico humano 3D hiperrealista que integra cuerpo, rostro (FLAME) y manos (MANO). |
+| **PyMAF-X** | [HongwenZhang/PyMAF-X](https://github.com/HongwenZhang/PyMAF-X) | Librería de captura de movimiento, estimación de pose o tracking facial (PyMAF-X). |
+| **4D-Humans** | [shubham-goel/4D-Humans](https://github.com/shubham-goel/4D-Humans) | Librería de captura de movimiento, estimación de pose o tracking facial (4D-Humans). |
+| **CLIFF** | [ZhengDong-Work/CLIFF](https://github.com/ZhengDong-Work/CLIFF) | Librería de captura de movimiento, estimación de pose o tracking facial (CLIFF). |
+| **ExPose** | [vchoutas/expose](https://github.com/vchoutas/expose) | Librería de captura de movimiento, estimación de pose o tracking facial (ExPose). |
+| **kalidoface** | [yeemachine/kalidoface](https://github.com/yeemachine/kalidoface) | Librería de captura de movimiento, estimación de pose o tracking facial (kalidoface). |
+| **OpenSeeFace** | [emilianavt/OpenSeeFace](https://github.com/emilianavt/OpenSeeFace) | Librería de captura de movimiento, estimación de pose o tracking facial (OpenSeeFace). |
+| **VTubeStudio** | [DenchiSoft/VTubeStudio](https://github.com/DenchiSoft/VTubeStudio) | Librería de captura de movimiento, estimación de pose o tracking facial (VTubeStudio). |
+| **pyvts** | [DenverCoder1/pyvts](https://github.com/DenverCoder1/pyvts) | Librería de captura de movimiento, estimación de pose o tracking facial (pyvts). |
+| **face3d** | [YadiraF/face3d](https://github.com/YadiraF/face3d) | Librería de captura de movimiento, estimación de pose o tracking facial (face3d). |
+| **FaceVerse** | [LizhenWangT/FaceVerse_v4](https://github.com/LizhenWangT/FaceVerse_v4) | Librería de captura de movimiento, estimación de pose o tracking facial (FaceVerse). |
+| **LACE** | [NVlabs/LACE](https://github.com/NVlabs/LACE) | Librería de captura de movimiento, estimación de pose o tracking facial (LACE). |
+| **MediaPipeUnityPlugin** | [homuler/MediaPipeUnityPlugin](https://github.com/homuler/MediaPipeUnityPlugin) | Librería de captura de movimiento, estimación de pose o tracking facial (MediaPipeUnityPlugin). |
+| **FLAME_PyTorch** | [soubhiksanyal/FLAME_PyTorch](https://github.com/soubhiksanyal/FLAME_PyTorch) | Librería de captura de movimiento, estimación de pose o tracking facial (FLAME_PyTorch). |
+| **MediaPipe** | [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | Suite de Google para visión por computadora en tiempo real, detección de rostros, manos y pose. |
+| **RingNet** | [soubhiksanyal/RingNet](https://github.com/soubhiksanyal/RingNet) | Librería de captura de movimiento, estimación de pose o tracking facial (RingNet). |
+| **InsightFace** | [deepinsight/insightface](https://github.com/deepinsight/insightface) | Librería de captura de movimiento, estimación de pose o tracking facial (InsightFace). |
+| **face_recognition** | [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) | Librería de captura de movimiento, estimación de pose o tracking facial (face_recognition). |
+| **DeepFace** | [serengil/deepface](https://github.com/serengil/deepface) | Librería de captura de movimiento, estimación de pose o tracking facial (DeepFace). |
+| **Pytorch_Retinaface** | [biubug6/Pytorch_Retinaface](https://github.com/biubug6/Pytorch_Retinaface) | Librería de captura de movimiento, estimación de pose o tracking facial (Pytorch_Retinaface). |
+| **facenet-pytorch** | [timesler/facenet-pytorch](https://github.com/timesler/facenet-pytorch) | Librería de captura de movimiento, estimación de pose o tracking facial (facenet-pytorch). |
+| **dlib** | [davisking/dlib](https://github.com/davisking/dlib) | Librería de captura de movimiento, estimación de pose o tracking facial (dlib). |
+| **OpenCV** | [opencv/opencv](https://github.com/opencv/opencv) | Librería de captura de movimiento, estimación de pose o tracking facial (OpenCV). |
+| **PyAV** | [PyAV-Org/PyAV](https://github.com/PyAV-Org/PyAV) | Librería de captura de movimiento, estimación de pose o tracking facial (PyAV). |
+| **iFacialMocap-Python** | [iFacialMocap/iFacialMocap-Python](https://github.com/iFacialMocap/iFacialMocap-Python) | Librería de captura de movimiento, estimación de pose o tracking facial (iFacialMocap-Python). |
+| **OpenPose** | [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) | Sistema clásico de detección de pose corporal, manos y facial multi-persona en tiempo real. |
+| **AlphaPose** | [MVIG-SJTU/AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) | Librería de captura de movimiento, estimación de pose o tracking facial (AlphaPose). |
+| **DWPose** | [IDEA-Research/DWPose](https://github.com/IDEA-Research/DWPose) | Librería de captura de movimiento, estimación de pose o tracking facial (DWPose). |
+| **MMPose** | [open-mmlab/mmpose](https://github.com/open-mmlab/mmpose) | Librería de captura de movimiento, estimación de pose o tracking facial (MMPose). |
+| **controlnet_aux** | [patrickvonplaten/controlnet_aux](https://github.com/patrickvonplaten/controlnet_aux) | Librería de captura de movimiento, estimación de pose o tracking facial (controlnet_aux). |
+| **face-alignment** | [1adrianb/face-alignment](https://github.com/1adrianb/face-alignment) | Librería de captura de movimiento, estimación de pose o tracking facial (face-alignment). |
+| **PRNet** | [YadiraF/PRNet](https://github.com/YadiraF/PRNet) | Librería de captura de movimiento, estimación de pose o tracking facial (PRNet). |
+| **EOS** | [patrikhuber/eos](https://github.com/patrikhuber/eos) | Librería de captura de movimiento, estimación de pose o tracking facial (EOS). |
+| **edge-tts** | [rany2/edge-tts](https://github.com/rany2/edge-tts) | Librería de captura de movimiento, estimación de pose o tracking facial (edge-tts). |
+| **Deep3DFaceReconstruction** | [deep3dface/Deep3DFaceReconstruction](https://github.com/deep3dface/Deep3DFaceReconstruction) | Librería de captura de movimiento, estimación de pose o tracking facial (Deep3DFaceReconstruction). |
+| **VRM/Unity + uLipSync** | Camino técnicamente sólido para tiempo real, pero implica crear o conseguir un modelo VRM y resolver la capa de expresiones/animación | Librería de captura de movimiento, estimación de pose o tracking facial (VRM/Unity + uLipSync). |
 
-## Renderizado y UI (WebGL / WebGPU / Desktop)
-| **Proyecto** | **Repositorio** | **Descripción** |
+## 9️⃣ Renderizado, Visualización 2D/3D y Motores de UI
+*Motores gráficos WebGL/WebGPU, visores y librerías de avatares VRM/Live2D, motores de videojuegos y frameworks de UI para escritorio y web.*
+
+| **Proyecto / Solución** | **Repositorio / Enlace** | **Descripción / Evaluación Técnica** |
 |---|---|---|
-| UniVRM | [vrm-c/UniVRM](https://github.com/vrm-c/UniVRM) | UniVRM: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| three-vrm | [pixiv/three-vrm](https://github.com/pixiv/three-vrm) | three-vrm: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| vrm-specification | [vrm-c/vrm-specification](https://github.com/vrm-c/vrm-specification) | vrm-specification: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| three-vrm-animation | [pixiv/three-vrm-animation](https://github.com/pixiv/three-vrm-animation) | three-vrm-animation: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| three-vrm-materials-mtoon | [pixiv/three-vrm-materials-mtoon](https://github.com/pixiv/three-vrm-materials-mtoon) | three-vrm-materials-mtoon: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| Three.js | [mrdoob/three.js](https://github.com/mrdoob/three.js) | Three.js: motor JavaScript de renderizado 3-D para mostrar el avatar en WebGL. |
-| Babylon.js | [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) | Babylon.js: motor WebGL/WebGPU para renderizar escenas, materiales y avatares 3-D. |
-| godot-vrm | [V-Sekai/godot-vrm](https://github.com/V-Sekai/godot-vrm) | godot-vrm: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| babylon-vrm-loader | [virtual-cast/babylon-vrm-loader](https://github.com/virtual-cast/babylon-vrm-loader) | babylon-vrm-loader: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| VRM Add-on for Blender | [saturday06/VRM-Addon-for-Blender](https://github.com/saturday06/VRM-Addon-for-Blender) | VRM Add-on for Blender: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| vrm-validator | [vrm-c/vrm-validator](https://github.com/vrm-c/vrm-validator) | vrm-validator: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| three-gltf-viewer | [donmccurdy/three-gltf-viewer](https://github.com/donmccurdy/three-gltf-viewer) | three-gltf-viewer: biblioteca de carga, conversión o compresión de assets 3-D del avatar. |
-| ModernGL | [moderngl/moderngl](https://github.com/moderngl/moderngl) | ModernGL: toolkit gráfico o matemático para construir el renderer, la escena y los controles visuales del avatar. |
-| pygfx | [pygfx/pygfx](https://github.com/pygfx/pygfx) | pygfx: renderer o toolkit gráfico para presentar el avatar, materiales, cámara e interfaz. |
-| PyOpenGL | [mcfletch/pyopengl](https://github.com/mcfletch/pyopengl) | PyOpenGL: binding Python de OpenGL para dibujar el avatar y sus recursos 3-D. |
-| Kivy | [kivy/kivy](https://github.com/kivy/kivy) | Kivy: renderer o toolkit gráfico para presentar el avatar, materiales, cámara e interfaz. |
-| Flet | [flet-dev/flet](https://github.com/flet-dev/flet) | Flet: renderer o toolkit gráfico para presentar el avatar, materiales, cámara e interfaz. |
-| PixiJS | [pixijs/pixijs](https://github.com/pixijs/pixijs) | PixiJS: renderer 2-D acelerado para interfaces y avatares Live2D. |
-| TWGL.js | [greggman/twgl.js](https://github.com/greggman/twgl.js) | TWGL.js: renderer o toolkit gráfico para presentar el avatar, materiales, cámara e interfaz. |
-| regl | [regl-project/regl](https://github.com/regl-project/regl) | regl: renderer o toolkit gráfico para presentar el avatar, materiales, cámara e interfaz. |
-| TalkingHead.js | [met4citizen/TalkingHead](https://github.com/met4citizen/TalkingHead) | TalkingHead.js: biblioteca JavaScript que carga un avatar 3-D y sincroniza labios, expresiones y voz. |
-| pixi-live2d-display | [guansss/pixi-live2d-display](https://github.com/guansss/pixi-live2d-display) | pixi-live2d-display: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| live2d-py | [EasyLive2D/live2d-py](https://github.com/EasyLive2D/live2d-py) | live2d-py: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| kalidoface | [yeemachine/kalidoface](https://github.com/yeemachine/kalidoface) | kalidoface: toolkit gráfico o matemático para construir el renderer, la escena y los controles visuales del avatar. |
-| live2d-widget | [stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget) | live2d-widget: widget web que muestra un personaje Live2D animado en una página. |
-| VTubeStudio | [DenchiSoft/VTubeStudio](https://github.com/DenchiSoft/VTubeStudio) | VTubeStudio: aplicación de tracking y puppeteering para controlar un avatar Live2D. |
-| CubismUnityComponents | [Live2D/CubismUnityComponents](https://github.com/Live2D/CubismUnityComponents) | CubismUnityComponents: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| CubismWebFramework | [Live2D/CubismWebFramework](https://github.com/Live2D/CubismWebFramework) | CubismWebFramework: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| CubismWebSamples | [Live2D/CubismWebSamples](https://github.com/Live2D/CubismWebSamples) | CubismWebSamples: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| CubismNativeFramework | [Live2D/CubismNativeFramework](https://github.com/Live2D/CubismNativeFramework) | CubismNativeFramework: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| Live2D-Python | [qinyonghang/Live2D-Python](https://github.com/qinyonghang/Live2D-Python) | Live2D-Python: runtime o formato para cargar, riggear y animar personajes 2-D/3-D en el cliente del avatar. |
-| headless-gl | [stackgl/headless-gl](https://github.com/stackgl/headless-gl) | headless-gl: toolkit gráfico o matemático para construir el renderer, la escena y los controles visuales del avatar. |
-| wgpu | [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) | wgpu: renderer o toolkit gráfico para presentar el avatar, materiales, cámara e interfaz. |
-| PyGLM | [Zplab/PyGLM](https://github.com/Zplab/PyGLM) | PyGLM: toolkit gráfico o matemático para construir el renderer, la escena y los controles visuales del avatar. |
-| Taichi Graphics | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) | Taichi Graphics: toolkit gráfico o matemático para construir el renderer, la escena y los controles visuales del avatar. |
-| Panda3D | [panda3d/panda3d](https://github.com/panda3d/panda3d) | Panda3D: renderer o toolkit gráfico para presentar el avatar, materiales, cámara e interfaz. |
-| Pyglet | [pyglet/pyglet](https://github.com/pyglet/pyglet) | Pyglet: renderer o toolkit gráfico para presentar el avatar, materiales, cámara e interfaz. |
-| Ursina Engine | [pokepoke/ursina](https://github.com/pokepoke/ursina) | Ursina Engine: renderer o toolkit gráfico para presentar el avatar, materiales, cámara e interfaz. |
-| DearPyGui | [hoffstadt/DearPyGui](https://github.com/hoffstadt/DearPyGui) | DearPyGui: renderer o toolkit gráfico para presentar el avatar, materiales, cámara e interfaz. |
+| **pixi-live2d-display** | [guansss/pixi-live2d-display](https://github.com/guansss/pixi-live2d-display) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (pixi-live2d-display). |
+| **CubismWebSDK** | [Live2D/CubismWebSDK](https://github.com/Live2D/CubismWebSDK) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (CubismWebSDK). |
+| **UniVRM** | [vrm-c/UniVRM](https://github.com/vrm-c/UniVRM) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (UniVRM). |
+| **live2d-py** | [EasyLive2D/live2d-py](https://github.com/EasyLive2D/live2d-py) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (live2d-py). |
+| **three-vrm** | [pixiv/three-vrm](https://github.com/pixiv/three-vrm) | Extensión de Three.js para cargar, renderizar y animar modelos de avatar en formato 3D VRM. |
+| **live2d-widget** | [stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (live2d-widget). |
+| **CubismUnityComponents** | [Live2D/CubismUnityComponents](https://github.com/Live2D/CubismUnityComponents) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (CubismUnityComponents). |
+| **vrm-specification** | [vrm-c/vrm-specification](https://github.com/vrm-c/vrm-specification) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (vrm-specification). |
+| **CubismWebFramework** | [Live2D/CubismWebFramework](https://github.com/Live2D/CubismWebFramework) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (CubismWebFramework). |
+| **CubismWebSamples** | [Live2D/CubismWebSamples](https://github.com/Live2D/CubismWebSamples) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (CubismWebSamples). |
+| **three-vrm-animation** | [pixiv/three-vrm-animation](https://github.com/pixiv/three-vrm-animation) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (three-vrm-animation). |
+| **CubismNativeFramework** | [Live2D/CubismNativeFramework](https://github.com/Live2D/CubismNativeFramework) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (CubismNativeFramework). |
+| **three-vrm-materials-mtoon** | [pixiv/three-vrm-materials-mtoon](https://github.com/pixiv/three-vrm-materials-mtoon) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (three-vrm-materials-mtoon). |
+| **Three.js** | [mrdoob/three.js](https://github.com/mrdoob/three.js) | Librería 3D en JavaScript ampliamente utilizada para renderizado WebGL en navegadores. |
+| **Babylon.js** | [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) | Motor gráfico 3D en JavaScript/TypeScript completo para la web. |
+| **Live2D-Python** | [qinyonghang/Live2D-Python](https://github.com/qinyonghang/Live2D-Python) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Live2D-Python). |
+| **godot-vrm** | [V-Sekai/godot-vrm](https://github.com/V-Sekai/godot-vrm) | Plugin para el motor Godot Engine que permite la importación y animación de avatares VRM 3D. |
+| **babylon-vrm-loader** | [virtual-cast/babylon-vrm-loader](https://github.com/virtual-cast/babylon-vrm-loader) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (babylon-vrm-loader). |
+| **VRM Add-on for Blender** | [saturday06/VRM-Addon-for-Blender](https://github.com/saturday06/VRM-Addon-for-Blender) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (VRM Add-on for Blender). |
+| **vrm-validator** | [vrm-c/vrm-validator](https://github.com/vrm-c/vrm-validator) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (vrm-validator). |
+| **headless-gl** | [stackgl/headless-gl](https://github.com/stackgl/headless-gl) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (headless-gl). |
+| **three-gltf-viewer** | [donmccurdy/three-gltf-viewer](https://github.com/donmccurdy/three-gltf-viewer) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (three-gltf-viewer). |
+| **wgpu** | [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (wgpu). |
+| **PyGLM** | [Zplab/PyGLM](https://github.com/Zplab/PyGLM) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (PyGLM). |
+| **ModernGL** | [moderngl/moderngl](https://github.com/moderngl/moderngl) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (ModernGL). |
+| **pygfx** | [pygfx/pygfx](https://github.com/pygfx/pygfx) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (pygfx). |
+| **Taichi Graphics** | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Taichi Graphics). |
+| **PyOpenGL** | [mcfletch/pyopengl](https://github.com/mcfletch/pyopengl) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (PyOpenGL). |
+| **Panda3D** | [panda3d/panda3d](https://github.com/panda3d/panda3d) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Panda3D). |
+| **Pyglet** | [pyglet/pyglet](https://github.com/pyglet/pyglet) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Pyglet). |
+| **Ursina Engine** | [pokepoke/ursina](https://github.com/pokepoke/ursina) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Ursina Engine). |
+| **DearPyGui** | [hoffstadt/DearPyGui](https://github.com/hoffstadt/DearPyGui) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (DearPyGui). |
+| **Kivy** | [kivy/kivy](https://github.com/kivy/kivy) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Kivy). |
+| **Flet** | [flet-dev/flet](https://github.com/flet-dev/flet) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Flet). |
+| **PixiJS** | [pixijs/pixijs](https://github.com/pixijs/pixijs) | Motor de renderizado 2D 2D súper rápido basado en WebGL para la web. |
+| **TWGL.js** | [greggman/twgl.js](https://github.com/greggman/twgl.js) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (TWGL.js). |
+| **regl** | [regl-project/regl](https://github.com/regl-project/regl) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (regl). |
+| **Live2D** | Podría dar muy baja latencia, pero requiere un avatar 2D preparado y no entrega el realismo buscado | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Live2D). |
 
-## Síntesis de voz y procesamiento de audio
-| **Proyecto** | **Repositorio** | **Descripción** |
+## 🔟 Formatos 3D, Carga de Modelos y Optimizadores de Mallas
+*Herramientas y librerías de bajo nivel para carga, validación, optimización y compresión de formatos 3D (glTF, FBX, OBJ, Draco).*
+
+| **Proyecto / Solución** | **Repositorio / Enlace** | **Descripción / Evaluación Técnica** |
 |---|---|---|
-| silero-vad | [snakers4/silero-vad](https://github.com/snakers4/silero-vad) | silero-vad: detector de actividad de voz para controlar turnos y activar la escucha del avatar. |
-| VALL-E-X | [Plachtaa/VALL-E-X](https://github.com/Plachtaa/VALL-E-X) | VALL-E-X: modelo o toolkit de voz para sintetizar la respuesta hablada del avatar. |
-| librosa | [librosa/librosa](https://github.com/librosa/librosa) | librosa: toolkit de análisis de audio para extraer características y preparar entradas de voz. |
-| torchaudio | [pytorch/audio](https://github.com/pytorch/audio) | torchaudio: extensiones PyTorch para cargar, transformar y procesar audio del pipeline. |
-| python-soundfile | [bastibe/python-soundfile](https://github.com/bastibe/python-soundfile) | python-soundfile: toolkit de procesamiento de audio para limpiar, transformar o analizar la voz del avatar. |
-| resampy | [librosa/resampy](https://github.com/librosa/resampy) | resampy: toolkit de procesamiento de audio para limpiar, transformar o analizar la voz del avatar. |
-| VALL-E PyTorch | [lifeiteng/vall-e](https://github.com/lifeiteng/vall-e) | VALL-E PyTorch: modelo o toolkit de voz para sintetizar la respuesta hablada del avatar. |
-| xtts-api-server | [daswer123/xtts-api-server](https://github.com/daswer123/xtts-api-server) | xtts-api-server: modelo o toolkit de voz para sintetizar la respuesta hablada del avatar. |
-| Silero Models | [snakers4/silero-models](https://github.com/snakers4/silero-models) | Silero Models: colección de modelos ligeros de voz, incluido VAD y TTS, para un pipeline local. |
-| edge-tts | [rany2/edge-tts](https://github.com/rany2/edge-tts) | edge-tts: modelo o toolkit de voz para sintetizar la respuesta hablada del avatar. |
-| Fish Speech | [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) | Fish Speech: motor de síntesis de voz multilingüe para producir respuestas habladas. |
-| Ultravox | [fixie-ai/ultravox](https://github.com/fixie-ai/ultravox) | Ultravox: modelo de audio o conversación multimodal que puede aportar escucha, habla, detección de hablante o control del avatar. |
-| Mini-Omni | [gpt-omni/mini-omni](https://github.com/gpt-omni/mini-omni) | Mini-Omni: modelo de audio o conversación multimodal que puede aportar escucha, habla, detección de hablante o control del avatar. |
-| Qwen2-Audio | [Qwen/Qwen2-Audio](https://github.com/Qwen/Qwen2-Audio) | Qwen2-Audio: toolkit de procesamiento de audio para limpiar, transformar o analizar la voz del avatar. |
-| RealtimeTTS | [KoljaB/RealtimeTTS](https://github.com/KoljaB/RealtimeTTS) | RealtimeTTS: biblioteca que unifica motores TTS y entrega audio incremental al avatar. |
-| ChatTTS | [2noise/ChatTTS](https://github.com/2noise/ChatTTS) | ChatTTS: modelo TTS orientado a voz conversacional con control de estilo. |
-| faster-whisper | [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) | faster-whisper: implementación optimizada de Whisper para reducir el coste de STT del avatar. |
-| whisperX | [m-bain/whisperX](https://github.com/m-bain/whisperX) | whisperX: pipeline de Whisper con alineación temporal y diarización para subtítulos y sincronización. |
-| Coqui TTS | [coqui-ai/TTS](https://github.com/coqui-ai/TTS) | Coqui TTS: toolkit de síntesis de voz y clonación para generar la respuesta hablada del avatar. |
-| Bark | [suno-ai/bark](https://github.com/suno-ai/bark) | Bark: modelo generativo de texto-audio para producir voz y efectos expresivos. |
-| MeloTTS | [myshell-ai/MeloTTS](https://github.com/myshell-ai/MeloTTS) | MeloTTS: modelo o toolkit de voz para sintetizar la respuesta hablada del avatar. |
-| F5-TTS | [SW-MMLAB/F5-TTS](https://github.com/SW-MMLAB/F5-TTS) | F5-TTS: modelo o toolkit de voz para sintetizar la respuesta hablada del avatar. |
-| Speech2Face | [ravising-h/speech2face](https://github.com/ravising-h/speech2face) | Speech2Face: modelo que predice rasgos faciales a partir de voz; sirve para estudiar animación audio-driven del avatar. |
-| Piper TTS | [rhasspy/piper](https://github.com/rhasspy/piper) | Piper TTS: motor TTS ligero para generar voz local con baja latencia. |
-| OpenAI Whisper | [openai/whisper](https://github.com/openai/whisper) | OpenAI Whisper: modelo o servicio de reconocimiento de voz para transcribir lo que dice el usuario al avatar. |
-| FunASR | [modelscope/FunASR](https://github.com/modelscope/FunASR) | FunASR: modelo o servicio de reconocimiento de voz para transcribir lo que dice el usuario al avatar. |
-| Amphion | [open-mmlab/Amphion](https://github.com/open-mmlab/Amphion) | Amphion: modelo de audio o conversación multimodal que puede aportar escucha, habla, detección de hablante o control del avatar. |
-| Whisper-Live | [collabora/whisper-live](https://github.com/collabora/whisper-live) | Whisper-Live: servicio de transcripción incremental para que el avatar escuche mientras el usuario habla. |
-| Whisper-Streaming | [ufal/whisper_streaming](https://github.com/ufal/whisper_streaming) | Whisper-Streaming: implementación de STT por streaming para alimentar una conversación de baja latencia. |
-| SeamlessCommunication | [facebookresearch/SeamlessCommunication](https://github.com/facebookresearch/SeamlessCommunication) | SeamlessCommunication: modelo de audio o conversación multimodal que puede aportar escucha, habla, detección de hablante o control del avatar. |
-| py-webrtcvad | [wiseman/py-webrtcvad](https://github.com/wiseman/py-webrtcvad) | py-webrtcvad: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| Llama-Omni | [ictnlp/Llama-Omni](https://github.com/ictnlp/Llama-Omni) | Llama-Omni: modelo de audio o conversación multimodal que puede aportar escucha, habla, detección de hablante o control del avatar. |
-| Mini-Omni2 | [gpt-omni/mini-omni2](https://github.com/gpt-omni/mini-omni2) | Mini-Omni2: modelo de audio o conversación multimodal que puede aportar escucha, habla, detección de hablante o control del avatar. |
-| SoundStorm PyTorch | [lucidrains/soundstorm-pytorch](https://github.com/lucidrains/soundstorm-pytorch) | SoundStorm PyTorch: toolkit de procesamiento de audio para limpiar, transformar o analizar la voz del avatar. |
-| Parler-TTS | [huggingface/parler-tts](https://github.com/huggingface/parler-tts) | Parler-TTS: modelo o toolkit de voz para sintetizar la respuesta hablada del avatar. |
-| Matcha-TTS | [shivammg/Matcha-TTS](https://github.com/shivammg/Matcha-TTS) | Matcha-TTS: modelo o toolkit de voz para sintetizar la respuesta hablada del avatar. |
-| StyleTTS2 | [yl4579/StyleTTS2](https://github.com/yl4579/StyleTTS2) | StyleTTS2: modelo TTS expresivo que permite generar voz natural para el avatar. |
-| sherpa-onnx | [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | sherpa-onnx: runtime de inferencia para ejecutar localmente los modelos que necesita el avatar. |
-| faster-whisper-server | [fedirz/faster-whisper-server](https://github.com/fedirz/faster-whisper-server) | faster-whisper-server: modelo o servicio de reconocimiento de voz para transcribir lo que dice el usuario al avatar. |
-| webrtc-audio-processing | [freedesktop/webrtc-audio-processing](https://github.com/freedesktop/webrtc-audio-processing) | webrtc-audio-processing: componente de transporte o señalización para intercambiar audio, video y eventos del avatar en tiempo real. |
-| TalkNet-ASD | [TaoRuijie/TalkNet-ASD](https://github.com/TaoRuijie/TalkNet-ASD) | TalkNet-ASD: modelo de audio o conversación multimodal que puede aportar escucha, habla, detección de hablante o control del avatar. |
+| **gltf-pipeline** | [CesiumGS/gltf-pipeline](https://github.com/CesiumGS/gltf-pipeline) | Librería o herramienta de optimización, conversión y carga de formatos 3D (gltf-pipeline). |
+| **Draco** | [google/draco](https://github.com/google/draco) | Librería o herramienta de optimización, conversión y carga de formatos 3D (Draco). |
+| **Assimp** | [assimp/assimp](https://github.com/assimp/assimp) | Librería estándar C++ de importación y exportación de más de 40 formatos 3D. |
+| **cgltf** | [jkuhlmann/cgltf](https://github.com/jkuhlmann/cgltf) | Librería o herramienta de optimización, conversión y carga de formatos 3D (cgltf). |
+| **tinygltf** | [syoyo/tinygltf](https://github.com/syoyo/tinygltf) | Librería o herramienta de optimización, conversión y carga de formatos 3D (tinygltf). |
+| **meshoptimizer** | [zeux/meshoptimizer](https://github.com/zeux/meshoptimizer) | Librería o herramienta de optimización, conversión y carga de formatos 3D (meshoptimizer). |
+| **ufbx** | [bext-labs/ufbx](https://github.com/bext-labs/ufbx) | Librería o herramienta de optimización, conversión y carga de formatos 3D (ufbx). |
+| **openfbx** | [nemitz/openfbx](https://github.com/nemitz/openfbx) | Librería o herramienta de optimización, conversión y carga de formatos 3D (openfbx). |
+| **glTF-Validator** | [KhronosGroup/glTF-Validator](https://github.com/KhronosGroup/glTF-Validator) | Librería o herramienta de optimización, conversión y carga de formatos 3D (glTF-Validator). |
+| **glTF-Transform** | [donmccurdy/glTF-Transform](https://github.com/donmccurdy/glTF-Transform) | Herramienta CLI y librería JS para optimizar, comprimir y transformar archivos 3D glTF/GLB. |
+| **glTF-Blender-IO** | [KhronosGroup/glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO) | Librería o herramienta de optimización, conversión y carga de formatos 3D (glTF-Blender-IO). |
 
-## Procesamiento visual y restauración
+## 11. Super-Resolución Facial, Segmentación, Matting y Edición de Imagen/Video
+*Modelos de post-procesamiento facial (enhancers), segmentación de sujetos, matting de video y remoción de fondos.*
 
-| **Proyecto** | **Repositorio** | **Descripción** |
+| **Proyecto / Solución** | **Repositorio / Enlace** | **Descripción / Evaluación Técnica** |
 |---|---|---|
-| GFPGAN | [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) | GFPGAN: modelo de restauración facial para recuperar detalle en caras generadas o comprimidas. |
-| CodeFormer | [sczhou/CodeFormer](https://github.com/sczhou/CodeFormer) | CodeFormer: restaurador facial que mejora identidades degradadas antes de animarlas. |
-| Real-ESRGAN | [xinntao/Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) | Real-ESRGAN: modelo de super-resolución para aumentar el detalle de frames del avatar. |
-| spandrel | [chaiNNer-org/spandrel](https://github.com/chaiNNer-org/spandrel) | spandrel: modelo de segmentación, restauración o super-resolución para preparar la imagen del avatar. |
-| rembg | [danielgatis/rembg](https://github.com/danielgatis/rembg) | rembg: herramienta de eliminación de fondo para componer el avatar sobre una escena. |
-| BiRefNet | [ZhengPeng7/BiRefNet](https://github.com/ZhengPeng7/BiRefNet) | BiRefNet: modelo de segmentación, restauración o super-resolución para preparar la imagen del avatar. |
-| InSPyReNet | [PyeongGang/InSPyReNet](https://github.com/PyeongGang/InSPyReNet) | InSPyReNet: modelo de segmentación, restauración o super-resolución para preparar la imagen del avatar. |
-| RobustVideoMatting | [PeterLSO/RobustVideoMatting](https://github.com/PeterLSO/RobustVideoMatting) | RobustVideoMatting: modelo de matting temporal para separar una persona del fondo en video. |
-| ViTMatting | [hustvl/ViTMatting](https://github.com/hustvl/ViTMatting) | ViTMatting: modelo de segmentación, restauración o super-resolución para preparar la imagen del avatar. |
-| MODNet | [ZhengPeng7/MODNet](https://github.com/ZhengPeng7/MODNet) | MODNet: modelo de segmentación, restauración o super-resolución para preparar la imagen del avatar. |
+| **GFPGAN** | [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) | Modelo de restauración y super-resolución de rostros ciegos basado en GANs de estilo. |
+| **CodeFormer** | [sczhou/CodeFormer](https://github.com/sczhou/CodeFormer) | Red de predicción de transformadores de código para restauración facial de alta calidad. |
+| **Real-ESRGAN** | [xinntao/Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) | Modelo de escalado de imágenes y rostros en tiempo real para mejorar detalles de textura. |
+| **FFmpeg** | [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) | Herramienta de super-resolución facial, segmentación o procesamiento de video (FFmpeg). |
+| **spandrel** | [chaiNNer-org/spandrel](https://github.com/chaiNNer-org/spandrel) | Herramienta de super-resolución facial, segmentación o procesamiento de video (spandrel). |
+| **rembg** | [danielgatis/rembg](https://github.com/danielgatis/rembg) | Herramienta de super-resolución facial, segmentación o procesamiento de video (rembg). |
+| **BiRefNet** | [ZhengPeng7/BiRefNet](https://github.com/ZhengPeng7/BiRefNet) | Herramienta de super-resolución facial, segmentación o procesamiento de video (BiRefNet). |
+| **InSPyReNet** | [PyeongGang/InSPyReNet](https://github.com/PyeongGang/InSPyReNet) | Herramienta de super-resolución facial, segmentación o procesamiento de video (InSPyReNet). |
+| **RobustVideoMatting** | [PeterLSO/RobustVideoMatting](https://github.com/PeterLSO/RobustVideoMatting) | Herramienta de super-resolución facial, segmentación o procesamiento de video (RobustVideoMatting). |
+| **ViTMatting** | [hustvl/ViTMatting](https://github.com/hustvl/ViTMatting) | Herramienta de super-resolución facial, segmentación o procesamiento de video (ViTMatting). |
+| **MODNet** | [ZhengPeng7/MODNet](https://github.com/ZhengPeng7/MODNet) | Herramienta de super-resolución facial, segmentación o procesamiento de video (MODNet). |
+| **ffmpeg-python** | [kkroening/ffmpeg-python](https://github.com/kkroening/ffmpeg-python) | Herramienta de super-resolución facial, segmentación o procesamiento de video (ffmpeg-python). |
+| **Basis Universal** | [BinomialLLC/basis_universal](https://github.com/BinomialLLC/basis_universal) | Herramienta de super-resolución facial, segmentación o procesamiento de video (Basis Universal). |
+| **KTX-Software** | [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | Herramienta de super-resolución facial, segmentación o procesamiento de video (KTX-Software). |
 
-## Inferencia, serving y runtimes de IA
+## 12. Ecosistemas, Nodos y Plugins para Frameworks de Inferencia (ComfyUI / WebUI)
+*Suites de nodos, plugins y conectores de flujo de trabajo para ejecución modular en ComfyUI y otros entornos de inferencia.*
 
-| **Proyecto** | **Repositorio** | **Descripción** |
+| **Proyecto / Solución** | **Repositorio / Enlace** | **Descripción / Evaluación Técnica** |
 |---|---|---|
-| comfyui_openvino | [openvino-dev-samples/comfyui_openvino](https://github.com/openvino-dev-samples/comfyui_openvino) | comfyui_openvino: runtime de inferencia para ejecutar localmente los modelos que necesita el avatar. |
-| ONNX Runtime | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | ONNX Runtime: runtime multiplataforma para ejecutar modelos ONNX de visión, audio o animación del avatar. |
-| vLLM | [vllm-project/vllm](https://github.com/vllm-project/vllm) | vLLM: motor de serving de LLM de alto rendimiento para generar las respuestas del avatar con baja latencia. |
-| Ollama | [ollama/ollama](https://github.com/ollama/ollama) | Ollama: runtime local para descargar y servir modelos de lenguaje que alimentan la conversación del avatar. |
-| TensorRT-LLM | [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | TensorRT-LLM: motor NVIDIA para optimizar y servir LLM con menor latencia en GPU. |
-| SGLang | [sgl-project/sglang](https://github.com/sgl-project/sglang) | SGLang: runtime de inferencia para ejecutar localmente los modelos que necesita el avatar. |
-| Text Generation Inference | [huggingface/text-generation-inference](https://github.com/huggingface/text-generation-inference) | Text Generation Inference: runtime de inferencia para ejecutar localmente los modelos que necesita el avatar. |
-| Aphrodite Engine | [PygmalionAI/aphrodite-engine](https://github.com/PygmalionAI/aphrodite-engine) | Aphrodite Engine: runtime de inferencia para ejecutar localmente los modelos que necesita el avatar. |
-| LMDeploy | [open-mmlab/lmdeploy](https://github.com/open-mmlab/lmdeploy) | LMDeploy: runtime de inferencia para ejecutar localmente los modelos que necesita el avatar. |
-| MLX | [ml-explore/mlx](https://github.com/ml-explore/mlx) | MLX: runtime de inferencia para ejecutar localmente los modelos que necesita el avatar. |
-| Web LLM | [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm) | Web LLM: runtime WebGPU para ejecutar LLM en el navegador y mantener local el diálogo del avatar. |
-| MLC LLM | [mlc-ai/mlc-llm](https://github.com/mlc-ai/mlc-llm) | MLC LLM: runtime de inferencia para ejecutar localmente los modelos que necesita el avatar. |
-| ncnn | [Tencent/ncnn](https://github.com/Tencent/ncnn) | ncnn: runtime de inferencia para ejecutar localmente los modelos que necesita el avatar. |
-| MNN | [alibaba/MNN](https://github.com/alibaba/MNN) | MNN: runtime de inferencia para ejecutar localmente los modelos que necesita el avatar. |
-| ExecuTorch | [pytorch/executorch](https://github.com/pytorch/executorch) | ExecuTorch: runtime de inferencia para ejecutar localmente los modelos que necesita el avatar. |
-| OpenVINO | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | OpenVINO: toolkit de Intel para optimizar y ejecutar modelos de inferencia en CPU, GPU o NPU. |
-| DirectML | [microsoft/DirectML](https://github.com/microsoft/DirectML) | DirectML: runtime de inferencia para ejecutar localmente los modelos que necesita el avatar. |
-| coremltools | [apple/coremltools](https://github.com/apple/coremltools) | coremltools: runtime de inferencia para ejecutar localmente los modelos que necesita el avatar. |
-
-## Utilidades de backend y desarrollo
-
-| **Proyecto** | **Repositorio** | **Descripción** |
-|---|---|---|
-| FastAPI | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI: framework Python para exponer la API de conversación, audio y frames del avatar. |
-| uvicorn | [encode/uvicorn](https://github.com/encode/uvicorn) | uvicorn: servidor ASGI para ejecutar el backend Python que coordina el avatar. |
-
-## Datos, modelos y resultados de investigación
-
-| **Proyecto** | **Repositorio** | **Descripción** |
-|---|---|---|
-| TalkBody4D | [HF: PixelAI-Team/TalkBody4D](https://huggingface.co/datasets/PixelAI-Team/TalkBody4D) | TalkBody4D: dataset 4-D de cuerpo humano hablado para entrenar y evaluar movimiento corporal. |
-| FreeMan | [wangjiongw/FreeMan_API](https://github.com/wangjiongw/FreeMan_API) | FreeMan: dataset y API de captura humana útil para investigar reconstrucción y movimiento 3-D. |
+| **ComfyStream** | [yolain/ComfyStream](https://github.com/yolain/ComfyStream) | Plugin, suite de nodos o extensión para ComfyUI / WebUI de inferencia (ComfyStream). |
+| **ComfyUI-LivePortraitKJ** | [kijai/ComfyUI-LivePortraitKJ](https://github.com/kijai/ComfyUI-LivePortraitKJ) | Plugin, suite de nodos o extensión para ComfyUI / WebUI de inferencia (ComfyUI-LivePortraitKJ). |
+| **Comfyui-SadTalker** | [haomole/Comfyui-SadTalker](https://github.com/haomole/Comfyui-SadTalker) | Plugin, suite de nodos o extensión para ComfyUI / WebUI de inferencia (Comfyui-SadTalker). |
+| **ComfyUI-MuseTalk_FSH** | [AIFSH/ComfyUI-MuseTalk_FSH](https://github.com/AIFSH/ComfyUI-MuseTalk_FSH) | Plugin, suite de nodos o extensión para ComfyUI / WebUI de inferencia (ComfyUI-MuseTalk_FSH). |
+| **comfyui_openvino** | [openvino-dev-samples/comfyui_openvino](https://github.com/openvino-dev-samples/comfyui_openvino) | Plugin, suite de nodos o extensión para ComfyUI / WebUI de inferencia (comfyui_openvino). |
+| **VideoHelperSuite** | [Kosinkadink/ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite) | Plugin, suite de nodos o extensión para ComfyUI / WebUI de inferencia (VideoHelperSuite). |
+| **ComfyUI-Wav2Lip** | [numz/ComfyUI-Wav2Lip](https://github.com/numz/ComfyUI-Wav2Lip) | Plugin, suite de nodos o extensión para ComfyUI / WebUI de inferencia (ComfyUI-Wav2Lip). |
+| **ComfyUI-MuseTalk** | [chaojie/ComfyUI-MuseTalk](https://github.com/chaojie/ComfyUI-MuseTalk) | Plugin, suite de nodos o extensión para ComfyUI / WebUI de inferencia (ComfyUI-MuseTalk). |
