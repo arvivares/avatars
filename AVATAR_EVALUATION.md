@@ -1972,3 +1972,9 @@ Evidencia primaria:
 | PyAudio | [jdf/pyaudio](https://github.com/jdf/pyaudio) | Evaluado | Bindings oficiales en Python para la librería de I/O de audio PortAudio. |
 | PipeWire | [PipeWire/pipewire](https://github.com/PipeWire/pipewire) | Evaluado | Framework multimedia para procesamiento y transmisión de audio/video de baja latencia en Linux. |
 | PulseAudio | [pulseaudio/pulseaudio](https://github.com/pulseaudio/pulseaudio) | Evaluado | Servidor de sonido en red POSIX ampliamente utilizado para la gestión de flujos de audio en Linux. |
+
+| pyroomacoustics | [LCAV/pyroomacoustics](https://github.com/LCAV/pyroomacoustics) | Evaluado | Librería Python para simulación de acústica de salas, formación de haces (beamforming) y separación de fuentes de voz. |
+| onnxruntime-extensions | [microsoft/onnxruntime-extensions](https://github.com/microsoft/onnxruntime-extensions) | Evaluado | Extensiones oficiales de Microsoft ONNX Runtime para pre/post-procesamiento de audio, voz y texto en C++/Python. |
+| gaussian-splatting CUDA | [graphdeco-inria/gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting) | Evaluado | Implementación oficial C++/CUDA de INRIA para rasterización y renderizado 3D Gaussian Splatting en tiempo real. |
+
+| taichi-nerf | [taichi-dev/taichi-nerf](https://github.com/taichi-dev/taichi-nerf) | Evaluado | Implementación optimizada de NeRF y renderizado volumérico utilizando el lenguaje de programación Taichi. |

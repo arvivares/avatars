@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **635 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **639 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -514,6 +514,8 @@ Este documento reúne los **635 proyectos open-source** evaluados en , organizad
 | **PyAudio** | [jdf/pyaudio](https://github.com/jdf/pyaudio) | **[Evaluado]** Bindings oficiales en Python para la librería de I/O de audio PortAudio. |
 | **PipeWire** | [PipeWire/pipewire](https://github.com/PipeWire/pipewire) | **[Evaluado]** Framework multimedia para procesamiento y transmisión de audio/video de baja latencia en Linux. |
 | **PulseAudio** | [pulseaudio/pulseaudio](https://github.com/pulseaudio/pulseaudio) | **[Evaluado]** Servidor de sonido en red POSIX ampliamente utilizado para la gestión de flujos de audio en Linux. |
+| **pyroomacoustics** | [LCAV/pyroomacoustics](https://github.com/LCAV/pyroomacoustics) | **[Evaluado]** Librería Python para simulación de acústica de salas, formación de haces (beamforming) y separación de fuentes de voz. |
+| **onnxruntime-extensions** | [microsoft/onnxruntime-extensions](https://github.com/microsoft/onnxruntime-extensions) | **[Evaluado]** Extensiones oficiales de Microsoft ONNX Runtime para pre/post-procesamiento de audio, voz y texto en C++/Python. |
 
 ## 8️⃣ Captura de Movimiento, Estimación de Pose y Tracking Facial/Corporal
 *Sistemas de captura de movimiento, detección de puntos clave faciales/corporales (landmarks), modelos paramétricos (SMPL/FLAME) y tracking facial.*
@@ -630,6 +632,7 @@ Este documento reúne los **635 proyectos open-source** evaluados en , organizad
 | **rapier.js** | [dimforge/rapier.js](https://github.com/dimforge/rapier.js) | **[Evaluado]** Bindings en WebAssembly/JavaScript para el motor de física Rapier 3D. |
 | **VRoid SDK** | [pixiv/VRoid-SDK](https://github.com/pixiv/VRoid-SDK) | **[Evaluado]** SDK oficial de Pixiv para integración de avatares 3D VRM y personalización en aplicaciones. |
 | **wgpu-py** | [pygfx/wgpu-py](https://github.com/pygfx/wgpu-py) | **[Evaluado]** Bindings en Python para wgpu-native permitiendo WebGPU nativo en Python. |
+| **taichi-nerf** | [taichi-dev/taichi-nerf](https://github.com/taichi-dev/taichi-nerf) | **[Evaluado]** Implementación optimizada de NeRF y renderizado volumérico utilizando el lenguaje de programación Taichi. |
 
 ## 🔟 Formatos 3D, Carga de Modelos y Optimizadores de Mallas
 *Herramientas y librerías de bajo nivel para carga, validación, optimización y compresión de formatos 3D (glTF, FBX, OBJ, Draco).*
@@ -694,6 +697,7 @@ Este documento reúne los **635 proyectos open-source** evaluados en , organizad
 | **DiffSynth-Studio** | [modelscope/DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) | **[Evaluado]** Framework de difusión optimizado para generación y control de video en tiempo real por ModelScope. |
 | **OpenH264** | [cisco/openh264](https://github.com/cisco/openh264) | **[Evaluado]** Implementación de referencia open-source del codec H.264 desarrollada por Cisco para comunicación WebRTC. |
 | **libaom** | [aomedia/aom](https://github.com/aomedia/aom) | **[Evaluado]** Implementación de referencia en C/C++ de la Alliance for Open Media para el códec de video AV1. |
+| **gaussian-splatting CUDA** | [graphdeco-inria/gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting) | **[Evaluado]** Implementación oficial C++/CUDA de INRIA para rasterización y renderizado 3D Gaussian Splatting en tiempo real. |
 
 ## 12. Ecosistemas, Nodos y Plugins para Frameworks de Inferencia (ComfyUI / WebUI)
 *Suites de nodos, plugins y conectores de flujo de trabajo para ejecución modular en ComfyUI y otros entornos de inferencia.*
