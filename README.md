@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **492 proyectos open-source** evaluados en `AVATAR_EVALUATION.md`, organizados de forma strictly jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **509 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -28,6 +28,10 @@ Este documento reúne los **492 proyectos open-source** evaluados en `AVATAR_EVA
 | **Surge** | [Darussalamnoor/surge](https://github.com/Darussalamnoor/surge) | Motor de orquestación conversacional y agentes de voz en tiempo real. |
 | **Bolna** | [bolna-ai/bolna](https://github.com/bolna-ai/bolna) | Framework open-source para construir agentes conversacionales de voz y video en tiempo real. |
 | **TEN Agent** | [TEN-framework/TEN-Agent](https://github.com/TEN-framework/TEN-Agent) | Agente multimodal de tiempo real construido sobre TEN Framework. |
+| **realtime-ai (RTVI)** | [realtime-ai/realtime-ai](https://github.com/realtime-ai/realtime-ai) | **[Evaluado]** Estándar abierto y framework para pipelines de inferencia de voz y video en tiempo real sobre WebRTC. |
+| **TalkingFace** | [tien02/talking-face](https://github.com/tien02/talking-face) | **[Evaluado]** Pipeline end-to-end de generación de video parlante acelerado por TensorRT con transmisión WebRTC. |
+| **LangQing** | [langzizhixin/LangQing](https://github.com/langzizhixin/LangQing) | **[Evaluado]** Plataforma de humanos digitales interactivos en tiempo real (<500ms latencia) para avatares 2D/2.5D/3D sobre WebRTC. |
+| **Riverst** | [Riverst/Riverst](https://github.com/Riverst/Riverst) | **[Evaluado]** Plataforma de conversación avatar-usuario con lip-sync en tiempo real y transmisión WebRTC. |
 
 ## 2️⃣ Generación y Animación de Avatar 2D/3D & Talking Heads
 *Modelos de IA de generación de video facial, sincronización labial (lip-sync), NeRF, 3D Gaussian Splatting y animación guiada por audio/video.*
@@ -231,6 +235,12 @@ Este documento reúne los **492 proyectos open-source** evaluados en `AVATAR_EVA
 | **PyTorch, 50 pasos** | 10.12 s | **[195 (7.8 s)]** 16.50 s |
 | **PyTorch, 10 pasos** | 10.12 s | **[195 (7.8 s)]** 14.20 s |
 | **PyTorch, 4 pasos** | 10.12 s | **[195 (7.8 s)]** 13.63 s |
+| **ACTalker** | [harlanhong/ACTalker](https://github.com/harlanhong/ACTalker) | **[Evaluado]** Framework de difusión de video que soporta control simultáneo de audio y expresión facial. |
+| **RealVideo** | [zai-org/RealVideo](https://github.com/zai-org/RealVideo) | **[Evaluado]** Sistema conversacional en streaming que utiliza difusión autorregresiva para generar respuestas continuas de video. |
+| **FastGHA** | [cvlab-kaist/FastGHA](https://github.com/cvlab-kaist/FastGHA) | **[Evaluado]** Encoder de avatares 3D Gaussian Splatting few-shot que permite renderizado en tiempo real a partir de pocas imágenes. |
+| **GaussianEmoTalker** | [GaussianEmoTalker](https://arxiv.org/abs/2607.00194) | **[Evaluado]** Síntesis de avatar 3DGS emocional en tiempo real mediante espacio de deformación residual neutral a emocional. |
+| **OmniTalker** | [OmniTalker](https://github.com/OmniTalker) | **[Evaluado]** Generador unificado end-to-end de habla y video sincronizado desde texto hasta 25 FPS. |
+| **Awesome-Talking-Head-Synthesis** | [Kedreamix/Awesome-Talking-Head-Synthesis](https://github.com/Kedreamix/Awesome-Talking-Head-Synthesis) | **[Evaluado]** Repositorio curado de referencia de papers, benchmarks y código de talking heads. |
 
 ## 3️⃣ Infraestructura de Transmisión Media, SFU/MCU y Servidores WebRTC
 *Servidores de medios, arquitecturas SFU/MCU, gateways de audio/video y servidores de streaming WebRTC de baja latencia.*
@@ -258,6 +268,8 @@ Este documento reúne los **492 proyectos open-source** evaluados en `AVATAR_EVA
 | **Kurento Media Server** | [Kurento/kurento-media-server](https://github.com/Kurento/kurento-media-server) | Servidor de medios WebRTC legacy para filtrado, enrutamiento y procesamiento de flujos de video. |
 | **Licode** | [lynckia/licode](https://github.com/lynckia/licode) | Solución SFU/MCU open source en C++ y Node.js para comunicación en tiempo real WebRTC. |
 | **Galene** | [jech/galene](https://github.com/jech/galene) | Servidor WebRTC SFU ligero escrito en Go enfocado en baja latencia y videoconferencia. |
+| **ion-sfu** | [ionorg/ion-sfu](https://github.com/ionorg/ion-sfu) | **[Evaluado]** Implementación SFU pura en Go de alto rendimiento para escalabilidad de WebRTC. |
+| **mirotalksfu** | [miroslavpejic85/mirotalksfu](https://github.com/miroslavpejic85/mirotalksfu) | **[Evaluado]** Plataforma SFU de conferencias y streaming WebRTC auto-hospedada en NodeJS. |
 
 ## 4️⃣ SDKs de Cliente y Protocolos de Comunicación WebRTC / Red
 *Librerías SDK cliente/servidor multiplataforma (Python, JS, C++, Rust, Go, Mobile, Game Engines) e implementaciones de protocolo WebRTC/RTP/ICE/SDP.*
@@ -324,6 +336,8 @@ Este documento reúne los **492 proyectos open-source** evaluados en `AVATAR_EVA
 | **Pion MediaDevices** | [pion/mediadevices](https://github.com/pion/mediadevices) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pion MediaDevices). |
 | **Pion Interceptor** | [pion/interceptor](https://github.com/pion/interceptor) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pion Interceptor). |
 | **Pion SDP** | [pion/sdp](https://github.com/pion/sdp) | SDK de cliente/servidor o librería de protocolo WebRTC/red (Pion SDP). |
+| **sample-nova-sonic-webrtc** | [aws-samples/sample-nova-sonic-speech2speech-webrtc](https://github.com/aws-samples/sample-nova-sonic-speech2speech-webrtc) | **[Evaluado]** Pipeline de agente de voz speech-to-speech en tiempo real con WebRTC. |
+| **webrtc-rs-sfu** | [webrtc-rs/sfu](https://github.com/webrtc-rs/sfu) | **[Evaluado]** Implementación SFU de WebRTC Sans-IO escrita en Rust. |
 
 ## 5️⃣ Modelos de Lenguaje & Conversación Multimodal (Speech-to-Speech LLMs & Motores de Inferencia)
 *LLMs multimodales nativos de audio/voz, motores de inferencia acelerados y orquestadores conversacionales.*
@@ -470,6 +484,7 @@ Este documento reúne los **492 proyectos open-source** evaluados en `AVATAR_EVA
 | **edge-tts** | [rany2/edge-tts](https://github.com/rany2/edge-tts) | Librería de captura de movimiento, estimación de pose o tracking facial (edge-tts). |
 | **Deep3DFaceReconstruction** | [deep3dface/Deep3DFaceReconstruction](https://github.com/deep3dface/Deep3DFaceReconstruction) | Librería de captura de movimiento, estimación de pose o tracking facial (Deep3DFaceReconstruction). |
 | **VRM/Unity + uLipSync** | Camino técnicamente sólido para tiempo real, pero implica crear o conseguir un modelo VRM y resolver la capa de expresiones/animación | Librería de captura de movimiento, estimación de pose o tracking facial (VRM/Unity + uLipSync). |
+| **Chatterbox** | [ai-avatar-system/chatterbox](https://github.com/ai-avatar-system/chatterbox) | **[Evaluado]** Motor de sincronización labial y procesamiento de audio para humanos digitales interactivos. |
 
 ## 9️⃣ Renderizado, Visualización 2D/3D y Motores de UI
 *Motores gráficos WebGL/WebGPU, visores y librerías de avatares VRM/Live2D, motores de videojuegos y frameworks de UI para escritorio y web.*
@@ -514,6 +529,7 @@ Este documento reúne los **492 proyectos open-source** evaluados en `AVATAR_EVA
 | **TWGL.js** | [greggman/twgl.js](https://github.com/greggman/twgl.js) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (TWGL.js). |
 | **regl** | [regl-project/regl](https://github.com/regl-project/regl) | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (regl). |
 | **Live2D** | Podría dar muy baja latencia, pero requiere un avatar 2D preparado y no entrega el realismo buscado | Motor gráfico, visor 3D/2D o framework de interfaz de usuario (Live2D). |
+| **threejs-talking-avatar** | [majidmanzarpour/threejs-talking-avatar](https://github.com/majidmanzarpour/threejs-talking-avatar) | **[Evaluado]** Avatar parlante ejecutable en navegador cliente mediante WebGPU y sincronización labial en tiempo real. |
 
 ## 🔟 Formatos 3D, Carga de Modelos y Optimizadores de Mallas
 *Herramientas y librerías de bajo nivel para carga, validación, optimización y compresión de formatos 3D (glTF, FBX, OBJ, Draco).*
@@ -531,6 +547,7 @@ Este documento reúne los **492 proyectos open-source** evaluados en `AVATAR_EVA
 | **glTF-Validator** | [KhronosGroup/glTF-Validator](https://github.com/KhronosGroup/glTF-Validator) | Librería o herramienta de optimización, conversión y carga de formatos 3D (glTF-Validator). |
 | **glTF-Transform** | [donmccurdy/glTF-Transform](https://github.com/donmccurdy/glTF-Transform) | Herramienta CLI y librería JS para optimizar, comprimir y transformar archivos 3D glTF/GLB. |
 | **glTF-Blender-IO** | [KhronosGroup/glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO) | Librería o herramienta de optimización, conversión y carga de formatos 3D (glTF-Blender-IO). |
+| **Awesome-3D-Gaussian-Splatting** | [MrNeRF/Awesome-3D-Gaussian-Splatting-Paper-List](https://github.com/MrNeRF/Awesome-3D-Gaussian-Splatting-Paper-List) | **[Evaluado]** Índice de referencia para investigación en 3DGS y avatares dinámicos en tiempo real. |
 
 ## 11. Super-Resolución Facial, Segmentación, Matting y Edición de Imagen/Video
 *Modelos de post-procesamiento facial (enhancers), segmentación de sujetos, matting de video y remoción de fondos.*

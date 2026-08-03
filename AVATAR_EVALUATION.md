@@ -1812,3 +1812,21 @@ Evidencia primaria:
 - [Captura/extraccion de audio](https://github.com/Fictionarry/TalkingGaussian/blob/main/data_utils/wav2vec.py)
 - [Motion network condicionado por audio](https://github.com/Fictionarry/TalkingGaussian/blob/main/scene/motion_net.py)
 - [Paper ECCV 2024](https://arxiv.org/abs/2404.15264)
+
+| ACTalker | [harlanhong/ACTalker](https://github.com/harlanhong/ACTalker) | Evaluado | Framework de difusión de video que soporta control simultáneo de audio y expresión facial. |
+| RealVideo | [zai-org/RealVideo](https://github.com/zai-org/RealVideo) | Evaluado | Sistema conversacional en streaming que utiliza difusión autorregresiva para generar respuestas continuas de video. |
+| FastGHA | [cvlab-kaist/FastGHA](https://github.com/cvlab-kaist/FastGHA) | Evaluado | Encoder de avatares 3D Gaussian Splatting few-shot que permite renderizado en tiempo real a partir de pocas imágenes. |
+| GaussianEmoTalker | [GaussianEmoTalker](https://arxiv.org/abs/2607.00194) | Evaluado | Síntesis de avatar 3DGS emocional en tiempo real mediante espacio de deformación residual neutral a emocional. |
+| OmniTalker | [OmniTalker](https://github.com/OmniTalker) | Evaluado | Generador unificado end-to-end de habla y video sincronizado desde texto hasta 25 FPS. |
+| threejs-talking-avatar | [majidmanzarpour/threejs-talking-avatar](https://github.com/majidmanzarpour/threejs-talking-avatar) | Evaluado | Avatar parlante ejecutable en navegador cliente mediante WebGPU y sincronización labial en tiempo real. |
+| realtime-ai (RTVI) | [realtime-ai/realtime-ai](https://github.com/realtime-ai/realtime-ai) | Evaluado | Estándar abierto y framework para pipelines de inferencia de voz y video en tiempo real sobre WebRTC. |
+| Chatterbox | [ai-avatar-system/chatterbox](https://github.com/ai-avatar-system/chatterbox) | Evaluado | Motor de sincronización labial y procesamiento de audio para humanos digitales interactivos. |
+| TalkingFace | [tien02/talking-face](https://github.com/tien02/talking-face) | Evaluado | Pipeline end-to-end de generación de video parlante acelerado por TensorRT con transmisión WebRTC. |
+| LangQing | [langzizhixin/LangQing](https://github.com/langzizhixin/LangQing) | Evaluado | Plataforma de humanos digitales interactivos en tiempo real (<500ms latencia) para avatares 2D/2.5D/3D sobre WebRTC. |
+| Riverst | [Riverst/Riverst](https://github.com/Riverst/Riverst) | Evaluado | Plataforma de conversación avatar-usuario con lip-sync en tiempo real y transmisión WebRTC. |
+| sample-nova-sonic-webrtc | [aws-samples/sample-nova-sonic-speech2speech-webrtc](https://github.com/aws-samples/sample-nova-sonic-speech2speech-webrtc) | Evaluado | Pipeline de agente de voz speech-to-speech en tiempo real con WebRTC. |
+| ion-sfu | [ionorg/ion-sfu](https://github.com/ionorg/ion-sfu) | Evaluado | Implementación SFU pura en Go de alto rendimiento para escalabilidad de WebRTC. |
+| webrtc-rs-sfu | [webrtc-rs/sfu](https://github.com/webrtc-rs/sfu) | Evaluado | Implementación SFU de WebRTC Sans-IO escrita en Rust. |
+| mirotalksfu | [miroslavpejic85/mirotalksfu](https://github.com/miroslavpejic85/mirotalksfu) | Evaluado | Plataforma SFU de conferencias y streaming WebRTC auto-hospedada en NodeJS. |
+| Awesome-Talking-Head-Synthesis | [Kedreamix/Awesome-Talking-Head-Synthesis](https://github.com/Kedreamix/Awesome-Talking-Head-Synthesis) | Evaluado | Repositorio curado de referencia de papers, benchmarks y código de talking heads. |
+| Awesome-3D-Gaussian-Splatting | [MrNeRF/Awesome-3D-Gaussian-Splatting-Paper-List](https://github.com/MrNeRF/Awesome-3D-Gaussian-Splatting-Paper-List) | Evaluado | Índice de referencia para investigación en 3DGS y avatares dinámicos en tiempo real. |
