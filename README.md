@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **541 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **559 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -33,6 +33,10 @@ Este documento reúne los **541 proyectos open-source** evaluados en , organizad
 | **LangQing** | [langzizhixin/LangQing](https://github.com/langzizhixin/LangQing) | **[Evaluado]** Plataforma de humanos digitales interactivos en tiempo real (<500ms latencia) para avatares 2D/2.5D/3D sobre WebRTC. |
 | **Riverst** | [Riverst/Riverst](https://github.com/Riverst/Riverst) | **[Evaluado]** Plataforma de conversación avatar-usuario con lip-sync en tiempo real y transmisión WebRTC. |
 | **Vibe AI Partner** | [vibe-ai/vibe-ai-partner](https://github.com/vibe-ai/vibe-ai-partner) | **[Evaluado]** Plataforma de avatares de escritorio con soporte para modelos Live2D y VRM con memoria activa. |
+| **CrewAI** | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | **[Evaluado]** Framework para orquestación de agentes IA autónomos y herramientas de voz. |
+| **AutoGen** | [microsoft/autogen](https://github.com/microsoft/autogen) | **[Evaluado]** Framework de Microsoft para sistemas conversacionales de múltiples agentes de IA. |
+| **LangChain** | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | **[Evaluado]** Framework para desarrollo de aplicaciones impulsadas por LLMs y conectores de voz. |
+| **Semantic Kernel** | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | **[Evaluado]** SDK de Microsoft para integrar LLMs y plugins de audio en C#, Python y Java. |
 
 ## 2️⃣ Generación y Animación de Avatar 2D/3D & Talking Heads
 *Modelos de IA de generación de video facial, sincronización labial (lip-sync), NeRF, 3D Gaussian Splatting y animación guiada por audio/video.*
@@ -247,6 +251,7 @@ Este documento reúne los **541 proyectos open-source** evaluados en , organizad
 | **UniTalking** | [UniTalking](https://github.com/UniTalking/UniTalking) | **[Evaluado]** Modelo unificado de animación de retrato parlante guiado por audio y promps de movimiento. |
 | **EchoMimicV2** | [antgroup/echomimic_v2](https://github.com/antgroup/echomimic_v2) | **[Evaluado]** Segunda versión de EchoMimic orientada a animación humana de medio cuerpo guiada por audio. |
 | **FLOAT** | [FLOAT](https://github.com/FLOAT) | **[Evaluado]** Modelo de flow matching latente para retratos parlantes con alta consistencia temporal. |
+| **LlamaIndex** | [run-llama/llama_index](https://github.com/run-llama/llama_index) | **[Evaluado]** Framework de datos para agentes de IA conversacionales y asistentes RAG de voz. |
 
 ## 3️⃣ Infraestructura de Transmisión Media, SFU/MCU y Servidores WebRTC
 *Servidores de medios, arquitecturas SFU/MCU, gateways de audio/video y servidores de streaming WebRTC de baja latencia.*
@@ -276,6 +281,8 @@ Este documento reúne los **541 proyectos open-source** evaluados en , organizad
 | **Galene** | [jech/galene](https://github.com/jech/galene) | Servidor WebRTC SFU ligero escrito en Go enfocado en baja latencia y videoconferencia. |
 | **ion-sfu** | [ionorg/ion-sfu](https://github.com/ionorg/ion-sfu) | **[Evaluado]** Implementación SFU pura en Go de alto rendimiento para escalabilidad de WebRTC. |
 | **mirotalksfu** | [miroslavpejic85/mirotalksfu](https://github.com/miroslavpejic85/mirotalksfu) | **[Evaluado]** Plataforma SFU de conferencias y streaming WebRTC auto-hospedada en NodeJS. |
+| **MediaMTX** | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | **[Evaluado]** Servidor de medios multiprotocolo (RTSP, RTMP, WebRTC, HLS) de baja latencia escrito en Go. |
+| **Ant Media Server** | [ant-media/Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server) | **[Evaluado]** Servidor de streaming WebRTC ultra-baja latencia con transcodificación en tiempo real. |
 
 ## 4️⃣ SDKs de Cliente y Protocolos de Comunicación WebRTC / Red
 *Librerías SDK cliente/servidor multiplataforma (Python, JS, C++, Rust, Go, Mobile, Game Engines) e implementaciones de protocolo WebRTC/RTP/ICE/SDP.*
@@ -383,6 +390,7 @@ Este documento reúne los **541 proyectos open-source** evaluados en , organizad
 | **coremltools** | [apple/coremltools](https://github.com/apple/coremltools) | Modelo de lenguaje conversacional multimodal o motor de inferencia acelerado (coremltools). |
 | **LocalAI** | [go-skynet/LocalAI](https://github.com/go-skynet/LocalAI) | **[Evaluado]** Motor de IA local open-source con soporte nativo para audio WebRTC y voz Speech-to-Speech. |
 | **Mem0** | [mem0ai/mem0](https://github.com/mem0ai/mem0) | **[Evaluado]** Capa de memoria persistente de baja latencia para agentes conversacionales y avatares de voz. |
+| **Outlines** | [dottxt-ai/outlines](https://github.com/dottxt-ai/outlines) | **[Evaluado]** Librería para generación de texto estructurado y control estricto de esquemas JSON en agentes LLM. |
 
 ## 6️⃣ Síntesis de Voz (TTS / Voice Cloning / Voice Conversion)
 *Modelos y motores de texto a voz (TTS), clonación de voz en tiempo real y conversión espectral de voz.*
@@ -418,6 +426,10 @@ Este documento reúne los **541 proyectos open-source** evaluados en , organizad
 | **GPT-SoVITS** | [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | **[Evaluado]** Modelo de síntesis de voz TTS zero-shot y clonación de voz a partir de 1 minuto de audio. |
 | **So-VITS-SVC** | [svc-develop-team/so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) | **[Evaluado]** Modelo de conversión de voz cantada basado en VITS con extracción de características de audio. |
 | **Tortoise-TTS** | [neonbjb/tortoise-tts](https://github.com/neonbjb/tortoise-tts) | **[Evaluado]** Sistema de texto a voz multivoz con prosodia expresiva y clonación de voz alta fidelidad. |
+| **Google Lyra** | [google/lyra](https://github.com/google/lyra) | **[Evaluado]** Codec de audio neuronal ultracomprimido de ultra-baja latencia para transmisión de voz en tiempo real. |
+| **Meta EnCodec** | [facebookresearch/encodec](https://github.com/facebookresearch/encodec) | **[Evaluado]** Modelo de compresión de audio neuronal en tiempo real de alta fidelidad desarrollado por Meta. |
+| **Descript DAC** | [descriptinc/dac](https://github.com/descriptinc/dac) | **[Evaluado]** Codec de audio neuronal universal de alta fidelidad y baja latencia para música y voz. |
+| **SpeechTokenizer** | [ZhangXingHe/SpeechTokenizer](https://github.com/ZhangXingHe/SpeechTokenizer) | **[Evaluado]** Tokenizer de habla unificado para modelos de lenguaje multimodales Speech-to-Speech. |
 
 ## 7️⃣ Reconocimiento de Voz (ASR), VAD y Procesamiento de Audio
 *Modelos de transcripción ASR en tiempo real, Detección de Actividad de Voz (VAD), supresión de ruido y procesamiento de señal de audio.*
@@ -449,6 +461,10 @@ Este documento reúne los **541 proyectos open-source** evaluados en , organizad
 | **moviepy** | [Zulko/moviepy](https://github.com/Zulko/moviepy) | Librería de procesamiento de audio, ASR (reconocimiento de habla) o VAD (moviepy). |
 | **pyannote-audio** | [pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio) | **[Evaluado]** Toolkit en PyTorch para diarización de hablantes y segmentación de señal de audio. |
 | **SpeechBrain** | [speechbrain/speechbrain](https://github.com/speechbrain/speechbrain) | **[Evaluado]** Toolkit de IA conversacional para ASR, TTS, reconocimiento de hablante y procesamiento de audio. |
+| **Vosk** | [alphacep/vosk-api](https://github.com/alphacep/vosk-api) | **[Evaluado]** Toolkit de reconocimiento del habla (ASR) offline multiplataforma ligero para 20+ idiomas. |
+| **WeNet** | [wenet-e2e/wenet](https://github.com/wenet-e2e/wenet) | **[Evaluado]** Toolkit de ASR end-to-end en tiempo real orientado a producción en C++ y Python. |
+| **ESPnet** | [espnet/espnet](https://github.com/espnet/espnet) | **[Evaluado]** Toolkit completo en PyTorch para procesamiento de habla (ASR, TTS, traducción y separación de fuentes). |
+| **Kaldi** | [kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi) | **[Evaluado]** Toolkit estándar C++ para reconocimiento del habla y procesamiento de audio. |
 
 ## 8️⃣ Captura de Movimiento, Estimación de Pose y Tracking Facial/Corporal
 *Sistemas de captura de movimiento, detección de puntos clave faciales/corporales (landmarks), modelos paramétricos (SMPL/FLAME) y tracking facial.*
@@ -556,6 +572,8 @@ Este documento reúne los **541 proyectos open-source** evaluados en , organizad
 | **bgfx** | [bkaradzic/bgfx](https://github.com/bkaradzic/bgfx) | **[Evaluado]** Librería de renderizado 3D agnóstica de API gráfica (Vulkan, Direct3D, OpenGL, WebGL). |
 | **Diligent Engine** | [DiligentGraphics/DiligentEngine](https://github.com/DiligentGraphics/DiligentEngine) | **[Evaluado]** Motor gráfico 3D moderno multiplataforma con soporte para WebGPU, Vulkan y Metal. |
 | **O3DE** | [o3de/o3de](https://github.com/o3de/o3de) | **[Evaluado]** Open 3D Engine de la Linux Foundation para simulación y renderizado 3D modular de alta fidelidad. |
+| **Rapier** | [dimforge/rapier](https://github.com/dimforge/rapier) | **[Evaluado]** Motor de física 2D/3D súper rápido escrito en Rust con bindings para WebAssembly/JavaScript. |
+| **Jolt Physics** | [jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) | **[Evaluado]** Motor de física 3D multihilo escrito en C++ para juegos y entornos VR/AR en tiempo real. |
 
 ## 🔟 Formatos 3D, Carga de Modelos y Optimizadores de Mallas
 *Herramientas y librerías de bajo nivel para carga, validación, optimización y compresión de formatos 3D (glTF, FBX, OBJ, Draco).*

@@ -1864,3 +1864,22 @@ Evidencia primaria:
 | EchoMimicV2 | [antgroup/echomimic_v2](https://github.com/antgroup/echomimic_v2) | Evaluado | Segunda versión de EchoMimic orientada a animación humana de medio cuerpo guiada por audio. |
 | FLOAT | [FLOAT](https://github.com/FLOAT) | Evaluado | Modelo de flow matching latente para retratos parlantes con alta consistencia temporal. |
 | Awesome-Gesture_Generation | [Awesome-Gesture_Generation](https://github.com/Awesome-Gesture_Generation) | Evaluado | Índice de referencia y código de investigación en generación de gestos corporales guiados por audio. |
+
+| MediaMTX | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | Evaluado | Servidor de medios multiprotocolo (RTSP, RTMP, WebRTC, HLS) de baja latencia escrito en Go. |
+| Google Lyra | [google/lyra](https://github.com/google/lyra) | Evaluado | Codec de audio neuronal ultracomprimido de ultra-baja latencia para transmisión de voz en tiempo real. |
+| Meta EnCodec | [facebookresearch/encodec](https://github.com/facebookresearch/encodec) | Evaluado | Modelo de compresión de audio neuronal en tiempo real de alta fidelidad desarrollado por Meta. |
+| Descript DAC | [descriptinc/dac](https://github.com/descriptinc/dac) | Evaluado | Codec de audio neuronal universal de alta fidelidad y baja latencia para música y voz. |
+| SpeechTokenizer | [ZhangXingHe/SpeechTokenizer](https://github.com/ZhangXingHe/SpeechTokenizer) | Evaluado | Tokenizer de habla unificado para modelos de lenguaje multimodales Speech-to-Speech. |
+| Vosk | [alphacep/vosk-api](https://github.com/alphacep/vosk-api) | Evaluado | Toolkit de reconocimiento del habla (ASR) offline multiplataforma ligero para 20+ idiomas. |
+| WeNet | [wenet-e2e/wenet](https://github.com/wenet-e2e/wenet) | Evaluado | Toolkit de ASR end-to-end en tiempo real orientado a producción en C++ y Python. |
+| ESPnet | [espnet/espnet](https://github.com/espnet/espnet) | Evaluado | Toolkit completo en PyTorch para procesamiento de habla (ASR, TTS, traducción y separación de fuentes). |
+| Kaldi | [kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi) | Evaluado | Toolkit estándar C++ para reconocimiento del habla y procesamiento de audio. |
+| Rapier | [dimforge/rapier](https://github.com/dimforge/rapier) | Evaluado | Motor de física 2D/3D súper rápido escrito en Rust con bindings para WebAssembly/JavaScript. |
+| Jolt Physics | [jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics) | Evaluado | Motor de física 3D multihilo escrito en C++ para juegos y entornos VR/AR en tiempo real. |
+| Ant Media Server | [ant-media/Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server) | Evaluado | Servidor de streaming WebRTC ultra-baja latencia con transcodificación en tiempo real. |
+| CrewAI | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Evaluado | Framework para orquestación de agentes IA autónomos y herramientas de voz. |
+| AutoGen | [microsoft/autogen](https://github.com/microsoft/autogen) | Evaluado | Framework de Microsoft para sistemas conversacionales de múltiples agentes de IA. |
+| LangChain | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | Evaluado | Framework para desarrollo de aplicaciones impulsadas por LLMs y conectores de voz. |
+| LlamaIndex | [run-llama/llama_index](https://github.com/run-llama/llama_index) | Evaluado | Framework de datos para agentes de IA conversacionales y asistentes RAG de voz. |
+| Semantic Kernel | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | Evaluado | SDK de Microsoft para integrar LLMs y plugins de audio en C#, Python y Java. |
+| Outlines | [dottxt-ai/outlines](https://github.com/dottxt-ai/outlines) | Evaluado | Librería para generación de texto estructurado y control estricto de esquemas JSON en agentes LLM. |
