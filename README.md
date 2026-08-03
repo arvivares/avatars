@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **653 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **658 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -419,6 +419,8 @@ Este documento reúne los **653 proyectos open-source** evaluados en , organizad
 | **AutoGPTQ** | [AutoGPTQ/AutoGPTQ](https://github.com/AutoGPTQ/AutoGPTQ) | **[Evaluado]** Librería de cuantización GPTQ en 4 bits para aceleración de inferencia de LLMs en PyTorch. |
 | **FlashInfer** | [flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer) | **[Evaluado]** Kernels GPU de alto rendimiento para acelerar la atención dispersa y el servido de LLMs en vLLM y SGLang. |
 | **Hugging Face Optimum** | [huggingface/optimum](https://github.com/huggingface/optimum) | **[Evaluado]** Extensión de Hugging Face para optimizar modelos de voz y lenguaje en hardware específico (ONNX, OpenVINO, TensorRT). |
+| **open_clip** | [mlfoundations/open_clip](https://github.com/mlfoundations/open_clip) | **[Evaluado]** Implementación de código abierto de CLIP para embeddings multimodal de texto, imagen y audio. |
+| **safetensors** | [huggingface/safetensors](https://github.com/huggingface/safetensors) | **[Evaluado]** Formato ultrarrápido y seguro de Hugging Face para guardar y cargar tensores de modelos de IA sin ejecuciones arbitrarias. |
 
 ## 6️⃣ Síntesis de Voz (TTS / Voice Cloning / Voice Conversion)
 *Modelos y motores de texto a voz (TTS), clonación de voz en tiempo real y conversión espectral de voz.*
@@ -530,6 +532,7 @@ Este documento reúne los **653 proyectos open-source** evaluados en , organizad
 | **sox-ng** | [sox-ng/sox-ng](https://github.com/sox-ng/sox-ng) | **[Evaluado]** Versión mantenida de SoX para conversión de formatos, filtrado y efectos de audio desde la línea de comandos. |
 | **essentia** | [MTG/essentia](https://github.com/MTG/essentia) | **[Evaluado]** Librería C++/Python del Music Technology Group para análisis de audio y extracción de características espectrales. |
 | **Vamp Plugin SDK** | [c4dm/vamp-plugin-sdk](https://github.com/c4dm/vamp-plugin-sdk) | **[Evaluado]** SDK de plugins C++ estándar para análisis y extracción de información en señales de audio de alta precisión. |
+| **CTranslate2** | [OpenNMT/CTranslate2](https://github.com/OpenNMT/CTranslate2) | **[Evaluado]** Motor C++ de inferencia rápida para modelos Transformer optimizado para CPU y GPU (usado por faster-whisper). |
 
 ## 8️⃣ Captura de Movimiento, Estimación de Pose y Tracking Facial/Corporal
 *Sistemas de captura de movimiento, detección de puntos clave faciales/corporales (landmarks), modelos paramétricos (SMPL/FLAME) y tracking facial.*
@@ -588,6 +591,8 @@ Este documento reúne los **653 proyectos open-source** evaluados en , organizad
 | **Awesome-Gesture_Generation** | [Awesome-Gesture_Generation](https://github.com/Awesome-Gesture_Generation) | **[Evaluado]** Índice de referencia y código de investigación en generación de gestos corporales guiados por audio. |
 | **Kalidokit** | [yeemachine/kalidokit](https://github.com/yeemachine/kalidokit) | **[Evaluado]** Solver de cinemática y blendshapes para convertir pose y landmarks de MediaPipe a avatares VRM y Live2D. |
 | **libyuv** | [chromium/libyuv](https://github.com/chromium/libyuv) | **[Evaluado]** Librería C++ de Chromium para conversión de formatos de color YUV a RGB y escalado acelerado por SIMD. |
+| **timm** | [huggingface/pytorch-image-models](https://github.com/huggingface/pytorch-image-models) | **[Evaluado]** Colección líder de modelos de visión por computadora y backbones para PyTorch. |
+| **einops** | [arogozhnikov/einops](https://github.com/arogozhnikov/einops) | **[Evaluado]** Librería de manipulación flexible de tensores para arquitecturas de aprendizaje profundo. |
 
 ## 9️⃣ Renderizado, Visualización 2D/3D y Motores de UI
 *Motores gráficos WebGL/WebGPU, visores y librerías de avatares VRM/Live2D, motores de videojuegos y frameworks de UI para escritorio y web.*

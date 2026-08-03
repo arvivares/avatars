@@ -1995,3 +1995,9 @@ Evidencia primaria:
 | AutoGPTQ | [AutoGPTQ/AutoGPTQ](https://github.com/AutoGPTQ/AutoGPTQ) | Evaluado | Librería de cuantización GPTQ en 4 bits para aceleración de inferencia de LLMs en PyTorch. |
 | FlashInfer | [flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer) | Evaluado | Kernels GPU de alto rendimiento para acelerar la atención dispersa y el servido de LLMs en vLLM y SGLang. |
 | Hugging Face Optimum | [huggingface/optimum](https://github.com/huggingface/optimum) | Evaluado | Extensión de Hugging Face para optimizar modelos de voz y lenguaje en hardware específico (ONNX, OpenVINO, TensorRT). |
+
+| CTranslate2 | [OpenNMT/CTranslate2](https://github.com/OpenNMT/CTranslate2) | Evaluado | Motor C++ de inferencia rápida para modelos Transformer optimizado para CPU y GPU (usado por faster-whisper). |
+| open_clip | [mlfoundations/open_clip](https://github.com/mlfoundations/open_clip) | Evaluado | Implementación de código abierto de CLIP para embeddings multimodal de texto, imagen y audio. |
+| timm | [huggingface/pytorch-image-models](https://github.com/huggingface/pytorch-image-models) | Evaluado | Colección líder de modelos de visión por computadora y backbones para PyTorch. |
+| einops | [arogozhnikov/einops](https://github.com/arogozhnikov/einops) | Evaluado | Librería de manipulación flexible de tensores para arquitecturas de aprendizaje profundo. |
+| safetensors | [huggingface/safetensors](https://github.com/huggingface/safetensors) | Evaluado | Formato ultrarrápido y seguro de Hugging Face para guardar y cargar tensores de modelos de IA sin ejecuciones arbitrarias. |
