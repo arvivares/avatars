@@ -1978,3 +1978,9 @@ Evidencia primaria:
 | gaussian-splatting CUDA | [graphdeco-inria/gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting) | Evaluado | Implementación oficial C++/CUDA de INRIA para rasterización y renderizado 3D Gaussian Splatting en tiempo real. |
 
 | taichi-nerf | [taichi-dev/taichi-nerf](https://github.com/taichi-dev/taichi-nerf) | Evaluado | Implementación optimizada de NeRF y renderizado volumérico utilizando el lenguaje de programación Taichi. |
+
+| rubberband | [breakfastquay/rubberband](https://github.com/breakfastquay/rubberband) | Evaluado | Librería C++ de alta calidad para time-stretching y pitch-shifting de audio en tiempo real. |
+| SoundTouch | [soundtouch/soundtouch](https://codeberg.org/soundtouch/soundtouch) | Evaluado | Librería de procesamiento de audio para cambiar tempo, tono y velocidad de reproducción independientemente. |
+| aubio | [aubio/aubio](https://github.com/aubio/aubio) | Evaluado | Librería C para análisis de audio, estimación de tono (pitch detection), detección de onsets y ritmos. |
+| libebur128 | [jiixopp/libebur128](https://github.com/jiixopp/libebur128) | Evaluado | Librería C de normalización y medición de sonoridad de audio bajo la norma estándar EBU R128. |
+| sox-ng | [sox-ng/sox-ng](https://github.com/sox-ng/sox-ng) | Evaluado | Versión mantenida de SoX para conversión de formatos, filtrado y efectos de audio desde la línea de comandos. |

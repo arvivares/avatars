@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **639 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **644 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -470,6 +470,8 @@ Este documento reúne los **639 proyectos open-source** evaluados en , organizad
 | **flac** | [xiph/flac](https://github.com/xiph/flac) | **[Evaluado]** Librería de referencia del códec de compresión de audio sin pérdida FLAC por Xiph.Org. |
 | **libsamplerate** | [libsndfile/libsamplerate](https://github.com/libsndfile/libsamplerate) | **[Evaluado]** Librería C de conversión de tasa de muestreo de audio de alta precisión (Secret Rabbit Code). |
 | **libsndfile** | [libsndfile/libsndfile](https://github.com/libsndfile/libsndfile) | **[Evaluado]** Librería C de lectura y escritura de múltiples formatos de audio digital PCM y comprimidos. |
+| **rubberband** | [breakfastquay/rubberband](https://github.com/breakfastquay/rubberband) | **[Evaluado]** Librería C++ de alta calidad para time-stretching y pitch-shifting de audio en tiempo real. |
+| **SoundTouch** | [soundtouch/soundtouch](https://codeberg.org/soundtouch/soundtouch) | **[Evaluado]** Librería de procesamiento de audio para cambiar tempo, tono y velocidad de reproducción independientemente. |
 
 ## 7️⃣ Reconocimiento de Voz (ASR), VAD y Procesamiento de Audio
 *Modelos de transcripción ASR en tiempo real, Detección de Actividad de Voz (VAD), supresión de ruido y procesamiento de señal de audio.*
@@ -516,6 +518,9 @@ Este documento reúne los **639 proyectos open-source** evaluados en , organizad
 | **PulseAudio** | [pulseaudio/pulseaudio](https://github.com/pulseaudio/pulseaudio) | **[Evaluado]** Servidor de sonido en red POSIX ampliamente utilizado para la gestión de flujos de audio en Linux. |
 | **pyroomacoustics** | [LCAV/pyroomacoustics](https://github.com/LCAV/pyroomacoustics) | **[Evaluado]** Librería Python para simulación de acústica de salas, formación de haces (beamforming) y separación de fuentes de voz. |
 | **onnxruntime-extensions** | [microsoft/onnxruntime-extensions](https://github.com/microsoft/onnxruntime-extensions) | **[Evaluado]** Extensiones oficiales de Microsoft ONNX Runtime para pre/post-procesamiento de audio, voz y texto en C++/Python. |
+| **aubio** | [aubio/aubio](https://github.com/aubio/aubio) | **[Evaluado]** Librería C para análisis de audio, estimación de tono (pitch detection), detección de onsets y ritmos. |
+| **libebur128** | [jiixopp/libebur128](https://github.com/jiixopp/libebur128) | **[Evaluado]** Librería C de normalización y medición de sonoridad de audio bajo la norma estándar EBU R128. |
+| **sox-ng** | [sox-ng/sox-ng](https://github.com/sox-ng/sox-ng) | **[Evaluado]** Versión mantenida de SoX para conversión de formatos, filtrado y efectos de audio desde la línea de comandos. |
 
 ## 8️⃣ Captura de Movimiento, Estimación de Pose y Tracking Facial/Corporal
 *Sistemas de captura de movimiento, detección de puntos clave faciales/corporales (landmarks), modelos paramétricos (SMPL/FLAME) y tracking facial.*
