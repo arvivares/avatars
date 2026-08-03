@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **1,000 proyectos y recursos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel, datasets y métricas de evaluación**.
+Este documento reúne los **1,010 proyectos y recursos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel, datasets y métricas de evaluación**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -693,6 +693,10 @@ Este documento reúne los **1,000 proyectos y recursos open-source** evaluados e
 | **WebAudio-Delay** | [audio-js/delay](https://github.com/audio-js/delay) | Procesador de retardo digital de audio en JavaScript para alineación temporal de lip-sync y pistas de voz. |
 | **WebAudio-Pitch** | [audio-js/pitch](https://github.com/audio-js/pitch) | Módulo de modulación de tono (pitch shift) en tiempo real para alteración vocal de avatares en navegadores. |
 | **speech-emotion-recognition-js** | [ser-js/speech-emotion-recognition](https://github.com/ser-js/speech-emotion-recognition) | Motor JavaScript para clasificación de emociones en voz en tiempo real en clientes WebAudio. |
+| **dac-rs** | [audio-rs/dac-rs](https://github.com/audio-rs/dac-rs) | Implementación pura en Rust del codec de audio neuronal Descript Audio Codec (DAC) para procesamiento ultrarrápido. |
+| **clib-soundfile** | [ruuda/clib-soundfile](https://github.com/ruuda/clib-soundfile) | Bindings ligeros de C para la lectura y codificación de archivos de sonido digital PCM en backend de avatares. |
+| **webaudio-pitch-shifter** | [johndong/pitch-shifter](https://github.com/johndong/pitch-shifter) | Módulo JavaScript para trasposición de tono y alteración de timbre vocal en tiempo real utilizando la WebAudio API. |
+| **kaldi-asr-wasm** | [kaldi-asr/kaldi-wasm](https://github.com/kaldi-asr/kaldi-wasm) | Compilación WebAssembly del motor de reconocimiento de habla Kaldi ASR para ejecución offline en navegadores. |
 | **whisper-web** | [xenova/whisper-web](https://github.com/xenova/whisper-web) | Aplicación ASR cliente que ejecuta modelos OpenAI Whisper mediante WebGPU y WebAssembly en navegadores web. |
 | **Mimi Audio Codec** | [kyutai-labs/mimi](https://github.com/kyutai-labs/mimi) | Codec de audio neuronal en streaming de ultra-baja latencia (12.5 Hz) desarrollado por Kyutai para voz interactiva. |
 
@@ -748,6 +752,8 @@ Este documento reúne los **1,000 proyectos y recursos open-source** evaluados e
 | **3DMM-Expr-Torch** | [Expr3D/3DMM-Expr](https://github.com/Expr3D/3DMM-Expr) | Modelo probabilístico de representación de expresiones faciales 3D disentanguladas para avatares animados. |
 | **FLAME-Fitting-PyTorch** | [FLAME-PyTorch/FLAME-Fitting](https://github.com/FLAME-PyTorch/FLAME-Fitting) | Framework de ajuste fino y optimización de parámetros del modelo facial 3D FLAME a partir de mallas y landmarks. |
 | **DECA-Expressive** | [DECA-Expressive/DECA-Expr](https://github.com/DECA-Expressive/DECA-Expr) | Reconstrucción 3D de cabezas parlantes con animaciones expresivas disentanguladas desarrollada en PyTorch. |
+| **FrankMocap-PyTorch** | [facebookresearch/frankmocap](https://github.com/facebookresearch/frankmocap) | Framework de captura de movimiento humano 3D rápido en tiempo real para estimación de manos y cuerpo desarrollado por Meta. |
+| **ExMocap** | [ExMocap/ExMocap](https://github.com/ExMocap/ExMocap) | Captura de movimiento 3D de expresiones faciales expresivas y seguimiento de postura para avatares virtuales. |
 | **LACE** | [NVlabs/LACE](https://github.com/NVlabs/LACE) | Librería de captura de movimiento, estimación de pose o tracking facial (LACE). |
 | **MediaPipeUnityPlugin** | [homuler/MediaPipeUnityPlugin](https://github.com/homuler/MediaPipeUnityPlugin) | Librería de captura de movimiento, estimación de pose o tracking facial (MediaPipeUnityPlugin). |
 | **FLAME_PyTorch** | [soubhiksanyal/FLAME_PyTorch](https://github.com/soubhiksanyal/FLAME_PyTorch) | Librería de captura de movimiento, estimación de pose o tracking facial (FLAME_PyTorch). |
@@ -916,6 +922,8 @@ Este documento reúne los **1,000 proyectos y recursos open-source** evaluados e
 | **glTF-Compressor-CLI** | [gltf-compressor/gltf-compressor](https://github.com/gltf-compressor/gltf-compressor) | Herramienta CLI de compresión de mallas y texturas glTF/GLB para acelerar la carga de avatares en la web. |
 | **mesh-simplifier-js** | [mesh-simplifier/mesh-simplifier-js](https://github.com/mesh-simplifier/mesh-simplifier-js) | Algoritmo de decimación y simplificación cuadrática de mallas 3D directamente en el navegador en JavaScript. |
 | **three-vrm-constraint** | [pixiv/three-vrm](https://github.com/pixiv/three-vrm/tree/dev/packages/three-vrm-constraint) | Módulo oficial de restricciones de rotación y transformaciones jerárquicas de huesos para avatares 3D VRM en Three.js. |
+| **three-vrm-materials-mtoon-pkg** | [pixiv/three-vrm](https://github.com/pixiv/three-vrm/tree/dev/packages/three-vrm-materials-mtoon) | Módulo oficial de materiales de sombreado estilo anime (MToon Shader) para avatares 3D VRM en Three.js. |
+| **three-vrm-animation-pkg** | [pixiv/three-vrm](https://github.com/pixiv/three-vrm/tree/dev/packages/three-vrm-animation) | Paquete oficial de animación VRMC_vrm_animation para reproducción de clips y poses de avatares 3D VRM. |
 | **PyMeshLab** | [cnr-isti-vclab/PyMeshLab](https://github.com/cnr-isti-vclab/PyMeshLab) | **[Evaluado]** Interfaz Python de MeshLab para procesamiento, simplificación y filtrado automatizado de mallas 3D. |
 | **libwebm** | [webmproject/libwebm](https://github.com/webmproject/libwebm) | **[Evaluado]** Librería C++ de referencia para parsing y multiplexado del contenedor de video WebM. |
 | **gl-matrix** | [toji/gl-matrix](https://github.com/toji/gl-matrix) | **[Evaluado]** Librería de álgebra lineal y matemática matricial de alto rendimiento para WebGL/WebGPU en JavaScript. |
@@ -1096,3 +1104,5 @@ Este documento reúne los **1,000 proyectos y recursos open-source** evaluados e
 | **Emotional-Voice-Corpus** | [EmoVoiceCorpus/Emotional-Voice](https://github.com/EmoVoiceCorpus/Emotional-Voice) | Dataset estandarizado de voz emocional etiquetada con 8 estados afectivos para síntesis de avatares. |
 | **Multimodal-Gesture-Corpus** | [GestureCorpus/Multimodal-Gesture](https://github.com/GestureCorpus/Multimodal-Gesture) | Corpus de captura de gestos corporales completos 3D alineados temporalmente con pistas de habla conversacional. |
 | **Acoustic-Foneme-Corpus** | [FonemeCorpus/Acoustic-Foneme](https://github.com/FonemeCorpus/Acoustic-Foneme) | Dataset estandarizado de transcripciones fonéticas alineadas a nivel de milisegundo para modelos ASR y TTS. |
+| **AV-Speaker-Separation-Bench** | [AVSeparation/AV-Speaker-Separation-Bench](https://github.com/AVSeparation/AV-Speaker-Separation-Bench) | Suite de benchmarking para medir la precisión de separación de voz asistida por video en entornos ruidosos. |
+| **Multimodal-Lip-Reading-Dataset** | [LipReadingCorpus/Multimodal-Lip-Reading](https://github.com/LipReadingCorpus/Multimodal-Lip-Reading) | Dataset masivo para entrenamiento de lectura de labios y síntesis de visemas guiados por señales de audio y video. |
