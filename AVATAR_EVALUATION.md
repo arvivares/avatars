@@ -1965,3 +1965,10 @@ Evidencia primaria:
 | PortAudio | [PortAudio/portaudio](https://github.com/PortAudio/portaudio) | Evaluado | Librería I/O de audio multiplataforma portable de tiempo real para C/C++. |
 | miniaudio | [mackron/miniaudio](https://github.com/mackron/miniaudio) | Evaluado | Librería de captura y reproducción de audio ligera en un solo archivo C para juegos y avatares. |
 | RtAudio | [thestk/rtaudio](https://github.com/thestk/rtaudio) | Evaluado | Clases C++ multiplataforma para entrada y salida de audio en tiempo real con baja latencia. |
+
+| RtMidi | [thestk/rtmidi](https://github.com/thestk/rtmidi) | Evaluado | Clases C++ multiplataforma para entrada/salida MIDI en tiempo real útil para sincronizar expresiones de avatares. |
+| sounddevice | [spatialaudio/python-sounddevice](https://github.com/spatialaudio/python-sounddevice) | Evaluado | Bindings en Python para PortAudio que permiten reproducción y grabación de streams de audio con NumPy. |
+
+| PyAudio | [jdf/pyaudio](https://github.com/jdf/pyaudio) | Evaluado | Bindings oficiales en Python para la librería de I/O de audio PortAudio. |
+| PipeWire | [PipeWire/pipewire](https://github.com/PipeWire/pipewire) | Evaluado | Framework multimedia para procesamiento y transmisión de audio/video de baja latencia en Linux. |
+| PulseAudio | [pulseaudio/pulseaudio](https://github.com/pulseaudio/pulseaudio) | Evaluado | Servidor de sonido en red POSIX ampliamente utilizado para la gestión de flujos de audio en Linux. |
