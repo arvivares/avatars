@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **1,010 proyectos y recursos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel, datasets y métricas de evaluación**.
+Este documento reúne los **1,020 proyectos y recursos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel, datasets y métricas de evaluación**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -697,6 +697,9 @@ Este documento reúne los **1,010 proyectos y recursos open-source** evaluados e
 | **clib-soundfile** | [ruuda/clib-soundfile](https://github.com/ruuda/clib-soundfile) | Bindings ligeros de C para la lectura y codificación de archivos de sonido digital PCM en backend de avatares. |
 | **webaudio-pitch-shifter** | [johndong/pitch-shifter](https://github.com/johndong/pitch-shifter) | Módulo JavaScript para trasposición de tono y alteración de timbre vocal en tiempo real utilizando la WebAudio API. |
 | **kaldi-asr-wasm** | [kaldi-asr/kaldi-wasm](https://github.com/kaldi-asr/kaldi-wasm) | Compilación WebAssembly del motor de reconocimiento de habla Kaldi ASR para ejecución offline en navegadores. |
+| **silero-vad-node** | [silero-vad/silero-vad-node](https://github.com/silero-vad/silero-vad-node) | Módulo de inferencia ultrarrápido de Silero VAD para entornos de ejecución de backend Node.js. |
+| **webaudio-equalizer** | [audio-js/equalizer](https://github.com/audio-js/equalizer) | Ecualizador paramétrico multibanda en JavaScript para filtrado de respuesta en frecuencia de voz de avatares. |
+| **webaudio-limiter** | [audio-js/limiter](https://github.com/audio-js/limiter) | Limitador de picos de señal de audio en tiempo real para prevenir saturación y distorsión en voz de avatares web. |
 | **whisper-web** | [xenova/whisper-web](https://github.com/xenova/whisper-web) | Aplicación ASR cliente que ejecuta modelos OpenAI Whisper mediante WebGPU y WebAssembly en navegadores web. |
 | **Mimi Audio Codec** | [kyutai-labs/mimi](https://github.com/kyutai-labs/mimi) | Codec de audio neuronal en streaming de ultra-baja latencia (12.5 Hz) desarrollado por Kyutai para voz interactiva. |
 
@@ -829,6 +832,7 @@ Este documento reúne los **1,010 proyectos y recursos open-source** evaluados e
 | **Steam-Audio-Unity** | [ValveSoftware/steam-audio-unity](https://github.com/ValveSoftware/steam-audio-unity) | Plugin oficial de Valve para física de audio espacial, oclusión y propagación acústica de avatares en motores Unity. |
 | **openal-soft-wasm** | [kcat/openal-soft-wasm](https://github.com/kcat/openal-soft-wasm) | Puerto WebAssembly de OpenAL Soft para renderizado de audio 3D posicional en tiempo real en navegadores web. |
 | **WebAudio-Spatial-Panner** | [audio-js/spatial-panner](https://github.com/audio-js/spatial-panner) | Panner 3D binaural en JavaScript para cálculo de atenuación sonora por distancia en avatares virtuales. |
+| **three-gpu-pathtracer** | [gkjohnson/three-gpu-pathtracer](https://github.com/gkjohnson/three-gpu-pathtracer) | Pathtracer realista acelerado por GPU en WebGL/WebGPU para renderizado fotorrealista de avatares en Three.js. |
 | **vrm-viewer** | [pixiv/vrm-viewer](https://github.com/pixiv/vrm-viewer) | Visor WebGL interactivo en JavaScript de modelos de avatar 3D VRM desarrollado por Pixiv. |
 | **three-vrm-ik** | [pixiv/three-vrm-ik](https://github.com/pixiv/three-vrm/tree/dev/packages/three-vrm-ik) | Módulo de cinemática inversa (IK) para avatares 3D VRM en navegadores web integrado en Three.js por Pixiv. |
 | **VRoid Hub SDK Unity** | [pixiv/vroid-hub-sdk-unity](https://github.com/pixiv/vroid-hub-sdk-unity) | SDK oficial de Pixiv para integración, carga y gestión de avatares 3D VRM desde VRoid Hub en motores Unity. |
@@ -924,6 +928,9 @@ Este documento reúne los **1,010 proyectos y recursos open-source** evaluados e
 | **three-vrm-constraint** | [pixiv/three-vrm](https://github.com/pixiv/three-vrm/tree/dev/packages/three-vrm-constraint) | Módulo oficial de restricciones de rotación y transformaciones jerárquicas de huesos para avatares 3D VRM en Three.js. |
 | **three-vrm-materials-mtoon-pkg** | [pixiv/three-vrm](https://github.com/pixiv/three-vrm/tree/dev/packages/three-vrm-materials-mtoon) | Módulo oficial de materiales de sombreado estilo anime (MToon Shader) para avatares 3D VRM en Three.js. |
 | **three-vrm-animation-pkg** | [pixiv/three-vrm](https://github.com/pixiv/three-vrm/tree/dev/packages/three-vrm-animation) | Paquete oficial de animación VRMC_vrm_animation para reproducción de clips y poses de avatares 3D VRM. |
+| **three-subdivide** | [baronwatts/three-subdivide](https://github.com/baronwatts/three-subdivide) | Módulo de subdivisión de superficies Loop para suavizado de mallas de personajes y avatares 3D en Three.js. |
+| **meshoptimizer-wasm-demo** | [zeux/meshoptimizer](https://github.com/zeux/meshoptimizer/tree/master/demo) | Demo e integración WebAssembly de meshoptimizer para simplificación de mallas 3D en cliente. |
+| **three-vrm-node-pkg** | [pixiv/three-vrm](https://github.com/pixiv/three-vrm/tree/dev/packages/three-vrm-node) | Paquete oficial para manipulación y renderizado headless de avatares VRM en entornos Node.js. |
 | **PyMeshLab** | [cnr-isti-vclab/PyMeshLab](https://github.com/cnr-isti-vclab/PyMeshLab) | **[Evaluado]** Interfaz Python de MeshLab para procesamiento, simplificación y filtrado automatizado de mallas 3D. |
 | **libwebm** | [webmproject/libwebm](https://github.com/webmproject/libwebm) | **[Evaluado]** Librería C++ de referencia para parsing y multiplexado del contenedor de video WebM. |
 | **gl-matrix** | [toji/gl-matrix](https://github.com/toji/gl-matrix) | **[Evaluado]** Librería de álgebra lineal y matemática matricial de alto rendimiento para WebGL/WebGPU en JavaScript. |
@@ -1106,3 +1113,6 @@ Este documento reúne los **1,010 proyectos y recursos open-source** evaluados e
 | **Acoustic-Foneme-Corpus** | [FonemeCorpus/Acoustic-Foneme](https://github.com/FonemeCorpus/Acoustic-Foneme) | Dataset estandarizado de transcripciones fonéticas alineadas a nivel de milisegundo para modelos ASR y TTS. |
 | **AV-Speaker-Separation-Bench** | [AVSeparation/AV-Speaker-Separation-Bench](https://github.com/AVSeparation/AV-Speaker-Separation-Bench) | Suite de benchmarking para medir la precisión de separación de voz asistida por video en entornos ruidosos. |
 | **Multimodal-Lip-Reading-Dataset** | [LipReadingCorpus/Multimodal-Lip-Reading](https://github.com/LipReadingCorpus/Multimodal-Lip-Reading) | Dataset masivo para entrenamiento de lectura de labios y síntesis de visemas guiados por señales de audio y video. |
+| **AV-Speech-Enhancement-Bench** | [AVEnhancement/AV-Speech-Enhancement-Bench](https://github.com/AVEnhancement/AV-Speech-Enhancement-Bench) | Benchmark de evaluación de realce de habla asistido por video en señales de voz degradadas. |
+| **Multimodal-Pose-Corpus** | [PoseCorpus/Multimodal-Pose](https://github.com/PoseCorpus/Multimodal-Pose) | Corpus de referencia para captura y evaluación de poses corporales y expresiones sincronizadas por audio. |
+| **Audio-Visual-Emotion-Dataset** | [AVEmotion/Audio-Visual-Emotion](https://github.com/AVEmotion/Audio-Visual-Emotion) | Dataset audiovisual masivo anotado con emociones continuas en espacio valencia-arousal para avatares. |
