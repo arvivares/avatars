@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **605 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **611 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -294,6 +294,9 @@ Este documento reúne los **605 proyectos open-source** evaluados en , organizad
 | **livekit-plugins-assemblyai** | [livekit/plugins-assemblyai](https://github.com/livekit/agents#assemblyai) | **[Evaluado]** Plugin oficial de LiveKit para transcripción y ASR en tiempo real con AssemblyAI. |
 | **livekit-plugins-azure** | [livekit/plugins-azure](https://github.com/livekit/agents#azure) | **[Evaluado]** Plugin oficial de LiveKit para integración de Azure Cognitive Services Speech STT y TTS. |
 | **livekit-plugins-google** | [livekit/plugins-google](https://github.com/livekit/agents#google) | **[Evaluado]** Plugin oficial de LiveKit para integración de Google Cloud Speech, Gemini y TTS en tiempo real. |
+| **livekit-plugins-anthropic** | [livekit/plugins-anthropic](https://github.com/livekit/agents#anthropic) | **[Evaluado]** Plugin oficial de LiveKit para integración conversacional con modelos Anthropic Claude 3.5. |
+| **livekit-plugins-mistral** | [livekit/plugins-mistral](https://github.com/livekit/agents#mistral) | **[Evaluado]** Plugin oficial de LiveKit para integración de LLMs de Mistral AI en agentes de voz. |
+| **livekit-plugins-resemble** | [livekit/plugins-resemble](https://github.com/livekit/agents#resemble) | **[Evaluado]** Plugin oficial de LiveKit para síntesis de voz en streaming con Resemble AI. |
 
 ## 4️⃣ SDKs de Cliente y Protocolos de Comunicación WebRTC / Red
 *Librerías SDK cliente/servidor multiplataforma (Python, JS, C++, Rust, Go, Mobile, Game Engines) e implementaciones de protocolo WebRTC/RTP/ICE/SDP.*
@@ -604,6 +607,7 @@ Este documento reúne los **605 proyectos open-source** evaluados en , organizad
 | **cannon.js** | [schteppe/cannon.js](https://github.com/schteppe/cannon.js) | **[Evaluado]** Motor de física 3D ligero escrito en JavaScript para avatares y entornos 3D interactivos. |
 | **rapier.js** | [dimforge/rapier.js](https://github.com/dimforge/rapier.js) | **[Evaluado]** Bindings en WebAssembly/JavaScript para el motor de física Rapier 3D. |
 | **VRoid SDK** | [pixiv/VRoid-SDK](https://github.com/pixiv/VRoid-SDK) | **[Evaluado]** SDK oficial de Pixiv para integración de avatares 3D VRM y personalización en aplicaciones. |
+| **wgpu-py** | [pygfx/wgpu-py](https://github.com/pygfx/wgpu-py) | **[Evaluado]** Bindings en Python para wgpu-native permitiendo WebGPU nativo en Python. |
 
 ## 🔟 Formatos 3D, Carga de Modelos y Optimizadores de Mallas
 *Herramientas y librerías de bajo nivel para carga, validación, optimización y compresión de formatos 3D (glTF, FBX, OBJ, Draco).*
@@ -632,6 +636,8 @@ Este documento reúne los **605 proyectos open-source** evaluados en , organizad
 | **Open3D** | [isl-org/Open3D](https://github.com/isl-org/Open3D) | **[Evaluado]** Librería moderna para procesamiento de datos 3D, nubes de puntos, mallas y reconstrucción 3D. |
 | **PyMeshLab** | [cnr-isti-vclab/PyMeshLab](https://github.com/cnr-isti-vclab/PyMeshLab) | **[Evaluado]** Interfaz Python de MeshLab para procesamiento, simplificación y filtrado automatizado de mallas 3D. |
 | **libwebm** | [webmproject/libwebm](https://github.com/webmproject/libwebm) | **[Evaluado]** Librería C++ de referencia para parsing y multiplexado del contenedor de video WebM. |
+| **gl-matrix** | [toji/gl-matrix](https://github.com/toji/gl-matrix) | **[Evaluado]** Librería de álgebra lineal y matemática matricial de alto rendimiento para WebGL/WebGPU en JavaScript. |
+| **math.gl** | [visgl/math.gl](https://github.com/visgl/math.gl) | **[Evaluado]** Librería matemática 3D optimizada para visores y motores de renderizado WebGL y WebGPU. |
 
 ## 11. Super-Resolución Facial, Segmentación, Matting y Edición de Imagen/Video
 *Modelos de post-procesamiento facial (enhancers), segmentación de sujetos, matting de video y remoción de fondos.*

@@ -1935,3 +1935,10 @@ Evidencia primaria:
 | livekit-plugins-assemblyai | [livekit/plugins-assemblyai](https://github.com/livekit/agents#assemblyai) | Evaluado | Plugin oficial de LiveKit para transcripción y ASR en tiempo real con AssemblyAI. |
 | livekit-plugins-azure | [livekit/plugins-azure](https://github.com/livekit/agents#azure) | Evaluado | Plugin oficial de LiveKit para integración de Azure Cognitive Services Speech STT y TTS. |
 | livekit-plugins-google | [livekit/plugins-google](https://github.com/livekit/agents#google) | Evaluado | Plugin oficial de LiveKit para integración de Google Cloud Speech, Gemini y TTS en tiempo real. |
+
+| gl-matrix | [toji/gl-matrix](https://github.com/toji/gl-matrix) | Evaluado | Librería de álgebra lineal y matemática matricial de alto rendimiento para WebGL/WebGPU en JavaScript. |
+| math.gl | [visgl/math.gl](https://github.com/visgl/math.gl) | Evaluado | Librería matemática 3D optimizada para visores y motores de renderizado WebGL y WebGPU. |
+| wgpu-py | [pygfx/wgpu-py](https://github.com/pygfx/wgpu-py) | Evaluado | Bindings en Python para wgpu-native permitiendo WebGPU nativo en Python. |
+| livekit-plugins-anthropic | [livekit/plugins-anthropic](https://github.com/livekit/agents#anthropic) | Evaluado | Plugin oficial de LiveKit para integración conversacional con modelos Anthropic Claude 3.5. |
+| livekit-plugins-mistral | [livekit/plugins-mistral](https://github.com/livekit/agents#mistral) | Evaluado | Plugin oficial de LiveKit para integración de LLMs de Mistral AI en agentes de voz. |
+| livekit-plugins-resemble | [livekit/plugins-resemble](https://github.com/livekit/agents#resemble) | Evaluado | Plugin oficial de LiveKit para síntesis de voz en streaming con Resemble AI. |
