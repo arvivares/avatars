@@ -1,6 +1,6 @@
 # Ecosistema de Avatares e Infraestructura Conversacional Real-Time
 
-Este documento reúne los **648 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
+Este documento reúne los **653 proyectos open-source** evaluados en , organizados de forma estrictamente jerárquica desde los **frameworks conversacionales de suite completa (end-to-end)** hasta los **componentes de bajo nivel y motores de inferencia**.
 
 ## 1️⃣ Frameworks y Suites Conversacionales End-to-End
 *Frameworks que ofrecen la suite completa para avatares conversacionales, agentes de voz interactivos y sistemas end-to-end.*
@@ -414,6 +414,11 @@ Este documento reúne los **648 proyectos open-source** evaluados en , organizad
 | **LocalAI** | [go-skynet/LocalAI](https://github.com/go-skynet/LocalAI) | **[Evaluado]** Motor de IA local open-source con soporte nativo para audio WebRTC y voz Speech-to-Speech. |
 | **Mem0** | [mem0ai/mem0](https://github.com/mem0ai/mem0) | **[Evaluado]** Capa de memoria persistente de baja latencia para agentes conversacionales y avatares de voz. |
 | **Outlines** | [dottxt-ai/outlines](https://github.com/dottxt-ai/outlines) | **[Evaluado]** Librería para generación de texto estructurado y control estricto de esquemas JSON en agentes LLM. |
+| **ggml** | [ggml-org/ggml](https://github.com/ggml-org/ggml) | **[Evaluado]** Librería de tensores en C/C++ enfocada en cuantización e inferencia ultra-eficiente en CPU/GPU. |
+| **bitsandbytes** | [bitsandbytes-foundation/bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes) | **[Evaluado]** Librería de funciones CUDA en 8 bits y cuantización de 4 bits para reducir el consumo de VRAM en LLMs. |
+| **AutoGPTQ** | [AutoGPTQ/AutoGPTQ](https://github.com/AutoGPTQ/AutoGPTQ) | **[Evaluado]** Librería de cuantización GPTQ en 4 bits para aceleración de inferencia de LLMs en PyTorch. |
+| **FlashInfer** | [flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer) | **[Evaluado]** Kernels GPU de alto rendimiento para acelerar la atención dispersa y el servido de LLMs en vLLM y SGLang. |
+| **Hugging Face Optimum** | [huggingface/optimum](https://github.com/huggingface/optimum) | **[Evaluado]** Extensión de Hugging Face para optimizar modelos de voz y lenguaje en hardware específico (ONNX, OpenVINO, TensorRT). |
 
 ## 6️⃣ Síntesis de Voz (TTS / Voice Cloning / Voice Conversion)
 *Modelos y motores de texto a voz (TTS), clonación de voz en tiempo real y conversión espectral de voz.*

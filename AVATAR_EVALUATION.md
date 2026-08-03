@@ -1989,3 +1989,9 @@ Evidencia primaria:
 | WORLD Vocoder | [mmorise/World](https://github.com/mmorise/World) | Evaluado | Sistema de análisis y síntesis de voz de alta calidad para estimación de f0, aperiodicidad y espectro. |
 | pyworld | [JeremyCCR/pyworld](https://github.com/JeremyCCR/pyworld) | Evaluado | Wrapper en Python del vocoder WORLD utilizado ampliamente en pipelines de clonación y conversión de voz. |
 | Vamp Plugin SDK | [c4dm/vamp-plugin-sdk](https://github.com/c4dm/vamp-plugin-sdk) | Evaluado | SDK de plugins C++ estándar para análisis y extracción de información en señales de audio de alta precisión. |
+
+| ggml | [ggml-org/ggml](https://github.com/ggml-org/ggml) | Evaluado | Librería de tensores en C/C++ enfocada en cuantización e inferencia ultra-eficiente en CPU/GPU. |
+| bitsandbytes | [bitsandbytes-foundation/bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes) | Evaluado | Librería de funciones CUDA en 8 bits y cuantización de 4 bits para reducir el consumo de VRAM en LLMs. |
+| AutoGPTQ | [AutoGPTQ/AutoGPTQ](https://github.com/AutoGPTQ/AutoGPTQ) | Evaluado | Librería de cuantización GPTQ en 4 bits para aceleración de inferencia de LLMs en PyTorch. |
+| FlashInfer | [flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer) | Evaluado | Kernels GPU de alto rendimiento para acelerar la atención dispersa y el servido de LLMs en vLLM y SGLang. |
+| Hugging Face Optimum | [huggingface/optimum](https://github.com/huggingface/optimum) | Evaluado | Extensión de Hugging Face para optimizar modelos de voz y lenguaje en hardware específico (ONNX, OpenVINO, TensorRT). |
